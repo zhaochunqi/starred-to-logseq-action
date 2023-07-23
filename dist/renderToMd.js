@@ -3,6 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.renderToMd = void 0;
 const capital_case_1 = require("capital-case");
 const param_case_1 = require("param-case");
+const markdown_to_text_emoji_1 = require("markdown-to-text-emoji");
 const escapeInput = (str) => str
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;");
@@ -53,7 +54,7 @@ const renderToMd = (repository, description, workflow, repos) => {
     const rawContent = categories.map(category => {
         const rawH2 = `## ${category.name}\n\n`;
         const rawItems = category.items
-            .map(repo => ` - [[github.com/${repo.name}]] - ${escapeInput(repo.description)}\n`)
+            .map(repo => ` - [[github.com/${repo.name}]] - ${escapeInput((0, markdown_to_text_emoji_1.textEmoji)(repo.description))}\n`)
             .join(``);
         return `${rawH2}${rawItems}\n`;
     }).join(``);

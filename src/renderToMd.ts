@@ -1,6 +1,7 @@
 import { capitalCase } from "capital-case"
 import type { Repo } from "./types"
 import { paramCase } from 'param-case'
+import {textEmoji} from 'markdown-to-text-emoji'
 
 type Category = {
   name: string,
@@ -76,7 +77,7 @@ export const renderToMd = (
     const rawH2 = `## ${category.name}\n\n`
 
     const rawItems = category.items
-      .map(repo => ` - [[github.com/${repo.name}]] - ${escapeInput(repo.description)}\n`)
+      .map(repo => ` - [[github.com/${repo.name}]] - ${escapeInput(textEmoji(repo.description))}\n`)
       .join(``)
 
     return `${rawH2}${rawItems}\n`
