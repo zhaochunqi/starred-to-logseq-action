@@ -2,7 +2,7 @@ name: 'Starred to Logseq'
 description: 'Sync you starred repo to Logseq'
 inputs:
   username:
-    description: 'You can specify to use any user's data'
+    description: 'You can specify to use any user data'
     default: ${{ github.repository_owner }}
 
   description:
@@ -16,9 +16,11 @@ inputs:
     default: ${{ github.repository }}
 
   token:
+    description: 'Specify github token if you are testing locally'
     default: ${{ github.token }}
-  
+    
   targetDir:
+    description: 'Folder generated'
     default: ${{ github.workspace }}
 
 runs:
