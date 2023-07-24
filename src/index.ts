@@ -25,11 +25,11 @@ const main = async () => {
 
   await mkdirp(targetDir);
 
-  const md = renderToMd(repository, description, workflow, collection);
+  const md = renderToMd(repository, collection);
   const mdFilename = join(targetDir, "My Github Stars.md");
   info(`write file: "${mdFilename}"`);
   info(md);
   await fs.writeFile(mdFilename, md);
 };
 
-main()
+main();

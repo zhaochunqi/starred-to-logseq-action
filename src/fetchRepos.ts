@@ -1,5 +1,10 @@
 import { info } from '@actions/core'
 import type { GithubClient, Repo } from './types'
+import moment from 'moment';
+
+function formatDate(date: string) {
+  return moment(date).format('YYYY-MM-DD dddd')
+}
 
 export const fetchRepos = async (
   github: GithubClient,
@@ -10,12 +15,16 @@ export const fetchRepos = async (
   const query = `
     query($login: String!, $after: String!) {
       user(login: $login) {
-        starredRepositories(first: 100, after: $after) {
-          nodes {
-            nameWithOwner
-            description
-            primaryLanguage {
-              name
+        starredRepositories(
+          orderBy: {field: STARRED_AT, direction: DESC},
+          first: 100, 
+          after: $after
+        ) {
+          edges {
+            starredAt
+            node {
+              nameWithOwner
+              description
             }
           }
           pageInfo {
@@ -33,11 +42,11 @@ export const fetchRepos = async (
   }
   const data = await github.graphql(query, variables)
   const starred = data.user.starredRepositories
-  starred.nodes.map(node => {
+  starred.edges.map(edges => {
     const repo = {
-      name: node.nameWithOwner,
-      description: node.description || ``,
-      language: node.primaryLanguage ? node.primaryLanguage.name : `Misc`
+      name: edges.node.nameWithOwner,
+      description: edges.node.description || ``,
+      starredAt: formatDate(edges.starredAt),
     }
     collection.push(repo)
   })

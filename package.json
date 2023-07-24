@@ -28,6 +28,7 @@
     "dotenv": "^16.3.1",
     "markdown-to-text-emoji": "^1.1.0",
     "mkdirp": "^3.0.1",
+    "moment": "^2.29.4",
     "param-case": "^3.0.4"
   }
 }

@@ -23,6 +23,12 @@ dependencies:
   mkdirp:
     specifier: ^3.0.1
     version: 3.0.1
+  moment:
+    specifier: ^2.29.4
+    version: 2.29.4
+  momentjs:
+    specifier: ^2.0.0
+    version: 2.0.0
   param-case:
     specifier: ^3.0.4
     version: 3.0.4
@@ -31,9 +37,6 @@ devDependencies:
   '@types/jest':
     specifier: ^29.5.3
     version: 29.5.3
-  '@types/mkdirp':
-    specifier: ^2.0.0
-    version: 2.0.0
   '@types/node':
     specifier: ^20.4.4
     version: 20.4.4
@@ -882,13 +885,6 @@ packages:
     dependencies:
       expect: 29.6.1
       pretty-format: 29.6.1
-    dev: true
-
-  /@types/mkdirp@2.0.0:
-    resolution: {integrity: sha512-c/iUqMymAlxLAyIK3u5SzrwkrkyOdv1XDc91T+b5FsY7Jr6ERhUD19jJHOhPW4GD6tmN6mFEorfSdks525pwdQ==}
-    deprecated: This is a stub types definition. mkdirp provides its own type definitions, so you do not need this installed.
-    dependencies:
-      mkdirp: 3.0.1
     dev: true
 
   /@types/node@20.4.4:
@@ -2104,6 +2100,16 @@ packages:
     resolution: {integrity: sha512-+NsyUUAZDmo6YVHzL/stxSu3t9YS1iljliy3BSDrXJ/dkn1KYdmtZODGGjLcc9XLgVVpH4KshHB8XmZgMhaBXg==}
     engines: {node: '>=10'}
     hasBin: true
+    dev: false
+
+  /moment@2.29.4:
+    resolution: {integrity: sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==}
+    dev: false
+
+  /momentjs@2.0.0:
+    resolution: {integrity: sha512-GYMUxLyCwVhECkJR1/LMHEyb9gWYSPRnXi+elGN0m5bet7ngQOxU4QLWUI/eBzgN4N/T194n6yP7lQiE+Udw9A==}
+    deprecated: 'WARNING: The correct package name for Moment.js is ''moment'', not ''momentjs''.'
+    dev: false
 
   /ms@2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}

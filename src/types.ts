@@ -1,18 +1,18 @@
 export interface Repo {
   name: string
   description: string
-  language: string
+  starredAt: string
 }
 
 export interface GqlResponse {
   user: {
     starredRepositories: {
-      nodes: {
-        nameWithOwner: string
-        description: string
-        primaryLanguage: {
-          name: string
-        } | null
+      edges: {
+        starredAt: string
+        node: {
+          nameWithOwner: string
+          description: string
+        }
       }[],
       pageInfo: {
         hasNextPage: boolean,

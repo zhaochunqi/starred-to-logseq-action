@@ -33,7 +33,7 @@ const main = () => __awaiter(void 0, void 0, void 0, function* () {
     const collection = Array();
     yield (0, fetchRepos_1.fetchRepos)(github, collection, username);
     yield (0, mkdirp_1.mkdirp)(targetDir);
-    const md = (0, renderToMd_1.renderToMd)(repository, description, workflow, collection);
+    const md = (0, renderToMd_1.renderToMd)(repository, collection);
     const mdFilename = (0, path_1.join)(targetDir, "My Github Stars.md");
     (0, console_1.info)(`write file: "${mdFilename}"`);
     (0, console_1.info)(md);

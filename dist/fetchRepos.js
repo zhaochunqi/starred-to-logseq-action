@@ -8,20 +8,31 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.fetchRepos = void 0;
 const core_1 = require("@actions/core");
+const moment_1 = __importDefault(require("moment"));
+function formatDate(date) {
+    return (0, moment_1.default)(date).format('YYYY-MM-DD dddd');
+}
 const fetchRepos = (github, collection, username, after = ``) => __awaiter(void 0, void 0, void 0, function* () {
     var _a;
     const query = `
     query($login: String!, $after: String!) {
       user(login: $login) {
-        starredRepositories(first: 100, after: $after) {
-          nodes {
-            nameWithOwner
-            description
-            primaryLanguage {
-              name
+        starredRepositories(
+          orderBy: {field: STARRED_AT, direction: DESC},
+          first: 100, 
+          after: $after
+        ) {
+          edges {
+            starredAt
+            node {
+              nameWithOwner
+              description
             }
           }
           pageInfo {
@@ -39,11 +50,11 @@ const fetchRepos = (github, collection, username, after = ``) => __awaiter(void 
     };
     const data = yield github.graphql(query, variables);
     const starred = data.user.starredRepositories;
-    starred.nodes.map(node => {
+    starred.edges.map(edges => {
         const repo = {
-            name: node.nameWithOwner,
-            description: node.description || ``,
-            language: node.primaryLanguage ? node.primaryLanguage.name : `Misc`
+            name: edges.node.nameWithOwner,
+            description: edges.node.description || ``,
+            starredAt: formatDate(edges.starredAt),
         };
         collection.push(repo);
     });
