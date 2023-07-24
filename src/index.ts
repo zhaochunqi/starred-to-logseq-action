@@ -14,8 +14,6 @@ dotenv.config();
 const main = async () => {
   const username = getInput(`username`);
   const repository = getInput(`repository`);
-  const description = getInput(`description`);
-  const workflow = getInput(`workflow`);
   const token = getInput(`token`);
   const targetDir = getInput(`targetDir`);
 
@@ -26,7 +24,7 @@ const main = async () => {
   await mkdirp(targetDir);
 
   const md = renderToMd(repository, collection);
-  const mdFilename = join(targetDir, "My Github Stars.md");
+  const mdFilename = join(targetDir, "Github Stars.md");
   info(`write file: "${mdFilename}"`);
   info(md);
   await fs.writeFile(mdFilename, md);

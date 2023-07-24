@@ -25,8 +25,6 @@ dotenv_1.default.config();
 const main = () => __awaiter(void 0, void 0, void 0, function* () {
     const username = (0, core_1.getInput)(`username`);
     const repository = (0, core_1.getInput)(`repository`);
-    const description = (0, core_1.getInput)(`description`);
-    const workflow = (0, core_1.getInput)(`workflow`);
     const token = (0, core_1.getInput)(`token`);
     const targetDir = (0, core_1.getInput)(`targetDir`);
     const github = (0, github_1.getOctokit)(token);
@@ -34,7 +32,7 @@ const main = () => __awaiter(void 0, void 0, void 0, function* () {
     yield (0, fetchRepos_1.fetchRepos)(github, collection, username);
     yield (0, mkdirp_1.mkdirp)(targetDir);
     const md = (0, renderToMd_1.renderToMd)(repository, collection);
-    const mdFilename = (0, path_1.join)(targetDir, "My Github Stars.md");
+    const mdFilename = (0, path_1.join)(targetDir, "Github Stars.md");
     (0, console_1.info)(`write file: "${mdFilename}"`);
     (0, console_1.info)(md);
     yield fs_1.promises.writeFile(mdFilename, md);

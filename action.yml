@@ -15,9 +15,6 @@ inputs:
       The owner and repository name.
     default: ${{ github.repository }}
 
-  workflow:
-    default:  ${{ github.workflow }}
-
   token:
     default: ${{ github.token }}
   
