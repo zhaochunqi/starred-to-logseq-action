@@ -26,9 +26,6 @@ dependencies:
   moment:
     specifier: ^2.29.4
     version: 2.29.4
-  momentjs:
-    specifier: ^2.0.0
-    version: 2.0.0
   param-case:
     specifier: ^3.0.4
     version: 3.0.4
@@ -2104,11 +2101,6 @@ packages:
 
   /moment@2.29.4:
     resolution: {integrity: sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==}
-    dev: false
-
-  /momentjs@2.0.0:
-    resolution: {integrity: sha512-GYMUxLyCwVhECkJR1/LMHEyb9gWYSPRnXi+elGN0m5bet7ngQOxU4QLWUI/eBzgN4N/T194n6yP7lQiE+Udw9A==}
-    deprecated: 'WARNING: The correct package name for Moment.js is ''moment'', not ''momentjs''.'
     dev: false
 
   /ms@2.1.2:
