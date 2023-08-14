@@ -31448,7 +31448,7 @@ const renderToMd = (repository, repos) => {
         .map((date) => {
         const rawH2 = `## [[${date.name}]]\n`;
         const rawItems = date.items
-            .map((repo) => ` - [[github.com/${repo.name}]] - ${(0, markdown_to_text_emoji_1.textEmoji)(repo.description)}\n`)
+            .map((repo) => `\t- [[github.com/${repo.name}]] - ${(0, markdown_to_text_emoji_1.textEmoji)(repo.description)}\n`)
             .join(``);
         return `${rawH2}${rawItems}`;
     })
