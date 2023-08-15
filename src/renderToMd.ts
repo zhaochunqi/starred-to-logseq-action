@@ -45,7 +45,7 @@ export const renderToMd = (repository: string, repos: Repo[]) => {
 
   const rawContent = dates
     .map((date) => {
-      const rawH2 = `## [[${date.name}]]\n`;
+      const rawH2 = `- ## [[${date.name}]]\n`;
 
       const rawItems = date.items
         .map(
