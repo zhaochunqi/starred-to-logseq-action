@@ -50,7 +50,11 @@ export const renderToMd = (repository: string, repos: Repo[]) => {
       const rawItems = date.items
         .map(
           (repo) =>
-            `\t- [[github.com/${repo.name}]] - ${textEmoji(repo.description)}\n`
+            `\t- [[github.com/${repo.name}]] - ${textEmoji(
+              repo.description.trim()
+                ? repo.description.trim()
+                : "No Description Yet."
+            )}\n`
         )
         .join(``);
 
