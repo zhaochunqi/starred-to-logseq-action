@@ -1,5 +1,7 @@
 name: 'Starred to Logseq'
 description: 'Sync you starred repo to Logseq'
+icon: star
+color: purple
 inputs:
   username:
     description: 'You can specify to use any user data'
