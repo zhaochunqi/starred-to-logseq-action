@@ -31441,7 +31441,7 @@ const renderToMd = (repository, repos) => {
         });
         return acc;
     }, Array());
-    const rawHeading = `icon:: ⭐\ntags:: 自动更新，\ndescription:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。\n`;
+    const rawHeading = `icon:: ⭐\ntags:: 自动更新，\npublic:: false，\ndescription:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。\n`;
     const updateTime = new Date().toLocaleString();
     const rawUpdateTime = `updateTime:: ${updateTime}\n\n`;
     const rawContent = dates
