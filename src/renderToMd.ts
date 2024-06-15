@@ -1,7 +1,6 @@
 import { capitalCase } from "capital-case";
 import type { Repo } from "./types";
 import { paramCase } from "param-case";
-import { textEmoji } from "markdown-to-text-emoji";
 
 type DateItem = {
   name: string;
@@ -50,11 +49,11 @@ export const renderToMd = (repository: string, repos: Repo[]) => {
       const rawItems = date.items
         .map(
           (repo) =>
-            `\t- [[github.com/${repo.name}]] - ${textEmoji(
+            `\t- [[github.com/${repo.name}]] - ${
               repo.description.trim()
                 ? repo.description.trim()
                 : "No Description Yet."
-            )}\n`
+            }\n`
         )
         .join(``);
 
