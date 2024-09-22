@@ -39,6 +39,9 @@ importers:
       '@vercel/ncc':
         specifier: ^0.36.1
         version: 0.36.1
+      husky:
+        specifier: ^9.1.6
+        version: 9.1.6
       jest:
         specifier: ^29.6.1
         version: 29.6.1(@types/node@20.4.4)(ts-node@10.9.1(@types/node@20.4.4)(typescript@5.1.6))
@@ -807,6 +810,11 @@ packages:
   human-signals@2.1.0:
     resolution: {integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==}
     engines: {node: '>=10.17.0'}
+
+  husky@9.1.6:
+    resolution: {integrity: sha512-sqbjZKK7kf44hfdE94EoX8MZNk0n7HeW37O4YrVGCF4wzgQjp+akPAkfUK5LZ6KuR/6sqeAVuXHji+RzQgOn5A==}
+    engines: {node: '>=18'}
+    hasBin: true
 
   import-local@3.1.0:
     resolution: {integrity: sha512-ASB07uLtnDs1o6EHjKpX34BKYDSqnFerfTOJL2HvMqF70LnxpjkzDB8J44oT9pu4AMPkQwf8jl6szgvNd2tRIg==}
@@ -2340,6 +2348,8 @@ snapshots:
   html-escaper@2.0.2: {}
 
   human-signals@2.1.0: {}
+
+  husky@9.1.6: {}
 
   import-local@3.1.0:
     dependencies:
