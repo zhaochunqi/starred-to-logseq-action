@@ -1,7 +1,7 @@
 {
   "name": "starred-to-logseq-action",
-  "version": "1.1.6",
-  "description": "",
+  "version": "1.1.8",
+  "description": "This project is a GitHub action that outputs GitHub stars in the format of Logseq documents.",
   "main": "dist/index.js",
   "scripts": {
     "build": "ncc build src/index.ts -o dist",

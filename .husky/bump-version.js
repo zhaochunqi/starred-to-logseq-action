@@ -16,10 +16,18 @@ console.log(
   `Parsed version - Major: ${major}, Minor: ${minor}, Patch: ${patch}`
 );
 
-// Get the previous version from the staged package.json
+// Check if this is an --amend operation
+const isAmend = process.env.GIT_INDEX_FILE !== undefined;
+
+if (isAmend) {
+  console.log("Amend operation detected, no version bump needed.");
+  process.exit(0);
+}
+
+// Get the previous version from the last committed package.json
 let previousVersion;
 try {
-  const previousPackageJson = execSync(`git show :package.json`, {
+  const previousPackageJson = execSync(`git show HEAD:package.json`, {
     encoding: "utf8",
   });
   previousVersion = JSON.parse(previousPackageJson).version;
