@@ -21,25 +21,43 @@ jobs:
         with:
           node-version: "18"
 
-      - name: Get version from package.json
-        id: package-version
-        uses: martinbeentjes/npm-get-version-action@master
+      - name: Get current and previous version
+        id: versions
+        run: |
+          CURRENT_VERSION=$(node -p "require('./package.json').version")
+          echo "current=$CURRENT_VERSION" >> $GITHUB_OUTPUT
+          PREVIOUS_VERSION=$(git show HEAD~1:package.json | node -p "require(JSON.parse(require('fs').readFileSync(0, 'utf-8'))).version")
+          echo "previous=$PREVIOUS_VERSION" >> $GITHUB_OUTPUT
+
+      - name: Check version change
+        id: version_change
+        run: |
+          CURRENT_MAJOR=$(echo ${{ steps.versions.outputs.current }} | cut -d. -f1)
+          CURRENT_MINOR=$(echo ${{ steps.versions.outputs.current }} | cut -d. -f2)
+          PREVIOUS_MAJOR=$(echo ${{ steps.versions.outputs.previous }} | cut -d. -f1)
+          PREVIOUS_MINOR=$(echo ${{ steps.versions.outputs.previous }} | cut -d. -f2)
+          if [ "$CURRENT_MAJOR" != "$PREVIOUS_MAJOR" ] || [ "$CURRENT_MINOR" != "$PREVIOUS_MINOR" ]; then
+            echo "create_release=true" >> $GITHUB_OUTPUT
+          else
+            echo "create_release=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Create Release
-        id: create_release
+        if: steps.version_change.outputs.create_release == 'true'
         uses: ncipollo/release-action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag: v${{ steps.package-version.outputs.current-version }}
-          name: Release ${{ steps.package-version.outputs.current-version }}
+          tag: v${{ steps.versions.outputs.current }}
+          name: Release ${{ steps.versions.outputs.current }}
           draft: false
           prerelease: false
+          generateReleaseNotes: true
 
       - name: Update major version tag
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          MAJOR_VERSION=$(echo ${{ steps.package-version.outputs.current-version }} | cut -d. -f1)
+          MAJOR_VERSION=$(echo ${{ steps.versions.outputs.current }} | cut -d. -f1)
           git tag -fa v${MAJOR_VERSION} -m "Update v${MAJOR_VERSION} tag"
           git push origin v${MAJOR_VERSION} --force

@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
     "@types/jest": "^29.5.3",
     "@types/node": "^20.4.4",
     "@vercel/ncc": "^0.36.1",
@@ -31,10 +33,5 @@
     "mkdirp": "^3.0.1",
     "moment": "^2.29.4",
     "param-case": "^3.0.4"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "node bump-version.js && git add package.json"
-    }
   }
 }
