@@ -65,10 +65,4 @@ jobs:
           prerelease: false
           generateReleaseNotes: true
 
-      - name: Update major version tag
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          MAJOR_VERSION=$(echo ${{ steps.versions.outputs.current }} | cut -d. -f1)
-          git tag -fa v${MAJOR_VERSION} -m "Update v${MAJOR_VERSION} tag"
-          git push origin v${MAJOR_VERSION} --force
+      # 删除更新主要版本 tag 的步骤
