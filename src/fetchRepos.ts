@@ -6,7 +6,6 @@ function formatDate(date: string) {
   return moment(date).format("YYYY-MM-DD dddd");
 }
 
-// 添加延迟函数
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 export const fetchRepos = async (
