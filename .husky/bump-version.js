@@ -17,7 +17,7 @@ console.log(
 );
 
 // Check if this is an --amend operation
-const isAmend = process.env.GIT_INDEX_FILE !== undefined;
+const isAmend = process.argv.includes("--amend");
 
 if (isAmend) {
   console.log("Amend operation detected, no version bump needed.");
