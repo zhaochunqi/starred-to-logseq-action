@@ -1,4 +1,4 @@
-import { info, warning } from "@actions/core";
+import { info, warning, error as logError } from "@actions/core";
 import type { GithubClient, Repo } from "./types";
 import moment from "moment";
 
@@ -15,11 +15,11 @@ const exponentialBackoff = (retryCount: number) => {
 
 export const fetchRepos = async (
   github: GithubClient,
-  collection: Repo[],
   username: string,
   after = ``,
-  retryCount = 0
-) => {
+  retryCount = 0,
+  collection: Repo[] = []
+): Promise<Repo[]> => {
   const query = `
     query($login: String!, $after: String!) {
       user(login: $login) {
@@ -56,16 +56,17 @@ export const fetchRepos = async (
   try {
     const data = await github.graphql(query, variables);
     const starred = data.user.starredRepositories;
-    starred.edges.map((edges) => {
-      const repo = {
-        name: edges.node.nameWithOwner,
-        description: edges.node.description || ``,
-        starredAt: formatDate(edges.starredAt),
-      };
-      collection.push(repo);
-    });
+    const newRepos = starred.edges.map((edge) => ({
+      name: edge.node.nameWithOwner,
+      description: edge.node.description || ``,
+      starredAt: formatDate(edge.starredAt),
+    }));
 
-    info(`fetch repos count: ${collection.length}/${starred.totalCount}`);
+    const updatedCollection = [...collection, ...newRepos];
+
+    info(
+      `fetch repos count: ${updatedCollection.length}/${starred.totalCount}`
+    );
 
     // 检查剩余的 API 请求次数
     const remainingRequests = data.rateLimit.remaining;
@@ -79,39 +80,37 @@ export const fetchRepos = async (
     if (starred.pageInfo?.hasNextPage) {
       // 添加延迟以避免频繁请求
       await delay(5000); // Increased delay to 5 seconds
-      await fetchRepos(
+      return fetchRepos(
         github,
-        collection,
         username,
         starred.pageInfo.endCursor,
-        0 // Reset retry count on successful request
+        0, // Reset retry count on successful request
+        updatedCollection
       );
     }
+
+    return updatedCollection;
   } catch (error: any) {
     if (error.status === 403) {
-      if (error.message.includes("API rate limit exceeded")) {
-        // Handle primary rate limit
-        const resetTime = new Date(error.headers["x-ratelimit-reset"] * 1000);
-        warning(
-          `API rate limit exceeded. Waiting until ${resetTime} to continue...`
-        );
-        await delay(resetTime.getTime() - Date.now());
-      } else if (error.message.includes("secondary rate limit")) {
-        // Handle secondary rate limit
+      const errorMessage = error.message.toLowerCase();
+      if (
+        errorMessage.includes("rate limit exceeded") ||
+        errorMessage.includes("secondary rate limit")
+      ) {
         const waitTime = exponentialBackoff(retryCount);
         warning(
-          `Secondary rate limit hit. Waiting for ${
+          `Rate limit hit (${errorMessage}). Waiting for ${
             waitTime / 1000
-          } seconds before retrying...`
+          } seconds before retrying... (Attempt ${retryCount + 1})`
         );
         await delay(waitTime);
-      } else {
-        throw error;
+        // Retry the request
+        return fetchRepos(github, username, after, retryCount + 1, collection);
       }
-      // Retry the request
-      await fetchRepos(github, collection, username, after, retryCount + 1);
-    } else {
-      throw error;
     }
+
+    // If we've reached this point, it's an unhandled error
+    logError(`Unhandled error: ${error.message}`);
+    throw error;
   }
 };

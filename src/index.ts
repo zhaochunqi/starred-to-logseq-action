@@ -18,12 +18,11 @@ const main = async () => {
   const targetDir = getInput(`targetDir`);
 
   const github = getOctokit(token);
-  const collection = Array<Repo>();
-  await fetchRepos(github, collection, username);
+  const repos = await fetchRepos(github, username);
 
   await mkdirp(targetDir);
 
-  const md = renderToMd(repository, collection);
+  const md = renderToMd(repository, repos);
   const mdFilename = join(targetDir, "Github Stars.md");
   info(`write file: "${mdFilename}"`);
   info(md);
