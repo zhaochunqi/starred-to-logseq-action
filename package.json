@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@actions/core": "^1.11.1",
-    "@actions/github": "^5.1.1",
+    "@actions/github": "^6.0.0",
     "capital-case": "^1.0.4",
     "dotenv": "^16.4.7",
     "mkdirp": "^3.0.1",
