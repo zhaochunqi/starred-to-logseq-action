@@ -1,6 +1,5 @@
-import { capitalCase } from "capital-case";
+import { capitalCase, kebabCase } from "change-case";
 import type { Repo } from "./types";
-import { paramCase } from "param-case";
 
 type DateItem = {
   name: string;
@@ -8,15 +7,13 @@ type DateItem = {
   items: Repo[];
 };
 
-const encodeAnchor = (str: string) => paramCase(str.toLocaleLowerCase());
+const encodeAnchor = (str: string) => kebabCase(str.toLocaleLowerCase());
 
 export const renderToMd = (repository: string, repos: Repo[]) => {
   const title = capitalCase(repository.split(`/`)[1]);
 
-  const anchors: string[] = [paramCase(title)];
-  const dates: DateItem[] = Array.from(
-    new Set(repos.map((repo) => repo.starredAt))
-  )
+  const anchors: string[] = [kebabCase(title)];
+  const dates: DateItem[] = Array.from(new Set(repos.map((repo) => repo.starredAt)))
     .sort((a, b) => {
       return a < b ? 1 : -1;
     })
@@ -50,9 +47,7 @@ export const renderToMd = (repository: string, repos: Repo[]) => {
         .map(
           (repo) =>
             `\t- [[github.com/${repo.name}]] - ${
-              repo.description.trim()
-                ? repo.description.trim()
-                : "No Description Yet."
+              repo.description.trim() ? repo.description.trim() : "No Description Yet."
             }\n`
         )
         .join(``);

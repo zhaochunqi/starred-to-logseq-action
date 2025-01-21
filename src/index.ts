@@ -1,4 +1,4 @@
-import { error, getInput } from "@actions/core";
+import { getInput } from "@actions/core";
 import { getOctokit } from "@actions/github";
 import { info } from "console";
 import dotenv from "dotenv";
@@ -7,7 +7,6 @@ import { mkdirp } from "mkdirp";
 import { join } from "path";
 import { fetchRepos } from "./fetchRepos";
 import { renderToMd } from "./renderToMd";
-import type { Repo } from "./types";
 
 dotenv.config();
 
