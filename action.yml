@@ -8,11 +8,6 @@ inputs:
     description: "You can specify to use any user data"
     default: ${{ github.repository_owner }}
 
-  description:
-    description: >
-      The description for your awesome project
-    default: "A collection of awesome things."
-
   repository:
     description: >
       The owner and repository name.
