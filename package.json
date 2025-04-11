@@ -5,8 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "ncc build src/index.ts -o dist",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Alex Zhao",
