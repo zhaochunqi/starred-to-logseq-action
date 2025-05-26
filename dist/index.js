@@ -36354,7 +36354,7 @@ function validateInput(username) {
  * @param collection Already collected repositories
  * @returns Promise<Repo[]> Repository list
  */
-const fetchRepos = async (github, username, after = ``, retryCount = 0, collection = []) => {
+const fetchRepos = async (github, username, after = "", retryCount = 0, collection = []) => {
     // Validate input parameters
     validateInput(username);
     const query = `
@@ -36388,9 +36388,6 @@ const fetchRepos = async (github, username, after = ``, retryCount = 0, collecti
     const variables = { login: username, after };
     try {
         const data = (await github.graphql(query, variables));
-        if (data.errors?.length) {
-            throw new utils_1.ApiError(`GraphQL errors: ${data.errors.map((e) => e.message).join("; ")}`, 500 /* treat as server error to enter retry logic */);
-        }
         if (!data.user) {
             throw new utils_1.ApiError("User not found in response", 404);
         }
@@ -36680,7 +36677,11 @@ const moment_1 = __importDefault(__nccwpck_require__(8894));
  * @returns Formatted date string
  */
 function formatDate(date) {
-    return (0, moment_1.default)(date).format("YYYY-MM-DD dddd");
+    const m = (0, moment_1.default)(date);
+    if (!m.isValid()) {
+        throw new Error(`Invalid date: "${date}"`);
+    }
+    return m.format("YYYY-MM-DD dddd");
 }
 /**
  * Delay for specified milliseconds

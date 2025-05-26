@@ -17,7 +17,7 @@ inputs:
     description: "Specify github token if you are testing locally"
     default: ${{ github.token }}
 
-  targetDir:
+  target_dir:
     description: "Folder generated"
     default: ${{ github.workspace }}
 

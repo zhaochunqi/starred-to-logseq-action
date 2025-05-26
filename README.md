@@ -1,4 +1,5 @@
 # Starred to logseq action
+
 ---
 
 This action get github stars from a github person and write to Mardown files. It will generate github repo using the style like `[[github.com/zhaochunqi/starred-to-logseq-action]]`
@@ -23,7 +24,7 @@ jobs:
       - uses: zhaochunqi/starred-to-logseq-action@main
         with:
           username: "zhaochunqi"
-          targetDir: "./pages"
+          target_dir: "./pages"
       - uses: EndBug/add-and-commit@v9
         with:
           message: "Update Github Stars"
