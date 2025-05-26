@@ -1,61 +1,113 @@
 import { capitalCase, kebabCase } from "change-case";
+import moment from "moment";
 import type { Repo } from "./types";
 
+/**
+ * Date item type definition
+ */
 type DateItem = {
-  name: string;
-  id: string;
-  items: Repo[];
+  name: string; // Date name
+  id: string; // Anchor ID
+  items: Repo[]; // Repository list
 };
 
+/**
+ * Logseq page header constants
+ */
+const PAGE_HEADER = {
+  ICON: "icon:: ⭐",
+  TAGS: "tags:: 自动更新，",
+  PUBLIC: "public:: false，",
+  DESCRIPTION: "description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。",
+};
+
+/**
+ * Encode string to anchor format
+ * @param str String to encode
+ * @returns Encoded anchor string
+ */
 const encodeAnchor = (str: string) => kebabCase(str.toLocaleLowerCase());
 
+/**
+ * Render repository data to Markdown format
+ * @param repository Repository name
+ * @param repos Repository list
+ * @returns Markdown formatted string
+ */
 export const renderToMd = (repository: string, repos: Repo[]) => {
   const title = capitalCase(repository.split(`/`)[1]);
 
-  const anchors: string[] = [kebabCase(title)];
-  const dates: DateItem[] = Array.from(new Set(repos.map((repo) => repo.starredAt)))
-    .sort((a, b) => {
-      return a < b ? 1 : -1;
-    })
-    .reduce((acc, date) => {
-      const anchor = encodeAnchor(date);
-      const times = anchors.filter((item) => item === anchor).length;
-      anchors.push(anchor);
+  // Use Map to track anchor usage
+  const anchorMap = new Map<string, number>();
+  anchorMap.set(kebabCase(title), 1); // Initialize title anchor
 
-      const id = `#${anchor}` + (times === 0 ? `` : `-${times}`);
-      const items = repos
-        .filter((repo) => repo.starredAt === date)
-        .sort((a, b) => (a.name > b.name ? 1 : -1));
-      acc.push({
-        name: date,
-        id,
-        items,
-      });
-      return acc;
-    }, Array<DateItem>());
+  // Step 1: Get unique date list and sort
+  const uniqueDates = Array.from(new Set(repos.map((repo) => repo.starredAt)));
 
-  const rawHeading = `icon:: ⭐\ntags:: 自动更新，\npublic:: false，\ndescription:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。\n`;
+  // Use moment.js for date sorting to ensure correct date format
+  const sortedDates = uniqueDates.sort((a, b) => {
+    return moment(a.split(" ")[0], "YYYY-MM-DD").isBefore(moment(b.split(" ")[0], "YYYY-MM-DD"))
+      ? 1
+      : -1;
+  });
+
+  // Step 2: Create DateItem for each date
+  const dates: DateItem[] = sortedDates.map((date) => {
+    // Create and track anchor
+    const anchor = encodeAnchor(date);
+    const count = anchorMap.get(anchor) || 0;
+    anchorMap.set(anchor, count + 1);
+
+    // Generate anchor ID
+    const id = `#${anchor}` + (count === 0 ? `` : `-${count}`);
+
+    // Get and sort repositories for this date
+    const items = repos
+      .filter((repo) => repo.starredAt === date)
+      .sort((a, b) => (a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1));
+
+    return {
+      name: date,
+      id,
+      items,
+    };
+  });
+
+  // Build page header
+  const rawHeading = `${PAGE_HEADER.ICON}
+${PAGE_HEADER.TAGS}
+${PAGE_HEADER.PUBLIC}
+${PAGE_HEADER.DESCRIPTION}
+`;
+  // Add update time
   const updateTime = new Date().toLocaleString();
+  const rawUpdateTime = `updateTime:: ${updateTime}
 
-  const rawUpdateTime = `updateTime:: ${updateTime}\n\n`;
+`;
 
+  // Build content section
   const rawContent = dates
     .map((date) => {
-      const rawH2 = `- ## [[${date.name}]]\n`;
+      // Create date heading
+      const rawH2 = `- ## [[${date.name}]]
+`;
 
+      // Create repository list
       const rawItems = date.items
-        .map(
-          (repo) =>
-            `\t- [[github.com/${repo.name}]] - ${
-              repo.description.trim() ? repo.description.trim() : "No Description Yet."
-            }\n`
-        )
+        .map((repo) => {
+          const description = repo.description
+            ? repo.description.replace(/[\[\]\(\)`*]/g, "").trim() || "No Description Yet."
+            : "No Description Yet.";
+          return `	- [[github.com/${repo.name}]] - ${description}
+`;
+        })
         .join(``);
 
       return `${rawH2}${rawItems}`;
     })
     .join(``);
 
+  // Combine final Markdown content
   const rawMd = rawHeading + rawUpdateTime + rawContent;
 
   return rawMd;
