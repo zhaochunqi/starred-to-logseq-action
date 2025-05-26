@@ -64,5 +64,3 @@ jobs:
           draft: false
           prerelease: false
           generateReleaseNotes: true
-
-      # 删除更新主要版本 tag 的步骤

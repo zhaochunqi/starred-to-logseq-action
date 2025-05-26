@@ -7352,14 +7352,14 @@ exports.Deprecation = Deprecation;
 
 /***/ }),
 
-/***/ 9223:
+/***/ 6705:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 const fs = __nccwpck_require__(9896)
 const path = __nccwpck_require__(6928)
 const os = __nccwpck_require__(857)
 const crypto = __nccwpck_require__(6982)
-const packageJson = __nccwpck_require__(5778)
+const packageJson = __nccwpck_require__(476)
 
 const version = packageJson.version
 
@@ -7444,10 +7444,6 @@ function _parseVault (options) {
 
   // Parse decrypted .env string
   return DotenvModule.parse(decrypted)
-}
-
-function _log (message) {
-  console.log(`[dotenv@${version}][INFO] ${message}`)
 }
 
 function _warn (message) {
@@ -7545,7 +7541,10 @@ function _resolveHome (envPath) {
 }
 
 function _configVault (options) {
-  _log('Loading env from encrypted .env.vault')
+  const debug = Boolean(options && options.debug)
+  if (debug) {
+    _debug('Loading env from encrypted .env.vault')
+  }
 
   const parsed = DotenvModule._parseVault(options)
 
@@ -36328,36 +36327,36 @@ function wrappy (fn, cb) {
 /***/ }),
 
 /***/ 4292:
-/***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.fetchRepos = void 0;
 const core_1 = __nccwpck_require__(9999);
-const moment_1 = __importDefault(__nccwpck_require__(8894));
-function formatDate(date) {
-    return (0, moment_1.default)(date).format("YYYY-MM-DD dddd");
+const utils_1 = __nccwpck_require__(6236);
+/**
+ * Validate input parameters
+ * @param username GitHub username
+ * @throws {Error} If username is empty
+ */
+function validateInput(username) {
+    if (!username || username.trim() === "") {
+        throw new Error("Username cannot be empty");
+    }
 }
-const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-const exponentialBackoff = (retryCount) => {
-    const baseDelay = 60000; // 1 minute
-    return Math.min(baseDelay * Math.pow(2, retryCount), 600000); // Max 10 minutes
-};
-const fetchRepos = (github_1, username_1, ...args_1) => __awaiter(void 0, [github_1, username_1, ...args_1], void 0, function* (github, username, after = ``, retryCount = 0, collection = []) {
-    var _a;
+/**
+ * Fetch user's starred repositories list
+ * @param github GitHub client
+ * @param username GitHub username
+ * @param after Pagination cursor
+ * @param retryCount Retry count
+ * @param collection Already collected repositories
+ * @returns Promise<Repo[]> Repository list
+ */
+const fetchRepos = async (github, username, after = ``, retryCount = 0, collection = []) => {
+    // Validate input parameters
+    validateInput(username);
     const query = `
     query($login: String!, $after: String!) {
       user(login: $login) {
@@ -36386,51 +36385,89 @@ const fetchRepos = (github_1, username_1, ...args_1) => __awaiter(void 0, [githu
       }
     }
   `;
-    const variables = {
-        login: username,
-        after: after,
-    };
+    const variables = { login: username, after };
     try {
-        const data = yield github.graphql(query, variables);
+        const data = (await github.graphql(query, variables));
+        if (data.errors?.length) {
+            throw new utils_1.ApiError(`GraphQL errors: ${data.errors.map((e) => e.message).join("; ")}`, 500 /* treat as server error to enter retry logic */);
+        }
+        if (!data.user) {
+            throw new utils_1.ApiError("User not found in response", 404);
+        }
         const starred = data.user.starredRepositories;
         const newRepos = starred.edges.map((edge) => ({
             name: edge.node.nameWithOwner,
             description: edge.node.description || ``,
-            starredAt: formatDate(edge.starredAt),
+            starredAt: (0, utils_1.formatDate)(edge.starredAt),
         }));
         const updatedCollection = [...collection, ...newRepos];
-        (0, core_1.info)(`fetch repos count: ${updatedCollection.length}/${starred.totalCount}`);
-        // 检查剩余的 API 请求次数
+        (0, core_1.info)(`Fetched repos count: ${updatedCollection.length}/${starred.totalCount}`);
+        // Check remaining API request count
         const remainingRequests = data.rateLimit.remaining;
-        if (remainingRequests < 10) {
+        if (remainingRequests < utils_1.CONSTANTS.LOW_RATE_LIMIT_THRESHOLD) {
             const resetTime = new Date(data.rateLimit.resetAt);
             (0, core_1.warning)(`API rate limit is close to exceeding. ${remainingRequests} requests remaining. Limit will reset at ${resetTime}`);
         }
-        if ((_a = starred.pageInfo) === null || _a === void 0 ? void 0 : _a.hasNextPage) {
-            // 添加延迟以避免频繁请求
-            yield delay(5000); // Increased delay to 5 seconds
-            return (0, exports.fetchRepos)(github, username, starred.pageInfo.endCursor, 0, // Reset retry count on successful request
+        if (starred.pageInfo?.hasNextPage) {
+            // Add delay to avoid frequent requests
+            await (0, utils_1.delay)(utils_1.CONSTANTS.DELAY_BETWEEN_REQUESTS);
+            return (0, exports.fetchRepos)(github, username, starred.pageInfo.endCursor || "", 0, // Reset retry count on successful request
             updatedCollection);
         }
         return updatedCollection;
     }
     catch (error) {
-        if (error.status === 403) {
-            const errorMessage = error.message.toLowerCase();
+        // Handle errors
+        const err = error;
+        let status = 0;
+        let message = err.message;
+        // Try to extract status code
+        if ("status" in err && typeof err.status === "number") {
+            status = err.status;
+        }
+        // Handle different types of errors
+        if (status === 403) {
+            const errorMessage = message.toLowerCase();
             if (errorMessage.includes("rate limit exceeded") ||
                 errorMessage.includes("secondary rate limit")) {
-                const waitTime = exponentialBackoff(retryCount);
-                (0, core_1.warning)(`Rate limit hit (${errorMessage}). Waiting for ${waitTime / 1000} seconds before retrying... (Attempt ${retryCount + 1})`);
-                yield delay(waitTime);
+                // Check if maximum retry count is exceeded
+                if (retryCount >= utils_1.CONSTANTS.MAX_RETRY_COUNT) {
+                    (0, core_1.error)(`Maximum retry count reached (${utils_1.CONSTANTS.MAX_RETRY_COUNT}). Abandoning request.`);
+                    throw new utils_1.ApiError(`Maximum retry count reached: ${message}`, status);
+                }
+                const waitTime = (0, utils_1.exponentialBackoff)(retryCount);
+                (0, core_1.warning)(`Rate limit hit (${errorMessage}). Waiting for ${waitTime / 1000} seconds before retrying... (Attempt ${retryCount + 1}/${utils_1.CONSTANTS.MAX_RETRY_COUNT})`);
+                await (0, utils_1.delay)(waitTime);
                 // Retry the request
                 return (0, exports.fetchRepos)(github, username, after, retryCount + 1, collection);
             }
         }
+        else if (status === 401) {
+            (0, core_1.error)(`Authentication failed: ${message}`);
+            throw new utils_1.ApiError(`Authentication failed: ${message}`, status);
+        }
+        else if (status === 404) {
+            (0, core_1.error)(`Resource not found: ${message}`);
+            throw new utils_1.ApiError(`Resource not found: ${message}`, status);
+        }
+        else if (status >= 500) {
+            // Server error, try to retry
+            if (retryCount < utils_1.CONSTANTS.MAX_RETRY_COUNT) {
+                const waitTime = (0, utils_1.exponentialBackoff)(retryCount);
+                (0, core_1.warning)(`Server error (${status}): ${message}. Waiting ${waitTime / 1000} seconds before retrying... (Attempt ${retryCount + 1}/${utils_1.CONSTANTS.MAX_RETRY_COUNT})`);
+                await (0, utils_1.delay)(waitTime);
+                return (0, exports.fetchRepos)(github, username, after, retryCount + 1, collection);
+            }
+            else {
+                (0, core_1.error)(`Maximum retry count reached (${utils_1.CONSTANTS.MAX_RETRY_COUNT}). Abandoning request.`);
+                throw new utils_1.ApiError(`Maximum retry count reached: ${message}`, status);
+            }
+        }
         // If we've reached this point, it's an unhandled error
-        (0, core_1.error)(`Unhandled error: ${error.message}`);
-        throw error;
+        (0, core_1.error)(`Unhandled error: ${message}`);
+        throw new utils_1.ApiError(message, status || 0);
     }
-});
+};
 exports.fetchRepos = fetchRepos;
 
 
@@ -36441,95 +36478,247 @@ exports.fetchRepos = fetchRepos;
 
 "use strict";
 
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const core_1 = __nccwpck_require__(9999);
 const github_1 = __nccwpck_require__(2819);
-const console_1 = __nccwpck_require__(4236);
-const dotenv_1 = __importDefault(__nccwpck_require__(9223));
+const dotenv_1 = __importDefault(__nccwpck_require__(6705));
 const fs_1 = __nccwpck_require__(9896);
 const mkdirp_1 = __nccwpck_require__(2225);
 const path_1 = __nccwpck_require__(6928);
 const fetchRepos_1 = __nccwpck_require__(4292);
 const renderToMd_1 = __nccwpck_require__(3393);
+const utils_1 = __nccwpck_require__(6236);
 dotenv_1.default.config();
-const main = () => __awaiter(void 0, void 0, void 0, function* () {
-    const username = (0, core_1.getInput)(`username`);
-    const repository = (0, core_1.getInput)(`repository`);
-    const token = (0, core_1.getInput)(`token`);
-    const targetDir = (0, core_1.getInput)(`targetDir`);
-    const github = (0, github_1.getOctokit)(token);
-    const repos = yield (0, fetchRepos_1.fetchRepos)(github, username);
-    yield (0, mkdirp_1.mkdirp)(targetDir);
-    const md = (0, renderToMd_1.renderToMd)(repository, repos);
-    const mdFilename = (0, path_1.join)(targetDir, "Github Stars.md");
-    (0, console_1.info)(`write file: "${mdFilename}"`);
-    (0, console_1.info)(md);
-    yield fs_1.promises.writeFile(mdFilename, md);
-});
+/**
+ * Validate input parameters
+ * @param params Parameters object
+ * @throws {Error} If parameters are invalid
+ */
+function validateInputs(params) {
+    const requiredParams = ["username", "repository", "token", "target_dir"];
+    for (const param of requiredParams) {
+        if (!params[param] || params[param].trim() === "") {
+            throw new Error(`Missing required parameter: ${param}`);
+        }
+    }
+    // Validate token length
+    // Matches gh[pousru]_, ghe_, or github_pat_ + 35-80 base-62/- chars
+    const tokenRe = /^(gh[pousru]|ghe|github_pat)_[A-Za-z0-9_-]{35,80}$/;
+    if (!tokenRe.test(params.token)) {
+        throw new Error("Invalid GitHub token format");
+    }
+}
+/**
+ * Main function
+ */
+const main = async () => {
+    try {
+        // Get input parameters
+        const inputs = {
+            username: (0, core_1.getInput)(`username`),
+            repository: (0, core_1.getInput)(`repository`),
+            token: (0, core_1.getInput)(`token`),
+            target_dir: (0, core_1.getInput)(`target_dir`),
+        };
+        // Validate input parameters
+        validateInputs(inputs);
+        (0, core_1.info)(`Starting to fetch ${inputs.username}'s starred repositories...`);
+        // Create GitHub client and fetch repository data
+        const github = (0, github_1.getOctokit)(inputs.token);
+        const repos = await (0, fetchRepos_1.fetchRepos)(github, inputs.username);
+        (0, core_1.info)(`Successfully fetched ${repos.length} repositories`);
+        // Create target directory
+        await (0, mkdirp_1.mkdirp)(inputs.target_dir);
+        (0, core_1.info)(`Created directory: ${inputs.target_dir}`);
+        // Render and write Markdown file
+        const md = (0, renderToMd_1.renderToMd)(inputs.repository, repos);
+        const mdFilename = (0, path_1.join)(inputs.target_dir, "Github Stars.md");
+        (0, core_1.info)(`Writing file: "${mdFilename}"`);
+        await fs_1.promises.writeFile(mdFilename, md);
+        (0, core_1.info)(`Processing complete! File has been generated at ${mdFilename}`);
+    }
+    catch (error) {
+        // Error handling
+        if (error instanceof utils_1.ApiError) {
+            (0, core_1.setFailed)(`API error (${error.status}): ${error.message}`);
+        }
+        else if (error instanceof Error) {
+            (0, core_1.setFailed)(`Error: ${error.message}`);
+        }
+        else {
+            (0, core_1.setFailed)(`Unknown error: ${error}`);
+        }
+    }
+};
+// Execute main function
 main();
 
 
 /***/ }),
 
 /***/ 3393:
-/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+/***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
 
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.renderToMd = void 0;
 const change_case_1 = __nccwpck_require__(51);
+const moment_1 = __importDefault(__nccwpck_require__(8894));
+/**
+ * Logseq page header constants
+ */
+const PAGE_HEADER = {
+    ICON: "icon:: ⭐",
+    TAGS: "tags:: 自动更新，",
+    PUBLIC: "public:: false，",
+    DESCRIPTION: "description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。",
+};
+/**
+ * Encode string to anchor format
+ * @param str String to encode
+ * @returns Encoded anchor string
+ */
 const encodeAnchor = (str) => (0, change_case_1.kebabCase)(str.toLocaleLowerCase());
+/**
+ * Render repository data to Markdown format
+ * @param repository Repository name
+ * @param repos Repository list
+ * @returns Markdown formatted string
+ */
 const renderToMd = (repository, repos) => {
     const title = (0, change_case_1.capitalCase)(repository.split(`/`)[1]);
-    const anchors = [(0, change_case_1.kebabCase)(title)];
-    const dates = Array.from(new Set(repos.map((repo) => repo.starredAt)))
-        .sort((a, b) => {
-        return a < b ? 1 : -1;
-    })
-        .reduce((acc, date) => {
+    // Use Map to track anchor usage
+    const anchorMap = new Map();
+    anchorMap.set((0, change_case_1.kebabCase)(title), 1); // Initialize title anchor
+    // Step 1: Get unique date list and sort
+    const uniqueDates = Array.from(new Set(repos.map((repo) => repo.starredAt)));
+    // Use moment.js for date sorting to ensure correct date format
+    const sortedDates = uniqueDates.sort((a, b) => {
+        return (0, moment_1.default)(a.split(" ")[0], "YYYY-MM-DD").isBefore((0, moment_1.default)(b.split(" ")[0], "YYYY-MM-DD"))
+            ? 1
+            : -1;
+    });
+    // Step 2: Create DateItem for each date
+    const dates = sortedDates.map((date) => {
+        // Create and track anchor
         const anchor = encodeAnchor(date);
-        const times = anchors.filter((item) => item === anchor).length;
-        anchors.push(anchor);
-        const id = `#${anchor}` + (times === 0 ? `` : `-${times}`);
+        const count = anchorMap.get(anchor) || 0;
+        anchorMap.set(anchor, count + 1);
+        // Generate anchor ID
+        const id = `#${anchor}` + (count === 0 ? `` : `-${count}`);
+        // Get and sort repositories for this date
         const items = repos
             .filter((repo) => repo.starredAt === date)
-            .sort((a, b) => (a.name > b.name ? 1 : -1));
-        acc.push({
+            .sort((a, b) => (a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1));
+        return {
             name: date,
             id,
             items,
-        });
-        return acc;
-    }, Array());
-    const rawHeading = `icon:: ⭐\ntags:: 自动更新，\npublic:: false，\ndescription:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。\n`;
+        };
+    });
+    // Build page header
+    const rawHeading = `${PAGE_HEADER.ICON}
+${PAGE_HEADER.TAGS}
+${PAGE_HEADER.PUBLIC}
+${PAGE_HEADER.DESCRIPTION}
+`;
+    // Add update time
     const updateTime = new Date().toLocaleString();
-    const rawUpdateTime = `updateTime:: ${updateTime}\n\n`;
+    const rawUpdateTime = `updateTime:: ${updateTime}
+
+`;
+    // Build content section
     const rawContent = dates
         .map((date) => {
-        const rawH2 = `- ## [[${date.name}]]\n`;
+        // Create date heading
+        const rawH2 = `- ## [[${date.name}]]
+`;
+        // Create repository list
         const rawItems = date.items
-            .map((repo) => `\t- [[github.com/${repo.name}]] - ${repo.description.trim() ? repo.description.trim() : "No Description Yet."}\n`)
+            .map((repo) => {
+            const description = repo.description
+                ? repo.description.replace(/[\[\]\(\)`*]/g, "").trim() || "No Description Yet."
+                : "No Description Yet.";
+            return `	- [[github.com/${repo.name}]] - ${description}
+`;
+        })
             .join(``);
         return `${rawH2}${rawItems}`;
     })
         .join(``);
+    // Combine final Markdown content
     const rawMd = rawHeading + rawUpdateTime + rawContent;
     return rawMd;
 };
 exports.renderToMd = renderToMd;
+
+
+/***/ }),
+
+/***/ 6236:
+/***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
+
+"use strict";
+
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.ApiError = exports.CONSTANTS = exports.exponentialBackoff = exports.delay = void 0;
+exports.formatDate = formatDate;
+const moment_1 = __importDefault(__nccwpck_require__(8894));
+/**
+ * Format date to specified format
+ * @param date Date string
+ * @returns Formatted date string
+ */
+function formatDate(date) {
+    return (0, moment_1.default)(date).format("YYYY-MM-DD dddd");
+}
+/**
+ * Delay for specified milliseconds
+ * @param ms Milliseconds
+ * @returns Promise
+ */
+const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+exports.delay = delay;
+/**
+ * Calculate wait time using exponential backoff strategy
+ * @param retryCount Current retry count
+ * @returns Wait time (milliseconds)
+ */
+const exponentialBackoff = (retryCount) => {
+    const baseDelay = 60000; // 1 minute
+    return Math.min(baseDelay * Math.pow(2, retryCount), 600000); // Max 10 minutes
+};
+exports.exponentialBackoff = exponentialBackoff;
+/**
+ * Constants definition
+ */
+exports.CONSTANTS = {
+    MAX_RETRY_COUNT: 5,
+    DELAY_BETWEEN_REQUESTS: 5000, // 5 seconds
+    LOW_RATE_LIMIT_THRESHOLD: 10,
+};
+/**
+ * Custom API error class
+ */
+class ApiError extends Error {
+    status;
+    constructor(message, status) {
+        super(message);
+        this.name = "ApiError";
+        this.status = status;
+    }
+}
+exports.ApiError = ApiError;
 
 
 /***/ }),
@@ -38640,11 +38829,11 @@ function splitPrefixSuffix(input, options = {}) {
 
 /***/ }),
 
-/***/ 5778:
+/***/ 476:
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"name":"dotenv","version":"16.4.7","description":"Loads environment variables from .env file","main":"lib/main.js","types":"lib/main.d.ts","exports":{".":{"types":"./lib/main.d.ts","require":"./lib/main.js","default":"./lib/main.js"},"./config":"./config.js","./config.js":"./config.js","./lib/env-options":"./lib/env-options.js","./lib/env-options.js":"./lib/env-options.js","./lib/cli-options":"./lib/cli-options.js","./lib/cli-options.js":"./lib/cli-options.js","./package.json":"./package.json"},"scripts":{"dts-check":"tsc --project tests/types/tsconfig.json","lint":"standard","pretest":"npm run lint && npm run dts-check","test":"tap run --allow-empty-coverage --disable-coverage --timeout=60000","test:coverage":"tap run --show-full-coverage --timeout=60000 --coverage-report=lcov","prerelease":"npm test","release":"standard-version"},"repository":{"type":"git","url":"git://github.com/motdotla/dotenv.git"},"funding":"https://dotenvx.com","keywords":["dotenv","env",".env","environment","variables","config","settings"],"readmeFilename":"README.md","license":"BSD-2-Clause","devDependencies":{"@types/node":"^18.11.3","decache":"^4.6.2","sinon":"^14.0.1","standard":"^17.0.0","standard-version":"^9.5.0","tap":"^19.2.0","typescript":"^4.8.4"},"engines":{"node":">=12"},"browser":{"fs":false}}');
+module.exports = /*#__PURE__*/JSON.parse('{"name":"dotenv","version":"16.5.0","description":"Loads environment variables from .env file","main":"lib/main.js","types":"lib/main.d.ts","exports":{".":{"types":"./lib/main.d.ts","require":"./lib/main.js","default":"./lib/main.js"},"./config":"./config.js","./config.js":"./config.js","./lib/env-options":"./lib/env-options.js","./lib/env-options.js":"./lib/env-options.js","./lib/cli-options":"./lib/cli-options.js","./lib/cli-options.js":"./lib/cli-options.js","./package.json":"./package.json"},"scripts":{"dts-check":"tsc --project tests/types/tsconfig.json","lint":"standard","pretest":"npm run lint && npm run dts-check","test":"tap run --allow-empty-coverage --disable-coverage --timeout=60000","test:coverage":"tap run --show-full-coverage --timeout=60000 --coverage-report=lcov","prerelease":"npm test","release":"standard-version"},"repository":{"type":"git","url":"git://github.com/motdotla/dotenv.git"},"homepage":"https://github.com/motdotla/dotenv#readme","funding":"https://dotenvx.com","keywords":["dotenv","env",".env","environment","variables","config","settings"],"readmeFilename":"README.md","license":"BSD-2-Clause","devDependencies":{"@types/node":"^18.11.3","decache":"^4.6.2","sinon":"^14.0.1","standard":"^17.0.0","standard-version":"^9.5.0","tap":"^19.2.0","typescript":"^4.8.4"},"engines":{"node":">=12"},"browser":{"fs":false}}');
 
 /***/ })
 
