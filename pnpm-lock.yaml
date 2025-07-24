@@ -18,8 +18,8 @@ importers:
         specifier: ^5.4.4
         version: 5.4.4
       dotenv:
-        specifier: ^16.4.7
-        version: 16.5.0
+        specifier: ^17.0.0
+        version: 17.2.1
       mkdirp:
         specifier: ^3.0.1
         version: 3.0.1
@@ -318,8 +318,8 @@ packages:
   deprecation@2.3.1:
     resolution: {integrity: sha512-xmHIy4F3scKVwMsQ4WnVaS8bHOx0DmVwRywosKhaILI0ywMDWPtBSku2HNxRvF7jtwDRsoEwYQSfbxj8b7RlJQ==}
 
-  dotenv@16.5.0:
-    resolution: {integrity: sha512-m/C+AwOAr9/W1UOIZUo232ejMNnJAJtYQjUbHoNTBNTJSvqzzDh7vnrei3o3r3m9blf6ZoDkvcw0VmozNRFJxg==}
+  dotenv@17.2.1:
+    resolution: {integrity: sha512-kQhDYKZecqnM0fCnzI5eIv5L4cAe/iRI+HqMbO/hbRdTAeXDG+M9FjipUxNfbARuEg4iHIbhnhs78BCHNbSxEQ==}
     engines: {node: '>=12'}
 
   escape-string-regexp@4.0.0:
@@ -945,7 +945,7 @@ snapshots:
 
   deprecation@2.3.1: {}
 
-  dotenv@16.5.0: {}
+  dotenv@17.2.1: {}
 
   escape-string-regexp@4.0.0: {}
 
