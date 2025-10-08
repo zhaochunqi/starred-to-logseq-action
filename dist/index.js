@@ -36573,8 +36573,8 @@ const moment_1 = __importDefault(__nccwpck_require__(8894));
  */
 const PAGE_HEADER = {
     ICON: "icon:: ⭐",
-    TAGS: "tags:: 自动更新，",
-    PUBLIC: "public:: false，",
+    TAGS: "tags:: 自动更新",
+    PUBLIC: "public:: false",
     DESCRIPTION: "description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。",
 };
 /**
@@ -36641,7 +36641,7 @@ ${PAGE_HEADER.DESCRIPTION}
         const rawItems = date.items
             .map((repo) => {
             const description = repo.description
-                ? repo.description.replace(/[\[\]\(\)`*]/g, "").trim() || "No Description Yet."
+                ? repo.description.replace(/\[\[|\]\]|#/g, "").trim() || "No Description Yet."
                 : "No Description Yet.";
             return `	- [[github.com/${repo.name}]] - ${description}
 `;
