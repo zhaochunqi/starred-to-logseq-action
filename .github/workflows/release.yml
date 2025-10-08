@@ -1,20 +1,18 @@
-name: Create Release
+name: Build and Release
 
 on:
   push:
+    branches:
+      - "**"
     tags:
       - "v*"
 
 jobs:
-  release:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v5
-        with:
-          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v5
@@ -32,35 +30,34 @@ jobs:
       - name: Build
         run: pnpm run build
 
-      - name: Get current and previous version
-        id: versions
+      - name: Commit and push changes
         run: |
-          CURRENT_VERSION=$(node -p "JSON.parse(require('fs').readFileSync('./package.json', 'utf8')).version")
-          echo "current=$CURRENT_VERSION" >> $GITHUB_OUTPUT
-          PREVIOUS_VERSION=$(git show HEAD~1:package.json | node -p "JSON.parse(require('fs').readFileSync(0, 'utf-8')).version")
-          echo "previous=$PREVIOUS_VERSION" >> $GITHUB_OUTPUT
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add dist
+          git commit -m "build: build distribution files" || echo "No changes to commit"
+          git push
 
-      - name: Check version change
-        id: version_change
-        run: |
-          CURRENT_MAJOR=$(echo ${{ steps.versions.outputs.current }} | cut -d. -f1)
-          CURRENT_MINOR=$(echo ${{ steps.versions.outputs.current }} | cut -d. -f2)
-          PREVIOUS_MAJOR=$(echo ${{ steps.versions.outputs.previous }} | cut -d. -f1)
-          PREVIOUS_MINOR=$(echo ${{ steps.versions.outputs.previous }} | cut -d. -f2)
-          if [ "$CURRENT_MAJOR" != "$PREVIOUS_MAJOR" ] || [ "$CURRENT_MINOR" != "$PREVIOUS_MINOR" ]; then
-            echo "create_release=true" >> $GITHUB_OUTPUT
-          else
-            echo "create_release=false" >> $GITHUB_OUTPUT
-          fi
+  release:
+    needs: build
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Get version from tag
+        id: get_version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
 
       - name: Create Release
-        if: steps.version_change.outputs.create_release == 'true'
         uses: ncipollo/release-action@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag: v${{ steps.versions.outputs.current }}
-          name: Release ${{ steps.versions.outputs.current }}
-          draft: false
-          prerelease: false
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ steps.get_version.outputs.VERSION }}
+          name: Release ${{ steps.get_version.outputs.VERSION }}
           generateReleaseNotes: true
