@@ -25,7 +25,18 @@ jobs:
         with:
           username: "zhaochunqi"
           target_dir: "./pages"
-      - uses: EndBug/add-and-commit@v9
-        with:
-          message: "Update Github Stars"
+       - uses: EndBug/add-and-commit@v9
+         with:
+           message: "Update Github Stars"
 ```
+
+## Release
+
+To release a new version, create and push a tag:
+
+```bash
+git tag v1.0.0  # replace with your version
+git push --tags
+```
+
+The GitHub Action will automatically create a release with the tag.
