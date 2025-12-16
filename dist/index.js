@@ -8287,14 +8287,14 @@ exports.Deprecation = Deprecation;
 
 /***/ }),
 
-/***/ 7745:
+/***/ 1644:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 const fs = __nccwpck_require__(9896)
 const path = __nccwpck_require__(6928)
 const os = __nccwpck_require__(857)
 const crypto = __nccwpck_require__(6982)
-const packageJson = __nccwpck_require__(5740)
+const packageJson = __nccwpck_require__(4455)
 
 const version = packageJson.version
 
@@ -8303,9 +8303,12 @@ const TIPS = [
   '🔐 encrypt with Dotenvx: https://dotenvx.com',
   '🔐 prevent committing .env to code: https://dotenvx.com/precommit',
   '🔐 prevent building .env in docker: https://dotenvx.com/prebuild',
-  '📡 observe env with Radar: https://dotenvx.com/radar',
-  '📡 auto-backup env with Radar: https://dotenvx.com/radar',
-  '📡 version env with Radar: https://dotenvx.com/radar',
+  '📡 add observability to secrets: https://dotenvx.com/ops',
+  '👥 sync secrets across teammates & machines: https://dotenvx.com/ops',
+  '🗂️ backup and recover secrets: https://dotenvx.com/ops',
+  '✅ audit secrets and track compliance: https://dotenvx.com/ops',
+  '🔄 add secrets lifecycle management: https://dotenvx.com/ops',
+  '🔑 add access controls to secrets: https://dotenvx.com/ops',
   '🛠️  run anywhere with `dotenvx run -- yourcommand`',
   '⚙️  specify custom .env file path with { path: \'/custom/path/.env\' }',
   '⚙️  enable debug logging with { debug: true }',
@@ -37487,7 +37490,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const core_1 = __nccwpck_require__(6807);
 const github_1 = __nccwpck_require__(5380);
-const dotenv_1 = __importDefault(__nccwpck_require__(7745));
+const dotenv_1 = __importDefault(__nccwpck_require__(1644));
 const fs_1 = __nccwpck_require__(9896);
 const mkdirp_1 = __nccwpck_require__(2225);
 const path_1 = __nccwpck_require__(6928);
@@ -39836,11 +39839,11 @@ function splitPrefixSuffix(input, options = {}) {
 
 /***/ }),
 
-/***/ 5740:
+/***/ 4455:
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"name":"dotenv","version":"17.2.2","description":"Loads environment variables from .env file","main":"lib/main.js","types":"lib/main.d.ts","exports":{".":{"types":"./lib/main.d.ts","require":"./lib/main.js","default":"./lib/main.js"},"./config":"./config.js","./config.js":"./config.js","./lib/env-options":"./lib/env-options.js","./lib/env-options.js":"./lib/env-options.js","./lib/cli-options":"./lib/cli-options.js","./lib/cli-options.js":"./lib/cli-options.js","./package.json":"./package.json"},"scripts":{"dts-check":"tsc --project tests/types/tsconfig.json","lint":"standard","pretest":"npm run lint && npm run dts-check","test":"tap run --allow-empty-coverage --disable-coverage --timeout=60000","test:coverage":"tap run --show-full-coverage --timeout=60000 --coverage-report=text --coverage-report=lcov","prerelease":"npm test","release":"standard-version"},"repository":{"type":"git","url":"git://github.com/motdotla/dotenv.git"},"homepage":"https://github.com/motdotla/dotenv#readme","funding":"https://dotenvx.com","keywords":["dotenv","env",".env","environment","variables","config","settings"],"readmeFilename":"README.md","license":"BSD-2-Clause","devDependencies":{"@types/node":"^18.11.3","decache":"^4.6.2","sinon":"^14.0.1","standard":"^17.0.0","standard-version":"^9.5.0","tap":"^19.2.0","typescript":"^4.8.4"},"engines":{"node":">=12"},"browser":{"fs":false}}');
+module.exports = /*#__PURE__*/JSON.parse('{"name":"dotenv","version":"17.2.3","description":"Loads environment variables from .env file","main":"lib/main.js","types":"lib/main.d.ts","exports":{".":{"types":"./lib/main.d.ts","require":"./lib/main.js","default":"./lib/main.js"},"./config":"./config.js","./config.js":"./config.js","./lib/env-options":"./lib/env-options.js","./lib/env-options.js":"./lib/env-options.js","./lib/cli-options":"./lib/cli-options.js","./lib/cli-options.js":"./lib/cli-options.js","./package.json":"./package.json"},"scripts":{"dts-check":"tsc --project tests/types/tsconfig.json","lint":"standard","pretest":"npm run lint && npm run dts-check","test":"tap run tests/**/*.js --allow-empty-coverage --disable-coverage --timeout=60000","test:coverage":"tap run tests/**/*.js --show-full-coverage --timeout=60000 --coverage-report=text --coverage-report=lcov","prerelease":"npm test","release":"standard-version"},"repository":{"type":"git","url":"git://github.com/motdotla/dotenv.git"},"homepage":"https://github.com/motdotla/dotenv#readme","funding":"https://dotenvx.com","keywords":["dotenv","env",".env","environment","variables","config","settings"],"readmeFilename":"README.md","license":"BSD-2-Clause","devDependencies":{"@types/node":"^18.11.3","decache":"^4.6.2","sinon":"^14.0.1","standard":"^17.0.0","standard-version":"^9.5.0","tap":"^19.2.0","typescript":"^4.8.4"},"engines":{"node":">=12"},"browser":{"fs":false}}');
 
 /***/ })
 
