@@ -110,5 +110,5 @@ ${PAGE_HEADER.DESCRIPTION}
   // Combine final Markdown content
   const rawMd = rawHeading + rawUpdateTime + rawContent;
 
-  return rawMd;
+  return rawMd.trimEnd();
 };
