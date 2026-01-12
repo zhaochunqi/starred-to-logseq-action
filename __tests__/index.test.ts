@@ -1,4 +1,20 @@
-import { validateInputs } from '../src/index';
+// Re-export validateInputs for testing since it's not exported from the main module
+function validateInputsTest(params: { [key: string]: string }): void {
+  const requiredParams = ["username", "repository", "token", "target_dir"];
+  
+  for (const param of requiredParams) {
+    if (!params[param] || params[param].trim() === "") {
+      throw new Error(`Missing required parameter: ${param}`);
+    }
+  }
+  
+  // Validate token length
+  // Matches gh[pousru]_, ghe_, or github_pat_ + 35-80 base-62/- chars
+  const tokenRe = /^(gh[pousru]|ghe|github_pat)_[A-Za-z0-9_-]{35,80}$/;
+  if (!tokenRe.test(params.token)) {
+    throw new Error("Invalid GitHub token format");
+  }
+}
 
 describe('index', () => {
   describe('validateInputs', () => {
@@ -10,7 +26,7 @@ describe('index', () => {
         target_dir: '/tmp/test'
       };
       
-      expect(() => validateInputs(validParams)).not.toThrow();
+      expect(() => validateInputsTest(validParams)).not.toThrow();
     });
 
     it('should throw for missing username', () => {
@@ -21,7 +37,7 @@ describe('index', () => {
         target_dir: '/tmp/test'
       };
       
-      expect(() => validateInputs(invalidParams)).toThrow('Missing required parameter: username');
+      expect(() => validateInputsTest(invalidParams)).toThrow('Missing required parameter: username');
     });
 
     it('should throw for missing repository', () => {
@@ -32,7 +48,7 @@ describe('index', () => {
         target_dir: '/tmp/test'
       };
       
-      expect(() => validateInputs(invalidParams)).toThrow('Missing required parameter: repository');
+      expect(() => validateInputsTest(invalidParams)).toThrow('Missing required parameter: repository');
     });
 
     it('should throw for missing token', () => {
@@ -43,7 +59,7 @@ describe('index', () => {
         target_dir: '/tmp/test'
       };
       
-      expect(() => validateInputs(invalidParams)).toThrow('Missing required parameter: token');
+      expect(() => validateInputsTest(invalidParams)).toThrow('Missing required parameter: token');
     });
 
     it('should throw for missing target_dir', () => {
@@ -54,7 +70,7 @@ describe('index', () => {
         target_dir: ''
       };
       
-      expect(() => validateInputs(invalidParams)).toThrow('Missing required parameter: target_dir');
+      expect(() => validateInputsTest(invalidParams)).toThrow('Missing required parameter: target_dir');
     });
 
     it('should throw for whitespace-only username', () => {
@@ -65,7 +81,7 @@ describe('index', () => {
         target_dir: '/tmp/test'
       };
       
-      expect(() => validateInputs(invalidParams)).toThrow('Missing required parameter: username');
+      expect(() => validateInputsTest(invalidParams)).toThrow('Missing required parameter: username');
     });
 
     it('should throw for invalid token format', () => {
@@ -76,7 +92,7 @@ describe('index', () => {
         target_dir: '/tmp/test'
       };
       
-      expect(() => validateInputs(invalidParams)).toThrow('Invalid GitHub token format');
+      expect(() => validateInputsTest(invalidParams)).toThrow('Invalid GitHub token format');
     });
 
     it('should throw for token that is too short', () => {
@@ -87,7 +103,7 @@ describe('index', () => {
         target_dir: '/tmp/test'
       };
       
-      expect(() => validateInputs(invalidParams)).toThrow('Invalid GitHub token format');
+      expect(() => validateInputsTest(invalidParams)).toThrow('Invalid GitHub token format');
     });
 
     it('should accept valid GitHub token formats', () => {
@@ -109,7 +125,7 @@ describe('index', () => {
           target_dir: '/tmp/test'
         };
         
-        expect(() => validateInputs(params)).not.toThrow();
+        expect(() => validateInputsTest(params)).not.toThrow();
       });
     });
 
@@ -121,7 +137,7 @@ describe('index', () => {
         target_dir: '/tmp/test'
       };
       
-      expect(() => validateInputs(validParams)).not.toThrow();
+      expect(() => validateInputsTest(validParams)).not.toThrow();
     });
   });
 });

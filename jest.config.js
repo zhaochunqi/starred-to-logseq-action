@@ -6,4 +6,7 @@ module.exports = {
   collectCoverageFrom: ['src/**/*.ts'],
   coverageDirectory: 'coverage',
   coverageReporters: ['text', 'lcov'],
+  transformIgnorePatterns: [
+    '/node_modules/(?!change-case).+\\.js$'
+  ],
 };

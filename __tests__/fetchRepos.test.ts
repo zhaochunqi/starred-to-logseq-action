@@ -12,7 +12,7 @@ describe('fetchRepos', () => {
     };
     
     // Mock delay to resolve immediately for faster tests
-    jest.spyOn(require('../src/utils'), 'delay').mockImplementation((ms: number) => Promise.resolve());
+    jest.spyOn(require('../src/utils'), 'delay').mockImplementation(() => Promise.resolve());
   });
 
   afterEach(() => {

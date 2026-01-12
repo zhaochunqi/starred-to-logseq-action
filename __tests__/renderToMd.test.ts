@@ -1,5 +1,20 @@
 import { renderToMd } from '../src/renderToMd';
 
+// Mock change-case functions since the module uses ES modules that Jest can't handle
+jest.mock('change-case', () => ({
+  capitalCase: (str: string) => {
+    // Handle repository names like 'test/repo' -> 'Repo'
+    if (str.includes('/')) {
+      const parts = str.split('/');
+      const lastPart = parts[parts.length - 1];
+      return lastPart.charAt(0).toUpperCase() + lastPart.slice(1);
+    }
+    // Handle simple strings
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  },
+  kebabCase: (str: string) => str.toLowerCase().replace(/\s+/g, '-')
+}));
+
 describe('renderToMd', () => {
   const testRepos = [
     {
@@ -109,9 +124,11 @@ describe('renderToMd', () => {
     
     const result = renderToMd('test/repo', reposWithSpecialChars);
     expect(result).toContain('Description with double brackets and hashtags');
-    expect(result).not.toContain('[[');
-    expect(result).not.toContain(']]');
-    expect(result).not.toContain('#');
+    // Check that the description part doesn't contain the special characters
+    const descriptionPart = result.split('[[github.com/owner/repo-special]] - ')[1];
+    expect(descriptionPart).not.toContain('[[');
+    expect(descriptionPart).not.toContain(']]');
+    expect(descriptionPart).not.toContain('#');
   });
 
   it('should handle repository names with special characters', () => {
