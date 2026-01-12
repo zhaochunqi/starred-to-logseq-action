@@ -21,7 +21,6 @@
     "@vitest/ui": "^4.0.17",
     "jsdom": "^27.4.0",
     "typescript": "^5.7.3",
-    "vite-tsconfig-paths": "^6.0.4",
     "vitest": "^4.0.17"
   },
   "dependencies": {
