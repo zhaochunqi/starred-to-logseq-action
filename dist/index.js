@@ -37848,7 +37848,7 @@ ${PAGE_HEADER.DESCRIPTION}
         .join(``);
     // Combine final Markdown content
     const rawMd = rawHeading + rawUpdateTime + rawContent;
-    return rawMd;
+    return rawMd.trimEnd();
 };
 exports.renderToMd = renderToMd;
 
