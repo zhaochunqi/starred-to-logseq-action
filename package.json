@@ -24,7 +24,7 @@
     "vitest": "^4.0.17"
   },
   "dependencies": {
-    "@actions/core": "^2.0.0",
+    "@actions/core": "^3.0.0",
     "@actions/github": "^7.0.0",
     "change-case": "^5.4.4",
     "dotenv": "^17.0.0",
