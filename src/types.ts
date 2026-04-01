@@ -8,6 +8,8 @@ export interface Repo {
   description: string;
   /** Starred date (formatted) */
   starredAt: string;
+  /** Whether the repository is archived */
+  isArchived: boolean;
 }
 
 /**
@@ -38,6 +40,8 @@ export interface GqlResponse {
           nameWithOwner: string;
           /** Repository description */
           description: string;
+          /** Whether the repository is archived */
+          isArchived: boolean;
         };
       }[];
       /** Pagination information */

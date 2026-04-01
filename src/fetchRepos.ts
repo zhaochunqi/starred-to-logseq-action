@@ -44,6 +44,7 @@ export const fetchRepos = async (
             node {
               nameWithOwner
               description
+              isArchived
             }
           }
           pageInfo {
@@ -72,6 +73,7 @@ export const fetchRepos = async (
       name: edge.node.nameWithOwner,
       description: edge.node.description || ``,
       starredAt: formatDate(edge.starredAt),
+      isArchived: edge.node.isArchived || false,
     }));
 
     const updatedCollection = [...collection, ...newRepos];

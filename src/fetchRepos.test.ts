@@ -82,6 +82,7 @@ function createMockGithubClient(
             node: {
               nameWithOwner: r.name,
               description: r.description,
+              isArchived: false,
             },
           })),
           pageInfo: {

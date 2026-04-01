@@ -36732,6 +36732,7 @@ const fetchRepos = async (github, username, after = "", retryCount = 0, collecti
             node {
               nameWithOwner
               description
+              isArchived
             }
           }
           pageInfo {
@@ -36758,6 +36759,7 @@ const fetchRepos = async (github, username, after = "", retryCount = 0, collecti
             name: edge.node.nameWithOwner,
             description: edge.node.description || ``,
             starredAt: (0, utils_1.formatDate)(edge.starredAt),
+            isArchived: edge.node.isArchived || false,
         }));
         const updatedCollection = [...collection, ...newRepos];
         (0, core_1.info)(`Fetched repos count: ${updatedCollection.length}/${starred.totalCount}`);
@@ -37005,7 +37007,8 @@ ${PAGE_HEADER.DESCRIPTION}
             const description = repo.description
                 ? repo.description.replace(/\[\[|\]\]|#/g, "").trim() || "No Description Yet."
                 : "No Description Yet.";
-            return `	- [[github.com/${repo.name}]] - ${description}
+            const archivedTag = repo.isArchived ? " #Archived" : "";
+            return `	- [[github.com/${repo.name}]] - ${description}${archivedTag}
 `;
         })
             .join(``);

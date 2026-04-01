@@ -98,7 +98,8 @@ ${PAGE_HEADER.DESCRIPTION}
           const description = repo.description
             ? repo.description.replace(/\[\[|\]\]|#/g, "").trim() || "No Description Yet."
             : "No Description Yet.";
-          return `	- [[github.com/${repo.name}]] - ${description}
+          const archivedTag = repo.isArchived ? " #Archived" : "";
+          return `	- [[github.com/${repo.name}]] - ${description}${archivedTag}
 `;
         })
         .join(``);

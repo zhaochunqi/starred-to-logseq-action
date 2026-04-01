@@ -7,6 +7,7 @@ describe('renderToMd.ts', () => {
     name: 'owner/repo',
     description: 'Test description',
     starredAt: '2024-01-15 Monday',
+    isArchived: false,
     ...overrides,
   });
 
@@ -160,6 +161,26 @@ describe('renderToMd.ts', () => {
       const result = renderToMd('owner/test', repos);
 
       expect(result).toBe(result.trimEnd());
+    });
+
+    it('should add #Archived tag for archived repos', () => {
+      const repos: Repo[] = [
+        createMockRepo({ name: 'owner/archived-repo', isArchived: true }),
+      ];
+
+      const result = renderToMd('owner/test', repos);
+
+      expect(result).toContain('#Archived');
+    });
+
+    it('should not add #Archived tag for non-archived repos', () => {
+      const repos: Repo[] = [
+        createMockRepo({ name: 'owner/active-repo', isArchived: false }),
+      ];
+
+      const result = renderToMd('owner/test', repos);
+
+      expect(result).not.toContain('#Archived');
     });
   });
 });
