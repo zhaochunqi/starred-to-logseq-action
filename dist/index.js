@@ -37005,7 +37005,7 @@ ${PAGE_HEADER.DESCRIPTION}
         const rawItems = date.items
             .map((repo) => {
             const description = repo.description
-                ? repo.description.replace(/\[\[|\]\]|#/g, "").trim() || "No Description Yet."
+                ? repo.description.replace(/\[\[|\]\]|#/g, (match) => match === '#' ? '＃' : '').trim() || "No Description Yet."
                 : "No Description Yet.";
             const archivedTag = repo.isArchived ? " #Archived" : "";
             return `	- [[github.com/${repo.name}]] - ${description}${archivedTag}
