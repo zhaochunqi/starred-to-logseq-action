@@ -6,7 +6,7 @@ import { mkdirp } from "mkdirp";
 import { join } from "path";
 import { fetchRepos } from "./fetchRepos";
 import { renderToMd } from "./renderToMd";
-import { ApiError } from "./utils";
+import { ApiError, isGitHubTokenFormat } from "./utils";
 
 dotenv.config();
 
@@ -24,10 +24,7 @@ function validateInputs(params: { [key: string]: string }): void {
     }
   }
 
-  // Validate token length
-  // Matches gh[pousru]_, ghe_, or github_pat_ + 35-80 base-62/- chars
-  const tokenRe = /^(gh[pousru]|ghe|github_pat)_[A-Za-z0-9_-]{35,80}$/;
-  if (!tokenRe.test(params.token)) {
+  if (!isGitHubTokenFormat(params.token)) {
     throw new Error("Invalid GitHub token format");
   }
 }

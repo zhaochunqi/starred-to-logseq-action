@@ -31,6 +31,13 @@ export const exponentialBackoff = (retryCount: number) => {
 };
 
 /**
+ * Validate GitHub token by current official prefixes without assuming a fixed length.
+ */
+export function isGitHubTokenFormat(token: string): boolean {
+  return /^(?:(?:ghp|gho|ghu|ghs|ghr)_|github_pat_)[A-Za-z0-9_.-]+$/.test(token);
+}
+
+/**
  * Constants definition
  */
 export const CONSTANTS = {

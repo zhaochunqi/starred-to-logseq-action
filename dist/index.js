@@ -36865,10 +36865,7 @@ function validateInputs(params) {
             throw new Error(`Missing required parameter: ${param}`);
         }
     }
-    // Validate token length
-    // Matches gh[pousru]_, ghe_, or github_pat_ + 35-80 base-62/- chars
-    const tokenRe = /^(gh[pousru]|ghe|github_pat)_[A-Za-z0-9_-]{35,80}$/;
-    if (!tokenRe.test(params.token)) {
+    if (!(0, utils_1.isGitHubTokenFormat)(params.token)) {
         throw new Error("Invalid GitHub token format");
     }
 }
@@ -37035,6 +37032,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.ApiError = exports.CONSTANTS = exports.exponentialBackoff = exports.delay = void 0;
 exports.formatDate = formatDate;
+exports.isGitHubTokenFormat = isGitHubTokenFormat;
 const moment_1 = __importDefault(__nccwpck_require__(891));
 /**
  * Format date to specified format
@@ -37065,6 +37063,12 @@ const exponentialBackoff = (retryCount) => {
     return Math.min(baseDelay * Math.pow(2, retryCount), 600000); // Max 10 minutes
 };
 exports.exponentialBackoff = exponentialBackoff;
+/**
+ * Validate GitHub token by current official prefixes without assuming a fixed length.
+ */
+function isGitHubTokenFormat(token) {
+    return /^(?:(?:ghp|gho|ghu|ghs|ghr)_|github_pat_)[A-Za-z0-9_.-]+$/.test(token);
+}
 /**
  * Constants definition
  */

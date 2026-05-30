@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { formatDate, delay, exponentialBackoff, CONSTANTS, ApiError } from './utils';
+import { formatDate, delay, exponentialBackoff, isGitHubTokenFormat, CONSTANTS, ApiError } from './utils';
 
 describe('utils.ts', () => {
   describe('formatDate', () => {
@@ -58,6 +58,33 @@ describe('utils.ts', () => {
     it('should cap at retry count 4', () => {
       expect(exponentialBackoff(3)).toBe(480000);
       expect(exponentialBackoff(4)).toBe(600000);
+    });
+  });
+
+  describe('isGitHubTokenFormat', () => {
+    it('should accept current GitHub token prefixes', () => {
+      expect(isGitHubTokenFormat('ghp_abcdefghijklmnopqrstuvwxyzABCDEFGHI')).toBe(true);
+      expect(isGitHubTokenFormat('github_pat_abcdefghijklmnopqrstuvwxyzABCDEFGHI')).toBe(true);
+      expect(isGitHubTokenFormat('gho_abcdefghijklmnopqrstuvwxyzABCDEFGHI')).toBe(true);
+      expect(isGitHubTokenFormat('ghu_abcdefghijklmnopqrstuvwxyzABCDEFGHI')).toBe(true);
+      expect(isGitHubTokenFormat('ghs_abcdefghijklmnopqrstuvwxyzABCDEFGHI')).toBe(true);
+      expect(isGitHubTokenFormat('ghr_abcdefghijklmnopqrstuvwxyzABCDEFGHI')).toBe(true);
+    });
+
+    it('should accept stateless GitHub App installation tokens', () => {
+      expect(isGitHubTokenFormat('ghs_1234567890_eyJhbGciOiJFUzI1NiJ9.eyJpc3MiOiIxMjMifQ.signature-part')).toBe(true);
+    });
+
+    it('should reject missing or unsupported GitHub token prefixes', () => {
+      expect(isGitHubTokenFormat('abcdefghijklmnopqrstuvwxyzABCDEFGHI')).toBe(false);
+      expect(isGitHubTokenFormat('ghe_abcdefghijklmnopqrstuvwxyzABCDEFGHI')).toBe(false);
+      expect(isGitHubTokenFormat('ghx_abcdefghijklmnopqrstuvwxyzABCDEFGHI')).toBe(false);
+    });
+
+    it('should reject whitespace and empty token bodies', () => {
+      expect(isGitHubTokenFormat('')).toBe(false);
+      expect(isGitHubTokenFormat('ghp_')).toBe(false);
+      expect(isGitHubTokenFormat('ghp_abc def')).toBe(false);
     });
   });
 
