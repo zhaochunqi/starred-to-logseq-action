@@ -846,35 +846,24 @@ class DecodedURL extends URL {
 
 /***/ }),
 
-/***/ 6057:
+/***/ 382:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 const fs = __nccwpck_require__(9896)
 const path = __nccwpck_require__(6928)
 const os = __nccwpck_require__(857)
 const crypto = __nccwpck_require__(6982)
-const packageJson = __nccwpck_require__(4455)
-
-const version = packageJson.version
 
 // Array of tips to display randomly
 const TIPS = [
-  '🔐 encrypt with Dotenvx: https://dotenvx.com',
-  '🔐 prevent committing .env to code: https://dotenvx.com/precommit',
-  '🔐 prevent building .env in docker: https://dotenvx.com/prebuild',
-  '📡 add observability to secrets: https://dotenvx.com/ops',
-  '👥 sync secrets across teammates & machines: https://dotenvx.com/ops',
-  '🗂️ backup and recover secrets: https://dotenvx.com/ops',
-  '✅ audit secrets and track compliance: https://dotenvx.com/ops',
-  '🔄 add secrets lifecycle management: https://dotenvx.com/ops',
-  '🔑 add access controls to secrets: https://dotenvx.com/ops',
-  '🛠️  run anywhere with `dotenvx run -- yourcommand`',
-  '⚙️  specify custom .env file path with { path: \'/custom/path/.env\' }',
-  '⚙️  enable debug logging with { debug: true }',
-  '⚙️  override existing env vars with { override: true }',
-  '⚙️  suppress all logs with { quiet: true }',
-  '⚙️  write to custom object with { processEnv: myObject }',
-  '⚙️  load multiple .env files with { path: [\'.env.local\', \'.env\'] }'
+  '◈ encrypted .env [www.dotenvx.com]',
+  '◈ secrets for agents [www.dotenvx.com]',
+  '⌁ auth for agents [www.vestauth.com]',
+  '⌘ custom filepath { path: \'/custom/path/.env\' }',
+  '⌘ enable debugging { debug: true }',
+  '⌘ override existing { override: true }',
+  '⌘ suppress logs { quiet: true }',
+  '⌘ multiple files { path: [\'.env.local\', \'.env\'] }'
 ]
 
 // Get a random tip from the tips array
@@ -982,15 +971,15 @@ function _parseVault (options) {
 }
 
 function _warn (message) {
-  console.error(`[dotenv@${version}][WARN] ${message}`)
+  console.error(`⚠ ${message}`)
 }
 
 function _debug (message) {
-  console.log(`[dotenv@${version}][DEBUG] ${message}`)
+  console.log(`┆ ${message}`)
 }
 
 function _log (message) {
-  console.log(`[dotenv@${version}] ${message}`)
+  console.log(`◇ ${message}`)
 }
 
 function _dotenvKey (options) {
@@ -1084,7 +1073,7 @@ function _configVault (options) {
   const quiet = parseBoolean(process.env.DOTENV_CONFIG_QUIET || (options && options.quiet))
 
   if (debug || !quiet) {
-    _log('Loading env from encrypted .env.vault')
+    _log('loading env from encrypted .env.vault')
   }
 
   const parsed = DotenvModule._parseVault(options)
@@ -1113,7 +1102,7 @@ function configDotenv (options) {
     encoding = options.encoding
   } else {
     if (debug) {
-      _debug('No encoding is specified. UTF-8 is used by default')
+      _debug('no encoding is specified (UTF-8 is used by default)')
     }
   }
 
@@ -1141,7 +1130,7 @@ function configDotenv (options) {
       DotenvModule.populate(parsedAll, parsed, options)
     } catch (e) {
       if (debug) {
-        _debug(`Failed to load ${path} ${e.message}`)
+        _debug(`failed to load ${path} ${e.message}`)
       }
       lastError = e
     }
@@ -1162,13 +1151,13 @@ function configDotenv (options) {
         shortPaths.push(relative)
       } catch (e) {
         if (debug) {
-          _debug(`Failed to load ${filePath} ${e.message}`)
+          _debug(`failed to load ${filePath} ${e.message}`)
         }
         lastError = e
       }
     }
 
-    _log(`injecting env (${keysCount}) from ${shortPaths.join(',')} ${dim(`-- tip: ${_getRandomTip()}`)}`)
+    _log(`injected env (${keysCount}) from ${shortPaths.join(',')} ${dim(`// tip: ${_getRandomTip()}`)}`)
   }
 
   if (lastError) {
@@ -1189,7 +1178,7 @@ function config (options) {
 
   // dotenvKey exists but .env.vault file does not exist
   if (!vaultPath) {
-    _warn(`You set DOTENV_KEY but you are missing a .env.vault file at ${vaultPath}. Did you forget to build it?`)
+    _warn(`you set DOTENV_KEY but you are missing a .env.vault file at ${vaultPath}`)
 
     return DotenvModule.configDotenv(options)
   }
@@ -35380,14 +35369,6 @@ function qstring(str) {
 }
 //# sourceMappingURL=index.js.map
 
-/***/ }),
-
-/***/ 4455:
-/***/ ((module) => {
-
-"use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"name":"dotenv","version":"17.2.3","description":"Loads environment variables from .env file","main":"lib/main.js","types":"lib/main.d.ts","exports":{".":{"types":"./lib/main.d.ts","require":"./lib/main.js","default":"./lib/main.js"},"./config":"./config.js","./config.js":"./config.js","./lib/env-options":"./lib/env-options.js","./lib/env-options.js":"./lib/env-options.js","./lib/cli-options":"./lib/cli-options.js","./lib/cli-options.js":"./lib/cli-options.js","./package.json":"./package.json"},"scripts":{"dts-check":"tsc --project tests/types/tsconfig.json","lint":"standard","pretest":"npm run lint && npm run dts-check","test":"tap run tests/**/*.js --allow-empty-coverage --disable-coverage --timeout=60000","test:coverage":"tap run tests/**/*.js --show-full-coverage --timeout=60000 --coverage-report=text --coverage-report=lcov","prerelease":"npm test","release":"standard-version"},"repository":{"type":"git","url":"git://github.com/motdotla/dotenv.git"},"homepage":"https://github.com/motdotla/dotenv#readme","funding":"https://dotenvx.com","keywords":["dotenv","env",".env","environment","variables","config","settings"],"readmeFilename":"README.md","license":"BSD-2-Clause","devDependencies":{"@types/node":"^18.11.3","decache":"^4.6.2","sinon":"^14.0.1","standard":"^17.0.0","standard-version":"^9.5.0","tap":"^19.2.0","typescript":"^4.8.4"},"engines":{"node":">=12"},"browser":{"fs":false}}');
-
 /***/ })
 
 /******/ 	});
@@ -43120,8 +43101,8 @@ function getOctokit(token, options, ...additionalPlugins) {
     return new GitHubWithPlugins(getOctokitOptions(token, options));
 }
 //# sourceMappingURL=github.js.map
-// EXTERNAL MODULE: ./node_modules/.pnpm/dotenv@17.2.3/node_modules/dotenv/lib/main.js
-var main = __nccwpck_require__(6057);
+// EXTERNAL MODULE: ./node_modules/.pnpm/dotenv@17.4.2/node_modules/dotenv/lib/main.js
+var main = __nccwpck_require__(382);
 var main_default = /*#__PURE__*/__nccwpck_require__.n(main);
 ;// CONCATENATED MODULE: ./node_modules/.pnpm/mkdirp@3.0.1/node_modules/mkdirp/dist/mjs/opts-arg.js
 
