@@ -13,21 +13,21 @@
   "author": "Alex Zhao",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^24.0.0",
-    "@typescript-eslint/eslint-plugin": "^8.21.0",
-    "@typescript-eslint/parser": "^8.21.0",
-    "@vercel/ncc": "^0.44.0",
-    "@vitest/coverage-v8": "^4.0.17",
-    "@vitest/ui": "^4.0.17",
-    "jsdom": "^30.0.0",
-    "typescript": "^6.0.0",
-    "vitest": "^4.0.17"
+    "@types/node": "^24.13.3",
+    "@typescript-eslint/eslint-plugin": "^8.66.0",
+    "@typescript-eslint/parser": "^8.66.0",
+    "@vercel/ncc": "^0.44.1",
+    "@vitest/coverage-v8": "^4.1.10",
+    "@vitest/ui": "^4.1.10",
+    "jsdom": "^30.0.1",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.10"
   },
   "dependencies": {
-    "@actions/core": "^3.0.0",
-    "@actions/github": "^9.0.0",
+    "@actions/core": "^3.0.1",
+    "@actions/github": "^9.1.1",
     "change-case": "^5.4.4",
-    "dotenv": "^17.0.0",
+    "dotenv": "^17.4.2",
     "mkdirp": "^3.0.1",
     "moment": "^2.30.1"
   }
