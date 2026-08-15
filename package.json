@@ -14,9 +14,9 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^24.13.3",
-    "@typescript-eslint/eslint-plugin": "^8.66.0",
-    "@typescript-eslint/parser": "^8.66.0",
-    "@vercel/ncc": "^0.44.1",
+    "@typescript-eslint/eslint-plugin": "^8.67.0",
+    "@typescript-eslint/parser": "^8.67.0",
+    "@vercel/ncc": "^0.45.0",
     "@vitest/coverage-v8": "^4.1.10",
     "@vitest/ui": "^4.1.10",
     "jsdom": "^30.0.1",
