@@ -13,9 +13,9 @@
   "author": "Alex Zhao",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^24.13.3",
-    "@typescript-eslint/eslint-plugin": "^8.69.0",
-    "@typescript-eslint/parser": "^8.69.0",
+    "@types/node": "^24.13.4",
+    "@typescript-eslint/eslint-plugin": "^8.70.0",
+    "@typescript-eslint/parser": "^8.70.0",
     "@vercel/ncc": "^0.45.0",
     "@vitest/coverage-v8": "^4.1.11",
     "@vitest/ui": "^4.1.11",
