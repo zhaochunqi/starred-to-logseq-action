@@ -1,0 +1,76 @@
+name: Sync Stars to Release Branch
+
+# Regenerates `Github Stars.md` every day and publishes it to the orphan
+# `release` branch, which holds nothing but that generated file.
+#
+# Consumers (e.g. the MyLifeRecorded Logseq repo) fetch it from
+#   https://raw.githubusercontent.com/<owner>/<repo>/release/Github%20Stars.md
+# so the note repo no longer has to run this action itself.
+#
+# The first run creates the orphan branch; every later run commits on top of it,
+# so the branch accumulates one commit per day of history.
+
+on:
+  schedule:
+    - cron: '0 20 * * *' # 20:00 UTC+8, leaves room before consumers pull
+  workflow_dispatch:
+
+env:
+  TZ: Asia/Shanghai
+
+concurrency:
+  group: sync-release
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    name: Regenerate and publish Github Stars.md
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Generate Github Stars.md
+        uses: ./
+        with:
+          username: 'zhaochunqi'
+          target_dir: './out'
+
+      - name: Publish to release branch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          generated="$GITHUB_WORKSPACE/out/Github Stars.md"
+          if [ ! -f "$generated" ]; then
+            echo "::error::$generated was not generated"
+            exit 1
+          fi
+
+          workdir=$(mktemp -d)
+          cd "$workdir"
+          git init -q
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          if git fetch --depth=1 origin release 2>/dev/null; then
+            git checkout -q -b release FETCH_HEAD
+            echo "Continuing existing release branch"
+          else
+            git checkout -q --orphan release
+            echo "Creating orphan release branch"
+          fi
+
+          cp "$generated" "Github Stars.md"
+          git add "Github Stars.md"
+
+          if git rev-parse --verify HEAD >/dev/null 2>&1 && git diff --cached --quiet; then
+            echo "No changes to publish"
+            exit 0
+          fi
+
+          git commit -q -m "chore(data): update Github Stars $(date +%F)"
+          git push origin release

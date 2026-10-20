@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - "**"
+      # `release` holds only generated data (Github Stars.md); building dist and
+      # pushing there would fight the sync-release workflow.
+      - "!release"
     tags:
       - "v*"
 
