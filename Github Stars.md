@@ -2,7 +2,7 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 10/20/2026, 9:00:36 PM
+updateTime:: 10/21/2026, 6:56:30 AM
 
 - ## [[2026-10-20 Tuesday]]
 	- [[github.com/Gathin23/cleanyourtv]] - Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
@@ -1477,6 +1477,7 @@ updateTime:: 10/20/2026, 9:00:36 PM
 	- [[github.com/AlistGo/alist]] - 🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
 	- [[github.com/direnv/direnv]] - unclutter your .profile
 	- [[github.com/firecrawl/fireplexity]] - 🔥 Open Source Perplexity like AI search engine with real-time citations, streaming responses, and live data powered by Firecrawl
+	- [[github.com/liu-ziting/what-to-eat]] - 一饭封神：一个基于 AI 的智能菜谱生成平台，支持中华八大菜系 + 国际料理，提供营养分析、酒水推荐、菜谱效果图生成等全方位烹饪指导。
 	- [[github.com/SWE-agent/mini-swe-agent]] - The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo—but scores >74% on SWE-bench verified!
 	- [[github.com/SWE-agent/SWE-agent]] - SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024]
 - ## [[2025-10-11 Saturday]]
@@ -2058,7 +2059,7 @@ updateTime:: 10/20/2026, 9:00:36 PM
 	- [[github.com/mark-when/obsidian-plugin]] - Markwhen obsidian plugin
 	- [[github.com/mark-when/timeline]] - Markwhen timeline view
 - ## [[2025-04-08 Tuesday]]
-	- [[github.com/Marker-Inc-Korea/AutoRAG]] - AutoRAG: Now your agent can find anything in your computer. It gets smarter if you are using it frequently.
+	- [[github.com/Marker-Inc-Korea/AutoRAG]] - Your Personal Librarian Agent. Ask anything on your computer, organize files, remember important info and files.
 	- [[github.com/opengovern/opensecurity]] - opensecurity: open-source security and compliance. See and secure your cloud, containers, code, networks, deployments, devices. Define your rules, get precise checks, fix gaps fast. Streamlined audits. No fluff.
 - ## [[2025-04-07 Monday]]
 	- [[github.com/openstack/swift]] - OpenStack Storage (Swift). Mirror of code maintained at opendev.org.
