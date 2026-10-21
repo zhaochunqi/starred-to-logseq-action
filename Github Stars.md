@@ -2,8 +2,10 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 10/21/2026, 6:56:30 AM
+updateTime:: 10/22/2026, 7:00:22 AM
 
+- ## [[2026-10-21 Wednesday]]
+	- [[github.com/vladkens/macmon]] - 🦀🌡️ Real-time system monitor for Apple Silicon Macs (M1–M5). No sudo. TUI, JSON/Prometheus metrics server, and Rust library.
 - ## [[2026-10-20 Tuesday]]
 	- [[github.com/Gathin23/cleanyourtv]] - Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
 	- [[github.com/kksimp/Mac.apk]] - Mac.apk: Run Android apps natively on Apple Silicon Macs
@@ -188,7 +190,7 @@ updateTime:: 10/21/2026, 6:56:30 AM
 	- [[github.com/2dust/v2rayN]] - A GUI client for Windows, Linux and macOS, support Xray and sing-box and others
 	- [[github.com/adysec/tracker]] - BT tracker 服务器列表，提供全网最全的 tracker 列表，每日聚合并测试存活服务器，trackers_all.txt 为全量列表（2902 行），trackers_best.txt 为可用列表（1137 行）
 - ## [[2026-08-12 Wednesday]]
-	- [[github.com/cathrynlavery/diagram-design]] - Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.
+	- [[github.com/cathrynlavery/diagram-design]] - Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.
 - ## [[2026-08-11 Tuesday]]
 	- [[github.com/Panniantong/Agent-Reach]] - Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
 	- [[github.com/toeverything/blocksuite]] - 🧩 Content editing tech stack for the web - BlockSuite is a toolkit for building editors and collaborative applications.
@@ -320,7 +322,7 @@ updateTime:: 10/21/2026, 6:56:30 AM
 - ## [[2026-07-17 Friday]]
 	- [[github.com/robinebers/openusage]] - Burning through your subscriptions too fast? Paying for stuff you never use? Stop guessing. OpenUsage is free and open source.
 - ## [[2026-07-16 Thursday]]
-	- [[github.com/appshubcc/Bettbox]] - Another Better Mihomo Client
+	- [[github.com/appshubcc/Bettbox]] - Another Better Network Toolbox
 	- [[github.com/coolcoala/koala-clash]] - A modern GUI client based on Electron, designed to run in Windows, macOS and Linux for tailored proxy experience
 	- [[github.com/Devi766/Diodos]] - Diodos — Network Tools
 	- [[github.com/Fei-Away/Codex-Dream-Skin]] - Codex Dream Skin
@@ -1899,7 +1901,7 @@ updateTime:: 10/21/2026, 6:56:30 AM
 	- [[github.com/circlemind-ai/fast-graphrag]] - RAG that intelligently adapts to your use case, data, and queries
 	- [[github.com/getsentry/MobileBuildMCP]] - A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.
 	- [[github.com/HuolalaTech/page-spy-web]] - A remote debugging platform you'll definitely find useful. Lightweight, cross-platform, out-of-box debugging tool
-	- [[github.com/InsertKoinIO/koin]] - Koin - a pragmatic lightweight dependency injection framework for Kotlin & Kotlin Multiplatform
+	- [[github.com/InsertKoinIO/koin]] - Koin - pragmatic dependency injection for Kotlin & Kotlin Multiplatform. Koin DSL or Koin Annotations (JSR-330), compile safe with the Koin Compiler Plugin.
 	- [[github.com/PriorLabs/TabPFN]] - ⚡ TabPFN: Foundation Model for Tabular Data ⚡
 - ## [[2025-05-26 Monday]]
 	- [[github.com/ClickHouse/kubenetmon]] - kubenetmon is an open source Kubernetes network metering solution built at ClickHouse.
