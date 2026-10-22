@@ -2,8 +2,13 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 10/22/2026, 7:00:22 AM
+updateTime:: 10/23/2026, 6:58:51 AM
 
+- ## [[2026-10-22 Thursday]]
+	- [[github.com/narumiruna/pi-extensions]] - A monorepo of Pi Coding Agent extensions
+	- [[github.com/PDFMathTranslate/PDFMathReader]] - Read scientific documents in your language, in realtime, on any platform. 在任何平台上用您的语言实时翻译和阅读科学文献。
+	- [[github.com/pgsty/silo]] - S3-Compatible Object Storage. A MinIO fork maintained by PGSTY
+	- [[github.com/zhaochunqi/kiwivm-exporter]] - BandwagonHost KiwiVM API Prometheus exporter - bandwidth quota + CPU/mem/load/disk out-of-band, no in-VPS agent
 - ## [[2026-10-21 Wednesday]]
 	- [[github.com/vladkens/macmon]] - 🦀🌡️ Real-time system monitor for Apple Silicon Macs (M1–M5). No sudo. TUI, JSON/Prometheus metrics server, and Rust library.
 - ## [[2026-10-20 Tuesday]]
@@ -177,7 +182,7 @@ updateTime:: 10/22/2026, 7:00:22 AM
 	- [[github.com/DetachHead/rebased]] - A git client based on the IntelliJ platform
 	- [[github.com/PDFMathTranslate/PDFMathTranslate]] - [EMNLP 2025 Demo] PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero
 	- [[github.com/t8y2/dbx]] - 25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。
-	- [[github.com/tw93/Kaku]] - An AI-friendly Mac terminal with sensible defaults, ready out of the box.
+	- [[github.com/tw93/Kaku]] - A fast, good-looking, AI-friendly terminal for the Mac.
 	- [[github.com/webadderallorg/Recordly]] - Create polished demo videos without editing skills. Mac/Windows/Linux
 	- [[github.com/wilhelmsendk/wake-up-supabase]] - A tiny GitHub Actions helper that prevents **free Supabase projects**   from being automatically paused due to inactivity
 - ## [[2026-08-15 Saturday]]
@@ -1238,7 +1243,7 @@ updateTime:: 10/22/2026, 7:00:22 AM
 - ## [[2025-12-21 Sunday]]
 	- [[github.com/amzxyz/rime-wanxiang-data]] - 万象拼音数据与工具中心: 简繁扩展词库/声调编码/声调标注工具链/万象更新工具链/Rime语法模型
 	- [[github.com/GitGuardian/ggshield]] - Detect and validate 500+ types of hardcoded secrets with advanced checks. Use it as a pre-commit hook, GitHub Action, or CLI for proactive secret detection and security.
-	- [[github.com/lollipopkit/flutter_gpt_box]] - GPTBox - a third-party client for OpenAI API.
+	- [[github.com/lollipopkit/llmbox]] - GPTBox - a third-party client for OpenAI API.
 	- [[github.com/NixOS/nixos-search]] - Search NixOS packages and options
 	- [[github.com/outloudvi/mw2fcitx]] - Fcitx 5 pinyin dictionary generator for MediaWiki instances. (Releases for dict of zh.moegirl.org.cn / Check release list for latest releases)
 	- [[github.com/rime/librime]] - Rime Input Method Engine, the core library
@@ -2255,7 +2260,7 @@ updateTime:: 10/22/2026, 7:00:22 AM
 - ## [[2025-02-08 Saturday]]
 	- [[github.com/docling-project/docling]] - Get your documents ready for gen AI
 	- [[github.com/OpenHealthForAll/open-health]] - OpenHealth, AI Health Assistant | Powered by Your Data
-	- [[github.com/unslothai/unsloth]] - Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.
+	- [[github.com/unslothai/unsloth]] - Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.
 - ## [[2025-02-07 Friday]]
 	- [[github.com/newsnext/newsnow]] - Elegant reading of real-time and hottest news
 - ## [[2025-02-06 Thursday]]
@@ -2390,7 +2395,7 @@ updateTime:: 10/22/2026, 7:00:22 AM
 	- [[github.com/gridaco/cors.sh]] - Sick of CORS Errors?
 	- [[github.com/lizongying/my-tv-0]] - 我的電視·〇 電視視頻播放軟件，可以自定義視頻源
 - ## [[2025-01-02 Thursday]]
-	- [[github.com/DrewThomasson/ebook2audiobook]] - Generate audiobooks from e-books, voice cloning & 1158+ languages!
+	- [[github.com/DrewThomasson/ebook2audiobook]] - Generate audiobooks from e-books, 50+ TTS engines with voice cloning and 1696 languages!
 - ## [[2025-01-01 Wednesday]]
 	- [[github.com/ccmenu/ccmenu2]] - CCMenu is a Mac app that shows the status of builds on CI/CD servers in the menu bar.
 	- [[github.com/lowlighter/metrics]] - 📊 An infographics generator with 30+ plugins and 300+ options to display stats about your GitHub account and render them as SVG, Markdown, PDF or JSON!
@@ -2475,7 +2480,7 @@ updateTime:: 10/22/2026, 7:00:22 AM
 	- [[github.com/XiaoMi/ha_xiaomi_home]] - Xiaomi Home Integration for Home Assistant
 - ## [[2024-12-17 Tuesday]]
 	- [[github.com/containerd/runwasi]] - Facilitates running Wasm / WASI workloads managed by containerd
-	- [[github.com/prisma/orm]] - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
+	- [[github.com/prisma/orm]] - The Prisma ORM: write your application in TypeScript with human-readable queries instead of SQL. Host your database on Prisma Postgres and your app on Prisma Compute.
 	- [[github.com/spencerwooo/substats]] - ( ｀д′) how many followers do i have? how many!
 	- [[github.com/tursodatabase/turso]] - A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.
 - ## [[2024-12-16 Monday]]
@@ -3598,7 +3603,7 @@ updateTime:: 10/22/2026, 7:00:22 AM
 - ## [[2024-01-21 Sunday]]
 	- [[github.com/shuaibiyy/awesome-tf]] - Curated list of resources on HashiCorp's Terraform and OpenTofu
 - ## [[2024-01-20 Saturday]]
-	- [[github.com/abahmed/kwatch]] - Kubernetes incidents, explained. kwatch traces every cluster failure back to its root cause and sends one message: what broke, why, who changed it, and what to do next. Source available (ELv2).
+	- [[github.com/abahmed/kwatch]] - kwatch runs inside your Kubernetes cluster, traces every failure to its root cause, and sends one message: what broke, why, who changed it and what to do next.
 	- [[github.com/abhisheknaiidu/awesome-github-profile-readme]] - 😎 A curated list of awesome GitHub Profile which updates in real time
 	- [[github.com/AChep/keyguard-app]] - A password manager that supports Bitwarden platform and KeePass (KDBX) files. It autofills your logins, supports passkeys, works offline, and runs a Watchtower that finds leaked and reused passwords and other issues.
 	- [[github.com/awesome-foss/awesome-sysadmin]] - A curated list of amazingly awesome open-source sysadmin resources.
@@ -4151,7 +4156,7 @@ updateTime:: 10/22/2026, 7:00:22 AM
 	- [[github.com/ImranR98/Obtainium]] - Get Android app updates straight from the source.
 	- [[github.com/rumboalla/apkupdater]] - APKUpdater is an open source tool that simplifies the process of finding updates for your installed apps.
 	- [[github.com/TryGhost/Ghost]] - Independent technology for modern publishing, memberships, subscriptions and newsletters.
-	- [[github.com/umami-software/umami]] - Umami is a privacy-first analytics platform. Traffic, campaigns, behavior, conversions, and revenue in one place — no cookies, no surveillance, self-hosted or in the cloud.
+	- [[github.com/umami-software/umami]] - Umami is a privacy-first web and product analytics platform. Traffic, campaigns, behavior, conversions, and revenue in one place. No cookies, no surveillance, self-hosted or in the cloud.
 	- [[github.com/vesoft-inc/nebula]] - A distributed, fast open-source graph database featuring horizontal scalability and high availability
 - ## [[2023-10-15 Sunday]]
 	- [[github.com/dmunozv04/iSponsorBlockTV]] - SponsorBlock client for all YouTube TV clients.
@@ -5226,7 +5231,7 @@ updateTime:: 10/22/2026, 7:00:22 AM
 	- [[github.com/gopherdata/gophernotes]] - The Go kernel for Jupyter notebooks and nteract.
 	- [[github.com/zsa/wally]] - The Flash(ing tool)
 - ## [[2020-12-23 Wednesday]]
-	- [[github.com/201206030/novel-plus]] - novel-plus 是一个多端（PC、WAP）阅读 、功能完善的小说 CMS 系统。包括小说推荐、小说检索、小说排行、小说阅读、小说书架、小说书评、段落评论、小说书单、会员中心、作家专区、充值订阅、新闻发布等功能。
+	- [[github.com/201206030/novel-plus]] - novel-plus 是一个多端（PC、WAP、APP、小程序）阅读 、功能完善的小说 CMS 系统。包括小说推荐、小说检索、小说排行、小说阅读、小说书架、小说书评、段落评论、小说书单、会员中心、作家专区、充值订阅、新闻发布等功能。
 	- [[github.com/w37fhy/QuantumultX]] - 同步和更新大佬脚本库，更新懒人配置
 - ## [[2020-12-22 Tuesday]]
 	- [[github.com/python-poetry/poetry]] - Python packaging and dependency management made easy
@@ -5588,7 +5593,7 @@ updateTime:: 10/22/2026, 7:00:22 AM
 - ## [[2018-09-18 Tuesday]]
 	- [[github.com/semlinker/awesome-typescript]] - A collection of awesome TypeScript resources for client-side and server-side development
 - ## [[2018-09-13 Thursday]]
-	- [[github.com/byoungd/up]] - 韩先凯的人生进阶指南 人生进阶指南 AI时代生存指南 英语学习指南 离谱的人生 AI AI时代终身学习：AI、学习、创业与成长。
+	- [[github.com/byoungd/up]] - 中英双语终身学习指南：英语学习、AI 协作、真实项目与成长证据。
 	- [[github.com/sharkdp/bat]] - A cat(1) clone with wings.
 - ## [[2018-09-12 Wednesday]]
 	- [[github.com/firebase/firebase-android-sdk]] - Firebase Android SDK
@@ -5996,7 +6001,7 @@ updateTime:: 10/22/2026, 7:00:22 AM
 - ## [[2016-08-06 Saturday]]
 	- [[github.com/codepath/android_guides]] - Extensive Open-Source Guides for Android Developers
 - ## [[2016-07-28 Thursday]]
-	- [[github.com/shadowsocks/ShadowsocksX-NG]] - Next Generation of ShadowsocksX
+	- [[github.com/shadowsocks/ShadowsocksX-NG]] - Shadowsocks GUI client for mac OS
 - ## [[2016-07-11 Monday]]
 	- [[github.com/fniessen/org-html-themes]] - Transform your Org mode files into stunning HTML documents in minutes with our Org mode HTML theme. Elevate your productivity and impress your readers! ＃orgmode ＃html ＃theme ＃productivity ＃design
 - ## [[2016-07-02 Saturday]]
