@@ -2,8 +2,10 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 10/24/2026, 6:51:37 AM
+updateTime:: 10/25/2026, 6:14:08 AM
 
+- ## [[2026-10-24 Saturday]]
+	- [[github.com/anthropics/sandbox-runtime]] - A lightweight sandboxing tool for enforcing filesystem and network restrictions on arbitrary processes at the OS level, without requiring a container.
 - ## [[2026-10-23 Friday]]
 	- [[github.com/subhashhhhhh/Tether]] - Modern, native macOS companion for Android built on the KDE Connect protocol
 - ## [[2026-10-22 Thursday]]
@@ -974,7 +976,6 @@ updateTime:: 10/24/2026, 6:51:37 AM
 	- [[github.com/microsoft/agent-lightning]] - The absolute trainer to light up AI agents.
 	- [[github.com/nanocoai/nanoclaw]] - A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK
 	- [[github.com/OpenByteInc/QuantDinger]] - Open-source AI Trading OS, agent trading, and vibe trading, with Jev System One integration. Research, build Python strategies, backtest, and paper/live trade across crypto, stocks, and forex. Launch your own multi-tenant trading SaaS with built-in user management, billing, payments, and settlement.
-	- [[github.com/overtake/TelegramSwift]] - Source code of Telegram for macos on Swift 5.0
 	- [[github.com/owu/wsl-dashboard]] - A GUI manager for WSL featuring a modern UI — a lightweight, low‑memory, high‑performance dashboard to manage WSL instances.  Install, list, start, stop, unregister, and configure your WSL distros​ from one place.
 	- [[github.com/RunMaestro/Maestro]] - Agent Orchestration Command Center
 	- [[github.com/ThePrimeagen/99]] - Neovim AI agent done right
@@ -1143,7 +1144,7 @@ updateTime:: 10/24/2026, 6:51:37 AM
 	- [[github.com/GuDaStudio/skills]] - This repository contains a collection of Agent Skills developed by GudaStudio, enabling seamless collaboration between Claude and other AI models and tools.
 	- [[github.com/huggingface/skills]] - Give your agents the power of the Hugging Face ecosystem
 	- [[github.com/kotest/kotest]] - Powerful, elegant and flexible test framework for Kotlin with assertions, property testing and data driven tests.
-	- [[github.com/memodb-io/Acontext]] - Agent Skills as a Memory Layer
+	- [[github.com/memodb-io/Acontext]] - Agent Skills as a Memory Layer #Archived
 	- [[github.com/mrgoonie/claudekit-skills]] - All powerful skills of ClaudeKit.cc!
 	- [[github.com/oliexdev/openScale]] - Open-source weight and body metrics tracker, with support for Bluetooth scales
 	- [[github.com/platonai/Browser4]] - Browser4 — an AI-native browser engine for autonomous agents, intelligent extraction, and large-scale web automation.
@@ -2351,7 +2352,7 @@ updateTime:: 10/24/2026, 6:51:37 AM
 	- [[github.com/amir20/dozzle]] - Realtime log viewer for containers.  Supports Docker, Swarm and K8s.
 	- [[github.com/logancyang/obsidian-copilot]] - Run agents in Obsidian - OpenCode, Codex, Claude Code etc.
 	- [[github.com/mem0ai/mem0]] - The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.
-	- [[github.com/mumu-lhl/Ciyue]] - A mdict dictionary with Android/Windows/Linux/macOS support
+	- [[github.com/mumu-lhl/Ciyue]] - A mdict dictionary app with Android/Windows/Linux/macOS support
 	- [[github.com/Qetesh/miniflux-ai]] - Miniflux with AI. Add AI summaries, translations, and AI news based on RSS content
 	- [[github.com/SkipLabs/skip]] - Skip is a framework for building reactive services
 	- [[github.com/yonaskolb/Mint]] - A package manager that installs and runs executable Swift packages
@@ -2645,7 +2646,7 @@ updateTime:: 10/24/2026, 6:51:37 AM
 	- [[github.com/tuneinsight/lattigo]] - A library for lattice-based multiparty homomorphic encryption in Go
 	- [[github.com/zama-ai/concrete-ml]] - Concrete ML: Privacy Preserving ML framework using Fully Homomorphic Encryption (FHE), built on top of Concrete, with bindings to traditional ML frameworks.
 - ## [[2024-10-08 Tuesday]]
-	- [[github.com/kestra-io/kestra]] - Event Driven Orchestration & Scheduling Platform for Mission Critical Applications
+	- [[github.com/kestra-io/kestra]] - Orchestrate everything, everywhere. The open-source control plane for workflows across data, infrastructure, business processes and AI agents. Declarative YAML, event-driven, any language, Git-versioned, scalable to millions of executions.
 	- [[github.com/meshery/meshery]] - Meshery, the cloud native manager
 	- [[github.com/neilotoole/sq]] - sq data wrangler
 	- [[github.com/wagtail/wagtail]] - A Django content management system focused on flexibility and user experience
@@ -4420,7 +4421,7 @@ updateTime:: 10/24/2026, 6:51:37 AM
 	- [[github.com/organicmaps/organicmaps]] - 🍃 Organic Maps is a free Android & iOS offline maps app for more than 6M travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by the community. No ads, no tracking, no data collection, no crapware. Please donate to support the development!
 - ## [[2023-09-01 Friday]]
 	- [[github.com/anomalyco/sst]] - Build full-stack apps on your own infrastructure.
-	- [[github.com/code-charity/youtube]] - YouTube / Video Browser-Extension. [Top1 FOSS.]  Enrich your experience & choice! 🧰Smart features📌set & forget📌300+ tweaks. Longest-standing. Join🧩us?👨‍👩‍👧‍👧  ⋮ {playback|discovery|extra player buttons|quality|codec|full tab|full screen|no distraction|shorts}
+	- [[github.com/code-charity/youtube]] - YouTube (Video) Browser-Extension. [Top1 FOSS.]  Enrich your experience & choice! 🧰Smart features📌set & forget📌100s of tweaks. Longest-standing. Join🧩us?👨‍👩‍👧‍👧 ⋮  ⋮  ⋮  ⋮  ⋮   {playback|discovery|extra player buttons|quality|codec|full tab|full screen|no distraction|shorts}
 	- [[github.com/heapwolf/socket]] - No Description Yet.
 	- [[github.com/pezzolabs/pezzo]] - 🕹️ Open-source, developer-first LLMOps platform designed to streamline prompt design, version management, instant delivery, collaboration, troubleshooting, observability and more.
 - ## [[2023-08-31 Thursday]]
@@ -5233,7 +5234,7 @@ updateTime:: 10/24/2026, 6:51:37 AM
 	- [[github.com/gopherdata/gophernotes]] - The Go kernel for Jupyter notebooks and nteract.
 	- [[github.com/zsa/wally]] - The Flash(ing tool)
 - ## [[2020-12-23 Wednesday]]
-	- [[github.com/201206030/novel-plus]] - novel-plus 是一个多端（PC、WAP、APP、小程序）阅读 、功能完善的小说 CMS 系统。包括小说推荐、小说检索、小说排行、小说阅读、小说书架、小说书评、段落评论、小说书单、会员中心、作家专区、充值订阅、新闻发布等功能。
+	- [[github.com/201206030/novel-plus]] - novel-plus 是一个多端（PC、WAP、APP、小程序）阅读 、功能完善的小说 CMS 系统。包括小说推荐、小说检索、小说排行、小说阅读、小说书架、小说书评、小说书单、小说爬虫、会员中心、作家专区、充值订阅、新闻发布等功能。
 	- [[github.com/w37fhy/QuantumultX]] - 同步和更新大佬脚本库，更新懒人配置
 - ## [[2020-12-22 Tuesday]]
 	- [[github.com/python-poetry/poetry]] - Python packaging and dependency management made easy
