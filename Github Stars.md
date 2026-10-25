@@ -2,7 +2,7 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 10/25/2026, 6:14:08 AM
+updateTime:: 10/26/2026, 6:16:49 AM
 
 - ## [[2026-10-24 Saturday]]
 	- [[github.com/anthropics/sandbox-runtime]] - A lightweight sandboxing tool for enforcing filesystem and network restrictions on arbitrary processes at the OS level, without requiring a container.
@@ -1278,7 +1278,6 @@ updateTime:: 10/25/2026, 6:14:08 AM
 	- [[github.com/jina-ai/MCP]] - Official Jina AI Remote MCP Server
 	- [[github.com/ox01024/cmirror]] - 🇨🇳 Cmirror: 专为中国大陆开发者打造的一键换源工具 (A unified CLI for managing mirrors: Pip, NPM, Docker, Cargo, Apt, Go, Brew).
 	- [[github.com/RSS-Bridge/rss-bridge]] - The RSS feed for websites missing it
-	- [[github.com/tradecatlabs/vibe-coding-cn]] - Vibe Coding 非严肃开发的从入门到门入的工具箱
 - ## [[2025-12-15 Monday]]
 	- [[github.com/GUI-for-Cores/GUI.for.SingBox]] - Modern, lightweight desktop app built with Wails (Go) and Vue 3. Efficient, cross-platform, and fast.
 	- [[github.com/mihomo-party-org/clash-party]] - :electron: Another Mihomo GUI.
@@ -1606,7 +1605,7 @@ updateTime:: 10/25/2026, 6:14:08 AM
 	- [[github.com/haileyydev/maildrop]] - ✉️ A simple self hostable email service
 	- [[github.com/nickclyde/duckduckgo-mcp-server]] - A Model Context Protocol (MCP) server that provides web search capabilities through DuckDuckGo, with additional features for content fetching and parsing.
 - ## [[2025-09-16 Tuesday]]
-	- [[github.com/agno-agi/agno]] - Build, run, and manage agent platforms.
+	- [[github.com/agno-agi/agno]] - The self-improving platform for agents
 	- [[github.com/ashishpatel26/500-AI-Agents-Projects]] - The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more.
 	- [[github.com/vicinaehq/vicinae]] - A focused launcher for your desktop - native, fast, extensible
 - ## [[2025-09-15 Monday]]
@@ -1988,7 +1987,7 @@ updateTime:: 10/25/2026, 6:14:08 AM
 - ## [[2025-04-30 Wednesday]]
 	- [[github.com/krillinai/OpenCreator]] - Formerly KrillinAI, VideoTranslation and Dubbing Tool. Open-source AI workspace for creators, powered by Codex. Video downloading, video translation, create videos, images, voice, avatars, and edits with Agents in one place. Suitable for your Social Media like YouTube, TikTok, Instagram, etc.
 - ## [[2025-04-29 Tuesday]]
-	- [[github.com/robertpiosik/CodeWebChat]] - Blazing fast AI coding with static context
+	- [[github.com/robertpiosik/CodeWebChat]] - Blazing fast AI coding
 	- [[github.com/taskforcesh/bullmq]] - BullMQ - Message Queue and Batch processing for NodeJS, Python, .NET, Elixir, Rust and PHP based on Redis or PostgreSQL
 	- [[github.com/upstash/context7]] - Context7 Platform -- Up-to-date docs for AI agents
 - ## [[2025-04-28 Monday]]
@@ -2059,7 +2058,7 @@ updateTime:: 10/25/2026, 6:14:08 AM
 - ## [[2025-04-11 Friday]]
 	- [[github.com/changesets/changesets]] - 🦋 A tool to manage versioning and changelogs with a focus on monorepos
 	- [[github.com/vercel/turborepo]] - Build system optimized for JavaScript and TypeScript, written in Rust
-	- [[github.com/Zackriya-Solutions/meetily]] - Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the ＃1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes
+	- [[github.com/Zackriya-Solutions/meetily]] - Privacy first AI meeting note taker. Download Free and open source granola, otter ai, fireflies alternative. Parakeet / Whisper live transcription, on-device speaker diarization, built on Rust. 100% local processing. Meetily (Meetly Ai - https://meetily.ai) is the ＃1 Self-hosted, Open-source Ai meeting note taker & Assistant for macOS & Windows
 - ## [[2025-04-10 Thursday]]
 	- [[github.com/AppFlowy-IO/appflowy-editor]] - A highly customizable rich-text editor for Flutter. The AppFlowy Editor project for AppFlowy and beyond.
 	- [[github.com/elie222/inbox-zero]] - The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.
@@ -2839,7 +2838,7 @@ updateTime:: 10/25/2026, 6:14:08 AM
 - ## [[2024-08-26 Monday]]
 	- [[github.com/fullcalendar/fullcalendar]] - Full-sized drag & drop event calendar in JavaScript
 	- [[github.com/google/googlesql]] - GoogleSQL(formerly ZetaSQL) - Analyzer Framework for SQL
-	- [[github.com/gsantner/markor]] - Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..
+	- [[github.com/gsantner/markor]] - Text editor - Notes, ToDo & Filemanager (for Android) - Markdown, todo.txt, plaintext, math, ..
 	- [[github.com/KasperZutterman/Second-Brain]] - A curated list of awesome Public Zettelkastens 🗄️ / Second Brains 🧠 / Digital Gardens 🌱
 	- [[github.com/wix/react-native-calendars]] - React Native Calendar Components 🗓️ 📆
 - ## [[2024-08-25 Sunday]]
@@ -2944,7 +2943,7 @@ updateTime:: 10/25/2026, 6:14:08 AM
 - ## [[2024-07-13 Saturday]]
 	- [[github.com/toss/es-toolkit]] - A modern JavaScript utility library that's 2-3 times faster and up to 97% smaller, a major upgrade to lodash.
 - ## [[2024-07-11 Thursday]]
-	- [[github.com/event-driven-io/Pongo]] - Pongo - Mongo but on Postgres and with strong consistency benefits
+	- [[github.com/event-driven-io/Pongo]] - Pongo - Mongo but on Postgres or SQLite, with strong consistency benefits
 	- [[github.com/folke/todo-comments.nvim]] - ✅  Highlight, list and search todo comments in your projects
 - ## [[2024-07-09 Tuesday]]
 	- [[github.com/ente/ente]] - 💚 End-to-end encrypted cloud for everything.
@@ -4268,7 +4267,7 @@ updateTime:: 10/25/2026, 6:14:08 AM
 	- [[github.com/harness/harness]] - Harness Open Source is an end-to-end developer platform with Source Control Management, CI/CD Pipelines, Hosted Developer Environments, and Artifact Registries.
 	- [[github.com/IgnisDa/ryot]] - Roll your own tracker!
 	- [[github.com/Phalcode/gamevault-backend]] - Backend for the self-hosted gaming platform for drm-free games
-	- [[github.com/windmill-labs/windmill]] - Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal.
+	- [[github.com/windmill-labs/windmill]] - Code-first platform for workflows, apps and AI agents, on the fastest self-hostable orchestrator (benchmarked against Airflow, Prefect and Temporal). Business teams build with AI, engineers control what ships. Open-source alternative to Lovable, Retool and n8n.
 - ## [[2023-09-25 Monday]]
 	- [[github.com/asciinema/asciinema-player]] - Web player for terminal session recordings and live streams
 	- [[github.com/bigcapitalhq/bigcapital]] - 💵 Independent financial accounting with intelligent reporting, alternative to Quickbooks, Xero, Wave.
