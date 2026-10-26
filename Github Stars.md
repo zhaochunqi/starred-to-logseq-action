@@ -2,8 +2,12 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 10/26/2026, 6:16:49 AM
+updateTime:: 10/27/2026, 7:34:30 AM
 
+- ## [[2026-10-26 Monday]]
+	- [[github.com/aliyun/alibaba-cloud-ops-mcp-server]] - AlibabaCloud CloudOps MCP Server
+	- [[github.com/Ikaleio/lm-detector]] - Model fingerprint detection with a shared Web and Bun CLI reference bank
+	- [[github.com/JetBrains/thinkrail]] - Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need
 - ## [[2026-10-24 Saturday]]
 	- [[github.com/anthropics/sandbox-runtime]] - A lightweight sandboxing tool for enforcing filesystem and network restrictions on arbitrary processes at the OS level, without requiring a container.
 - ## [[2026-10-23 Friday]]
@@ -892,8 +896,8 @@ updateTime:: 10/26/2026, 6:16:49 AM
 - ## [[2026-02-18 Wednesday]]
 	- [[github.com/blackboardsh/electrobun]] - Build ultra fast, tiny, and cross-platform desktop apps with TypeScript, Zig, Rust, Go, or Odin.
 	- [[github.com/lewish/asciiflow]] - ASCIIFlow
+	- [[github.com/ParadevAI/Paradev]] - Paradev (formerly Superset) is an agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription.
 	- [[github.com/simonw/rodney]] - CLI tool for interacting with the web
-	- [[github.com/superset-sh/superset]] - Superset is an agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription.
 - ## [[2026-02-17 Tuesday]]
 	- [[github.com/paopaoandlingyia/PrismCat]] - No Description Yet.
 - ## [[2026-02-15 Sunday]]
@@ -1605,7 +1609,7 @@ updateTime:: 10/26/2026, 6:16:49 AM
 	- [[github.com/haileyydev/maildrop]] - ✉️ A simple self hostable email service
 	- [[github.com/nickclyde/duckduckgo-mcp-server]] - A Model Context Protocol (MCP) server that provides web search capabilities through DuckDuckGo, with additional features for content fetching and parsing.
 - ## [[2025-09-16 Tuesday]]
-	- [[github.com/agno-agi/agno]] - The self-improving platform for agents
+	- [[github.com/agno-agi/agno]] - The self-improving agent platform
 	- [[github.com/ashishpatel26/500-AI-Agents-Projects]] - The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more.
 	- [[github.com/vicinaehq/vicinae]] - A focused launcher for your desktop - native, fast, extensible
 - ## [[2025-09-15 Monday]]
@@ -2212,7 +2216,7 @@ updateTime:: 10/26/2026, 6:16:49 AM
 - ## [[2025-02-20 Thursday]]
 	- [[github.com/daodao97/chatmcp]] - ChatMCP is an AI chat client implementing the Model Context Protocol (MCP).
 	- [[github.com/modelcontextprotocol/typescript-sdk]] - The official TypeScript SDK for Model Context Protocol servers and clients
-	- [[github.com/pocketbase/js-sdk]] - PocketBase JavaScript SDK
+	- [[github.com/pocketbase/js-sdk]] - PocketBase JavaScript SDK #Archived
 	- [[github.com/postcss/postcss]] - Transforming styles with JS plugins
 	- [[github.com/tailwindlabs/prettier-plugin-tailwindcss]] - A Prettier plugin for Tailwind CSS that automatically sorts classes based on our recommended class order.
 	- [[github.com/xiaoyifang/goldendict-ng]] - The Next Generation GoldenDict
@@ -4433,7 +4437,7 @@ updateTime:: 10/26/2026, 6:16:49 AM
 	- [[github.com/metalbear-co/mirrord]] - Run any process, on your machine or in an AI agent's environment, as if it were a pod in your Kubernetes cluster: real env vars, DNS, network, traffic.
 	- [[github.com/z-huang/InnerTune]] - A Material 3 YouTube Music client for Android
 - ## [[2023-08-29 Tuesday]]
-	- [[github.com/charmbracelet/soft-serve]] - The mighty, self-hostable Git server for the command line🍦
+	- [[github.com/charmbracelet/soft-serve]] - The mighty, self-hostable Git server for the command line🍦 #Archived
 	- [[github.com/pinojs/pino]] - 🌲 super fast, all natural json logger
 	- [[github.com/ReVanced/revanced-manager]] - 💊 Application to use ReVanced on Android
 	- [[github.com/withfig/autocomplete]] - IDE-style autocomplete for your existing terminal & shell
@@ -4623,7 +4627,7 @@ updateTime:: 10/26/2026, 6:16:49 AM
 	- [[github.com/pdm-project/pdm]] - A modern Python package and dependency manager supporting the latest PEP standards
 - ## [[2023-07-29 Saturday]]
 	- [[github.com/chathub-dev/chathub]] - No Description Yet.
-	- [[github.com/dubinc/dub]] - The modern link attribution platform. Loved by world-class marketing teams like Framer, Perplexity, Superhuman, Twilio, Buffer and more.
+	- [[github.com/dubinc/dub.link]] - The modern link attribution platform. Loved by world-class engineering teams at Twilio, Zillow, Jobber, Vercel, Raycast, and more.
 	- [[github.com/goldbergyoni/nodebestpractices]] - ✅ The Node.js best practices list (July 2026)
 	- [[github.com/krahets/hello-algo]] - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C＃, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现
 	- [[github.com/lucia-auth/lucia]] - Authentication, simple and clean
@@ -4839,7 +4843,7 @@ updateTime:: 10/26/2026, 6:16:49 AM
 - ## [[2022-07-19 Tuesday]]
 	- [[github.com/apache/devlake]] - Apache DevLake is an open-source dev data platform to ingest, analyze, and visualize the fragmented data from DevOps tools, extracting insights for engineering excellence, developer experience, and community growth.
 - ## [[2022-07-09 Saturday]]
-	- [[github.com/pocketbase/pocketbase]] - Open Source realtime backend in 1 file
+	- [[github.com/pocketbase/pocketbase]] - Open Source realtime backend in 1 file #Archived
 	- [[github.com/privacy-protection-tools/anti-AD]] - 致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。anti-AD 现已支持 AdGuardHome，dnsmasq，Surge，Pi-Hole，Clash, mihomo，smartdns，sing-box 等网络组件。完全兼容常见的广告过滤工具所支持的各种广告过滤列表格式
 - ## [[2022-07-08 Friday]]
 	- [[github.com/derailed/k9s]] - 🐶 Kubernetes CLI To Manage Your Clusters In Style!
