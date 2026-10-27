@@ -2,8 +2,11 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 10/27/2026, 7:34:30 AM
+updateTime:: 10/28/2026, 7:28:45 AM
 
+- ## [[2026-10-27 Tuesday]]
+	- [[github.com/logseq/og]] - Logseq og (file version)
+	- [[github.com/OmniNull/OmniWM]] - Free, open-source tiling window manager for Apple Silicon Macs, with Niri-style scrolling containers and Hyprland-style Dwindle BSP.
 - ## [[2026-10-26 Monday]]
 	- [[github.com/aliyun/alibaba-cloud-ops-mcp-server]] - AlibabaCloud CloudOps MCP Server
 	- [[github.com/Ikaleio/lm-detector]] - Model fingerprint detection with a shared Web and Bun CLI reference bank
