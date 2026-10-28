@@ -2,8 +2,10 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 10/28/2026, 7:28:45 AM
+updateTime:: 10/29/2026, 7:49:57 AM
 
+- ## [[2026-10-29 Thursday]]
+	- [[github.com/devswha/ovis]] - Ovis (formerly herdr web UI): free, open-source browser and phone client for herdr. Chat and live terminal for Claude Code, Codex and every agent pane, remote PCs over SSH, web push alerts
 - ## [[2026-10-27 Tuesday]]
 	- [[github.com/logseq/og]] - Logseq og (file version)
 	- [[github.com/OmniNull/OmniWM]] - Free, open-source tiling window manager for Apple Silicon Macs, with Niri-style scrolling containers and Hyprland-style Dwindle BSP.
@@ -365,7 +367,7 @@ updateTime:: 10/28/2026, 7:28:45 AM
 	- [[github.com/komako-workshop/digital-oracle]] - AI agent skill that answers macro questions — housing, gold, BTC, geopolitics — with probability estimates mined from 13 financial data sources (Polymarket, Kalshi, CFTC, SEC & more). For Claude Code / Cursor / Codex / OpenClaw. | 让 AI Agent 从金融数据中挖掘宏观趋势的数字先知
 - ## [[2026-07-11 Saturday]]
 	- [[github.com/nextlevelbuilder/ui-ux-pro-max-skill]] - An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.
-	- [[github.com/pbakaus/impeccable]] - The design language that makes your AI harness better at design.
+	- [[github.com/pbakaus/impeccable]] - The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.
 	- [[github.com/sozercan/kaset]] - 📼 The missing YouTube and YouTube Music macOS app
 - ## [[2026-07-10 Friday]]
 	- [[github.com/KunAgent/Kun]] - Local-first AI agent workspace for coding, writing, design, research, and automation — one runtime for desktop GUI and TUI.
@@ -545,8 +547,8 @@ updateTime:: 10/28/2026, 7:28:45 AM
 - ## [[2026-05-17 Sunday]]
 	- [[github.com/antirez/ds4]] - DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm
 	- [[github.com/CloakHQ/CloakBrowser]] - Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 50+ tests passed.
-	- [[github.com/facebook/lexical]] - Lexical is an extensible text editor framework that provides excellent reliability, accessibility and performance.
 	- [[github.com/Imbad0202/academic-research-skills]] - Academic Research Skills for Claude Code: research → write → review → revise → finalize
+	- [[github.com/meta/lexical]] - Lexical is an extensible text editor framework that provides excellent reliability, accessibility and performance.
 - ## [[2026-05-16 Saturday]]
 	- [[github.com/datawhalechina/hello-agents]] - 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程
 	- [[github.com/nextapps-de/flexsearch]] - Next-generation full-text search library for Browser and Node.js
@@ -633,7 +635,7 @@ updateTime:: 10/28/2026, 7:28:45 AM
 	- [[github.com/awebai/aweb]] - Communication for AI agents: stable identity, durable mail and chat, and wake-up events across sessions, runtimes, machines, and organizations. MIT, self-hostable.
 	- [[github.com/davidcforbes/Beads-Kanban]] - A VSCode extension built on top of steveyegge/Beads that provides a KanBan, Tableview, and record-level add/edit screens
 	- [[github.com/refactoringhq/tolaria]] - Desktop app to manage markdown knowledge bases
-	- [[github.com/REMvisual/claude-handoff]] - Claude Code session handoffs — now a Claude Code mod: /compact-handoff swaps the conversation for a validated handoff and keeps going. Skills + chain-linked sessions.
+	- [[github.com/REMvisual/claude-handoff]] - Session handoffs for Claude Code: skills that capture decisions, failed approaches and next steps, plus a Claude Code mod (/compact-handoff) that replaces the conversation with a validated handoff and keeps going. A better /compact.
 	- [[github.com/roberto-mello/lavra]] - A plugin with compound engineering workflows and memory for AI coding agents
 - ## [[2026-04-22 Wednesday]]
 	- [[github.com/dagster-io/dagster]] - An orchestration platform for the development, production, and observation of data assets.
@@ -771,7 +773,7 @@ updateTime:: 10/28/2026, 7:28:45 AM
 - ## [[2026-03-22 Sunday]]
 	- [[github.com/clawwork-ai/ClawWork]] - Client for OpenClaw — Connect ClawWork to your own OpenClaw and unlock 10x multi-session productivity.
 	- [[github.com/garrytan/gstack]] - Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA
-	- [[github.com/mergisi/awesome-openclaw-agents]] - 162 production-ready AI agent templates for OpenClaw. SOUL.md configs across 19 categories. Submit yours!
+	- [[github.com/mergisi/awesome-openclaw-agents]] - 196 production-ready AI agent templates for OpenClaw. SOUL.md configs across 24 categories. Submit yours!
 - ## [[2026-03-20 Friday]]
 	- [[github.com/0xJacky/nginx-ui]] - Yet another WebUI for Nginx
 	- [[github.com/AmintaCCCP/GithubStarsManager]] - AI-powered GitHub stars manager with semantic search, auto-categorization, and release tracking
@@ -1369,7 +1371,7 @@ updateTime:: 10/28/2026, 7:28:45 AM
 - ## [[2025-11-20 Thursday]]
 	- [[github.com/cjpais/Handy]] - A free, open source, and extensible speech-to-text application that works completely offline.
 	- [[github.com/emmabostian/developer-portfolios]] - A list of developer portfolios for your inspiration
-	- [[github.com/spacelift-io/spacelift-intent]] - Intent lets you provision and manage cloud infrastructure using natural language
+	- [[github.com/spacelift-io/spacelift-intent]] - Intent lets you provision and manage cloud infrastructure using natural language #Archived
 - ## [[2025-11-19 Wednesday]]
 	- [[github.com/liriliri/eruda]] - Console for mobile browsers
 	- [[github.com/plankanban/planka]] - Elegant open source project tracking. Self-hosted Kanban for teams — free Community edition, with PLANKA Pro for organisations.
@@ -1464,12 +1466,12 @@ updateTime:: 10/28/2026, 7:28:45 AM
 - ## [[2025-10-20 Monday]]
 	- [[github.com/docusealco/docuseal]] - Open source DocuSign alternative. Create, fill, and sign digital documents ✍️
 	- [[github.com/hunvreus/devpush]] - Like Vercel, but open source and for all languages.
-	- [[github.com/modelcontextprotocol/inspector]] - Visual testing tool for MCP servers
+	- [[github.com/modelcontextprotocol/inspector]] - Deterministic testing tools for MCP servers
 	- [[github.com/PanHywel/TidyMark]] - TidyMark — Chrome/Edge 书签管理扩展 备份书签、一键整理分类，支持 AI 辅助优化；扫描失效书签，自动归档不常用书签，并提供新标签页导航和访问热度统计。& TidyMark — Chrome/Edge Bookmark Manager Backup and organize bookmarks with one-click auto categorization and optional AI assistance. Detect broken bookmarks, auto-archive infrequently used ones, and enjoy New Tab navigation with access stats.
 	- [[github.com/QwenLM/Qwen3-Embedding]] - No Description Yet.
 - ## [[2025-10-19 Sunday]]
 	- [[github.com/Docile-Alligator/Infinity-For-Reddit]] - A Reddit client for Android
-	- [[github.com/QuantumNous/new-api]] - A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.
+	- [[github.com/QuantumNous/new-api]] - Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.
 	- [[github.com/Sylinko/Everywhere]] - On-screen aware AI assistant for your desktop. Uses current app context, multiple LLMs, and MCP tools to help you act across apps.
 - ## [[2025-10-18 Saturday]]
 	- [[github.com/imputnet/helium]] - Private, fast, and honest web browser
@@ -2358,7 +2360,7 @@ updateTime:: 10/28/2026, 7:28:45 AM
 	- [[github.com/amir20/dozzle]] - Realtime log viewer for containers.  Supports Docker, Swarm and K8s.
 	- [[github.com/logancyang/obsidian-copilot]] - Run agents in Obsidian - OpenCode, Codex, Claude Code etc.
 	- [[github.com/mem0ai/mem0]] - The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.
-	- [[github.com/mumu-lhl/Ciyue]] - A mdict dictionary app with Android/Windows/Linux/macOS support
+	- [[github.com/mumu-lhl/Ciyue]] - An MDict/StarDict dictionary app with Android/Windows/Linux/macOS support
 	- [[github.com/Qetesh/miniflux-ai]] - Miniflux with AI. Add AI summaries, translations, and AI news based on RSS content
 	- [[github.com/SkipLabs/skip]] - Skip is a framework for building reactive services
 	- [[github.com/yonaskolb/Mint]] - A package manager that installs and runs executable Swift packages
@@ -3781,8 +3783,8 @@ updateTime:: 10/28/2026, 7:28:45 AM
 - ## [[2023-12-18 Monday]]
 	- [[github.com/air-verse/air]] - ☁️ Live reload for Go apps
 	- [[github.com/apecloud/kubeblocks]] - KubeBlocks is a Kubernetes Operator designed to manage a variety of databases and streaming systems, including MySQL, PostgreSQL, MongoDB, Redis, RabbitMQ, RocketMQ, and more, within Kubernetes environments.
-	- [[github.com/facebook/stylex]] - StyleX is the styling system for ambitious user interfaces.
 	- [[github.com/jenv/jenv]] - Manage your Java environment
+	- [[github.com/meta/stylex]] - StyleX is the styling system for ambitious user interfaces.
 	- [[github.com/missing-semester-cn/missing-semester-cn.github.io]] - the CS missing semester Chinese version
 	- [[github.com/mli/paper-reading]] - 深度学习经典、新论文逐段精读
 - ## [[2023-12-17 Sunday]]
@@ -4065,10 +4067,10 @@ updateTime:: 10/28/2026, 7:28:45 AM
 	- [[github.com/apache/answer]] - A Q&A platform software for teams at any scales. Whether it's a community forum, help center, or knowledge management platform, you can always count on Apache Answer.
 	- [[github.com/dundee/gdu]] - Fast disk usage analyzer with console interface written in Go
 	- [[github.com/eza-community/eza]] - A modern alternative to ls
-	- [[github.com/facebook/sapling]] - A Scalable, User-Friendly Source Control System.
 	- [[github.com/folke/edgy.nvim]] - Easily create and manage predefined window layouts, bringing a new edge to your workflow
 	- [[github.com/goauthentik/authentik]] - The authentication glue you need.
 	- [[github.com/lewis6991/gitsigns.nvim]] - Git integration for buffers
+	- [[github.com/meta/sapling]] - A Scalable, User-Friendly Source Control System.
 	- [[github.com/vbackend/visual-backend]] - Source code for Visual Backend desktop app, implemented using Electron & React
 - ## [[2023-10-29 Sunday]]
 	- [[github.com/AndrewGuenther/fck-nat]] - Feasible cost konfigurable NAT: An AWS NAT Instance AMI
@@ -4241,8 +4243,8 @@ updateTime:: 10/28/2026, 7:28:45 AM
 - ## [[2023-10-04 Wednesday]]
 	- [[github.com/bakito/adguardhome-sync]] - 🛡️ Synchronize AdGuard Home config to replicas
 	- [[github.com/documenso/documenso]] - The Open Source DocuSign Alternative.
-	- [[github.com/facebook/docusaurus]] - Easy to maintain open source documentation websites.
 	- [[github.com/foambubble/foam]] - A personal knowledge management and sharing system for VSCode
+	- [[github.com/meta/docusaurus]] - Easy to maintain open source documentation websites.
 	- [[github.com/mvdan/sh]] - A shell parser, formatter, and interpreter with bash and zsh support; includes shfmt
 	- [[github.com/namjaejeon/ksmbd]] - ksmbd kernel server(SMB/CIFS server)
 	- [[github.com/paperless-ngx/paperless-ngx]] - A community-supported supercharged document management system: scan, index and archive all your documents
@@ -4402,7 +4404,6 @@ updateTime:: 10/28/2026, 7:28:45 AM
 	- [[github.com/codelibs/fess]] - Open-source, self-hosted enterprise & site search server built on OpenSearch. Crawls web / file / DB / cloud sources, 20+ languages, REST API, and AI/RAG & semantic search. Apache-2.0.
 	- [[github.com/dgtlmoon/changedetection.io]] - Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!
 	- [[github.com/EINDEX/logseq-copilot]] - Logseq Copilot is a Browser extension that allows you to access your Logseq via your browser.
-	- [[github.com/facebook/watchman]] - Watches files and records, or triggers actions, when they change.
 	- [[github.com/gradio-app/gradio]] - Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work!
 	- [[github.com/graphql-java/graphql-java]] - GraphQL Java implementation
 	- [[github.com/hledgerorg/hledger]] - Robust, fast, intuitive plain text accounting tool with CLI, TUI and web interfaces.
@@ -4410,6 +4411,7 @@ updateTime:: 10/28/2026, 7:28:45 AM
 	- [[github.com/labring/FastGPT]] - FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.
 	- [[github.com/lotusdblabs/lotusdb]] - Most advanced key-value database written in Go, extremely fast, compatible with LSM tree and B+ tree.
 	- [[github.com/M2Team/NanaZip]] - The 7-Zip derivative intended for the modern Windows experience
+	- [[github.com/meta/watchman]] - Watches files and records, or triggers actions, when they change.
 	- [[github.com/microsoft/JARVIS]] - JARVIS, a system to connect LLMs with ML community. Paper: https://arxiv.org/pdf/2303.17580.pdf
 	- [[github.com/mrlt8/docker-wyze-bridge]] - WebRTC/RTSP/RTMP/LL-HLS bridge for Wyze cams in a docker container
 	- [[github.com/neulab/prompt2model]] - prompt2model - Generate Deployable Models from Natural Language Instructions
@@ -4581,7 +4583,7 @@ updateTime:: 10/28/2026, 7:28:45 AM
 	- [[github.com/xorbitsai/inference]] - Swap GPT for any LLM by changing a single line of code. Xinference lets you run open-source, speech, and multimodal models on cloud, on-prem, or your laptop — all through one unified, production-ready inference API.
 - ## [[2023-08-07 Monday]]
 	- [[github.com/advplyr/audiobookshelf]] - Self-hosted audiobook and podcast server
-	- [[github.com/facebook/zstd]] - Zstandard - Fast real-time compression algorithm
+	- [[github.com/meta/zstd]] - Zstandard - Fast real-time compression algorithm
 - ## [[2023-08-06 Sunday]]
 	- [[github.com/aws/karpenter-provider-aws]] - Karpenter is a Kubernetes Node Autoscaler built for flexibility, performance, and simplicity.
 	- [[github.com/caddyserver/caddy]] - Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
@@ -5867,12 +5869,12 @@ updateTime:: 10/28/2026, 7:28:45 AM
 	- [[github.com/adieuadieu/serverless-chrome]] - 🌐 Run headless Chrome/Chromium on AWS Lambda
 	- [[github.com/ageitgey/face_recognition]] - The world's simplest facial recognition api for Python and the command line
 	- [[github.com/dokku/dokku]] - A docker-powered PaaS that helps you build and manage the lifecycle of applications
-	- [[github.com/facebook/litho]] - A declarative framework for building efficient UIs on Android.
 	- [[github.com/jwasham/coding-interview-university]] - A complete computer science study plan to become a software engineer.
 	- [[github.com/k4m4/movies-for-hackers]] - 🎬 A curated list of movies every hacker & cyberpunk must watch.
 	- [[github.com/keon/algorithms]] - Minimal examples of data structures and algorithms in Python
 	- [[github.com/lysine-dev/okhttp]] - A meticulous HTTP client for the JVM, Android, and GraalVM.
 	- [[github.com/lysine-dev/retrofit]] - A type-safe HTTP client for Android and the JVM
+	- [[github.com/meta/litho]] - A declarative framework for building efficient UIs on Android.
 	- [[github.com/nginxinc/NGINX-Demos]] - NGINX and NGINX Plus demos
 	- [[github.com/prettier/prettier]] - Prettier is an opinionated code formatter.
 	- [[github.com/rancher/rancher]] - Complete container management platform
@@ -5984,7 +5986,7 @@ updateTime:: 10/28/2026, 7:28:45 AM
 - ## [[2016-10-09 Sunday]]
 	- [[github.com/promeG/TinyPinyin]] - 适用于Java和Android的快速、低内存占用的汉字转拼音库。
 - ## [[2016-10-06 Thursday]]
-	- [[github.com/facebook/fresco]] - An Android library for managing images and the memory they use.
+	- [[github.com/meta/fresco]] - An Android library for managing images and the memory they use.
 - ## [[2016-09-22 Thursday]]
 	- [[github.com/airyland/vux]] - Mobile UI Components based on Vue & WeUI
 - ## [[2016-09-20 Tuesday]]
