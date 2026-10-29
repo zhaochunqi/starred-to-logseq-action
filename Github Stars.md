@@ -2,10 +2,13 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 10/29/2026, 7:49:57 AM
+updateTime:: 10/30/2026, 7:49:11 AM
 
 - ## [[2026-10-29 Thursday]]
+	- [[github.com/alvinunreal/oh-my-opencode-slim]] - Lean, fine tuned Opencode multi agent suite · Mix any models · Auto delegate tasks
 	- [[github.com/devswha/ovis]] - Ovis (formerly herdr web UI): free, open-source browser and phone client for herdr. Chat and live terminal for Claude Code, Codex and every agent pane, remote PCs over SSH, web push alerts
+	- [[github.com/larashero3-dotcom/lieflat-less-ai-tone]] - 一个基于 520 万字语料统计的去 AI 味 skill · An AI-tone removal skill grounded in a 5.2-million-character corpus study
+	- [[github.com/R0b0To/VaultExplorer]] - Flutter Android app for accessing VeraCrypt, BitLocker, LUKS, Cryptomator, gocryptfs, and CryFS encrypted containers.
 - ## [[2026-10-27 Tuesday]]
 	- [[github.com/logseq/og]] - Logseq og (file version)
 	- [[github.com/OmniNull/OmniWM]] - Free, open-source tiling window manager for Apple Silicon Macs, with Niri-style scrolling containers and Hyprland-style Dwindle BSP.
@@ -1614,7 +1617,7 @@ updateTime:: 10/29/2026, 7:49:57 AM
 	- [[github.com/haileyydev/maildrop]] - ✉️ A simple self hostable email service
 	- [[github.com/nickclyde/duckduckgo-mcp-server]] - A Model Context Protocol (MCP) server that provides web search capabilities through DuckDuckGo, with additional features for content fetching and parsing.
 - ## [[2025-09-16 Tuesday]]
-	- [[github.com/agno-agi/agno]] - The self-improving agent platform
+	- [[github.com/agno-agi/agno]] - The self-driving agent platform
 	- [[github.com/ashishpatel26/500-AI-Agents-Projects]] - The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more.
 	- [[github.com/vicinaehq/vicinae]] - A focused launcher for your desktop - native, fast, extensible
 - ## [[2025-09-15 Monday]]
@@ -2232,8 +2235,10 @@ updateTime:: 10/29/2026, 7:49:57 AM
 - ## [[2025-02-18 Tuesday]]
 	- [[github.com/ChatGPTNextWeb/NextChat]] - ✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more. Available on Web, iOS, macOS, Android, Linux, Windows.
 	- [[github.com/GoogleChrome/chrome-types]] - Code to parse Chrome's internal extension type definitions—published on NPM as chrome-types
+- ## [[2025-02-17 Monday]]
+	- [[github.com/zhaochunqi/markdown-to-outline]] - Converts Markdown content to an outline format.
 - ## [[2025-02-16 Sunday]]
-	- [[github.com/CherryHQ/cherry-studio]] - AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
+	- [[github.com/CherryHQ/cherry-studio]] - Your AI workspace for models, agents, and productivity.
 	- [[github.com/v2fly/v2ray-core]] - A platform for building proxies to bypass network restrictions.
 - ## [[2025-02-14 Friday]]
 	- [[github.com/atlassian/pragmatic-drag-and-drop]] - Fast drag and drop for any experience on any tech stack
@@ -4861,7 +4866,7 @@ updateTime:: 10/29/2026, 7:49:57 AM
 - ## [[2022-06-24 Friday]]
 	- [[github.com/omnivore-app/logseq-omnivore]] - Logseq plugin to fetch articles and highlights from Omnivore
 - ## [[2022-06-16 Thursday]]
-	- [[github.com/beekeeper-studio/beekeeper-studio]] - Modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.
+	- [[github.com/beekeeper-studio/beekeeper-studio]] - Modern and easy to use database GUI & SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.
 - ## [[2022-06-15 Wednesday]]
 	- [[github.com/blackmatrix7/ios_rule_script]] - 分流规则、重写写规则及脚本。
 - ## [[2022-06-13 Monday]]
@@ -5604,7 +5609,7 @@ updateTime:: 10/29/2026, 7:49:57 AM
 - ## [[2018-09-18 Tuesday]]
 	- [[github.com/semlinker/awesome-typescript]] - A collection of awesome TypeScript resources for client-side and server-side development
 - ## [[2018-09-13 Thursday]]
-	- [[github.com/byoungd/up]] - 韩先凯的人生进阶指南 AI时代 中英双语终身学习指南：英语学习、AI 协作、真实项目与成长证据。
+	- [[github.com/byoungd/up]] - 韩先凯的人生进阶指南 AI时代 中英双语终身学习指南：AI、学习 、创业、财富、爱情与人生
 	- [[github.com/sharkdp/bat]] - A cat(1) clone with wings.
 - ## [[2018-09-12 Wednesday]]
 	- [[github.com/firebase/firebase-android-sdk]] - Firebase Android SDK
