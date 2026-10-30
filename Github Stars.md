@@ -2,8 +2,11 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 10/30/2026, 7:49:11 AM
+updateTime:: 10/31/2026, 7:29:10 AM
 
+- ## [[2026-10-30 Friday]]
+	- [[github.com/YuJunZhiXue/dsh-purge]] - DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分
+	- [[github.com/zeabur-oss/zeabur]] - Self-hosted PaaS on your own Kubernetes.
 - ## [[2026-10-29 Thursday]]
 	- [[github.com/alvinunreal/oh-my-opencode-slim]] - Lean, fine tuned Opencode multi agent suite · Mix any models · Auto delegate tasks
 	- [[github.com/devswha/ovis]] - Ovis (formerly herdr web UI): free, open-source browser and phone client for herdr. Chat and live terminal for Claude Code, Codex and every agent pane, remote PCs over SSH, web push alerts
@@ -360,7 +363,7 @@ updateTime:: 10/30/2026, 7:49:11 AM
 	- [[github.com/AkimioJR/AutoFilm]] - 一个为Emby、Jellyfin提供生成strm、动漫追番、绘制媒体库海报的小工具
 	- [[github.com/atuinsh/atuin-ai-server]] - Self-hosted server for Atuin AI, backed by any OpenAI-compatible endpoint
 	- [[github.com/flythenimbus/bramble]] - Local-first password manager with direct device-to-device sync
-	- [[github.com/leandrocp/lumis]] - Syntax Highlighter powered by Tree-sitter and Neovim themes.
+	- [[github.com/leandrocp/lumis]] - One highlighter, 7 runtimes. Powered by Tree-sitter and Neovim themes.
 	- [[github.com/mactools-app/MacTools]] - A free and open-source collection of native macOS menu bar tools.
 	- [[github.com/maimemo/SSP-MMC]] - A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling
 	- [[github.com/ReScienceLab/opc-skills]] - Agent Skills for Solopreneurs
@@ -598,9 +601,9 @@ updateTime:: 10/30/2026, 7:49:11 AM
 	- [[github.com/ResearAI/DeepScientist]] - Now, Stronger AI Pushes Frontiers, Stronger Our Shared Future.
 	- [[github.com/SakanaAI/AI-Scientist-v2]] - The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search
 - ## [[2026-05-02 Saturday]]
-	- [[github.com/lahfir/agent-desktop]] - Agent Desktop gives any agent reliable computer use on the desktop. Built with Rust, it sees any app's real UI structure through OS accessibility trees and operates it — refs stay stable and actions stay safe to retry, instead of guessing from pixels.
 	- [[github.com/rancher/k3k]] - Kubernetes in Kubernetes
 	- [[github.com/teee32/repo-saga]] - Render the civilization history of any git repository — Markdown, SVG, JSON. English + 中文 i18n.
+	- [[github.com/vercel-labs/agent-desktop]] - Agent Desktop gives any agent reliable computer use on the desktop. Built with Rust, it sees any app's real UI structure through OS accessibility trees and operates it — refs stay stable and actions stay safe to retry, instead of guessing from pixels.
 - ## [[2026-05-01 Friday]]
 	- [[github.com/ag-grid/ag-grid]] - The best JavaScript Data Table for building Enterprise Applications. Supports React / Angular / Vue / Plain JavaScript.
 	- [[github.com/gorkys/youshu]] - 🗂一个由AI开发的家庭物品管理的安卓App
@@ -694,10 +697,10 @@ updateTime:: 10/30/2026, 7:49:11 AM
 	- [[github.com/multica-ai/multica]] - Make humans and AI agents work as one team — open-source and self-hostable.
 	- [[github.com/thaw-app/Thaw]] - The open source menu bar manager
 - ## [[2026-04-08 Wednesday]]
-	- [[github.com/career-ops-hq/career-ops]] - Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more).
+	- [[github.com/career-ops-hq/career-ops]] - Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.
 	- [[github.com/helixnow/deep-student]] - An open-source, local-first AI learning workbench
 	- [[github.com/HKUDS/DeepTutor]] - DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.
-	- [[github.com/HKUDS/nanobot]] - Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps
+	- [[github.com/HKUDS/nanobot]] - Your lightweight open-source personal agent.
 	- [[github.com/KKKKhazix/khazix-skills]] - 数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer & more — Claude Code, Codex & 40+ agents
 	- [[github.com/lfnovo/open-notebook]] - An Open Source implementation of Notebook LM with more flexibility and features
 	- [[github.com/NousResearch/hermes-agent]] - The agent that grows with you
@@ -1204,7 +1207,7 @@ updateTime:: 10/30/2026, 7:49:11 AM
 	- [[github.com/theoreticallyjosh/logseq-plugin-harper]] - Add Harper functionality to Logseq!
 	- [[github.com/xiaobaigroup/ClashBox]] - HarmonyOS NEXT的代理软件
 - ## [[2025-12-28 Sunday]]
-	- [[github.com/ajnart/dcm]] - DockerComposeMaker (DCM) is a self-hostable website to help you pick and create a docker-compose.yml file for your home server. Discover new containers, discover and share a config in a couple of clicks!
+	- [[github.com/ajnart/self-host]] - Replace the SaaS you pay for. One binary installs and runs self-hosted apps at home, no Docker knowledge needed. Terminal dashboard for you, plain commands for your agent.
 	- [[github.com/alam00000/bentopdf]] - The Privacy First PDF Toolkit
 	- [[github.com/certimate-go/certimate]] - An open-source and free self-hosted SSL certificates ACME tool, automates the full-cycle of issuance, deployment, renewal, and monitoring visually. 完全开源免费的自托管 SSL 证书 ACME 工具，申请、部署、续期、监控全流程自动化可视化，支持各大主流云厂商。
 	- [[github.com/clemcer/LoggiFly]] - Get Alerts from your Docker Container Logs
@@ -1559,7 +1562,7 @@ updateTime:: 10/30/2026, 7:49:11 AM
 - ## [[2025-09-28 Sunday]]
 	- [[github.com/ChromeDevTools/chrome-devtools-mcp]] - Chrome DevTools for coding agents
 	- [[github.com/exa-labs/exa-mcp-server]] - Exa MCP for web search and web crawling!
-	- [[github.com/farion1231/cc-switch]] - A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io
+	- [[github.com/farion1231/cc-switch]] - A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io
 	- [[github.com/game1024/OpenSpeedy]] - 🎮 An open-source game speed modifier.
 	- [[github.com/linshenkx/prompt-optimizer]] - An AI prompt optimizer for writing better prompts and getting better AI results.
 	- [[github.com/lmorg/murex]] - A smarter shell and scripting environment with advanced features designed for usability, safety and productivity (eg smarter DevOps tooling)
@@ -1703,7 +1706,7 @@ updateTime:: 10/30/2026, 7:49:11 AM
 - ## [[2025-08-25 Monday]]
 	- [[github.com/biomejs/pre-commit]] - Biome's pre-commit hooks.
 	- [[github.com/langchain-ai/langgraphjs]] - Framework to build resilient language agents as graphs.
-	- [[github.com/langchain-ai/open-swe]] - An Open-Source Asynchronous Coding Agent
+	- [[github.com/langchain-ai/open-swe]] - LangChain's software factory
 	- [[github.com/siteboon/claudecodeui]] - Use Claude Code, OpenCode, Cursor CLI, and Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Code session and projects remotely.
 - ## [[2025-08-24 Sunday]]
 	- [[github.com/bluesky-social/pds]] - Bluesky PDS (Personal Data Server) container image, compose file, and documentation
