@@ -2,8 +2,12 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 10/31/2026, 7:29:10 AM
+updateTime:: 11/1/2026, 7:02:04 AM
 
+- ## [[2026-10-31 Saturday]]
+	- [[github.com/chris124567/cfsolve]] - Cloudflare turnstile and challenge page solver in Rust (full reverse, request based)
+	- [[github.com/ospfranco/sol]] - MacOS launcher & command palette
+	- [[github.com/vercel-labs/agent-desktop]] - Agent Desktop gives any agent reliable computer use on the desktop. Built with Rust, it sees any app's real UI structure through OS accessibility trees and operates it — refs stay stable and actions stay safe to retry, instead of guessing from pixels.
 - ## [[2026-10-30 Friday]]
 	- [[github.com/YuJunZhiXue/dsh-purge]] - DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分
 	- [[github.com/zeabur-oss/zeabur]] - Self-hosted PaaS on your own Kubernetes.
@@ -506,7 +510,7 @@ updateTime:: 10/31/2026, 7:29:10 AM
 - ## [[2026-06-02 Tuesday]]
 	- [[github.com/platform-engineering-labs/formae]] - Open-source Infrastructure As Code that starts from what already runs. formae discovers your estate, versions drift and hands back current code. A Terraform and Pulumi alternative built on Pkl, with an MCP server for AI agents.
 	- [[github.com/TokenRhythm/opensquilla]] - OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density
-	- [[github.com/YishenTu/claudian]] - An Obsidian plugin that embeds Claude Code/Codex as an AI collaborator in your vault
+	- [[github.com/YishenTu/claudian]] - An Obsidian plugin that embeds Claude Code, Codex and other agents as an AI collaborator in your vault.
 - ## [[2026-06-01 Monday]]
 	- [[github.com/tanrikuluozlem/burn]] - See what's burning your Kubernetes budget
 - ## [[2026-05-31 Sunday]]
@@ -603,7 +607,6 @@ updateTime:: 10/31/2026, 7:29:10 AM
 - ## [[2026-05-02 Saturday]]
 	- [[github.com/rancher/k3k]] - Kubernetes in Kubernetes
 	- [[github.com/teee32/repo-saga]] - Render the civilization history of any git repository — Markdown, SVG, JSON. English + 中文 i18n.
-	- [[github.com/vercel-labs/agent-desktop]] - Agent Desktop gives any agent reliable computer use on the desktop. Built with Rust, it sees any app's real UI structure through OS accessibility trees and operates it — refs stay stable and actions stay safe to retry, instead of guessing from pixels.
 - ## [[2026-05-01 Friday]]
 	- [[github.com/ag-grid/ag-grid]] - The best JavaScript Data Table for building Enterprise Applications. Supports React / Angular / Vue / Plain JavaScript.
 	- [[github.com/gorkys/youshu]] - 🗂一个由AI开发的家庭物品管理的安卓App
@@ -1000,7 +1003,7 @@ updateTime:: 10/31/2026, 7:29:10 AM
 - ## [[2026-01-31 Saturday]]
 	- [[github.com/google/langextract]] - A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.
 	- [[github.com/lukilabs/beautiful-mermaid]] - No Description Yet.
-	- [[github.com/nexmoe/VidBee]] - Download video and audio from  YouTube ,  TikTok ,  Twitter ,  Instagram ,  Facebook ,  Twitch ,  Bilibili , and 1000+ sites—or import local media. Create searchable transcripts on your computer, then summarize, translate, or ask questions with your preferred AI provider.
+	- [[github.com/nexmoe/VidBee]] - Download video and audio from 1000+ sites, transcribe locally with speaker labels, and summarize, translate, or chat with your media using your preferred AI provider.
 - ## [[2026-01-30 Friday]]
 	- [[github.com/allenai/sera-cli]] - A tool to use the Ai2 Open Coding Agents Soft-Verified Efficient Repository Agents (SERA) model with Claude Code
 	- [[github.com/lbjlaq/Antigravity-Manager]] - Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。
@@ -2002,7 +2005,7 @@ updateTime:: 10/31/2026, 7:29:10 AM
 - ## [[2025-04-30 Wednesday]]
 	- [[github.com/krillinai/OpenCreator]] - Formerly KrillinAI, VideoTranslation and Dubbing Tool. Open-source AI workspace for creators, powered by Codex. Video downloading, video translation, create videos, images, voice, avatars, and edits with Agents in one place. Suitable for your Social Media like YouTube, TikTok, Instagram, etc.
 - ## [[2025-04-29 Tuesday]]
-	- [[github.com/robertpiosik/CodeWebChat]] - Blazing fast AI coding
+	- [[github.com/robertpiosik/CodeWebChat]] - Markdown prompts for chatbots, APIs, and CLIs with seamless integration
 	- [[github.com/taskforcesh/bullmq]] - BullMQ - Message Queue and Batch processing for NodeJS, Python, .NET, Elixir, Rust and PHP based on Redis or PostgreSQL
 	- [[github.com/upstash/context7]] - Context7 Platform -- Up-to-date docs for AI agents
 - ## [[2025-04-28 Monday]]
@@ -2104,7 +2107,7 @@ updateTime:: 10/31/2026, 7:29:10 AM
 	- [[github.com/erikbern/git-of-theseus]] - Analyze how a Git repo grows over time
 - ## [[2025-04-01 Tuesday]]
 	- [[github.com/Demizo/Daily_You]] - Private diary & mood journal
-	- [[github.com/kubeflow/katib]] - Automated Machine Learning on Kubernetes
+	- [[github.com/kubeflow/katib]] - WARNING: Katib project is deprecated, users should migrate to OptimizationJob
 - ## [[2025-03-31 Monday]]
 	- [[github.com/algerkong/AlgerMusicPlayer]] - 一个第三方音乐播放器、本地服务、桌面歌词、音乐下载、远程控制
 	- [[github.com/arthelokyo/astrowind]] - ⭕️ AstroWind: A free template using Astro v7 and Tailwind CSS v4. Astro starter theme.
@@ -4000,7 +4003,7 @@ updateTime:: 10/31/2026, 7:29:10 AM
 - ## [[2023-11-12 Sunday]]
 	- [[github.com/daybrush/moveable]] - Moveable! Draggable! Resizable! Scalable! Rotatable! Warpable! Pinchable! Groupable! Snappable!
 	- [[github.com/ekzhang/sshx]] - Fast, collaborative live terminal sharing over the web
-	- [[github.com/GitoxideLabs/gitoxide]] - An idiomatic, lean, fast & safe pure Rust implementation of Git
+	- [[github.com/GitoxideLabs/gitoxide]] - A tasteful, lean, fast & safe pure Rust implementation of Git
 	- [[github.com/LemmyNet/lemmy]] - 🐀 A decentralised discussion platform for communities.
 	- [[github.com/me-shaon/GLWTPL]] - "Good Luck With That" Public License
 	- [[github.com/mozilla/uniffi-rs]] - a multi-language bindings generator for rust
