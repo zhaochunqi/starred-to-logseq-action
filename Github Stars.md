@@ -2,8 +2,11 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/1/2026, 7:02:04 AM
+updateTime:: 11/2/2026, 7:20:21 AM
 
+- ## [[2026-11-01 Sunday]]
+	- [[github.com/awslabs/cli-agent-orchestrator]] - Multi-agent orchestration for AI coding CLIs — Claude Code, Kiro, Codex, and more, coordinated in isolated tmux sessions
+	- [[github.com/Droid-Deck/DroidDeck]] - DroidDeck brings the SteamOS experience to Android
 - ## [[2026-10-31 Saturday]]
 	- [[github.com/chris124567/cfsolve]] - Cloudflare turnstile and challenge page solver in Rust (full reverse, request based)
 	- [[github.com/ospfranco/sol]] - MacOS launcher & command palette
@@ -943,7 +946,7 @@ updateTime:: 11/1/2026, 7:02:04 AM
 	- [[github.com/bmax121/KernelPatch]] - Patching and hooking the Linux kernel with only a stripped Linux kernel image.
 	- [[github.com/earendil-works/pi]] - AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI
 	- [[github.com/OnePlusOSS/kernel_manifest]] - No Description Yet.
-	- [[github.com/ShirkNeko/Action_OnePlus_MKSU_SUSFS]] - 使用Github Action自动编译一加SukiSU内核
+	- [[github.com/ShirkNeko/Action_OnePlus_MKSU_SUSFS]] - 使用Github Action自动编译一加SukiSU内核 #Archived
 	- [[github.com/simonw/shot-scraper]] - A CLI utility for taking screenshots of websites, recording video demos and scraping sites using JavaScript
 	- [[github.com/SukiSU-Ultra/SukiSU-Ultra]] - Kernel-based Android Root Solution & KPM
 	- [[github.com/WildKernels/OnePlus_KernelSU_SUSFS]] - OnePlus Kernels with KernelSU & SUSFS
@@ -2003,7 +2006,7 @@ updateTime:: 11/1/2026, 7:02:04 AM
 	- [[github.com/NixOS/rfcs]] - The Nix community RFCs
 	- [[github.com/Tencent-TDS/KuiklyUI]] - A Kotlin Multiplatform UI framework from Tencent TDS — high-performance, one codebase for six platforms, with dynamic delivery.
 - ## [[2025-04-30 Wednesday]]
-	- [[github.com/krillinai/OpenCreator]] - Formerly KrillinAI, VideoTranslation and Dubbing Tool. Open-source AI workspace for creators, powered by Codex. Video downloading, video translation, create videos, images, voice, avatars, and edits with Agents in one place. Suitable for your Social Media like YouTube, TikTok, Instagram, etc.
+	- [[github.com/krillinai/OpenCreator]] - Formerly KrillinAI, VideoTranslation and Dubbing Tool for 120+ Languages. Open-source AI workspace for creators, powered by Codex. Video downloader, video translation, create videos, images, audios, and edits with Agents in one place. For your Social Media like YouTube, TikTok, Instagram, etc.
 - ## [[2025-04-29 Tuesday]]
 	- [[github.com/robertpiosik/CodeWebChat]] - Markdown prompts for chatbots, APIs, and CLIs with seamless integration
 	- [[github.com/taskforcesh/bullmq]] - BullMQ - Message Queue and Batch processing for NodeJS, Python, .NET, Elixir, Rust and PHP based on Redis or PostgreSQL
@@ -2107,7 +2110,7 @@ updateTime:: 11/1/2026, 7:02:04 AM
 	- [[github.com/erikbern/git-of-theseus]] - Analyze how a Git repo grows over time
 - ## [[2025-04-01 Tuesday]]
 	- [[github.com/Demizo/Daily_You]] - Private diary & mood journal
-	- [[github.com/kubeflow/katib]] - WARNING: Katib project is deprecated, users should migrate to OptimizationJob
+	- [[github.com/kubeflow/katib]] - WARNING: Katib project is DEPRECATED, users should migrate to OptimizationJob and Kubeflow Trainer
 - ## [[2025-03-31 Monday]]
 	- [[github.com/algerkong/AlgerMusicPlayer]] - 一个第三方音乐播放器、本地服务、桌面歌词、音乐下载、远程控制
 	- [[github.com/arthelokyo/astrowind]] - ⭕️ AstroWind: A free template using Astro v7 and Tailwind CSS v4. Astro starter theme.
