@@ -2,15 +2,15 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/2/2026, 7:20:21 AM
+updateTime:: 11/3/2026, 10:01:36 AM
 
 - ## [[2026-11-01 Sunday]]
 	- [[github.com/awslabs/cli-agent-orchestrator]] - Multi-agent orchestration for AI coding CLIs — Claude Code, Kiro, Codex, and more, coordinated in isolated tmux sessions
 	- [[github.com/Droid-Deck/DroidDeck]] - DroidDeck brings the SteamOS experience to Android
 - ## [[2026-10-31 Saturday]]
-	- [[github.com/chris124567/cfsolve]] - Cloudflare turnstile and challenge page solver in Rust (full reverse, request based)
+	- [[github.com/chris124567/cfsolve]] - Cloudflare turnstile and challenge page solver in Rust (full reverse, request based) (currently broken due to update am fixing)
 	- [[github.com/ospfranco/sol]] - MacOS launcher & command palette
-	- [[github.com/vercel-labs/agent-desktop]] - Agent Desktop gives any agent reliable computer use on the desktop. Built with Rust, it sees any app's real UI structure through OS accessibility trees and operates it — refs stay stable and actions stay safe to retry, instead of guessing from pixels.
+	- [[github.com/vercel-labs/agent-desktop]] - Computer use CLI for AI agents
 - ## [[2026-10-30 Friday]]
 	- [[github.com/YuJunZhiXue/dsh-purge]] - DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分
 	- [[github.com/zeabur-oss/zeabur]] - Self-hosted PaaS on your own Kubernetes.
@@ -129,7 +129,7 @@ updateTime:: 11/2/2026, 7:20:21 AM
 	- [[github.com/zsio/netsgo]] - Self-hosted tunneling and node management platform / 开箱即用的内网穿透与节点管理平台
 - ## [[2026-09-17 Thursday]]
 	- [[github.com/sabrogden/Ditto]] - Ditto is an extension to the Windows Clipboard. You copy something to the Clipboard and Ditto takes what you copied and stores it in a database to retrieve at a later time.
-	- [[github.com/seaweedfs/seaweedfs]] - SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.
+	- [[github.com/seaweedfs/seaweedfs]] - SeaweedFS is a distributed storage system for object storage (S3), file systems, Iceberg table buckets, and Lance vector buckets, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.
 - ## [[2026-09-15 Tuesday]]
 	- [[github.com/hashicorp/tfc-workflows-github]] - HCP Terraform starter workflows and github actions to automate Terraform Cloud CI/CD pipelines.
 - ## [[2026-09-14 Monday]]
@@ -258,7 +258,7 @@ updateTime:: 11/2/2026, 7:20:21 AM
 	- [[github.com/kirodotdev/KiroCrew]] - A persistent workspace for development work that self-improves and continues beyond one session.
 	- [[github.com/serjs/socks5-server]] - No Description Yet.
 - ## [[2026-08-05 Wednesday]]
-	- [[github.com/dongyubin/DockerHub]] - 2026年10月更新，目前国内可用Docker镜像源汇总，DockerHub国内镜像加速列表，🚀DockerHub镜像加速器
+	- [[github.com/dongyubin/DockerHub]] - 2026年11月更新，目前国内可用Docker镜像源汇总，DockerHub国内镜像加速列表，🚀DockerHub镜像加速器
 	- [[github.com/Infisical/agent-vault]] - A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more.
 	- [[github.com/mcuadros/ofelia]] - A docker job scheduler (aka. crontab for docker)
 	- [[github.com/moghtech/komodo]] - 🦎 a tool to build and deploy software on many servers 🦎
@@ -681,7 +681,7 @@ updateTime:: 11/2/2026, 7:20:21 AM
 	- [[github.com/swiftlang/swift-markdown]] - A Swift package for parsing, building, editing, and analyzing Markdown documents.
 	- [[github.com/wooorm/markdown-rs]] - CommonMark compliant markdown parser in Rust with ASTs and extensions
 - ## [[2026-04-13 Monday]]
-	- [[github.com/backnotprop/plannotator]] - Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.
+	- [[github.com/backnotprop/plannotator]] - The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.
 	- [[github.com/badlogic/pi-skills]] - Skills for pi coding agent (compatible with Claude Code and Codex CLI)
 	- [[github.com/easychen/opc-methodology]] - 《一人企业方法论》第二版，也适合做其他副业（比如自媒体、电商、数字商品）的非技术人群。
 	- [[github.com/imbue-ai/latchkey]] - A command-line tool that injects credentials to curl requests to known public APIs.
@@ -1314,7 +1314,7 @@ updateTime:: 11/2/2026, 7:20:21 AM
 - ## [[2025-12-12 Friday]]
 	- [[github.com/commit-check/commit-check]] - Commit policy as code for teams and AI agents: commit messages, branch names, authors, sign-offs, tags, files and AI attribution, checked from one config file.
 	- [[github.com/conventional-branch/conventional-branch]] - A specification for Git branch names — <type>/<description>, human-readable and machine-parseable. Ships a machine-readable spec, JSON Schema, and conformance fixtures.
-	- [[github.com/lucide-icons/lucide]] - Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.
+	- [[github.com/lucide-icons/lucide]] - Beautiful & consistent icon toolkit made by the community. Lucide is an open-source icon library that provides 2000+ vector (svg) files for displaying icons and symbols in digital and non-digital projects.
 	- [[github.com/sharkdp/hyperfine]] - A command-line benchmarking tool
 	- [[github.com/SukkaW/dnscontrol-gitops-template]] - An opinionated DNSControl git repo template, w/ GitHub Actions based CI/CD for DNS as Code
 	- [[github.com/zai-org/Open-AutoGLM]] - An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone
@@ -1546,7 +1546,7 @@ updateTime:: 11/2/2026, 7:20:21 AM
 	- [[github.com/agentic-commerce-protocol/agentic-commerce-protocol]] - The Agentic Commerce Protocol (ACP) is an interaction model and open standard for connecting buyers, their AI agents, and businesses to complete purchases seamlessly. The specification is currently maintained by OpenAI and Stripe.
 	- [[github.com/dbeaver/dbeaver]] - Free universal database tool and SQL client
 	- [[github.com/dingdangdog/cashbook]] - 适合家庭部署的私人记账本！
-	- [[github.com/dongyubin/IPTV]] - 2026年10月更新直播源，体育直播源、F1直播源，IPTV电视直播源、APTV电视直播源、IPTV直播软件、中国IPTV直播源M3U、TV观看工具，iptv最新可用直播源iptv4/iptv6，TVBox接口，福利节目源，IPTV检查工具、电视家替代APP
+	- [[github.com/dongyubin/IPTV]] - 2026年11月更新直播源，体育直播源、F1直播源，IPTV电视直播源、APTV电视直播源、IPTV直播软件、中国IPTV直播源M3U、TV观看工具，iptv最新可用直播源iptv4/iptv6，TVBox接口，福利节目源，IPTV检查工具、电视家替代APP
 	- [[github.com/juliangarnier/anime]] - JavaScript animation engine
 	- [[github.com/maxiee/the_maeiee_book]] - 《The Maeiee's Book》（简称 TMB）
 	- [[github.com/neovateai/neovate-code]] - Neovate Code is a code agent to enhance your development. You can use it to generate code, fix bugs, review code, add tests, and more. You can run it in interactive mode or headless mode.
@@ -1712,7 +1712,7 @@ updateTime:: 11/2/2026, 7:20:21 AM
 - ## [[2025-08-25 Monday]]
 	- [[github.com/biomejs/pre-commit]] - Biome's pre-commit hooks.
 	- [[github.com/langchain-ai/langgraphjs]] - Framework to build resilient language agents as graphs.
-	- [[github.com/langchain-ai/open-swe]] - LangChain's software factory
+	- [[github.com/langchain-ai/open-swe]] - An Open-Source Asynchronous Coding Agent
 	- [[github.com/siteboon/claudecodeui]] - Use Claude Code, OpenCode, Cursor CLI, and Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Code session and projects remotely.
 - ## [[2025-08-24 Sunday]]
 	- [[github.com/bluesky-social/pds]] - Bluesky PDS (Personal Data Server) container image, compose file, and documentation
@@ -1739,7 +1739,7 @@ updateTime:: 11/2/2026, 7:20:21 AM
 	- [[github.com/beancount/beanquery]] - A customizable lightweight SQL query tool that works on tabular data, including Beancount.
 	- [[github.com/cachix/cachix]] - Command line client for Nix binary cache hosting:
 	- [[github.com/coleam00/Archon]] - The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.
-	- [[github.com/emcie-co/parlant]] - Build reliable customer-facing AI agents with Parlant: an interaction control harness optimized for controlled, consistent, and predictable LLM interactions.
+	- [[github.com/emcie-co/parlant]] - Parlant is an open platform for building customer-facing chat agents with AI. Describe how the agent should behave, and your coding agent implements it for you.
 	- [[github.com/fastrepl/anarlog]] - Open source Granola AI Alternative
 	- [[github.com/firecracker-microvm/firecracker]] - Secure and fast microVMs for serverless computing.
 	- [[github.com/lanlinju/Animius]] - 一个简洁的播放动漫的App，支持弹幕，多数据源等，使用Jetpack Compose进行开发
@@ -2008,7 +2008,7 @@ updateTime:: 11/2/2026, 7:20:21 AM
 - ## [[2025-04-30 Wednesday]]
 	- [[github.com/krillinai/OpenCreator]] - Formerly KrillinAI, VideoTranslation and Dubbing Tool for 120+ Languages. Open-source AI workspace for creators, powered by Codex. Video downloader, video translation, create videos, images, audios, and edits with Agents in one place. For your Social Media like YouTube, TikTok, Instagram, etc.
 - ## [[2025-04-29 Tuesday]]
-	- [[github.com/robertpiosik/CodeWebChat]] - Markdown prompts for chatbots, APIs, and CLIs with seamless integration
+	- [[github.com/CodeWebChat/CWC]] - Markdown prompts for chatbots, APIs, and CLIs with seamless integration
 	- [[github.com/taskforcesh/bullmq]] - BullMQ - Message Queue and Batch processing for NodeJS, Python, .NET, Elixir, Rust and PHP based on Redis or PostgreSQL
 	- [[github.com/upstash/context7]] - Context7 Platform -- Up-to-date docs for AI agents
 - ## [[2025-04-28 Monday]]
@@ -2079,7 +2079,7 @@ updateTime:: 11/2/2026, 7:20:21 AM
 - ## [[2025-04-11 Friday]]
 	- [[github.com/changesets/changesets]] - 🦋 A tool to manage versioning and changelogs with a focus on monorepos
 	- [[github.com/vercel/turborepo]] - Build system optimized for JavaScript and TypeScript, written in Rust
-	- [[github.com/Zackriya-Solutions/meetily]] - Privacy first AI meeting note taker. Download Free and open source granola, otter ai, fireflies alternative. Parakeet / Whisper live transcription, on-device speaker diarization, built on Rust. 100% local processing. Meetily (Meetly Ai - https://meetily.ai) is the ＃1 Self-hosted, Open-source Ai meeting note taker & Assistant for macOS & Windows
+	- [[github.com/Zackriya-Solutions/meetily]] - Privacy-first AI meeting note taker for Windows and macOS. Free, open source (MIT). On-device Whisper/Parakeet transcription and speaker diarization, no meeting bot. Open-source alternative to Granola, Otter and Fireflies. https://meetily.ai
 - ## [[2025-04-10 Thursday]]
 	- [[github.com/AppFlowy-IO/appflowy-editor]] - A highly customizable rich-text editor for Flutter. The AppFlowy Editor project for AppFlowy and beyond.
 	- [[github.com/elie222/inbox-zero]] - The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.
@@ -4875,7 +4875,7 @@ updateTime:: 11/2/2026, 7:20:21 AM
 - ## [[2022-06-24 Friday]]
 	- [[github.com/omnivore-app/logseq-omnivore]] - Logseq plugin to fetch articles and highlights from Omnivore
 - ## [[2022-06-16 Thursday]]
-	- [[github.com/beekeeper-studio/beekeeper-studio]] - Modern and easy to use database GUI & SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.
+	- [[github.com/beekeeper-studio/beekeeper-studio]] - Modern and easy to use database GUI & SQL client for MySQL, Postgres, SQLite, SQL Server, ClickHouse, and more. Linux, MacOS, and Windows.
 - ## [[2022-06-15 Wednesday]]
 	- [[github.com/blackmatrix7/ios_rule_script]] - 分流规则、重写写规则及脚本。
 - ## [[2022-06-13 Monday]]
@@ -5483,7 +5483,7 @@ updateTime:: 11/2/2026, 7:20:21 AM
 	- [[github.com/janeczku/calibre-web]] - :books: Web app for browsing, reading and downloading eBooks stored in a Calibre database
 - ## [[2019-08-14 Wednesday]]
 	- [[github.com/leafac/kill-the-newsletter]] - Convert email newsletters into Atom feeds
-	- [[github.com/mvdctop/Movie_Data_Capture]] - Local Movies Organizer
+	- [[github.com/mvdctop/Movie_Data_Capture]] - The AI local media metadata crawler
 - ## [[2019-08-01 Thursday]]
 	- [[github.com/tektoncd/pipeline]] - A cloud-native Pipeline resource.
 - ## [[2019-07-29 Monday]]
