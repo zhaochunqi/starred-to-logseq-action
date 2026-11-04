@@ -2,17 +2,20 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/3/2026, 10:01:36 AM
+updateTime:: 11/4/2026, 8:24:06 AM
 
+- ## [[2026-11-03 Tuesday]]
+	- [[github.com/deepseek-ai/dsh-superagent-prototype]] - Towards a More Autonomous Agent System
+	- [[github.com/herdrdev/herdr-app]] - herdr desktop app
 - ## [[2026-11-01 Sunday]]
 	- [[github.com/awslabs/cli-agent-orchestrator]] - Multi-agent orchestration for AI coding CLIs — Claude Code, Kiro, Codex, and more, coordinated in isolated tmux sessions
 	- [[github.com/Droid-Deck/DroidDeck]] - DroidDeck brings the SteamOS experience to Android
 - ## [[2026-10-31 Saturday]]
-	- [[github.com/chris124567/cfsolve]] - Cloudflare turnstile and challenge page solver in Rust (full reverse, request based) (currently broken due to update am fixing)
+	- [[github.com/chris124567/cfsolve]] - Cloudflare turnstile and challenge page solver in Rust (full reverse, request based)
 	- [[github.com/ospfranco/sol]] - MacOS launcher & command palette
 	- [[github.com/vercel-labs/agent-desktop]] - Computer use CLI for AI agents
 - ## [[2026-10-30 Friday]]
-	- [[github.com/YuJunZhiXue/dsh-purge]] - DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分
+	- [[github.com/HunYiSage/dsh-purge]] - DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分
 	- [[github.com/zeabur-oss/zeabur]] - Self-hosted PaaS on your own Kubernetes.
 - ## [[2026-10-29 Thursday]]
 	- [[github.com/alvinunreal/oh-my-opencode-slim]] - Lean, fine tuned Opencode multi agent suite · Mix any models · Auto delegate tasks
@@ -133,7 +136,7 @@ updateTime:: 11/3/2026, 10:01:36 AM
 - ## [[2026-09-15 Tuesday]]
 	- [[github.com/hashicorp/tfc-workflows-github]] - HCP Terraform starter workflows and github actions to automate Terraform Cloud CI/CD pipelines.
 - ## [[2026-09-14 Monday]]
-	- [[github.com/flectar/mail]] - Built from the ground up for speed. Flectar Mail delivers native performance, instant startup, and as little as 80 MB of RAM.
+	- [[github.com/flectar/mail]] - Built from the ground up for speed. Flectar Mail delivers native performance, instant startup, and about 20 MB of private memory at idle.
 - ## [[2026-09-13 Sunday]]
 	- [[github.com/squidfunk/mkdocs-material]] - Documentation that simply works
 - ## [[2026-09-12 Saturday]]
@@ -145,7 +148,7 @@ updateTime:: 11/3/2026, 10:01:36 AM
 - ## [[2026-09-09 Wednesday]]
 	- [[github.com/omacom/try-omarchy]] - Run Omarchy on MacOS without any setup.
 - ## [[2026-09-08 Tuesday]]
-	- [[github.com/palemoky/chinese-poetry-api]] - 📜 诗泉：高性能中国古诗词 API 服务
+	- [[github.com/palemoky/chinese-poetry-api]] - 📜 诗泉：支持语义搜索的高性能中国古诗词 API 服务
 - ## [[2026-09-07 Monday]]
 	- [[github.com/vastsa/PI-Desktop]] - Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins
 	- [[github.com/wmariuss/awesome-devops]] - A curated list of awesome DevOps platforms, tools, practices and resources
@@ -376,7 +379,7 @@ updateTime:: 11/3/2026, 10:01:36 AM
 	- [[github.com/ReScienceLab/opc-skills]] - Agent Skills for Solopreneurs
 	- [[github.com/SDWebImage/SDWebImage]] - Asynchronous image downloader with cache support as a UIImageView category
 - ## [[2026-07-14 Tuesday]]
-	- [[github.com/JustVugg/colibri]] - Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦
+	- [[github.com/JustVugg/colibri]] - A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.
 	- [[github.com/komako-workshop/digital-oracle]] - AI agent skill that answers macro questions — housing, gold, BTC, geopolitics — with probability estimates mined from 13 financial data sources (Polymarket, Kalshi, CFTC, SEC & more). For Claude Code / Cursor / Codex / OpenClaw. | 让 AI Agent 从金融数据中挖掘宏观趋势的数字先知
 - ## [[2026-07-11 Saturday]]
 	- [[github.com/nextlevelbuilder/ui-ux-pro-max-skill]] - An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.
@@ -2469,7 +2472,7 @@ updateTime:: 11/3/2026, 10:01:36 AM
 	- [[github.com/Nutlope/logocreator]] - A free + OSS logo generator powered by Flux on Together AI
 	- [[github.com/RaJiska/terraform-aws-fck-nat]] - Terraform module for fck-nat
 - ## [[2024-12-23 Monday]]
-	- [[github.com/getumbrel/umbrel]] - An elegant home server OS. Run OpenClaw, store your files and, and do more with over 300 apps in the Umbrel App Store.
+	- [[github.com/getumbrel/umbrel]] - An elegant home server OS. Run AI agents, store your files, backup your photos, and do more with over 300 apps in the Umbrel App Store.
 	- [[github.com/NilsIrl/dockerc]] - container image to single executable compiler
 	- [[github.com/NixOS/nixfmt]] - The official formatter for Nix code
 - ## [[2024-12-22 Sunday]]
@@ -4937,7 +4940,7 @@ updateTime:: 11/3/2026, 10:01:36 AM
 - ## [[2022-03-18 Friday]]
 	- [[github.com/ofdrw/ofdrw]] - OFD Reader & Writer 开源的OFD处理库，支持文档生成、数字签名、文档保护、文档合并、转换、导出等功能，文档格式遵循《GB/T 33190-2016 电子文件存储与交换格式版式文档》。
 - ## [[2022-03-17 Thursday]]
-	- [[github.com/gojue/ecapture]] - Capture SSL/TLS plaintext with eBPF—no MITM proxy or custom CA installation. Supports Linux and Android on x86_64 and arm64.
+	- [[github.com/gojue/ecapture]] - Capture SSL/TLS plaintext with eBPF—no MITM proxy or custom CA installation. Supports Linux and Android on x86_64\arm64 and loong64.
 - ## [[2022-03-15 Tuesday]]
 	- [[github.com/winfsp/hubfs]] - File system for GitHub & GitLab
 - ## [[2022-03-12 Saturday]]
