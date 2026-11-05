@@ -2,8 +2,10 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/4/2026, 8:24:06 AM
+updateTime:: 11/5/2026, 8:46:11 AM
 
+- ## [[2026-11-04 Wednesday]]
+	- [[github.com/insanum/gcalcli]] - Google Calendar Command Line Interface
 - ## [[2026-11-03 Tuesday]]
 	- [[github.com/deepseek-ai/dsh-superagent-prototype]] - Towards a More Autonomous Agent System
 	- [[github.com/herdrdev/herdr-app]] - herdr desktop app
@@ -45,7 +47,7 @@ updateTime:: 11/4/2026, 8:24:06 AM
 	- [[github.com/kksimp/Mac.apk]] - Mac.apk: Run Android apps natively on Apple Silicon Macs
 	- [[github.com/TecharoHQ/anubis]] - Weighs the soul of incoming HTTP requests to stop AI crawlers
 - ## [[2026-10-19 Monday]]
-	- [[github.com/feder-cr/git-ai]] - Git designed for AI agents.
+	- [[github.com/feder-cr/git-ai]] - Git designed for AI agents. Open-source, in the spirit of Anthropic's Scion and OpenAI's Pando. Not affiliated with either.
 	- [[github.com/obsidianmd/pele]] - Renders Mermaid diagrams faster than you'd run from a volcano! 🌋
 - ## [[2026-10-18 Sunday]]
 	- [[github.com/Tencent-Hunyuan/Hy-Memory]] - No Description Yet.
@@ -248,11 +250,11 @@ updateTime:: 11/4/2026, 8:24:06 AM
 	- [[github.com/missuo/snell-panel]] - Snell proxy node manager & subscription generator on Cloudflare Workers — Hono + D1 backend with a HeroUI panel
 	- [[github.com/qier222/proxy-provider-converter]] - 一个可以将 Clash 订阅转换成 Proxy Provider 和 External Group(Surge) 的工具
 	- [[github.com/qufei1993/skills-hub]] - A cross-platform desktop app to manage Agent Skills in one place and sync them to multiple AI coding tools’ global skills directories — “Install once, sync everywhere”.
-	- [[github.com/stablyai/orca]] - Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.
+	- [[github.com/stablyai/orca]] - Orca is the place for working with a fleet of coding agents (e.g. Claude Code, Codex). Run any agent with your own subscription. Available on desktop, mobile and remote runtime.
 	- [[github.com/vorojar/md-preview]] - Native, local-first Markdown preview and quick editor. Multi-document tabs, session restore, macOS Finder workflow, offline Mermaid/KaTeX. Rust + system WebView, no Electron.
 	- [[github.com/WeiWenda/effect-note]] - 大纲笔记软件
 - ## [[2026-08-06 Thursday]]
-	- [[github.com/233boy/sing-box]] - 最好用的 sing-box 一键安装脚本 & 管理脚本，自动创建 REALITY 协议；支持 TUIC，Trojan，Hysteria2 等所有常见的协议
+	- [[github.com/233boy/sing-box]] - 最好用的 sing-box 一键安装脚本 & 管理脚本，自动创建 Hysteria2 协议；支持 TUIC，Trojan，REALITY 等所有常见的协议
 	- [[github.com/CareyWang/sub-web]] - No Description Yet.
 	- [[github.com/firecrawl/anydoc]] - Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.
 	- [[github.com/get-bb/bb]] - The agent IDE that builds itself
@@ -788,7 +790,7 @@ updateTime:: 11/4/2026, 8:24:06 AM
 - ## [[2026-03-22 Sunday]]
 	- [[github.com/clawwork-ai/ClawWork]] - Client for OpenClaw — Connect ClawWork to your own OpenClaw and unlock 10x multi-session productivity.
 	- [[github.com/garrytan/gstack]] - Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA
-	- [[github.com/mergisi/awesome-openclaw-agents]] - 196 production-ready AI agent templates for OpenClaw. SOUL.md configs across 24 categories. Submit yours!
+	- [[github.com/mergisi/awesome-openclaw-agents]] - 197 production-ready AI agent templates for OpenClaw. SOUL.md configs across 24 categories. Submit yours!
 - ## [[2026-03-20 Friday]]
 	- [[github.com/0xJacky/nginx-ui]] - Yet another WebUI for Nginx
 	- [[github.com/AmintaCCCP/GithubStarsManager]] - AI-powered GitHub stars manager with semantic search, auto-categorization, and release tracking
@@ -916,7 +918,7 @@ updateTime:: 11/4/2026, 8:24:06 AM
 - ## [[2026-02-18 Wednesday]]
 	- [[github.com/blackboardsh/electrobun]] - Build ultra fast, tiny, and cross-platform desktop apps with TypeScript, Zig, Rust, Go, or Odin.
 	- [[github.com/lewish/asciiflow]] - ASCIIFlow
-	- [[github.com/ParadevAI/Paradev]] - Paradev (formerly Superset) is an agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription.
+	- [[github.com/ParadevAI/Paradev]] - Paradev is an open-source Codex App and Conductor alternative. Orchestrate an army coding agents in parallel with your own subscriptions.
 	- [[github.com/simonw/rodney]] - CLI tool for interacting with the web
 - ## [[2026-02-17 Tuesday]]
 	- [[github.com/paopaoandlingyia/PrismCat]] - No Description Yet.
@@ -1480,7 +1482,7 @@ updateTime:: 11/4/2026, 8:24:06 AM
 	- [[github.com/vipzhicheng/logseq-plugin-comment-block]] - Building an automatic comment history for Logseq
 - ## [[2025-10-20 Monday]]
 	- [[github.com/docusealco/docuseal]] - Open source DocuSign alternative. Create, fill, and sign digital documents ✍️
-	- [[github.com/hunvreus/devpush]] - Like Vercel, but open source and for all languages.
+	- [[github.com/hunvreus/devpush]] - Like Vercel, but for Docker Compose
 	- [[github.com/modelcontextprotocol/inspector]] - Deterministic testing tools for MCP servers
 	- [[github.com/PanHywel/TidyMark]] - TidyMark — Chrome/Edge 书签管理扩展 备份书签、一键整理分类，支持 AI 辅助优化；扫描失效书签，自动归档不常用书签，并提供新标签页导航和访问热度统计。& TidyMark — Chrome/Edge Bookmark Manager Backup and organize bookmarks with one-click auto categorization and optional AI assistance. Detect broken bookmarks, auto-archive infrequently used ones, and enjoy New Tab navigation with access stats.
 	- [[github.com/QwenLM/Qwen3-Embedding]] - No Description Yet.
@@ -1923,7 +1925,7 @@ updateTime:: 11/4/2026, 8:24:06 AM
 - ## [[2025-05-30 Friday]]
 	- [[github.com/hexdocom/lemonai]] - Lemon AI is the first Full-stack Open-source Self-Evolving General AI Agent, offering a fully local alternative to Agentic platforms like Manus & Genspark AI.🔔 Official updates   X(twitter) @LemonAI_cc
 	- [[github.com/microsoft/magentic-ui]] - MagenticLite is an experimental agent that works across the browser and local file system
-	- [[github.com/unclecode/crawl4ai]] - Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key. Join our Discord https://discord.gg/VuxzM8mtf
+	- [[github.com/unclecode/crawl4ai]] - Official Crawl4AI Cloud: a hosted web scraping, extraction, and search API for AI agents. Free API key, 1,000 credits a month, no card. Fully open source: this repo is the Apache-2.0 crawler that powers it, and you can self-host it.
 	- [[github.com/WasmEdge/WasmEdge]] - WasmEdge is a lightweight, high-performance, and extensible WebAssembly runtime for cloud native, edge, and decentralized applications. It powers serverless apps, embedded functions, microservices, smart contracts, and IoT devices.
 - ## [[2025-05-28 Wednesday]]
 	- [[github.com/EnhancedJax/Bagels]] - Powerful expense tracker that lives in your terminal.
@@ -2355,7 +2357,7 @@ updateTime:: 11/4/2026, 8:24:06 AM
 	- [[github.com/tmaegel/ntodotxt]] - Flutter app for managing your todos within a todo.txt file locally or via webdav (e.g. Nextcloud)
 - ## [[2025-01-22 Wednesday]]
 	- [[github.com/baturyilmaz/wordpecker-app]] - A personalized language-learning tool that combines Duolingo-style lessons with your own curated vocabulary lists. Seamlessly add words from books, articles, or videos, and revisit them through interactive quizzes and LLM-generated lessons.
-	- [[github.com/modelcontextprotocol/servers]] - Model Context Protocol Servers
+	- [[github.com/modelcontextprotocol/servers]] - Model Context Protocol Reference Servers
 	- [[github.com/PatrickJS/awesome-cursorrules]] - 📄  Configuration files that enhance Cursor AI editor experience with custom rules and behaviors
 - ## [[2025-01-21 Tuesday]]
 	- [[github.com/DavidHDev/react-bits]] - The largest open-source library of animated, interactive, and customizable React & Next.js components for building standout web products and experiences. Built for humans and AI agents.
@@ -3605,7 +3607,7 @@ updateTime:: 11/4/2026, 8:24:06 AM
 	- [[github.com/fishjar/kiss-translator]] - A simple, open source bilingual translation extension & Greasemonkey script (一个简约、开源的 双语对照翻译扩展 & 油猴脚本)
 	- [[github.com/jason5ng32/MyIP]] - The best IP Toolbox. Check your IP address & geolocation, test IP for WebRTC and DNS IP leaks, run an IP quality check, browser fingerprint check, website availability check, network speed test, global latency test, MTR test, Whois search, and more.
 	- [[github.com/morsoli/llm-books]] - 利用LLM构建应用实践笔记
-	- [[github.com/vercel/hyper]] - A terminal built on web technologies
+	- [[github.com/vercel/hyper]] - A terminal built on web technologies #Archived
 - ## [[2024-02-01 Thursday]]
 	- [[github.com/docker-mailserver/docker-mailserver]] - Production-ready fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) running inside a container.
 	- [[github.com/grpc/grpc]] - C++ based gRPC (C++, Python, Ruby, Objective-C, PHP, C＃)
@@ -3664,7 +3666,7 @@ updateTime:: 11/4/2026, 8:24:06 AM
 	- [[github.com/caviv/json2smtp]] - Email proxy: input json; output smtp call - (json2smtp)
 - ## [[2024-01-10 Wednesday]]
 	- [[github.com/dbgate/dbgate]] - Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others. Runs under Windows, Linux, Mac or as web application
-	- [[github.com/filamentphp/filament]] - A powerful open-source UI framework for Laravel • Build and ship apps & admin panels fast with Livewire
+	- [[github.com/filamentphp/filament]] - An open-source framework for building polished, maintainable business software with Laravel.
 	- [[github.com/gscept/nebula]] - Nebula is an open-source and free-to-use modern C++ game engine.
 	- [[github.com/janhq/jan]] - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
 	- [[github.com/nuxt/nuxt]] - The full-stack Vue framework.
@@ -4419,7 +4421,7 @@ updateTime:: 11/4/2026, 8:24:06 AM
 	- [[github.com/binwiederhier/ntfy]] - Send push notifications to your phone or desktop using PUT/POST
 	- [[github.com/calcom/cal.diy]] - Scheduling infrastructure for absolutely everyone.
 	- [[github.com/codelibs/fess]] - Open-source, self-hosted enterprise & site search server built on OpenSearch. Crawls web / file / DB / cloud sources, 20+ languages, REST API, and AI/RAG & semantic search. Apache-2.0.
-	- [[github.com/dgtlmoon/changedetection.io]] - Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!
+	- [[github.com/dgtlmoon/changedetection.io]] - Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring— MCP included! all for free or enjoy our SaaS plan!
 	- [[github.com/EINDEX/logseq-copilot]] - Logseq Copilot is a Browser extension that allows you to access your Logseq via your browser.
 	- [[github.com/gradio-app/gradio]] - Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work!
 	- [[github.com/graphql-java/graphql-java]] - GraphQL Java implementation
@@ -4443,7 +4445,7 @@ updateTime:: 11/4/2026, 8:24:06 AM
 - ## [[2023-09-02 Saturday]]
 	- [[github.com/cpina/github-action-push-to-another-repository]] - github Action to push files into another Github repository
 	- [[github.com/Orange-OpenSource/hurl]] - Hurl, run and test HTTP requests with plain text.
-	- [[github.com/organicmaps/organicmaps]] - 🍃 Organic Maps is a free Android & iOS offline maps app for more than 6M travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by the community. No ads, no tracking, no data collection, no crapware. Please donate to support the development!
+	- [[github.com/organicmaps/organicmaps]] - 🍃 Organic Maps is a free Android & iOS offline maps app for more than 12M travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by the community. No ads, no tracking, no data collection, no crapware. Please donate to support the development!
 - ## [[2023-09-01 Friday]]
 	- [[github.com/anomalyco/sst]] - Build full-stack apps on your own infrastructure.
 	- [[github.com/code-charity/youtube]] - YouTube (Video) Browser-Extension. [Top1 FOSS.]  Enrich your experience & choice! 🧰Smart features📌set & forget📌100s of tweaks. Longest-standing. Join🧩us?👨‍👩‍👧‍👧 ⋮  ⋮  ⋮  ⋮  ⋮   {playback|discovery|extra player buttons|quality|codec|full tab|full screen|no distraction|shorts}
