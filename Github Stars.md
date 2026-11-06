@@ -2,8 +2,10 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/5/2026, 8:46:11 AM
+updateTime:: 11/6/2026, 8:43:56 AM
 
+- ## [[2026-11-05 Thursday]]
+	- [[github.com/modem-dev/hunk]] - Review-first terminal diff viewer for agentic coders
 - ## [[2026-11-04 Wednesday]]
 	- [[github.com/insanum/gcalcli]] - Google Calendar Command Line Interface
 - ## [[2026-11-03 Tuesday]]
@@ -41,7 +43,7 @@ updateTime:: 11/5/2026, 8:46:11 AM
 	- [[github.com/pgsty/silo]] - S3-Compatible Object Storage. A MinIO fork maintained by PGSTY
 	- [[github.com/zhaochunqi/kiwivm-exporter]] - BandwagonHost KiwiVM API Prometheus exporter - bandwidth quota + CPU/mem/load/disk out-of-band, no in-VPS agent
 - ## [[2026-10-21 Wednesday]]
-	- [[github.com/vladkens/macmon]] - 🦀🌡️ Real-time system monitor for Apple Silicon Macs (M1–M5). No sudo. TUI, JSON/Prometheus metrics server, and Rust library.
+	- [[github.com/vladkens/macmon]] - 🦀🌡️ Real-time system monitor for Apple Silicon Macs. No sudo. TUI, JSON/Prometheus metrics server, and Rust library.
 - ## [[2026-10-20 Tuesday]]
 	- [[github.com/Gathin23/cleanyourtv]] - Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
 	- [[github.com/kksimp/Mac.apk]] - Mac.apk: Run Android apps natively on Apple Silicon Macs
@@ -250,7 +252,7 @@ updateTime:: 11/5/2026, 8:46:11 AM
 	- [[github.com/missuo/snell-panel]] - Snell proxy node manager & subscription generator on Cloudflare Workers — Hono + D1 backend with a HeroUI panel
 	- [[github.com/qier222/proxy-provider-converter]] - 一个可以将 Clash 订阅转换成 Proxy Provider 和 External Group(Surge) 的工具
 	- [[github.com/qufei1993/skills-hub]] - A cross-platform desktop app to manage Agent Skills in one place and sync them to multiple AI coding tools’ global skills directories — “Install once, sync everywhere”.
-	- [[github.com/stablyai/orca]] - Orca is the place for working with a fleet of coding agents (e.g. Claude Code, Codex). Run any agent with your own subscription. Available on desktop, mobile and remote runtime.
+	- [[github.com/stablyai/orca]] - Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.
 	- [[github.com/vorojar/md-preview]] - Native, local-first Markdown preview and quick editor. Multi-document tabs, session restore, macOS Finder workflow, offline Mermaid/KaTeX. Rust + system WebView, no Electron.
 	- [[github.com/WeiWenda/effect-note]] - 大纲笔记软件
 - ## [[2026-08-06 Thursday]]
@@ -375,7 +377,7 @@ updateTime:: 11/5/2026, 8:46:11 AM
 	- [[github.com/AkimioJR/AutoFilm]] - 一个为Emby、Jellyfin提供生成strm、动漫追番、绘制媒体库海报的小工具
 	- [[github.com/atuinsh/atuin-ai-server]] - Self-hosted server for Atuin AI, backed by any OpenAI-compatible endpoint
 	- [[github.com/flythenimbus/bramble]] - Local-first password manager with direct device-to-device sync
-	- [[github.com/leandrocp/lumis]] - One highlighter, 7 runtimes. Powered by Tree-sitter and Neovim themes.
+	- [[github.com/leandrocp/lumis]] - One highlighter, 8 runtimes. Powered by Tree-sitter and Neovim themes.
 	- [[github.com/mactools-app/MacTools]] - A free and open-source collection of native macOS menu bar tools.
 	- [[github.com/maimemo/SSP-MMC]] - A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling
 	- [[github.com/ReScienceLab/opc-skills]] - Agent Skills for Solopreneurs
@@ -638,7 +640,7 @@ updateTime:: 11/5/2026, 8:46:11 AM
 	- [[github.com/toon-format/toon-rust]] - 🦀 Community-driven Rust implementation of TOON
 	- [[github.com/tw93/Kami]] - 👩‍🚒 Good content deserves good paper. Layout rules and templates that let AI agents export PDF, PNG and editable PowerPoint.
 	- [[github.com/VoltAgent/awesome-codex-subagents]] - A collection of 130+ specialized Codex subagents covering a wide range of development use cases.
-	- [[github.com/w3dev33/beads-task-issue-tracker]] - This project's successor is PaiR (v0.47.0) - download at https://pair.w3dev.fr
+	- [[github.com/w3dev33/beads-task-issue-tracker]] - This project's successor is PaiR (v0.48.0) - download at https://pair.w3dev.fr
 - ## [[2026-04-25 Saturday]]
 	- [[github.com/adr/madr]] - Markdown Architectural Decision Records
 	- [[github.com/eljulians/skillfile]] - One-stop shop for AI skills and agents. Search 110K+ community skills, install and track them declaratively, and deploy across all major AI coding tools (Claude Code, Codex, Cursor, Antigravity and more)
@@ -855,7 +857,7 @@ updateTime:: 11/5/2026, 8:46:11 AM
 	- [[github.com/parca-dev/parca]] - Continuous profiling for analysis of CPU and memory usage, down to the line number and throughout time. Saving infrastructure cost, improving performance, and increasing reliability.
 	- [[github.com/signerlabs/ShipSwift]] - AI-native SwiftUI component library with full-stack recipes — connect via MCP for instant access.
 - ## [[2026-03-07 Saturday]]
-	- [[github.com/danielmiessler/LifeOS]] - ⛰️ LifeOS — The universal AI Harness designed to move you from Current to Ideal state in both life and work.
+	- [[github.com/danielmiessler/LifeOS]] - ⛰️ LifeOS — The AI-powered Life Operating System that helps you hill climb to wherever you're going.
 - ## [[2026-03-06 Friday]]
 	- [[github.com/exeldro/obs-source-record]] - No Description Yet.
 - ## [[2026-03-05 Thursday]]
@@ -1124,7 +1126,7 @@ updateTime:: 11/5/2026, 8:46:11 AM
 	- [[github.com/astubenbord/paperless-mobile]] - An (almost) fully fledged mobile paperless client.
 	- [[github.com/charmbracelet/crush]] - Glamourous agentic coding for all 💘
 	- [[github.com/GodKratos/temporary-containers]] - Firefox Add-on that lets you open automatically managed disposable containers
-	- [[github.com/wshobson/agents]] - Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi
+	- [[github.com/wshobson/agents]] - Plugins, agents, skills, and commands for Claude Code, Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot, and Pi, written once in Markdown and adapted to each tool by generators with validation and evals.
 - ## [[2026-01-10 Saturday]]
 	- [[github.com/MiroMindAI/MiroThinker]] - MiroThinker is a deep research agent optimized for complex research and prediction tasks. Our latest models, MiroThinker-1.7, achieves 74.0 and 75.3 on the BrowseComp and BrowseComp Zh, respectively.
 - ## [[2026-01-09 Friday]]
@@ -1419,7 +1421,7 @@ updateTime:: 11/5/2026, 8:46:11 AM
 	- [[github.com/Datus-ai/Datus-agent]] - The Future of Data Engineering — A CLI SQL client for the modern data stack, enabling AI-native context engineering for data.
 	- [[github.com/deerwan/nav]] - 基于Cloudflare Pages构建的书签管理工具
 	- [[github.com/mindverse/Second-Me]] - Train your AI self, amplify you, bridge the world
-	- [[github.com/rivet-dev/rivet]] - Rivet Actors are the primitive for stateful workloads. Built for AI agents, collaborative apps, and durable execution.
+	- [[github.com/rivet-dev/rivet]] - The orchestrator for agentic workloads. A fast, high-density and scalable orchestrator for every workload an agent needs.
 	- [[github.com/yamadashy/repomix]] - 📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.
 - ## [[2025-11-14 Friday]]
 	- [[github.com/elevenlabs/ui]] - ElevenLabs UI is a component library and custom registry built on top of shadcn/ui to help you build multimodal agents faster.
@@ -1458,7 +1460,7 @@ updateTime:: 11/5/2026, 8:46:11 AM
 	- [[github.com/Neet-Nestor/Telegram-Media-Downloader]] - A script allowing you to download images and videos from Telegram web even if the group restricts downloading.
 	- [[github.com/unjs/obuild]] - 📦 😯 Zero-config ESM/TS package builder.
 - ## [[2025-10-28 Tuesday]]
-	- [[github.com/DimensionDev/Flare]] - Browse Mastodon, Bluesky, X, Misskey, Nostr, Pixiv, Fanbox and RSS all in one app. One timeline, all your accounts, cross-post everywhere.
+	- [[github.com/flaresocialapp/Flare]] - Browse Mastodon, Bluesky, X, Misskey, Nostr, Pixiv, Fanbox and RSS all in one app. One timeline, all your accounts, cross-post everywhere.
 - ## [[2025-10-27 Monday]]
 	- [[github.com/kamadorueda/alejandra]] - The Uncompromising Nix Code Formatter
 	- [[github.com/Open-Dev-Society/OpenStock]] - OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.
@@ -1660,7 +1662,7 @@ updateTime:: 11/5/2026, 8:46:11 AM
 	- [[github.com/ccusage/ccusage]] - npx ccusage
 	- [[github.com/cferdinandi/kelp]] - A UI library for people who love HTML, powered by modern CSS and Web Components.
 	- [[github.com/coder/claudecode.nvim]] - 🧩 Claude Code Neovim IDE Extension
-	- [[github.com/davila7/claude-code-templates]] - CLI tool for configuring and monitoring Claude Code
+	- [[github.com/davila7/claude-code-templates]] - Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods
 	- [[github.com/hesreallyhim/awesome-claude-code]] - A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no affiliation). A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins
 	- [[github.com/Maciek-roboblog/Claude-Code-Usage-Monitor]] - Real-time Claude Code usage monitor with predictions and warnings
 	- [[github.com/niri-wm/niri]] - A scrollable-tiling Wayland compositor.
@@ -1827,7 +1829,7 @@ updateTime:: 11/5/2026, 8:46:11 AM
 	- [[github.com/bknd-io/bknd]] - Lightweight Firebase/Supabase alternative built to run anywhere — incl. Next.js, React Router, Astro, Cloudflare, Bun, Node, AWS Lambda & more.
 	- [[github.com/BloopAI/vibe-kanban]] - Get 10X more out of Claude Code, Codex or any coding agent
 	- [[github.com/browseros-ai/BrowserOS]] - 🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet, Dia.
-	- [[github.com/cactus-compute/cactus]] - Quantization, kernels, runtime and inference engine for mobiles, wearables, smart home and robots.
+	- [[github.com/cactus-compute/engine]] - 2bit quants, kernels and runtime for consumer devices.
 	- [[github.com/JefferyHcool/BiliNote]] - AI 视频笔记生成工具 让 AI 为你的视频做笔记
 	- [[github.com/meilisearch/meilisearch]] - A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.
 	- [[github.com/MrLesk/Backlog.md]] - Backlog.md - A tool for managing project collaboration between humans and AI Agents in a git ecosystem
@@ -2083,7 +2085,7 @@ updateTime:: 11/5/2026, 8:46:11 AM
 	- [[github.com/loomchild/volume-backup]] - docker volume backup & restore utility
 - ## [[2025-04-11 Friday]]
 	- [[github.com/changesets/changesets]] - 🦋 A tool to manage versioning and changelogs with a focus on monorepos
-	- [[github.com/vercel/turborepo]] - Build system optimized for JavaScript and TypeScript, written in Rust
+	- [[github.com/vercel/turborepo]] - The build system for coding agents.
 	- [[github.com/Zackriya-Solutions/meetily]] - Privacy-first AI meeting note taker for Windows and macOS. Free, open source (MIT). On-device Whisper/Parakeet transcription and speaker diarization, no meeting bot. Open-source alternative to Granola, Otter and Fireflies. https://meetily.ai
 - ## [[2025-04-10 Thursday]]
 	- [[github.com/AppFlowy-IO/appflowy-editor]] - A highly customizable rich-text editor for Flutter. The AppFlowy Editor project for AppFlowy and beyond.
@@ -3130,7 +3132,6 @@ updateTime:: 11/5/2026, 8:46:11 AM
 	- [[github.com/catppuccin/Terminal.app]] - 💻 Soothing pastel theme for Terminal.app
 	- [[github.com/midrender/revideo]] - Create Videos with Code
 	- [[github.com/quii/learn-go-with-tests]] - Learn Go with test-driven development
-	- [[github.com/shell-pool/shpool]] - Think tmux, then aim... lower
 	- [[github.com/trishume/syntect]] - Rust library for syntax highlighting using Sublime Text syntax definitions.
 	- [[github.com/xenova/whisper-web]] - ML-powered speech recognition directly in your browser
 - ## [[2024-06-14 Friday]]
@@ -4055,7 +4056,6 @@ updateTime:: 11/5/2026, 8:46:11 AM
 - ## [[2023-11-05 Sunday]]
 	- [[github.com/EstrellaXD/Auto_Bangumi]] - AutoBangumi - 全自动追番工具
 	- [[github.com/gristlabs/grist-core]] - Grist is the evolution of spreadsheets.
-	- [[github.com/odigos-io/odigos]] - Distributed tracing without code changes. 🚀 Instantly monitor any application using OpenTelemetry and eBPF
 	- [[github.com/redis/RedisInsight]] - Redis GUI by Redis
 	- [[github.com/ustclug/Linux101-docs]] - Linux 101 学生课程教材与讲义
 - ## [[2023-11-04 Saturday]]
@@ -5164,7 +5164,7 @@ updateTime:: 11/5/2026, 8:46:11 AM
 - ## [[2021-08-26 Thursday]]
 	- [[github.com/donmor/Tiddloid]] - Tiddloid is an app to work with locally stored TiddlyWikis.
 - ## [[2021-08-25 Wednesday]]
-	- [[github.com/UltimaHoarder/UltimaScraper]] - Scrape all the media from an OnlyFans account - Updated regularly
+	- [[github.com/UltimaHoarder/UltimaScraper]] - Datascraper that is currently adult focused - Updated regularly
 - ## [[2021-08-24 Tuesday]]
 	- [[github.com/eastlakeside/awesome-productivity-cn]] - 绝妙的个人生产力（Awesome Productivity - Chinese version）
 	- [[github.com/graviraja/MLOps-Basics]] - No Description Yet.
