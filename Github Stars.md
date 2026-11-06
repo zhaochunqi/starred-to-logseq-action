@@ -2,8 +2,10 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/6/2026, 8:43:56 AM
+updateTime:: 11/7/2026, 7:58:49 AM
 
+- ## [[2026-11-06 Friday]]
+	- [[github.com/vercel-labs/agent-browser]] - Browser automation CLI for AI agents
 - ## [[2026-11-05 Thursday]]
 	- [[github.com/modem-dev/hunk]] - Review-first terminal diff viewer for agentic coders
 - ## [[2026-11-04 Wednesday]]
@@ -32,7 +34,7 @@ updateTime:: 11/6/2026, 8:43:56 AM
 - ## [[2026-10-26 Monday]]
 	- [[github.com/aliyun/alibaba-cloud-ops-mcp-server]] - AlibabaCloud CloudOps MCP Server
 	- [[github.com/Ikaleio/lm-detector]] - Model fingerprint detection with a shared Web and Bun CLI reference bank
-	- [[github.com/JetBrains/thinkrail]] - Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need
+	- [[github.com/JetBrains/thinkrail]] - ThinkRail is the agentic IDE that gets better every time you use it
 - ## [[2026-10-24 Saturday]]
 	- [[github.com/anthropics/sandbox-runtime]] - A lightweight sandboxing tool for enforcing filesystem and network restrictions on arbitrary processes at the OS level, without requiring a container.
 - ## [[2026-10-23 Friday]]
@@ -631,8 +633,8 @@ updateTime:: 11/6/2026, 8:43:56 AM
 	- [[github.com/mihonapp/mihon]] - Free and open source manga reader for Android
 	- [[github.com/pgcentralfoundation/pgrx]] - Build Postgres Extensions with Rust!
 - ## [[2026-04-26 Sunday]]
-	- [[github.com/bradygaster/squad]] - Squad: AI agent teams for any project
 	- [[github.com/Dicklesworthstone/beads_rust]] - Fast Rust port of Steve Yegge's beads: local-first, non-invasive issue tracker storing tasks in SQLite with JSONL export for git collaboration
+	- [[github.com/github/squad]] - Squad: AI agent teams for any project
 	- [[github.com/Paidax01/math-curve-loaders]] - A lightweight gallery of mathematical curve based loading animations with modal previews, formulas, and copyable code snippets.
 	- [[github.com/PolyArch/humanize]] - From Automated Idea Factory to Realization
 	- [[github.com/RightNow-AI/openfang]] - Open-source Agent Operating System
@@ -1003,7 +1005,7 @@ updateTime:: 11/6/2026, 8:43:56 AM
 	- [[github.com/go-vikunja/vikunja]] - The task manager you actually own.
 	- [[github.com/microsoft/agent-lightning]] - The absolute trainer to light up AI agents.
 	- [[github.com/nanocoai/nanoclaw]] - A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK
-	- [[github.com/OpenByteInc/QuantDinger]] - Open-source AI Trading OS, agent trading, and vibe trading, with Jev System One integration. Research, build Python strategies, backtest, and paper/live trade across crypto, stocks, and forex. Launch your own multi-tenant trading SaaS with built-in user management, billing, payments, and settlement.
+	- [[github.com/OpenByteInc/QuantDinger]] - The most complete open-source, self-hosted Agentic Trading OS—AI research, Python strategies, factor discovery, backtesting, optimization, paper/live multi-asset execution, risk controls, monitoring, MCP, and multi-tenant SaaS in one auditable stack.
 	- [[github.com/owu/wsl-dashboard]] - A GUI manager for WSL featuring a modern UI — a lightweight, low‑memory, high‑performance dashboard to manage WSL instances.  Install, list, start, stop, unregister, and configure your WSL distros​ from one place.
 	- [[github.com/RunMaestro/Maestro]] - Agent Orchestration Command Center
 	- [[github.com/ThePrimeagen/99]] - Neovim AI agent done right
@@ -1603,7 +1605,7 @@ updateTime:: 11/6/2026, 8:43:56 AM
 	- [[github.com/exo-explore/exo]] - Run frontier AI locally.
 	- [[github.com/izackwu/TeachYourselfCS-CN]] - TeachYourselfCS 的中文翻译 |  A Chinese translation of TeachYourselfCS
 	- [[github.com/promptfoo/promptfoo]] - Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.
-	- [[github.com/tw93/MiaoYan]] - ⛷ A quiet, local-first Markdown writing app for Mac, to help you write great sentences.
+	- [[github.com/tw93/MiaoYan]] - ⛷ A quiet, local-first Markdown writing app for Mac, iPhone and iPad, to help you write great sentences.
 	- [[github.com/UFund-Me/Qbot]] - [🔥updating ...] AI 自动量化交易机器人(完全本地部署) AI-powered Quantitative Investment Research Platform. 📃 online docs: https://ufund-me.github.io/Qbot   ✨ :news: qbot-mini: https://github.com/Charmve/iQuant
 - ## [[2025-09-21 Sunday]]
 	- [[github.com/anomalyco/models.dev]] - An open-source database of AI models.
@@ -2729,8 +2731,8 @@ updateTime:: 11/6/2026, 8:43:56 AM
 	- [[github.com/adyanth/cloudflare-operator]] - A Kubernetes Operator to create and manage Cloudflare Tunnels and DNS records  for (HTTP/TCP/UDP*) Service Resources
 	- [[github.com/AnimMouse/setup-cloudflared]] - Setup/Install Cloudflare Tunnel client for GitHub Actions
 	- [[github.com/apache/couchdb]] - Seamless multi-primary syncing database with an intuitive HTTP/JSON API, designed for reliability
+	- [[github.com/ClickHouse/ClickStack]] - Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.
 	- [[github.com/gvwilson/sdxpy]] - Software Design by Example: a tool-based introduction with Python
-	- [[github.com/hyperdxio/hyperdx]] - Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.
 	- [[github.com/langfuse/langfuse]] - 🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.
 	- [[github.com/oiov/vmail]] - 📫 只需一个域名部署临时邮箱到 Cloudflare Worker，支持收发邮件，使用 D1 保存数据，支持多域名后缀，密码找回，开放API接口。
 	- [[github.com/STRRL/cloudflare-tunnel-ingress-controller]] - 🚀 Expose the website directly into the internet! The Kuberntes Ingress Controller based on Cloudflare Tunnel.
@@ -3593,7 +3595,7 @@ updateTime:: 11/6/2026, 8:43:56 AM
 	- [[github.com/jellyfin/jellyfin]] - The Free Software Media System - Server Backend & API
 	- [[github.com/jj-vcs/jj]] - A Git-compatible VCS that is both simple and powerful
 	- [[github.com/juicedata/juicefs]] - JuiceFS is a distributed POSIX file system built on top of Redis and S3.
-	- [[github.com/MrWangJustToDo/git-diff-view]] - A Diff View component for React / Vue / Solid / Svelte / Ink, same as Github
+	- [[github.com/MrWangJustToDo/git-diff-view]] - A Diff View component for React / Vue / Solid / Svelte / Ink / Lynx, same as Github
 	- [[github.com/nextcloud/server]] - ☁️ Nextcloud server, a safe home for all your data
 	- [[github.com/TheAlgorithms/JavaScript]] - Algorithms and Data Structures implemented in JavaScript for beginners, following best practices.
 	- [[github.com/usememos/memos]] - Memos is an open-source, self-hosted note-taking app that brings your everyday thoughts together in a personal timeline. Your data stays yours, and you choose what to keep private or share.
@@ -3831,7 +3833,7 @@ updateTime:: 11/6/2026, 8:43:56 AM
 	- [[github.com/github/smimesign]] - An S/MIME signing utility for use with Git
 	- [[github.com/hashicorp/terraform]] - Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.
 	- [[github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor]] - A GPT-4 AI Tutor Prompt for customizable personalized learning experiences.
-	- [[github.com/lobehub/lobehub]] - 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.
+	- [[github.com/lobehub/lobehub]] - 🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.
 	- [[github.com/palantir/palantir-java-format]] - A modern, lambda-friendly, 120 character Java formatter.
 	- [[github.com/phodal/auto-dev]] - 🧙‍AutoDev: the Multi-Agent coding development platform built on Kotlin Multiplatform.
 	- [[github.com/pstadler/keybase-gpg-github]] - Step-by-step guide on how to create a GPG key on keybase.io, adding it to a local GPG setup and using it with Git and GitHub.
@@ -3896,7 +3898,7 @@ updateTime:: 11/6/2026, 8:43:56 AM
 	- [[github.com/catppuccin/logseq]] - 🦫 Soothing pastel theme for Logseq
 	- [[github.com/denysdovhan/wtfjs]] - 🤪 A list of funny and tricky JavaScript examples
 	- [[github.com/giscus/giscus]] - A commenting system powered by GitHub Discussions. :octocat: :speech_balloon: :gem:
-	- [[github.com/gruntwork-io/kubergrunt]] - Kubergrunt is a standalone go binary with a collection of commands to fill in the gaps between Terraform, Helm, and Kubectl. https://www.gruntwork.io
+	- [[github.com/gruntwork-io/kubergrunt]] - Kubergrunt is a standalone go binary with a collection of commands to fill in the gaps between Terraform, Helm, and Kubectl. https://www.gruntwork.io #Archived
 	- [[github.com/GuoXiCheng/SKIP]] - 自动跳过APP开屏广告
 	- [[github.com/koush/scrypted]] - Scrypted is a high performance video integration and automation platform
 	- [[github.com/openebs/lvm-localpv]] - Dynamically provision Stateful Persistent Node-Local Volumes & Filesystems for Kubernetes that is integrated with a backend LVM2 data storage stack.
@@ -3955,7 +3957,7 @@ updateTime:: 11/6/2026, 8:43:56 AM
 - ## [[2023-11-24 Friday]]
 	- [[github.com/atlas-engineer/nyxt]] - Nyxt - the hacker's browser.
 	- [[github.com/binary-husky/gpt_academic]] - 为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&函数插件，支持Python和C++等项目剖析&自译解功能，PDF/LaTex论文翻译&总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claude2, moss等。
-	- [[github.com/dataelement/bisheng]] - BISHENG is an open LLM devops platform for next generation Enterprise AI applications. Powerful and comprehensive features include: GenAI workflow, RAG, Agent, Unified model management, Evaluation, SFT, Dataset Management, Enterprise-level System Management, Observability and more.
+	- [[github.com/dataelement/bisheng]] - BISHENG is an open-source enterprise Agent platform for building, deploying, and managing AI applications. It combines AI agents, workflows, RAG and knowledge management, desktop agent integration, and vibecoding app hosting with unified model management, evaluation, observability, access control, and enterprise administration.
 	- [[github.com/deepseek-ai/DeepSeek-Coder]] - DeepSeek Coder: Let the Code Write Itself
 	- [[github.com/di-sukharev/opencommit]] - top ＃1 and most feature rich GPT wrapper for git — generate commit messages with an LLM in 1 sec — works with Claude, GPT and every other provider, supports local Ollama models too
 	- [[github.com/ex3ndr/llama-coder]] - Replace Copilot local AI
@@ -4303,7 +4305,7 @@ updateTime:: 11/6/2026, 8:43:56 AM
 	- [[github.com/keycloak/keycloak]] - Open Source Identity and Access Management For Modern Applications and Services
 	- [[github.com/langchain-ai/langchain]] - The agent engineering platform.
 	- [[github.com/NationalSecurityAgency/ghidra]] - Ghidra is a software reverse engineering (SRE) framework
-	- [[github.com/nestjs/nest]] - A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript 🚀
+	- [[github.com/nestjs/nest]] - A progressive TypeScript framework for Node.js backends: from a small API in one file to efficient, scalable, enterprise-grade systems 🚀
 	- [[github.com/ordinals/ord]] - 👁‍🗨 Rare and exotic sats
 - ## [[2023-09-24 Sunday]]
 	- [[github.com/alebcay/awesome-shell]] - A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.
@@ -4618,7 +4620,7 @@ updateTime:: 11/6/2026, 8:43:56 AM
 	- [[github.com/zhaohongxuan/obsidian-weread-plugin]] - Obsidian Weread Plugin is a plugin to sync Weread(微信读书) hightlights and annotations into your Obsidian Vault.
 - ## [[2023-08-04 Friday]]
 	- [[github.com/lm-sys/FastChat]] - An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena.
-	- [[github.com/lollipopkit/flutter_server_box]] - ServerBox - server status & toolbox
+	- [[github.com/lollipopkit/flutter_server_box]] - ServerBox - high performance server toolbox app & server written in Flutter & Rust.
 	- [[github.com/upptime/upptime]] - ⬆️ GitHub Actions uptime monitor & status page by @AnandChowdhary
 - ## [[2023-08-03 Thursday]]
 	- [[github.com/bobrofon/easysshfs]] - SSHFS for Android
@@ -5481,8 +5483,6 @@ updateTime:: 11/6/2026, 8:43:56 AM
 	- [[github.com/gfwlist/gfwlist]] - The one and only one gfwlist here
 - ## [[2019-08-23 Friday]]
 	- [[github.com/stewartmcgown/uds]] - 📀 Unlimited Google Drive Storage by splitting binary files into base64
-- ## [[2019-08-17 Saturday]]
-	- [[github.com/Tsuk1ko/pxder]] - 🖼 Download illusts from pixiv.net P站插画批量下载器
 - ## [[2019-08-16 Friday]]
 	- [[github.com/Eugeny/tabby]] - A terminal for a more modern age
 	- [[github.com/janeczku/calibre-web]] - :books: Web app for browsing, reading and downloading eBooks stored in a Calibre database
