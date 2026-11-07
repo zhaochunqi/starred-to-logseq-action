@@ -2,8 +2,10 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/7/2026, 7:58:49 AM
+updateTime:: 11/8/2026, 7:22:12 AM
 
+- ## [[2026-11-07 Saturday]]
+	- [[github.com/CaviraOSS/LongMemory]] - Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc.
 - ## [[2026-11-06 Friday]]
 	- [[github.com/vercel-labs/agent-browser]] - Browser automation CLI for AI agents
 - ## [[2026-11-05 Thursday]]
@@ -21,7 +23,6 @@ updateTime:: 11/7/2026, 7:58:49 AM
 	- [[github.com/ospfranco/sol]] - MacOS launcher & command palette
 	- [[github.com/vercel-labs/agent-desktop]] - Computer use CLI for AI agents
 - ## [[2026-10-30 Friday]]
-	- [[github.com/HunYiSage/dsh-purge]] - DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分
 	- [[github.com/zeabur-oss/zeabur]] - Self-hosted PaaS on your own Kubernetes.
 - ## [[2026-10-29 Thursday]]
 	- [[github.com/alvinunreal/oh-my-opencode-slim]] - Lean, fine tuned Opencode multi agent suite · Mix any models · Auto delegate tasks
@@ -108,7 +109,7 @@ updateTime:: 11/7/2026, 7:58:49 AM
 	- [[github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise]] - Your Cheat Sheet For AI Engineering Interviews at Top AI Companies - Questions and Answers.
 	- [[github.com/tobi/disktree]] - A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.
 - ## [[2026-09-25 Friday]]
-	- [[github.com/abue-ammar/tinycast]] - Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.
+	- [[github.com/abue-ammar/tinycast]] - A native macOS launcher for everyday productivity. Lightweight and open source.
 	- [[github.com/dexidp/dex]] - OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
 - ## [[2026-09-24 Thursday]]
 	- [[github.com/BCUninstaller/Bulk-Crap-Uninstaller]] - Remove large amounts of unwanted applications quickly.
@@ -217,7 +218,7 @@ updateTime:: 11/7/2026, 7:58:49 AM
 	- [[github.com/DetachHead/rebased]] - A git client based on the IntelliJ platform
 	- [[github.com/PDFMathTranslate/PDFMathTranslate]] - [EMNLP 2025 Demo] PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero
 	- [[github.com/t8y2/dbx]] - 25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。
-	- [[github.com/tw93/Kaku]] - A fast, good-looking, AI-friendly terminal for the Mac.
+	- [[github.com/tw93/Kaku]] - A fast, AI-friendly Mac terminal.
 	- [[github.com/webadderallorg/Recordly]] - Create polished demo videos without editing skills. Mac/Windows/Linux
 	- [[github.com/wilhelmsendk/wake-up-supabase]] - A tiny GitHub Actions helper that prevents **free Supabase projects**   from being automatically paused due to inactivity
 - ## [[2026-08-15 Saturday]]
@@ -667,7 +668,7 @@ updateTime:: 11/7/2026, 7:58:49 AM
 	- [[github.com/lzhgus/Capso]] - Open-source screenshot and screen recording for macOS. The free, native alternative to CleanShot X. Built with Swift 6.0 and SwiftUI.
 	- [[github.com/mitsuhiko/agent-stuff]] - These are commands I use with agents, mostly Claude
 	- [[github.com/paperclipai/paperclip]] - The open-source app everyone uses to manage agents at work
-	- [[github.com/TableProApp/TablePro]] - Free and open source database client built natively for developers
+	- [[github.com/TableProApp/TablePro]] - Free, open-source native database client for macOS, Linux, iPhone and iPad.
 - ## [[2026-04-20 Monday]]
 	- [[github.com/gordonmurray/firnflow]] - The cost efficiency of S3 with the speed of local RAM. A multi-tenant vector and full-text search engine featuring a tiered RAM -> NVMe -> S3 architecture for microsecond latency on   top of object storage
 - ## [[2026-04-19 Sunday]]
@@ -1348,7 +1349,7 @@ updateTime:: 11/7/2026, 7:58:49 AM
 	- [[github.com/CooperJiang/PixelPunk]] - PixelPunk - 赛博图床 - 一款酷炫的现代化图床、结合AI实现智能标签、审核、使用方便智能、且持续免费更新
 	- [[github.com/Gaurav-Gosain/tuios]] - A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent. Official only at tuios.dev and this repo. tuios has no X/Twitter account.
 	- [[github.com/Ruben2776/PicView]] - Fast, free and customizable picture viewer
-	- [[github.com/timothepoznanski/poznote]] - Powerful note-taking without the hassle.
+	- [[github.com/timothepoznanski/Poznote]] - Powerful note-taking without the hassle.
 	- [[github.com/unhappychoice/gitlogue]] - A cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story.
 - ## [[2025-12-05 Friday]]
 	- [[github.com/amzxyz/rime-wanxiang]] - 「万象拼音」：把算法留在幕后，把纯粹还给指尖，用更优质的数据，接管你的候选。
@@ -1540,7 +1541,7 @@ updateTime:: 11/7/2026, 7:58:49 AM
 	- [[github.com/microsoft/RD-Agent]] - Research and development (R&D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&D are mainly focused on data and models. We are committed to automating these high-value generic R&D processes through R&D-Agent, which lets AI drive data-driven AI. 🔗https://aka.ms/RD-Agent-Tech-Report
 	- [[github.com/Rivens7/Livelist]] - IPTV-ipv6直播源同步及常看直播
 	- [[github.com/snailyp/gemini-balance]] - Gemini polling proxy service （gemini轮询代理服务）
-	- [[github.com/tw93/Mole]] - 🐹 Keep your Mac and PC clean, light, and running like new. Fast open-source CLI, plus native Mac and Windows apps.
+	- [[github.com/tw93/Mole]] - 🐹 Open-source Mac and PC cleaner. Keep your machine clean, light, and running like new. Fast CLI, plus native Mac and Windows apps.
 	- [[github.com/vnpy/vnpy]] - 基于Python的开源量化交易平台开发框架
 	- [[github.com/zhaochunqi/til]] - Today I Learn
 - ## [[2025-10-06 Monday]]
@@ -1605,7 +1606,7 @@ updateTime:: 11/7/2026, 7:58:49 AM
 	- [[github.com/exo-explore/exo]] - Run frontier AI locally.
 	- [[github.com/izackwu/TeachYourselfCS-CN]] - TeachYourselfCS 的中文翻译 |  A Chinese translation of TeachYourselfCS
 	- [[github.com/promptfoo/promptfoo]] - Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.
-	- [[github.com/tw93/MiaoYan]] - ⛷ A quiet, local-first Markdown writing app for Mac, iPhone and iPad, to help you write great sentences.
+	- [[github.com/tw93/MiaoYan]] - ⛷ A light, native Markdown notebook for Mac, iPhone and iPad.
 	- [[github.com/UFund-Me/Qbot]] - [🔥updating ...] AI 自动量化交易机器人(完全本地部署) AI-powered Quantitative Investment Research Platform. 📃 online docs: https://ufund-me.github.io/Qbot   ✨ :news: qbot-mini: https://github.com/Charmve/iQuant
 - ## [[2025-09-21 Sunday]]
 	- [[github.com/anomalyco/models.dev]] - An open-source database of AI models.
@@ -1917,7 +1918,7 @@ updateTime:: 11/7/2026, 7:58:49 AM
 	- [[github.com/open-policy-agent/gatekeeper]] - 🐊 Policy Controller for Kubernetes
 	- [[github.com/pgdogdev/pgdog]] - PostgreSQL connection pooler, load balancer and database sharder.
 	- [[github.com/tiagozip/cap]] - privacy-first, open-source and self-hosted CAPTCHA alternative with PoW and instrumentation challenges.
-	- [[github.com/tuist/tuist]] - Your platform team, as a service
+	- [[github.com/tuist/tuist]] - Less waiting, more shipping
 	- [[github.com/xyflow/xyflow]] - React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.
 - ## [[2025-06-01 Sunday]]
 	- [[github.com/Delgan/loguru]] - Python logging made (stupidly) simple
@@ -2522,7 +2523,7 @@ updateTime:: 11/7/2026, 7:58:49 AM
 	- [[github.com/iyear/tdl]] - 📥 A Telegram toolkit written in Golang
 	- [[github.com/microsoft/markitdown]] - Python tool for converting files and office documents to Markdown.
 - ## [[2024-12-15 Sunday]]
-	- [[github.com/forwardemail/forwardemail.net]] - Privacy-focused encrypted email for everyone.  All-in-one alternative to Gmail + Mailchimp + Sendgrid.
+	- [[github.com/forwardemail/forwardemail.net]] - Open-source, privacy-focused email service for custom domains. Free email forwarding, encrypted mailboxes (IMAP/POP3), SMTP sending, calendars and contacts (CalDAV/CardDAV), webhooks, and an email API. Self-host it with Docker. A private alternative to Gmail, Mailchimp, and SendGrid.
 	- [[github.com/rrousselGit/riverpod]] - A reactive caching and data-binding framework.   Riverpod makes working with asynchronous code a breeze.
 - ## [[2024-12-14 Saturday]]
 	- [[github.com/remotely-save/remotely-save]] - Sync notes between local and cloud with smart conflict: S3 (Amazon S3/Cloudflare R2/Backblaze B2/...), Dropbox, webdav (NextCloud/InfiniCLOUD/Synology/...), OneDrive, Google Drive (GDrive), Box, pCloud, Yandex Disk, Koofr, Azure Blob Storage.
@@ -5857,7 +5858,7 @@ updateTime:: 11/7/2026, 7:58:49 AM
 	- [[github.com/ethereum/go-ethereum]] - Go implementation of the Ethereum protocol
 - ## [[2017-05-29 Monday]]
 	- [[github.com/efortuna/memechat]] - a meme-based chat application
-	- [[github.com/linsa-io/linsa]] - Work. Save. Share. Privately.
+	- [[github.com/gendotnew/ai]] - No Description Yet.
 - ## [[2017-05-28 Sunday]]
 	- [[github.com/amitshekhariitbhu/from-java-to-kotlin]] - From Java To Kotlin - Your Cheat Sheet For Java To Kotlin
 - ## [[2017-05-17 Wednesday]]
