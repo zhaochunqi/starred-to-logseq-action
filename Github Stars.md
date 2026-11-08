@@ -2,8 +2,12 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/8/2026, 7:22:12 AM
+updateTime:: 11/9/2026, 7:24:44 AM
 
+- ## [[2026-11-09 Monday]]
+	- [[github.com/hashgraph-online/awesome-ai-plugins]] - A curated list of the best awesome AI plugins for AI assistants including Claude Code, OpenAI Codex / ChatGPT, Gemini, Antigravity, Pi / Oh My Pi, Grok, OpenCodek DSH, Kimi and More. https://hol.org/plugins
+- ## [[2026-11-08 Sunday]]
+	- [[github.com/basicmachines-co/basic-memory]] - AI conversations that actually remember. Never re-explain your project to your AI again. Join our Discord: https://discord.gg/tyvKNccgqN
 - ## [[2026-11-07 Saturday]]
 	- [[github.com/CaviraOSS/LongMemory]] - Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc.
 - ## [[2026-11-06 Friday]]
@@ -101,7 +105,7 @@ updateTime:: 11/8/2026, 7:22:12 AM
 	- [[github.com/github/spec-kit]] - 💫 Toolkit to help you get started with SDD or any other process!
 - ## [[2026-09-28 Monday]]
 	- [[github.com/Leonxlnx/taste-skill]] - Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages
-	- [[github.com/LSPosed/ZygiskNext]] - Standalone implementation of Zygisk
+	- [[github.com/LSPosed/ZygiskNext]] - Standalone implementation of Zygisk #Archived
 - ## [[2026-09-27 Sunday]]
 	- [[github.com/google/artemis]] - ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.
 	- [[github.com/hypit-ai/hypit]] - Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.
@@ -198,7 +202,6 @@ updateTime:: 11/8/2026, 7:22:12 AM
 	- [[github.com/fayazara/Screendrop]] - A beautiful screenshot + screen recording + Loom alternative - all native, self hostable and free.
 	- [[github.com/zhaochunqi/cat-plays-piano]] - No Description Yet.
 - ## [[2026-08-24 Monday]]
-	- [[github.com/arvids-unavailable/openGym]] - https://github.com/DuarteSantos8/openGym
 	- [[github.com/op7418/guizang-ppt-skill]] - AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.
 - ## [[2026-08-23 Sunday]]
 	- [[github.com/ActivityWatch/activitywatch]] - The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.
@@ -803,7 +806,6 @@ updateTime:: 11/8/2026, 7:22:12 AM
 	- [[github.com/joaoh82/rustunnel]] - Self-hosted, secure tunnel server in Rust. Expose local HTTP/HTTPS/TCP/UDP services to the public internet via TLS-encrypted WebSocket. Open-source, pay-as-you-go managed option, MCP server for AI agents.
 	- [[github.com/lifedever/health-tick-release]] - HealthTick - macOS Menu Bar Sedentary Reminder Tool
 	- [[github.com/mnfst/llm-gateway]] - Open Source LLM Gateway 🦚
-	- [[github.com/nowledge-co/nowledge-mem]] - Memory and context manager just works.
 	- [[github.com/wolfi-dev/os]] - Main package repository for production Wolfi images
 	- [[github.com/Xuanwo/xurl]] - xURL: Client for AI Agents URLs
 - ## [[2026-03-19 Thursday]]
@@ -854,7 +856,7 @@ updateTime:: 11/8/2026, 7:22:12 AM
 	- [[github.com/yangyang0507/starepo]] - Search your GitHub stars with semantic search
 - ## [[2026-03-08 Sunday]]
 	- [[github.com/bpftrace/bpftrace]] - High-level tracing language for Linux
-	- [[github.com/gojue/ecaptureQ]] - A cross-platform GUI for ecapture built with Tauri, enabling eBPF-based, non-intrusive TLS inspection on Linux & Android, with remote clients for Windows, macOS, and Linux.
+	- [[github.com/gojue/ecaptureQ]] - A cross-platform desktop and web UI for eCapture. Inspect decrypted TLS traffic, correlate requests and responses, and analyze multiple data sources.
 	- [[github.com/linuxkit/linuxkit]] - A toolkit for building secure, portable and lean operating systems for containers
 	- [[github.com/lizrice/learning-ebpf]] - Learning eBPF, published by O'Reilly - out now! Here's where you'll find a VM config for the examples, and more
 	- [[github.com/parca-dev/parca]] - Continuous profiling for analysis of CPU and memory usage, down to the line number and throughout time. Saving infrastructure cost, improving performance, and increasing reliability.
@@ -1277,7 +1279,7 @@ updateTime:: 11/8/2026, 7:22:12 AM
 - ## [[2025-12-21 Sunday]]
 	- [[github.com/amzxyz/rime-wanxiang-data]] - 万象拼音数据与工具中心: 简繁扩展词库/声调编码/声调标注工具链/万象更新工具链/Rime语法模型
 	- [[github.com/GitGuardian/ggshield]] - Detect and validate 500+ types of hardcoded secrets with advanced checks. Use it as a pre-commit hook, GitHub Action, or CLI for proactive secret detection and security.
-	- [[github.com/lollipopkit/llmbox]] - GPTBox - a third-party client for OpenAI API.
+	- [[github.com/lollipopkit/llmbox]] - LLMBox - a third-party client for OpenAI API.
 	- [[github.com/NixOS/nixos-search]] - Search NixOS packages and options
 	- [[github.com/outloudvi/mw2fcitx]] - Fcitx 5 pinyin dictionary generator for MediaWiki instances. (Releases for dict of zh.moegirl.org.cn / Check release list for latest releases)
 	- [[github.com/rime/librime]] - Rime Input Method Engine, the core library
