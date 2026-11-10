@@ -2,9 +2,11 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/9/2026, 7:24:44 AM
+updateTime:: 11/10/2026, 10:34:11 AM
 
 - ## [[2026-11-09 Monday]]
+	- [[github.com/anomalyco/opentui]] - OpenTUI is a library to build terminal user interfaces (TUI)
+	- [[github.com/Gentleman-Programming/engram]] - Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.
 	- [[github.com/hashgraph-online/awesome-ai-plugins]] - A curated list of the best awesome AI plugins for AI assistants including Claude Code, OpenAI Codex / ChatGPT, Gemini, Antigravity, Pi / Oh My Pi, Grok, OpenCodek DSH, Kimi and More. https://hol.org/plugins
 - ## [[2026-11-08 Sunday]]
 	- [[github.com/basicmachines-co/basic-memory]] - AI conversations that actually remember. Never re-explain your project to your AI again. Join our Discord: https://discord.gg/tyvKNccgqN
@@ -382,7 +384,7 @@ updateTime:: 11/9/2026, 7:24:44 AM
 - ## [[2026-07-15 Wednesday]]
 	- [[github.com/AkimioJR/AutoFilm]] - 一个为Emby、Jellyfin提供生成strm、动漫追番、绘制媒体库海报的小工具
 	- [[github.com/atuinsh/atuin-ai-server]] - Self-hosted server for Atuin AI, backed by any OpenAI-compatible endpoint
-	- [[github.com/flythenimbus/bramble]] - Local-first password manager with direct device-to-device sync
+	- [[github.com/bramble-sh/bramble]] - Local-first password manager with direct device-to-device sync
 	- [[github.com/leandrocp/lumis]] - One highlighter, 8 runtimes. Powered by Tree-sitter and Neovim themes.
 	- [[github.com/mactools-app/MacTools]] - A free and open-source collection of native macOS menu bar tools.
 	- [[github.com/maimemo/SSP-MMC]] - A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling
@@ -549,7 +551,7 @@ updateTime:: 11/9/2026, 7:24:44 AM
 	- [[github.com/tantara/openbrief]] - No Description Yet.
 - ## [[2026-05-25 Monday]]
 	- [[github.com/leodavinci1/kanbots]] - Local collaboration interface for working on a kanban board where each task is either a Claude Code or Codex agent.
-	- [[github.com/Turbo1123/roubao]] - Android Automation Tool Based on Vision-Language Models
+	- [[github.com/Turbo1123/roubao]] - 肉包 Roubao 2.0 for iPhone: open-source iOS AI agent with owner-authorized Micro-X UI control, custom models, resumable tasks and PDF reports. No Wi-Fi, jailbreak, computer or extra hardware at runtime (Mac + USB setup required). Legacy Android retained.
 	- [[github.com/victorchen96/deepseek_v4_rolepaly_instruct]] - 对于DeepSeek-V4角色扮演的特殊控制指令的说明
 	- [[github.com/zakirullin/files.md]] - 🌱 Private, quiet space for thinking. Simple app for .md files.
 - ## [[2026-05-24 Sunday]]
@@ -1177,7 +1179,6 @@ updateTime:: 11/9/2026, 7:24:44 AM
 	- [[github.com/GuDaStudio/skills]] - This repository contains a collection of Agent Skills developed by GudaStudio, enabling seamless collaboration between Claude and other AI models and tools.
 	- [[github.com/huggingface/skills]] - Give your agents the power of the Hugging Face ecosystem
 	- [[github.com/kotest/kotest]] - Powerful, elegant and flexible test framework for Kotlin with assertions, property testing and data driven tests.
-	- [[github.com/memodb-io/Acontext]] - Agent Skills as a Memory Layer #Archived
 	- [[github.com/mrgoonie/claudekit-skills]] - All powerful skills of ClaudeKit.cc!
 	- [[github.com/oliexdev/openScale]] - Open-source weight and body metrics tracker, with support for Bluetooth scales
 	- [[github.com/platonai/Browser4]] - Browser4 — an AI-native browser engine for autonomous agents, intelligent extraction, and large-scale web automation.
@@ -1395,7 +1396,6 @@ updateTime:: 11/9/2026, 7:24:44 AM
 - ## [[2025-11-20 Thursday]]
 	- [[github.com/cjpais/Handy]] - A free, open source, and extensible speech-to-text application that works completely offline.
 	- [[github.com/emmabostian/developer-portfolios]] - A list of developer portfolios for your inspiration
-	- [[github.com/spacelift-io/spacelift-intent]] - Intent lets you provision and manage cloud infrastructure using natural language #Archived
 - ## [[2025-11-19 Wednesday]]
 	- [[github.com/liriliri/eruda]] - Console for mobile browsers
 	- [[github.com/plankanban/planka]] - Elegant open source project tracking. Self-hosted Kanban for teams — free Community edition, with PLANKA Pro for organisations.
@@ -1920,7 +1920,7 @@ updateTime:: 11/9/2026, 7:24:44 AM
 	- [[github.com/open-policy-agent/gatekeeper]] - 🐊 Policy Controller for Kubernetes
 	- [[github.com/pgdogdev/pgdog]] - PostgreSQL connection pooler, load balancer and database sharder.
 	- [[github.com/tiagozip/cap]] - privacy-first, open-source and self-hosted CAPTCHA alternative with PoW and instrumentation challenges.
-	- [[github.com/tuist/tuist]] - Less waiting, more shipping
+	- [[github.com/tuist/tuist]] - Tuist builds infrastructure for faster, more reliable build and test workflows across developers, CI, and coding agents. Shared cache, tests, and insights that sit alongside your existing CI.
 	- [[github.com/xyflow/xyflow]] - React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.
 - ## [[2025-06-01 Sunday]]
 	- [[github.com/Delgan/loguru]] - Python logging made (stupidly) simple
@@ -3901,7 +3901,6 @@ updateTime:: 11/9/2026, 7:24:44 AM
 	- [[github.com/catppuccin/logseq]] - 🦫 Soothing pastel theme for Logseq
 	- [[github.com/denysdovhan/wtfjs]] - 🤪 A list of funny and tricky JavaScript examples
 	- [[github.com/giscus/giscus]] - A commenting system powered by GitHub Discussions. :octocat: :speech_balloon: :gem:
-	- [[github.com/gruntwork-io/kubergrunt]] - Kubergrunt is a standalone go binary with a collection of commands to fill in the gaps between Terraform, Helm, and Kubectl. https://www.gruntwork.io #Archived
 	- [[github.com/GuoXiCheng/SKIP]] - 自动跳过APP开屏广告
 	- [[github.com/koush/scrypted]] - Scrypted is a high performance video integration and automation platform
 	- [[github.com/openebs/lvm-localpv]] - Dynamically provision Stateful Persistent Node-Local Volumes & Filesystems for Kubernetes that is integrated with a backend LVM2 data storage stack.
@@ -4194,7 +4193,7 @@ updateTime:: 11/9/2026, 7:24:44 AM
 	- [[github.com/umami-software/umami]] - Umami is a privacy-first web and product analytics platform. Traffic, campaigns, behavior, conversions, and revenue in one place. No cookies, no surveillance, self-hosted or in the cloud.
 	- [[github.com/vesoft-inc/nebula]] - A distributed, fast open-source graph database featuring horizontal scalability and high availability
 - ## [[2023-10-15 Sunday]]
-	- [[github.com/dmunozv04/iSponsorBlockTV]] - SponsorBlock client for all YouTube TV clients.
+	- [[github.com/dmunozv04/iSponsorBlockTV]] - SponsorBlock client for all YouTube for TV clients.
 - ## [[2023-10-14 Saturday]]
 	- [[github.com/jawj/zapatos]] - Zero-abstraction Postgres for TypeScript: a non-ORM database library
 	- [[github.com/kysely-org/kysely]] - A type-safe TypeScript SQL query builder
@@ -4546,7 +4545,7 @@ updateTime:: 11/9/2026, 7:24:44 AM
 	- [[github.com/FoundationAgents/MetaGPT]] - 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
 	- [[github.com/Hack-with-Github/Awesome-Hacking]] - A collection of various awesome lists for hackers, pentesters and security researchers
 	- [[github.com/heroui-inc/heroui]] - 🚀 Beautiful, fast and modern React UI library. (Previously NextUI)
-	- [[github.com/invoke-ai/InvokeAI]] - Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.
+	- [[github.com/invoke-ai/InvokeAI]] - Invoke is a leading creative engine that uses image and video generation models to empower professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry-leading application interface, and serves as the foundation for multiple commercial products.
 	- [[github.com/jellyfin/jellyfin-web]] - The Free Software Media System - Official Web Client
 	- [[github.com/kodemoapp/player]] - A React component for reading Kodemo documents.
 	- [[github.com/LazyVim/LazyVim]] - Neovim config for the lazy
