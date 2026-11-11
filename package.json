@@ -19,7 +19,7 @@
     "@vercel/ncc": "^0.45.0",
     "@vitest/coverage-v8": "^5.0.5",
     "@vitest/ui": "^5.0.5",
-    "jsdom": "^30.0.1",
+    "jsdom": "^31.0.0",
     "typescript": "^6.0.3",
     "vitest": "^5.0.5"
   },
