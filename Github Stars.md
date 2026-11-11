@@ -2,8 +2,12 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/10/2026, 10:34:11 AM
+updateTime:: 11/11/2026, 8:25:21 AM
 
+- ## [[2026-11-10 Tuesday]]
+	- [[github.com/egdev6/engram-monitor]] - Dashboard for monitoring and exploring Engram memory: sessions, observations, prompts, and stats
+	- [[github.com/hdansou/logseq-bermaid]] - No Description Yet.
+	- [[github.com/LiPu-jpg/Openwrite]] - dsh-Openwrite：OpenWrite 的 DeepSeek Harness 小说创作插件，含统一创作 Agent、56 个小说工具、原生工作台与标准审稿 DAG
 - ## [[2026-11-09 Monday]]
 	- [[github.com/anomalyco/opentui]] - OpenTUI is a library to build terminal user interfaces (TUI)
 	- [[github.com/Gentleman-Programming/engram]] - Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.
@@ -128,6 +132,7 @@ updateTime:: 11/10/2026, 10:34:11 AM
 	- [[github.com/stumpapp/stump]] - A free and open source comics, manga and digital book server with OPDS support
 - ## [[2026-09-19 Saturday]]
 	- [[github.com/danielwh2/drawably]] - Hand-drawn UI controls. Every mount generates a fresh pen sketch from seeded randomness, and the stroke boils like an animated doodle. Zero dependencies, 4 KB of JS and one stylesheet.
+	- [[github.com/HiThink-Tech/Financial-API]] - 同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements, indices, sectors and limit-up data for AI agents, quantitative research and application development.
 	- [[github.com/syabro/neat-annotations]] - Hand-drawn CSS annotations for inline content
 	- [[github.com/tamaratran/fast-jev-compaction]] - Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.
 - ## [[2026-09-18 Friday]]
@@ -648,7 +653,7 @@ updateTime:: 11/10/2026, 10:34:11 AM
 	- [[github.com/toon-format/toon-rust]] - 🦀 Community-driven Rust implementation of TOON
 	- [[github.com/tw93/Kami]] - 👩‍🚒 Good content deserves good paper. Layout rules and templates that let AI agents export PDF, PNG and editable PowerPoint.
 	- [[github.com/VoltAgent/awesome-codex-subagents]] - A collection of 130+ specialized Codex subagents covering a wide range of development use cases.
-	- [[github.com/w3dev33/beads-task-issue-tracker]] - This project's successor is PaiR (v0.48.0) - download at https://pair.w3dev.fr
+	- [[github.com/w3dev33/beads-task-issue-tracker]] - This project's successor is PaiR (v0.50.0) — download at https://pair.w3dev.fr
 - ## [[2026-04-25 Saturday]]
 	- [[github.com/adr/madr]] - Markdown Architectural Decision Records
 	- [[github.com/eljulians/skillfile]] - One-stop shop for AI skills and agents. Search 110K+ community skills, install and track them declaratively, and deploy across all major AI coding tools (Claude Code, Codex, Cursor, Antigravity and more)
@@ -1203,7 +1208,7 @@ updateTime:: 11/10/2026, 10:34:11 AM
 	- [[github.com/grafana/mimir]] - Grafana Mimir provides horizontally scalable, highly available, multi-tenant, long-term storage for Prometheus.
 	- [[github.com/gravitl/netmaker]] - Netmaker makes networks with WireGuard. Netmaker automates fast, secure, and distributed virtual networks.
 	- [[github.com/hanshuaikang/NBping]] - 🏎  Nping mean NB Ping, A Ping Tool in Rust with Real-Time Data and Visualizations
-	- [[github.com/hcavarsan/pipedash]] - Manage CI/CD pipelines from multiple providers (self hosted, desktop app and ios app )
+	- [[github.com/hcavarsan/pipedash]] - One dashboard for CI/CD pipelines across multiple providers
 	- [[github.com/jarvis2f/telegram-files]] - A self-hosted Telegram file downloader for continuous, stable, and unattended downloads.
 	- [[github.com/massgravel/Microsoft-Activation-Scripts]] - Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.
 	- [[github.com/paulojmdias/lokxy]] - Lokxy is a powerful log aggregator for Loki, designed to collect and unify log streams from multiple sources into a single, queryable endpoint. It simplifies log management and enhances visibility across distributed environments, providing seamless integration with your existing Loki infrastructure.
@@ -2245,7 +2250,6 @@ updateTime:: 11/10/2026, 10:34:11 AM
 - ## [[2025-02-20 Thursday]]
 	- [[github.com/daodao97/chatmcp]] - ChatMCP is an AI chat client implementing the Model Context Protocol (MCP).
 	- [[github.com/modelcontextprotocol/typescript-sdk]] - The official TypeScript SDK for Model Context Protocol servers and clients
-	- [[github.com/pocketbase/js-sdk]] - PocketBase JavaScript SDK #Archived
 	- [[github.com/postcss/postcss]] - Transforming styles with JS plugins
 	- [[github.com/tailwindlabs/prettier-plugin-tailwindcss]] - A Prettier plugin for Tailwind CSS that automatically sorts classes based on our recommended class order.
 	- [[github.com/xiaoyifang/goldendict-ng]] - The Next Generation GoldenDict
@@ -2331,7 +2335,6 @@ updateTime:: 11/10/2026, 10:34:11 AM
 	- [[github.com/cure53/DOMPurify]] - DOMPurify - a DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG. DOMPurify works with a secure default, but offers a lot of configurability and hooks. Demo:
 	- [[github.com/highlightjs/highlight.js]] - JavaScript syntax highlighter with language auto-detection and zero dependencies.
 	- [[github.com/pacocoursey/next-themes]] - Perfect Next.js dark mode in 2 lines of code. Support System preference and any other theme with no flashing
-	- [[github.com/picocss/pico]] - Minimal CSS Framework for semantic HTML #Archived
 	- [[github.com/react-syntax-highlighter/react-syntax-highlighter]] - syntax highlighting component for react with prismjs or highlightjs ast using inline styles
 - ## [[2025-01-30 Thursday]]
 	- [[github.com/Arman19941113/dnd-resume]] - 🚀 Resume Builder 在线简历生成工具
@@ -3613,7 +3616,6 @@ updateTime:: 11/10/2026, 10:34:11 AM
 	- [[github.com/fishjar/kiss-translator]] - A simple, open source bilingual translation extension & Greasemonkey script (一个简约、开源的 双语对照翻译扩展 & 油猴脚本)
 	- [[github.com/jason5ng32/MyIP]] - The best IP Toolbox. Check your IP address & geolocation, test IP for WebRTC and DNS IP leaks, run an IP quality check, browser fingerprint check, website availability check, network speed test, global latency test, MTR test, Whois search, and more.
 	- [[github.com/morsoli/llm-books]] - 利用LLM构建应用实践笔记
-	- [[github.com/vercel/hyper]] - A terminal built on web technologies #Archived
 - ## [[2024-02-01 Thursday]]
 	- [[github.com/docker-mailserver/docker-mailserver]] - Production-ready fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) running inside a container.
 	- [[github.com/grpc/grpc]] - C++ based gRPC (C++, Python, Ruby, Objective-C, PHP, C＃)
@@ -3919,8 +3921,8 @@ updateTime:: 11/10/2026, 10:34:11 AM
 - ## [[2023-12-02 Saturday]]
 	- [[github.com/andreasgerstmayr/fava-portfolio-returns]] - fava-portfolio-returns shows portfolio returns in Fava
 	- [[github.com/beancount/beangrow]] - Returns calculations on portfolios in Beancount
-	- [[github.com/LizardByte/Sunshine]] - Self-hosted game stream host for Moonlight.
 	- [[github.com/microsoft/wslg]] - Enabling the Windows Subsystem for Linux to include support for Wayland and X server related scenarios
+	- [[github.com/SunshineStream/Sunshine]] - Self-hosted game stream host for Moonlight.
 - ## [[2023-12-01 Friday]]
 	- [[github.com/01mf02/jaq]] - A jq clone focussed on correctness, speed, and simplicity
 	- [[github.com/metatube-community/jellyfin-plugin-metatube]] - MetaTube Plugin for Jellyfin/Emby
@@ -4370,7 +4372,6 @@ updateTime:: 11/10/2026, 10:34:11 AM
 	- [[github.com/graphql/graphiql]] - GraphiQL & the GraphQL LSP Reference Ecosystem for building browser & IDE tools.
 	- [[github.com/hrydgard/ppsspp]] - A PSP emulator for Android, Windows, Mac, Linux and iOS, written in C++. Want to contribute? Join us on Discord at https://discord.gg/5NJB6dD or just send pull requests / issues.
 - ## [[2023-09-11 Monday]]
-	- [[github.com/isno/theByteBook]] - ⭐ 【出版书籍】京东购买链接 https://item.jd.com/14531549.html  深入讲解内核网络、Kubernetes、ServiceMesh、容器等云原生相关技术。经历实践检验的“大规模分布式系统”开发指南。 #Archived
 	- [[github.com/lllyasviel/Fooocus]] - Focus on prompting and generating
 	- [[github.com/orhun/gpg-tui]] - Manage your GnuPG keys with ease! 🔐
 	- [[github.com/ProjektGopher/whisky]] - Whisky is the simplest, framework agnostic, CLI tool for managing and enforcing a php project's git hooks across an entire team.
