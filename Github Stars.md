@@ -2,8 +2,13 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/11/2026, 8:25:21 AM
+updateTime:: 11/12/2026, 9:50:17 AM
 
+- ## [[2026-11-11 Wednesday]]
+	- [[github.com/embedpdf/embed-pdf-viewer]] - A PDF viewer that seamlessly integrates with any JavaScript project
+	- [[github.com/j178/prek]] - ⚡ A fast Git hook manager written in Rust, designed as a drop-in alternative to pre-commit, reimagined.
+	- [[github.com/meta/astryx]] - An open source design system that's fully customizable and agent ready
+	- [[github.com/paulirish/chrome-capture]] - 60-120fps / 2160p tab video/audio capture from Chrome
 - ## [[2026-11-10 Tuesday]]
 	- [[github.com/egdev6/engram-monitor]] - Dashboard for monitoring and exploring Engram memory: sessions, observations, prompts, and stats
 	- [[github.com/hdansou/logseq-bermaid]] - No Description Yet.
@@ -1128,8 +1133,8 @@ updateTime:: 11/11/2026, 8:25:21 AM
 	- [[github.com/harshit181/RSSPub]] - Turn your RSS feeds and Read later articles into a personal daily newspaper for your e-reader.
 	- [[github.com/hhftechnology/Dock-Dploy]] - A  web-based tool for building, managing, and converting Docker Compose files, configuration files, and schedulers.
 	- [[github.com/javedh-dev/tracktor]] - Vehicle Tracking Management System
-	- [[github.com/kepano/obsidian-skills]] - Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.
 	- [[github.com/nicotsx/zerobyte]] - Backup automation for self-hosters. Built on top of restic
+	- [[github.com/obsidianmd/obsidian-skills]] - Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.
 	- [[github.com/rossmacarthur/sheldon]] - :bowtie: Fast, configurable, shell plugin manager
 - ## [[2026-01-12 Monday]]
 	- [[github.com/bizz84/flutter-tips-and-tricks]] - All my Flutter Tips & Tricks on X (Twitter) and LinkedIn.
@@ -1643,7 +1648,7 @@ updateTime:: 11/11/2026, 8:25:21 AM
 	- [[github.com/haileyydev/maildrop]] - ✉️ A simple self hostable email service
 	- [[github.com/nickclyde/duckduckgo-mcp-server]] - A Model Context Protocol (MCP) server that provides web search capabilities through DuckDuckGo, with additional features for content fetching and parsing.
 - ## [[2025-09-16 Tuesday]]
-	- [[github.com/agno-agi/agno]] - The self-driving agent platform
+	- [[github.com/agno-agi/agno]] - The self-managing agent platform
 	- [[github.com/ashishpatel26/500-AI-Agents-Projects]] - The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more.
 	- [[github.com/vicinaehq/vicinae]] - A focused launcher for your desktop - native, fast, extensible
 - ## [[2025-09-15 Monday]]
@@ -1690,9 +1695,9 @@ updateTime:: 11/11/2026, 8:25:21 AM
 - ## [[2025-09-05 Friday]]
 	- [[github.com/adlered/CSDNGreener]] - 《专 业 团 队》🕺🏿 🕺🏿 🕺🏿 🕺🏿 ⚰️🕺🏿 🕺🏿 🕺🏿 🕺🏿 | 专治 CSDN 广告与各种灵魂打击 | 🐵 油猴脚本 | TamperMonkey | Chrome | FireFox | CSDN 页面浮窗广告完全过滤净化 | 国服最强 CSDN 绿化脚本
 - ## [[2025-09-03 Wednesday]]
-	- [[github.com/electric-sql/electric]] - The agent platform built on sync.
 	- [[github.com/instantdb/instant]] - Instant is the best backend for AI-coded apps.  You get auth, permissions, storage, presence, and streams — everything you need to ship apps your users will love.
 	- [[github.com/livestorejs/livestore]] - LiveStore is a next-generation state management framework based on reactive SQLite and built-in sync engine.
+	- [[github.com/neondatabase/electric]] - The agent platform built on sync.
 	- [[github.com/powersync-ja/powersync-js]] - PowerSync client SDKs for JavaScript clients
 	- [[github.com/rocicorp/mono]] - 99% of Queries in Zero Milliseconds
 - ## [[2025-09-02 Tuesday]]
@@ -1924,7 +1929,7 @@ updateTime:: 11/11/2026, 8:25:21 AM
 	- [[github.com/nfrasser/linkifyjs]] - JavaScript plugin for finding links in plain-text and converting them to HTML <a> tags.
 	- [[github.com/open-policy-agent/gatekeeper]] - 🐊 Policy Controller for Kubernetes
 	- [[github.com/pgdogdev/pgdog]] - PostgreSQL connection pooler, load balancer and database sharder.
-	- [[github.com/tiagozip/cap]] - privacy-first, open-source and self-hosted CAPTCHA alternative with PoW and instrumentation challenges.
+	- [[github.com/tiagozip/cap]] - The open-source, privacy-friendly CAPTCHA you host yourself. Bots and AI agents out, people in.
 	- [[github.com/tuist/tuist]] - Tuist builds infrastructure for faster, more reliable build and test workflows across developers, CI, and coding agents. Shared cache, tests, and insights that sit alongside your existing CI.
 	- [[github.com/xyflow/xyflow]] - React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.
 - ## [[2025-06-01 Sunday]]
@@ -2389,7 +2394,7 @@ updateTime:: 11/11/2026, 8:25:21 AM
 	- [[github.com/amir20/dozzle]] - Realtime log viewer for containers.  Supports Docker, Swarm and K8s.
 	- [[github.com/logancyang/obsidian-copilot]] - Run agents in Obsidian - OpenCode, Codex, Claude Code etc.
 	- [[github.com/mem0ai/mem0]] - The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.
-	- [[github.com/mumu-lhl/Ciyue]] - An MDict/StarDict dictionary app with Android/Windows/Linux/macOS support
+	- [[github.com/mumu-lhl/Ciyue]] - An MDict/StarDict/ZIM dictionary app with Android/Windows/Linux/macOS support
 	- [[github.com/Qetesh/miniflux-ai]] - Miniflux with AI. Add AI summaries, translations, and AI news based on RSS content
 	- [[github.com/SkipLabs/skip]] - Skip is a framework for building reactive services
 	- [[github.com/yonaskolb/Mint]] - A package manager that installs and runs executable Swift packages
@@ -2739,7 +2744,7 @@ updateTime:: 11/11/2026, 8:25:21 AM
 	- [[github.com/apache/couchdb]] - Seamless multi-primary syncing database with an intuitive HTTP/JSON API, designed for reliability
 	- [[github.com/ClickHouse/ClickStack]] - Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.
 	- [[github.com/gvwilson/sdxpy]] - Software Design by Example: a tool-based introduction with Python
-	- [[github.com/langfuse/langfuse]] - 🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.
+	- [[github.com/langfuse/langfuse]] - 🪢 Open source AI engineering platform: AI Gateway, agent observability, evals, and prompt/skill management, built on OpenTelemetry. One open platform for every AI call and every agent. Self-host or use Langfuse Cloud.
 	- [[github.com/oiov/vmail]] - 📫 只需一个域名部署临时邮箱到 Cloudflare Worker，支持收发邮件，使用 D1 保存数据，支持多域名后缀，密码找回，开放API接口。
 	- [[github.com/STRRL/cloudflare-tunnel-ingress-controller]] - 🚀 Expose the website directly into the internet! The Kuberntes Ingress Controller based on Cloudflare Tunnel.
 	- [[github.com/thomseddon/traefik-forward-auth]] - Minimal forward authentication service that provides Google/OpenID oauth based login and authentication for the traefik reverse proxy
@@ -2906,8 +2911,8 @@ updateTime:: 11/11/2026, 8:25:21 AM
 - ## [[2024-08-19 Monday]]
 	- [[github.com/cloudflare/cloudflare-go]] - The official Go library for the Cloudflare API
 - ## [[2024-08-13 Tuesday]]
-	- [[github.com/electric-sql/pglite]] - Embeddable Postgres with real-time, reactive bindings.
 	- [[github.com/felixonmars/dnsmasq-china-list]] - Chinese-specific configuration to improve your favorite DNS server. Best partner for chnroutes.
+	- [[github.com/neondatabase/electric-pglite]] - Embeddable Postgres with real-time, reactive bindings.
 	- [[github.com/open-gitops/documents]] - 📑 Lasting documents from the OpenGitOps project which are versioned and released together (including the GitOps Principles and Glossary)
 	- [[github.com/r0ysue/AndroidSecurityStudy]] - 安卓应用安全学习
 	- [[github.com/SAWARATSUKI/KawaiiLogos]] - No Description Yet.
@@ -3368,8 +3373,6 @@ updateTime:: 11/11/2026, 8:25:21 AM
 	- [[github.com/miurla/morphic]] - An AI-powered search engine with a generative UI
 - ## [[2024-04-11 Thursday]]
 	- [[github.com/blockscout/blockscout]] - Blockchain explorer for Ethereum based network and a tool for inspecting and analyzing EVM based blockchains.
-- ## [[2024-04-09 Tuesday]]
-	- [[github.com/datawhalechina/self-llm]] - 《开源大模型食用指南》针对中国宝宝量身打造的基于Linux环境快速微调（全参数/Lora）、部署国内外开源大模型（LLM）/多模态大模型（MLLM）教程
 - ## [[2024-04-07 Sunday]]
 	- [[github.com/marktext/marktext]] - 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.
 	- [[github.com/nashsu/FreeAskInternet]] - FreeAskInternet is a completely free, PRIVATE and LOCALLY running search aggregator & answer generate using MULTI LLMs, without GPU needed. The user can ask a question and the system will  make a multi engine search and combine the search result to LLM and generate the answer based on search results. It's all FREE to use.
