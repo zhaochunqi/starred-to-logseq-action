@@ -2,8 +2,12 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/12/2026, 9:50:17 AM
+updateTime:: 11/13/2026, 8:54:29 AM
 
+- ## [[2026-11-13 Friday]]
+	- [[github.com/jackwener/OpenCLI]] - Make Any Website into CLI & Use your logged-in browser by AI agent.
+- ## [[2026-11-12 Thursday]]
+	- [[github.com/ariobarin/which-llm]] - Agent skill for current LLM selection using Artificial Analysis and OpenRouter data: quality, price, speed, context, slugs, and free-tier options. Refreshed daily.
 - ## [[2026-11-11 Wednesday]]
 	- [[github.com/embedpdf/embed-pdf-viewer]] - A PDF viewer that seamlessly integrates with any JavaScript project
 	- [[github.com/j178/prek]] - ⚡ A fast Git hook manager written in Rust, designed as a drop-in alternative to pre-commit, reimagined.
@@ -34,7 +38,7 @@ updateTime:: 11/12/2026, 9:50:17 AM
 	- [[github.com/awslabs/cli-agent-orchestrator]] - Multi-agent orchestration for AI coding CLIs — Claude Code, Kiro, Codex, and more, coordinated in isolated tmux sessions
 	- [[github.com/Droid-Deck/DroidDeck]] - DroidDeck brings the SteamOS experience to Android
 - ## [[2026-10-31 Saturday]]
-	- [[github.com/chris124567/cfsolve]] - Cloudflare turnstile and challenge page solver in Rust (full reverse, request based)
+	- [[github.com/chris124567/cfsolve]] - Cloudflare turnstile and challenge page solver in Rust (full reverse, request based) (2026-11-12 there was an update I am fixing it now)
 	- [[github.com/ospfranco/sol]] - MacOS launcher & command palette
 	- [[github.com/vercel-labs/agent-desktop]] - Computer use CLI for AI agents
 - ## [[2026-10-30 Friday]]
@@ -137,7 +141,7 @@ updateTime:: 11/12/2026, 9:50:17 AM
 	- [[github.com/stumpapp/stump]] - A free and open source comics, manga and digital book server with OPDS support
 - ## [[2026-09-19 Saturday]]
 	- [[github.com/danielwh2/drawably]] - Hand-drawn UI controls. Every mount generates a fresh pen sketch from seeded randomness, and the stroke boils like an animated doodle. Zero dependencies, 4 KB of JS and one stylesheet.
-	- [[github.com/HiThink-Tech/Financial-API]] - 同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements, indices, sectors and limit-up data for AI agents, quantitative research and application development.
+	- [[github.com/Hithink-Tech-Org/Financial-API]] - 同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements, indices, sectors and limit-up data for AI agents, quantitative research and application development.
 	- [[github.com/syabro/neat-annotations]] - Hand-drawn CSS annotations for inline content
 	- [[github.com/tamaratran/fast-jev-compaction]] - Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.
 - ## [[2026-09-18 Friday]]
@@ -452,7 +456,7 @@ updateTime:: 11/12/2026, 9:50:17 AM
 	- [[github.com/dataaxiom/ghcr-cleanup-action]] - GitHub Container Registry Cleanup Action
 	- [[github.com/inkeep/open-knowledge]] - Beautiful, AI-native markdown IDE and LLM wiki
 	- [[github.com/jocmp/capyreader]] - A smallish Android RSS reader
-	- [[github.com/tashfeenahmed/freellmapi]] - 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.
+	- [[github.com/tashfeenahmed/freellmapi]] - 10.1 billion tokens per month. 87 free LLM providers. 1,313 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.
 - ## [[2026-06-26 Friday]]
 	- [[github.com/Jamailar/Beav]] - 小红书 AI 运营工作台｜小红书采集、评论区下载、素材库、选题、AI写作、小红书全域解决方案，开箱即用，一键安装，小红书AI工作台，自媒体素材库，AI写作+图片自动编排，小红书版OpenClaw、自媒体资产底座+AI工作台，支持小红书图文+小红书评论区下载、小红书AI创作工具、自媒体版WorkBuddy、抖音、小红书爬虫数据采集
 	- [[github.com/remotion-dev/remotion]] - 🎥      Make videos programmatically with React
@@ -610,7 +614,6 @@ updateTime:: 11/12/2026, 9:50:17 AM
 	- [[github.com/anthropics/claude-for-legal]] - A suite of plugins for legal workflows
 - ## [[2026-05-12 Tuesday]]
 	- [[github.com/agentenv/agentflow]] - Orchestrate thousands of agents and harnesses as a graph programatically
-	- [[github.com/jackwener/OpenCLI]] - Make Any Website into CLI & Use your logged-in browser by AI agent.
 - ## [[2026-05-11 Monday]]
 	- [[github.com/chiriapp/chiri]] - 🍃 Cross-platform CalDAV task management app.
 	- [[github.com/steipete/BlackBar]] - Your Blacksmith CI status, in your menu bar.
@@ -872,7 +875,7 @@ updateTime:: 11/12/2026, 9:50:17 AM
 	- [[github.com/linuxkit/linuxkit]] - A toolkit for building secure, portable and lean operating systems for containers
 	- [[github.com/lizrice/learning-ebpf]] - Learning eBPF, published by O'Reilly - out now! Here's where you'll find a VM config for the examples, and more
 	- [[github.com/parca-dev/parca]] - Continuous profiling for analysis of CPU and memory usage, down to the line number and throughout time. Saving infrastructure cost, improving performance, and increasing reliability.
-	- [[github.com/signerlabs/ShipSwift]] - AI-native SwiftUI component library with full-stack recipes — connect via MCP for instant access.
+	- [[github.com/signerlabs/ShipSwift]] - Agent skills and an AI-native SwiftUI component library for iOS apps: animations, Metal shaders, charts, components and full-stack modules your coding agent can build from.
 - ## [[2026-03-07 Saturday]]
 	- [[github.com/danielmiessler/LifeOS]] - ⛰️ LifeOS — The AI-powered Life Operating System that helps you hill climb to wherever you're going.
 - ## [[2026-03-06 Friday]]
@@ -1164,7 +1167,7 @@ updateTime:: 11/12/2026, 9:50:17 AM
 	- [[github.com/bellard/mquickjs]] - Public repository of the Micro QuickJS Javascript Engine
 	- [[github.com/browserbase/stagehand]] - The SDK to extract data and interact with any site on the web. Get started with Claude Code, Codex, Eve, Mastra, and more.
 	- [[github.com/excalidraw/excalidraw]] - Virtual whiteboard for sketching hand-drawn like diagrams
-	- [[github.com/iii-hq/iii]] - Effortlessly compose, extend, and observe every service in real-time for the first time ever.
+	- [[github.com/iii-hq/iii]] - Effortlessly compose, extend, observe, discover, and react to every service in real-time for the first time ever.
 	- [[github.com/karmada-io/karmada]] - Open, Multi-Cloud, Multi-Cluster Kubernetes Orchestration
 	- [[github.com/mengxi-ream/read-frog]] - 🐸 Read Frog - Open-source AI language learning & flashcards, an Immersive Translate alternative | 🐸 陪读蛙 - 开源 AI 语言学习与闪词卡，沉浸式翻译替代
 	- [[github.com/oven-sh/bun]] - Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one
@@ -2014,7 +2017,6 @@ updateTime:: 11/12/2026, 9:50:17 AM
 	- [[github.com/remix-run/react-router]] - Declarative routing for React
 	- [[github.com/TanStack/router]] - 🤖 A client-first, server-capable, fully type-safe router and full-stack framework for the web (React and more).
 - ## [[2025-05-05 Monday]]
-	- [[github.com/GreatScottyMac/RooFlow]] - RooFlow - Enhanced Memory Bank System with ☢️Footgun Power☢️  Next-gen Memory Bank system with five integrated modes and system-level customization. Uses Roo Code's experimental "Footgun" feature for deep AI assistant customization while maintaining efficient token usage!
 	- [[github.com/louislam/akaigrid]] - AkaiGrid is a fancy frontend for browsing your video folders on Windows.
 	- [[github.com/wiredoor/wiredoor]] - Self hosted ingress-as-a-service platform that allows you to expose applications and services running in private or local networks to the internet
 - ## [[2025-05-04 Sunday]]
@@ -3385,7 +3387,7 @@ updateTime:: 11/12/2026, 9:50:17 AM
 	- [[github.com/anacrolix/torrent]] - Full-featured BitTorrent client package and utilities
 	- [[github.com/bradtraversy/50projects50days]] - 50+ mini web projects using HTML, CSS & JS
 	- [[github.com/HerbertHe/iptv-sources]] - Autoupdate iptv sources
-	- [[github.com/leptonai/imgpilot]] - Turn the draft into amazing artwork with the power of Real-Time Latent Consistency Model
+	- [[github.com/leptonai/imgpilot]] - Turn the draft into amazing artwork with the power of Real-Time Latent Consistency Model #Archived
 	- [[github.com/leptonai/leptonai]] - A Pythonic framework to simplify AI service building
 	- [[github.com/mistricky/codesnap.nvim]] - 📸 Snapshot plugin with rich features that can make pretty code snapshots for Neovim
 	- [[github.com/neondatabase/neon]] - Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.
@@ -4607,7 +4609,7 @@ updateTime:: 11/12/2026, 9:50:17 AM
 	- [[github.com/manticoresoftware/manticoresearch]] - Open-source search database for full-text, vector, and hybrid search with real-time indexing and SQL.
 	- [[github.com/oobabooga/textgen]] - Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API. 100% private.
 	- [[github.com/redhat-gpte-devopsautomation/reference]] - No Description Yet.
-	- [[github.com/xorbitsai/inference]] - Swap GPT for any LLM by changing a single line of code. Xinference lets you run open-source, speech, and multimodal models on cloud, on-prem, or your laptop — all through one unified, production-ready inference API.
+	- [[github.com/xorbitsai/inference]] - Open-source inference platform for language, vision, embedding, reranking, image, audio, and video models. Deploy with multiple engines across heterogeneous hardware, from a laptop to a distributed cluster. Serve models through OpenAI-compatible APIs.
 - ## [[2023-08-07 Monday]]
 	- [[github.com/advplyr/audiobookshelf]] - Self-hosted audiobook and podcast server
 	- [[github.com/meta/zstd]] - Zstandard - Fast real-time compression algorithm
@@ -4664,7 +4666,7 @@ updateTime:: 11/12/2026, 9:50:17 AM
 	- [[github.com/krahets/hello-algo]] - 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C＃, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现
 	- [[github.com/lucia-auth/lucia]] - Authentication, simple and clean
 	- [[github.com/open-circle/valibot]] - The modular and type safe schema library for validating structural data 🤖
-	- [[github.com/renovatebot/renovate]] - Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io
+	- [[github.com/renovatebot/renovate]] - Home of the Mend Renovate CLI: Cross-platform Dependency Automation by Mend.io
 	- [[github.com/srbhr/Resume-Matcher]] - The ＃1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.
 	- [[github.com/vercel/react-tweet]] - Embed tweets in your React application.
 - ## [[2023-07-27 Thursday]]
