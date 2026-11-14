@@ -2,8 +2,10 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/14/2026, 8:39:55 AM
+updateTime:: 11/15/2026, 7:37:27 AM
 
+- ## [[2026-11-14 Saturday]]
+	- [[github.com/zhaochunqi/dsh-magpie-route]] - DeepSeek Harness plugin: show the real upstream model behind a magpie routing group in the composer dock (/magpie-route command + magpie_route tool).
 - ## [[2026-11-13 Friday]]
 	- [[github.com/jackwener/OpenCLI]] - Make Any Website into CLI & Use your logged-in browser by AI agent.
 	- [[github.com/milind-soni/OpenMausBot]] - Open-source Grok Bot alternative with a virtual machine that bots can use
@@ -2104,7 +2106,7 @@ updateTime:: 11/14/2026, 8:39:55 AM
 - ## [[2025-04-11 Friday]]
 	- [[github.com/changesets/changesets]] - 🦋 A tool to manage versioning and changelogs with a focus on monorepos
 	- [[github.com/vercel/turborepo]] - The build system for coding agents.
-	- [[github.com/Zackriya-Solutions/meetily]] - Privacy-first AI meeting note taker for Windows and macOS. Free, open source (MIT). On-device Whisper/Parakeet transcription and speaker diarization, no meeting bot. Open-source alternative to Granola, Otter and Fireflies. https://meetily.ai
+	- [[github.com/Zackriya-Solutions/meetily]] - Privacy-first AI meeting note taker for Windows, macOS and Linux. Free, open source (MIT). On-device Whisper/Parakeet transcription and speaker diarization, no meeting bot. Open-source alternative to Granola, Otter and Fireflies. https://meetily.ai
 - ## [[2025-04-10 Thursday]]
 	- [[github.com/AppFlowy-IO/appflowy-editor]] - A highly customizable rich-text editor for Flutter. The AppFlowy Editor project for AppFlowy and beyond.
 	- [[github.com/elie222/inbox-zero]] - The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.
@@ -2697,7 +2699,7 @@ updateTime:: 11/14/2026, 8:39:55 AM
 	- [[github.com/wagtail/wagtail]] - A Django content management system focused on flexibility and user experience
 - ## [[2024-10-05 Saturday]]
 	- [[github.com/alecthomas/chroma]] - A general purpose syntax highlighter in pure Go
-	- [[github.com/tabler/tabler-icons]] - A set of over 6200 free MIT-licensed high-quality SVG icons for you to use in your web projects.
+	- [[github.com/tabler/tabler-icons]] - A set of over 6500 free MIT-licensed high-quality SVG icons for you to use in your web projects.
 - ## [[2024-10-04 Friday]]
 	- [[github.com/assistant-ui/assistant-ui]] - Typescript/React Library for AI Chat 💬🚀
 	- [[github.com/automerge/automerge-swift]] - Swift language bindings presenting Automerge
@@ -5175,7 +5177,7 @@ updateTime:: 11/14/2026, 8:39:55 AM
 - ## [[2021-08-26 Thursday]]
 	- [[github.com/donmor/Tiddloid]] - Tiddloid is an app to work with locally stored TiddlyWikis.
 - ## [[2021-08-25 Wednesday]]
-	- [[github.com/UltimaHoarder/UltimaScraper]] - Datascraper that is currently adult focused - Updated regularly
+	- [[github.com/UltimaHoarder/UltimaScraper]] - Datascraper that is currently adult focused (OnlyFans, etc)- Updated regularly
 - ## [[2021-08-24 Tuesday]]
 	- [[github.com/eastlakeside/awesome-productivity-cn]] - 绝妙的个人生产力（Awesome Productivity - Chinese version）
 	- [[github.com/graviraja/MLOps-Basics]] - No Description Yet.
