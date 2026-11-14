@@ -2,10 +2,11 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/13/2026, 8:54:29 AM
+updateTime:: 11/14/2026, 8:39:55 AM
 
 - ## [[2026-11-13 Friday]]
 	- [[github.com/jackwener/OpenCLI]] - Make Any Website into CLI & Use your logged-in browser by AI agent.
+	- [[github.com/milind-soni/OpenMausBot]] - Open-source Grok Bot alternative with a virtual machine that bots can use
 - ## [[2026-11-12 Thursday]]
 	- [[github.com/ariobarin/which-llm]] - Agent skill for current LLM selection using Artificial Analysis and OpenRouter data: quality, price, speed, context, slugs, and free-tier options. Refreshed daily.
 - ## [[2026-11-11 Wednesday]]
@@ -38,7 +39,7 @@ updateTime:: 11/13/2026, 8:54:29 AM
 	- [[github.com/awslabs/cli-agent-orchestrator]] - Multi-agent orchestration for AI coding CLIs — Claude Code, Kiro, Codex, and more, coordinated in isolated tmux sessions
 	- [[github.com/Droid-Deck/DroidDeck]] - DroidDeck brings the SteamOS experience to Android
 - ## [[2026-10-31 Saturday]]
-	- [[github.com/chris124567/cfsolve]] - Cloudflare turnstile and challenge page solver in Rust (full reverse, request based) (2026-11-12 there was an update I am fixing it now)
+	- [[github.com/chris124567/cfsolve]] - Cloudflare turnstile and challenge page solver in Rust (full reverse, request based)
 	- [[github.com/ospfranco/sol]] - MacOS launcher & command palette
 	- [[github.com/vercel-labs/agent-desktop]] - Computer use CLI for AI agents
 - ## [[2026-10-30 Friday]]
@@ -200,7 +201,7 @@ updateTime:: 11/13/2026, 8:54:29 AM
 	- [[github.com/pehlicd/crd-wizard]] - CR(D) Wizard is a web and tui based dashboard designed to provide a clear and intuitive interface for visualizing and exploring Kubernetes Custom Resource Definitions (CRDs) and their corresponding Custom Resources (CRs). It helps k8s users to quickly understand the state of their custom controllers and the resources they manage.
 - ## [[2026-08-30 Sunday]]
 	- [[github.com/davatron5000/microlighter]] - A zero-dep syntax highlighter that uses the CSS Highlights API
-	- [[github.com/oomol-lab/open-connector]] - Open-source auth gateway connecting 1500+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.
+	- [[github.com/oomol-lab/open-connector]] - Open-source auth gateway connecting 1700+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.
 - ## [[2026-08-29 Saturday]]
 	- [[github.com/iwe-org/iwe]] - Markdown knowledge graph — LSP for your editor, CLI + MCP memory for your AI agents
 	- [[github.com/zosmaai/pi-llm-wiki]] - Self-maintaining, Obsidian-compatible knowledge base for pi — turn raw sources into an interlinked wiki that compounds. Native Open Knowledge Format (OKF) v0.2.
@@ -661,7 +662,7 @@ updateTime:: 11/13/2026, 8:54:29 AM
 	- [[github.com/toon-format/toon-rust]] - 🦀 Community-driven Rust implementation of TOON
 	- [[github.com/tw93/Kami]] - 👩‍🚒 Good content deserves good paper. Layout rules and templates that let AI agents export PDF, PNG and editable PowerPoint.
 	- [[github.com/VoltAgent/awesome-codex-subagents]] - A collection of 130+ specialized Codex subagents covering a wide range of development use cases.
-	- [[github.com/w3dev33/beads-task-issue-tracker]] - This project's successor is PaiR (v0.50.0) — download at https://pair.w3dev.fr
+	- [[github.com/w3dev33/beads-task-issue-tracker]] - This project's successor is PaiR (v0.52.0) - download at https://pair.w3dev.fr
 - ## [[2026-04-25 Saturday]]
 	- [[github.com/adr/madr]] - Markdown Architectural Decision Records
 	- [[github.com/eljulians/skillfile]] - One-stop shop for AI skills and agents. Search 110K+ community skills, install and track them declaratively, and deploy across all major AI coding tools (Claude Code, Codex, Cursor, Antigravity and more)
@@ -2519,7 +2520,7 @@ updateTime:: 11/13/2026, 8:54:29 AM
 - ## [[2024-12-18 Wednesday]]
 	- [[github.com/adonisjs/core]] - AdonisJS is a TypeScript-first web framework for building web apps and API servers. It comes with support for testing, modern tooling, an ecosystem of official packages, and more.
 	- [[github.com/cfug/dio]] - A powerful HTTP client for Dart and Flutter, which supports global settings, Interceptors, FormData, aborting and canceling a request, files uploading and downloading, requests timeout, custom adapters, etc.
-	- [[github.com/media-kit/media-kit]] - A cross-platform video player & audio player for Flutter & Dart.
+	- [[github.com/media-kit/media-kit]] - Cross-platform video player & audio player for Flutter & Dart.
 	- [[github.com/microsoft/typespec]] - No Description Yet.
 	- [[github.com/quickwit-oss/tantivy]] - Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust
 	- [[github.com/slowmist/Knowledge-Base]] - Knowledge Base 慢雾安全团队知识库
@@ -2913,8 +2914,8 @@ updateTime:: 11/13/2026, 8:54:29 AM
 - ## [[2024-08-19 Monday]]
 	- [[github.com/cloudflare/cloudflare-go]] - The official Go library for the Cloudflare API
 - ## [[2024-08-13 Tuesday]]
+	- [[github.com/electric-sql/electric-pglite]] - Embeddable Postgres with real-time, reactive bindings.
 	- [[github.com/felixonmars/dnsmasq-china-list]] - Chinese-specific configuration to improve your favorite DNS server. Best partner for chnroutes.
-	- [[github.com/neondatabase/electric-pglite]] - Embeddable Postgres with real-time, reactive bindings.
 	- [[github.com/open-gitops/documents]] - 📑 Lasting documents from the OpenGitOps project which are versioned and released together (including the GitOps Principles and Glossary)
 	- [[github.com/r0ysue/AndroidSecurityStudy]] - 安卓应用安全学习
 	- [[github.com/SAWARATSUKI/KawaiiLogos]] - No Description Yet.
@@ -3230,7 +3231,7 @@ updateTime:: 11/13/2026, 8:54:29 AM
 	- [[github.com/naklecha/llama3-from-scratch]] - llama3 implementation one matrix multiplication at a time
 	- [[github.com/opentofu/opentofu]] - OpenTofu lets you declaratively manage your cloud infrastructure.
 	- [[github.com/qodo-ai/qodo-cover]] - Qodo-Cover: An AI-Powered Tool for Automated Test Generation and Code Coverage Enhancement! 💻🤖🧪🐞
-	- [[github.com/streamlit/streamlit]] - Streamlit — A faster way to build and share data apps.
+	- [[github.com/streamlit/streamlit]] - Streamlit — The agent-native framework for data apps and dashboards.
 - ## [[2024-05-25 Saturday]]
 	- [[github.com/miantiao-me/Sink]] - ⚡ A Simple, Speedy, Secure, and Serverless Link Shortener with Analytics, Running Entirely on Cloudflare.
 	- [[github.com/RunaCapital/awesome-oss-alternatives]] - Awesome list of open-source startup alternatives to well-known SaaS products 🚀
@@ -5754,7 +5755,7 @@ updateTime:: 11/13/2026, 8:54:29 AM
 - ## [[2017-10-27 Friday]]
 	- [[github.com/aws/aws-sam-cli]] - CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM
 - ## [[2017-10-24 Tuesday]]
-	- [[github.com/electron/apps]] - A collection of apps built on Electron
+	- [[github.com/electron/apps]] - A collection of apps built on Electron #Archived
 	- [[github.com/volodymyrprokopyuk/kotlin-sdp]] - Software Design Patterns in Kotlin
 - ## [[2017-10-20 Friday]]
 	- [[github.com/veggiemonk/awesome-docker]] - :whale: A curated list of Docker resources and projects
