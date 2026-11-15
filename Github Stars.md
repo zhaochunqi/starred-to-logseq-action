@@ -2,8 +2,15 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/15/2026, 7:37:27 AM
+updateTime:: 11/16/2026, 7:45:34 AM
 
+- ## [[2026-11-16 Monday]]
+	- [[github.com/backnotprop/plannotator]] - The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.
+	- [[github.com/dream-num/univer]] - Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.
+	- [[github.com/google-labs-code/stitch-skills]] - A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.
+	- [[github.com/GoogleChrome/modern-web-guidance]] - Keep your coding agent up to date with the latest web best practices
+	- [[github.com/libracoder/kiri]] - A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative
+	- [[github.com/Tencent/LoopForge]] - Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.
 - ## [[2026-11-14 Saturday]]
 	- [[github.com/zhaochunqi/dsh-magpie-route]] - DeepSeek Harness plugin: show the real upstream model behind a magpie routing group in the composer dock (/magpie-route command + magpie_route tool).
 - ## [[2026-11-13 Friday]]
@@ -497,7 +504,7 @@ updateTime:: 11/15/2026, 7:37:27 AM
 	- [[github.com/mattpocock/skills]] - Skills for Real Engineers. Straight from my .agents directory.
 	- [[github.com/microsoft/SkillOpt]] - SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.
 	- [[github.com/microsoft/SwiftStreamingMarkdown]] - A performant markdown library for iOS & macOS that supports streaming
-	- [[github.com/Paca-AI/paca]] - AI-native, free, open-source alternative to Jira, Trello, ClickUp & Monday. Built for Scrum teams where humans and AI agents collaborate as equals — on the same board, the same sprints, the same goals. Self-hosted. Fully customizable via config and plugins.
+	- [[github.com/Paca-AI/paca]] - Non-profit, community-owned and free forever: an AI-native, open-source alternative to Jira, Trello, ClickUp & Monday, where humans and AI agents work as equals on the same Scrum board. Self-hosted, fully customizable via plugins.
 	- [[github.com/Shiyao-Huang/awesome-agent-evolution]] - Open survey and evidence map for AI agent evolution, self-evolving agents, memory, skills, harnesses, benchmarks, and agent-swarm systems.
 	- [[github.com/Xuanwo/jiandao]] - 简道翻译：把你正在读的网页翻译成你的语言。
 	- [[github.com/Yacht-sh/Yacht]] - A web interface for managing docker containers with an emphasis on templating to provide 1 click deployments. Think of it like a decentralized app store for servers that anyone can make packages for.
@@ -712,7 +719,6 @@ updateTime:: 11/15/2026, 7:37:27 AM
 	- [[github.com/swiftlang/swift-markdown]] - A Swift package for parsing, building, editing, and analyzing Markdown documents.
 	- [[github.com/wooorm/markdown-rs]] - CommonMark compliant markdown parser in Rust with ASTs and extensions
 - ## [[2026-04-13 Monday]]
-	- [[github.com/backnotprop/plannotator]] - The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.
 	- [[github.com/badlogic/pi-skills]] - Skills for pi coding agent (compatible with Claude Code and Codex CLI)
 	- [[github.com/easychen/opc-methodology]] - 《一人企业方法论》第二版，也适合做其他副业（比如自媒体、电商、数字商品）的非技术人群。
 	- [[github.com/imbue-ai/latchkey]] - A command-line tool that injects credentials to curl requests to known public APIs.
@@ -976,9 +982,8 @@ updateTime:: 11/15/2026, 7:37:27 AM
 	- [[github.com/bmax121/KernelPatch]] - Patching and hooking the Linux kernel with only a stripped Linux kernel image.
 	- [[github.com/earendil-works/pi]] - AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI
 	- [[github.com/OnePlusOSS/kernel_manifest]] - No Description Yet.
-	- [[github.com/ShirkNeko/Action_OnePlus_MKSU_SUSFS]] - 使用Github Action自动编译一加SukiSU内核 #Archived
 	- [[github.com/simonw/shot-scraper]] - A CLI utility for taking screenshots of websites, recording video demos and scraping sites using JavaScript
-	- [[github.com/SukiSU-Ultra/SukiSU-Ultra]] - Kernel-based Android Root Solution & KPM
+	- [[github.com/SukiSU-Nova/SukiSU-Nova]] - Kernel-based Android Root Solution & KPM
 	- [[github.com/WildKernels/OnePlus_KernelSU_SUSFS]] - OnePlus Kernels with KernelSU & SUSFS
 	- [[github.com/zhaochunqi/SignalFix]] - 修复类原生的信号问题
 - ## [[2026-02-10 Tuesday]]
@@ -1296,7 +1301,7 @@ updateTime:: 11/15/2026, 7:37:27 AM
 - ## [[2025-12-21 Sunday]]
 	- [[github.com/amzxyz/rime-wanxiang-data]] - 万象拼音数据与工具中心: 简繁扩展词库/声调编码/声调标注工具链/万象更新工具链/Rime语法模型
 	- [[github.com/GitGuardian/ggshield]] - Detect and validate 500+ types of hardcoded secrets with advanced checks. Use it as a pre-commit hook, GitHub Action, or CLI for proactive secret detection and security.
-	- [[github.com/lollipopkit/llmbox]] - LLMBox - a third-party client for OpenAI API.
+	- [[github.com/lollipopkit/llmbox]] - LLMBox - a third-party client for OpenAI/Anthropic/Gemini API.
 	- [[github.com/NixOS/nixos-search]] - Search NixOS packages and options
 	- [[github.com/outloudvi/mw2fcitx]] - Fcitx 5 pinyin dictionary generator for MediaWiki instances. (Releases for dict of zh.moegirl.org.cn / Check release list for latest releases)
 	- [[github.com/rime/librime]] - Rime Input Method Engine, the core library
