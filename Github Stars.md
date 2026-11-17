@@ -2,15 +2,20 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/16/2026, 7:45:34 AM
+updateTime:: 11/17/2026, 10:48:03 AM
 
+- ## [[2026-11-17 Tuesday]]
+	- [[github.com/groundwater/GhostVM]] - No Description Yet.
 - ## [[2026-11-16 Monday]]
 	- [[github.com/backnotprop/plannotator]] - The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.
 	- [[github.com/dream-num/univer]] - Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.
 	- [[github.com/google-labs-code/stitch-skills]] - A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.
 	- [[github.com/GoogleChrome/modern-web-guidance]] - Keep your coding agent up to date with the latest web best practices
 	- [[github.com/libracoder/kiri]] - A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative
+	- [[github.com/omnigent-ai/omnigent]] - Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.
+	- [[github.com/pinche-team/rules]] - Surge rules
 	- [[github.com/Tencent/LoopForge]] - Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.
+	- [[github.com/yuhangch/panda-reader]] - A fast, local-first RSS reader you can make your own.
 - ## [[2026-11-14 Saturday]]
 	- [[github.com/zhaochunqi/dsh-magpie-route]] - DeepSeek Harness plugin: show the real upstream model behind a magpie routing group in the composer dock (/magpie-route command + magpie_route tool).
 - ## [[2026-11-13 Friday]]
@@ -1927,7 +1932,7 @@ updateTime:: 11/16/2026, 7:45:34 AM
 - ## [[2025-06-05 Thursday]]
 	- [[github.com/ben-manes/caffeine]] - A high performance caching library for Java
 	- [[github.com/memvid/memvid]] - Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.
-	- [[github.com/onlook-dev/onlook]] - The Developer Tool for Visual Engineers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended ＃1 Developer tool for Designers and Visual Engineers to design with Real Code.
+	- [[github.com/onlook-dev/onlook]] - The Developer Tool for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended ＃1 Developer tool for Designers and Visual Engineers to design with Real Code.
 - ## [[2025-06-04 Wednesday]]
 	- [[github.com/Alibaba-NLP/ZeroSearch]] - ZeroSearch: Incentivize the Search Capability of LLMs without Searching
 	- [[github.com/jasmine/jasmine]] - Simple JavaScript testing framework for browsers and node.js
@@ -1973,7 +1978,7 @@ updateTime:: 11/16/2026, 7:45:34 AM
 	- [[github.com/readysettech/readyset]] - Readyset is a MySQL and Postgres wire-compatible caching layer that sits in front of existing databases to speed up queries and horizontally scale read throughput. Under the hood, ReadySet caches the results of cached select statements and incrementally updates these results over time as the underlying data changes.
 	- [[github.com/vllm-project/vllm]] - A high-throughput and memory-efficient inference and serving engine for LLMs
 - ## [[2025-05-25 Sunday]]
-	- [[github.com/google/gvisor]] - Application Kernel for Containers
+	- [[github.com/gvisor/gvisor]] - Application Kernel for Containers
 - ## [[2025-05-24 Saturday]]
 	- [[github.com/tinygrad/tinygrad]] - You like pytorch? You like micrograd? You love tinygrad! ❤️
 - ## [[2025-05-23 Friday]]
@@ -4244,7 +4249,7 @@ updateTime:: 11/16/2026, 7:45:34 AM
 	- [[github.com/kedacore/keda]] - KEDA is a Kubernetes-based Event Driven Autoscaling component. It provides event driven scale for any container running in Kubernetes
 	- [[github.com/kube-vip/kube-vip]] - Kubernetes Control Plane Virtual IP and Load-Balancer
 	- [[github.com/kubenetworks/kubevpn]] - KubeVPN offers a Cloud Native Dev Environment that connects to kubernetes cluster network.
-	- [[github.com/mtlynch/picoshare]] - A minimalist, easy-to-host service for sharing images and other files
+	- [[github.com/mtlynch/picoshare]] - MOVED: https://codefloe.com/mtlynch/picoshare #Archived
 	- [[github.com/openebs/openebs]] - A popular & widely deployed Open Source Container Native Storage platform for Stateful Persistent Applications on Kubernetes.
 	- [[github.com/TGSAN/CMWTAT_Digital_Edition]] - CloudMoe Windows 10/11 Activation Toolkit get digital license, the best open source Win 10/11 activator in GitHub. GitHub 上最棒的开源 Win10/Win11 数字权利（数字许可证）激活工具！
 	- [[github.com/thanos-io/thanos]] - Highly available Prometheus setup with long term storage capabilities. A CNCF Incubating project.
@@ -5292,7 +5297,7 @@ updateTime:: 11/16/2026, 7:45:34 AM
 - ## [[2020-12-16 Wednesday]]
 	- [[github.com/aapatre/Automatic-Udemy-Course-Enroller-GET-PAID-UDEMY-COURSES-for-FREE]] - Do you want to LEARN NEW STUFF for FREE? Don't worry, with the power of web-scraping and automation, this script will find the necessary Udemy coupons & enroll you for PAID UDEMY COURSES, ABSOLUTELY FREE!
 - ## [[2020-12-15 Tuesday]]
-	- [[github.com/shaonianzhentan/ha_file_explorer]] - 在HomeAssistant里使用的文件管理器
+	- [[github.com/shaonianzhentan/ha_file_explorer]] - File explorer for Home Assistant
 	- [[github.com/Villhellm/lovelace-animated-background]] - Animated backgrounds for lovelace
 - ## [[2020-12-14 Monday]]
 	- [[github.com/Apparence-io/CamerAwesome]] - 📸 Embedding a camera experience within your own app shouldn't be that hard. A flutter plugin to integrate awesome Android / iOS camera experience.
@@ -5826,7 +5831,7 @@ updateTime:: 11/16/2026, 7:45:34 AM
 	- [[github.com/ardatan/graphql-tools]] - :wrench: Utility library for GraphQL to build, stitch and mock GraphQL schemas in the SDL-first approach
 	- [[github.com/johnymontana/movies-graphql-neo4j-server]] - A simple node.js server for exposing a GraphQL API of movie data, backed by Neo4j.
 - ## [[2017-08-06 Sunday]]
-	- [[github.com/DrKLO/Telegram]] - Telegram for Android source
+	- [[github.com/TelegramMessenger/Telegram-Android]] - Telegram for Android source
 - ## [[2017-08-02 Wednesday]]
 	- [[github.com/yandooo/spring-graphql-common]] - Spring Framework GraphQL Library
 - ## [[2017-08-01 Tuesday]]
