@@ -2,10 +2,15 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/17/2026, 10:48:03 AM
+updateTime:: 11/18/2026, 10:03:55 AM
 
+- ## [[2026-11-18 Wednesday]]
+	- [[github.com/EEliberto/SurgeRelay-macOS]] - 在 Mac 上管理、转换、编辑或分发 Surge 模块，通过固定订阅地址让 iPhone、iPad、Apple TV 和 Mac 等多款设备保持同步。
 - ## [[2026-11-17 Tuesday]]
+	- [[github.com/arcboxlabs/arcbox]] - Run AI agents on real and isolated machines — own kernel, filesystem, and network — with <100ms boot. Local first, OCI compatible, pure Rust.
 	- [[github.com/groundwater/GhostVM]] - No Description Yet.
+	- [[github.com/openai/tart]] - macOS and Linux VMs on Apple Silicon to use in CI and other automations
+	- [[github.com/webcoyote/clodpod]] - Run AI agents isolated inside an macOS virtual machine. Configured to run Claude Code, OpenAI Codex, Cursor Agent, Google Gemini.
 - ## [[2026-11-16 Monday]]
 	- [[github.com/backnotprop/plannotator]] - The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.
 	- [[github.com/dream-num/univer]] - Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.
@@ -227,7 +232,7 @@ updateTime:: 11/17/2026, 10:48:03 AM
 	- [[github.com/kserve/kserve]] - Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes
 - ## [[2026-08-26 Wednesday]]
 	- [[github.com/awaseem/foqos]] - Foqos allows you to lock apps behind the tap of a NFC tag or scan of a QR code. Free and open source alternative to Brick, Opal, ScreenZen, Unpluq, Scrolly, Blok and more!
-	- [[github.com/getkern/kern]] - Rootless container runtime with no daemon. Runs agent tool calls and LLM-generated code in kernel-enforced containers.
+	- [[github.com/getkern/kern]] - kern: fast, rootless container runtime and sandbox with no daemon. Runs untrusted code and AI agent tool calls under kernel-enforced isolation.
 	- [[github.com/typecho/typecho]] - A PHP Blogging Platform. Simple and Powerful.
 - ## [[2026-08-25 Tuesday]]
 	- [[github.com/fayazara/Screendrop]] - A beautiful screenshot + screen recording + Loom alternative - all native, self hostable and free.
@@ -473,7 +478,7 @@ updateTime:: 11/17/2026, 10:48:03 AM
 	- [[github.com/jocmp/capyreader]] - A smallish Android RSS reader
 	- [[github.com/tashfeenahmed/freellmapi]] - 10.1 billion tokens per month. 87 free LLM providers. 1,313 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.
 - ## [[2026-06-26 Friday]]
-	- [[github.com/Jamailar/Beav]] - 小红书 AI 运营工作台｜小红书采集、评论区下载、素材库、选题、AI写作、小红书全域解决方案，开箱即用，一键安装，小红书AI工作台，自媒体素材库，AI写作+图片自动编排，小红书版OpenClaw、自媒体资产底座+AI工作台，支持小红书图文+小红书评论区下载、小红书AI创作工具、自媒体版WorkBuddy、抖音、小红书爬虫数据采集
+	- [[github.com/Jamailar/Beav]] - 小红书 AI 运营 工具，多账号矩阵，智能选题推荐系统，小红书 商家 AI 视频 图文 一键生成 批量创作，自媒体AI工作台
 	- [[github.com/remotion-dev/remotion]] - 🎥      Make videos programmatically with React
 - ## [[2026-06-25 Thursday]]
 	- [[github.com/gitwatch/gitwatch]] - Watch a file or folder and automatically commit changes to a git repo easily.
@@ -735,7 +740,6 @@ updateTime:: 11/17/2026, 10:48:03 AM
 - ## [[2026-04-12 Sunday]]
 	- [[github.com/dotenv-linter/dotenv-linter]] - ⚡️Lightning-fast linter for .env files. Written in Rust 🦀
 	- [[github.com/madeye/BaoLianDeng]] - A macOS VPN proxy app powered by meow-rs, a Clash-compatible proxy kernel written in Rust
-	- [[github.com/microsoft/agent-framework]] - A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.
 - ## [[2026-04-11 Saturday]]
 	- [[github.com/garrytan/gbrain]] - Garry's Opinionated OpenClaw/Hermes Agent Brain
 	- [[github.com/hadolint/hadolint]] - Dockerfile linter, validate inline bash, written in Haskell
@@ -770,7 +774,7 @@ updateTime:: 11/17/2026, 10:48:03 AM
 	- [[github.com/electh/ReactFlux]] - A Simple but Powerful RSS Reader for Miniflux
 	- [[github.com/ExTV/Podroid]] - A rootless Android app that boots Alpine Linux: run containers (Podman/Docker/LXC) and GUI desktop apps.
 	- [[github.com/frankbria/ralph-claude-code]] - Autonomous AI development loop for Claude Code with intelligent exit detection
-	- [[github.com/JuliusBrussee/caveman]] - 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.
+	- [[github.com/JuliusBrussee/caveman]] - why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.
 	- [[github.com/lwouis/alt-tab-macos]] - Windows alt-tab on macOS
 - ## [[2026-04-03 Friday]]
 	- [[github.com/alibaba/nacos]] - an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.
@@ -910,7 +914,6 @@ updateTime:: 11/17/2026, 10:48:03 AM
 	- [[github.com/dlvhdr/diffnav]] - A git diff pager based on delta but with a file tree, à la GitHub.
 	- [[github.com/easychen/one-person-unicorn-book]] - The One-Person Unicorn — A Possible Form of the One-Person Company When Agents Can Work Independently ｜《一人独角兽》—— 当智能体可以独立工作时，一人公司的一种可能解
 	- [[github.com/lifo-sh/lifo]] - A browser-native operating system. Unix/Linux reimagined where the browser IS the kernel and Web APIs ARE syscalls. 60+ commands, bash-like shell, virtual filesystem, and IndexedDB persistence.
-	- [[github.com/slowmist/openclaw-security-practice-guide]] - This guide is designed for OpenClaw itself (Agent-facing), not as a traditional human-only hardening checklist.
 	- [[github.com/waooAI/waoowaoo]] - 首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. From shorts to live-action with Hollywood-standard workflows.
 	- [[github.com/zensical/zensical]] - A modern static site generator by the Material for MkDocs team
 - ## [[2026-02-28 Saturday]]
@@ -1947,7 +1950,7 @@ updateTime:: 11/17/2026, 10:48:03 AM
 	- [[github.com/pgdogdev/pgdog]] - PostgreSQL connection pooler, load balancer and database sharder.
 	- [[github.com/tiagozip/cap]] - The open-source, privacy-friendly CAPTCHA you host yourself. Bots and AI agents out, people in.
 	- [[github.com/tuist/tuist]] - Tuist builds infrastructure for faster, more reliable build and test workflows across developers, CI, and coding agents. Shared cache, tests, and insights that sit alongside your existing CI.
-	- [[github.com/xyflow/xyflow]] - React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.
+	- [[github.com/xyflow/xyflow]] - React Flow | Svelte Flow | Vue Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev), Svelte (https://svelteflow.dev) and Vue (https://vueflow.dev). Ready out-of-the-box and infinitely customizable.
 - ## [[2025-06-01 Sunday]]
 	- [[github.com/Delgan/loguru]] - Python logging made (stupidly) simple
 	- [[github.com/phcode-dev/phoenix]] - The text editor designed to make coding as simple and fun as playing a video game
@@ -2197,7 +2200,6 @@ updateTime:: 11/17/2026, 10:48:03 AM
 	- [[github.com/yjs/y-websocket]] - Websocket Connector for Yjs
 - ## [[2025-03-17 Monday]]
 	- [[github.com/louis-e/arnis]] - Generate any location from the real world in Minecraft with a high level of detail.
-	- [[github.com/zedeus/nitter]] - Alternative Twitter front-end #Archived
 - ## [[2025-03-15 Saturday]]
 	- [[github.com/microsoft/AIOpsLab]] - A holistic framework to enable the design, development, and evaluation of autonomous AIOps agents.
 - ## [[2025-03-12 Wednesday]]
@@ -2725,7 +2727,7 @@ updateTime:: 11/17/2026, 10:48:03 AM
 	- [[github.com/Mic92/dotfiles]] - My NixOS dotfiles
 	- [[github.com/nix-community/home-manager]] - Manage a user environment using Nix  [maintainer=@khaneliman, @rycee]
 	- [[github.com/schedule-x/schedule-x]] - JavaScript event calendar. Modern alternative to fullcalendar and react-big-calendar.
-	- [[github.com/screenpipe/screenpipe]] - YC (S26) | Open Computer History | Continuously record your company computer work, map your workflows, help you find work worth automating, and power your agents' context
+	- [[github.com/screenpipe/screenpipe]] - YC (S26) | Screenpipe finds the work worth automating | Continuously record computer work locally, discover recurring workflows, and hand the result to any agent you already use.
 	- [[github.com/simplex-chat/simplex-chat]] - SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!
 	- [[github.com/so-fancy/diff-so-fancy]] - Make your diffs human readable for improved code quality and faster defect detection. :tada:
 	- [[github.com/spring-projects/spring-graphql]] - Spring Integration for GraphQL
@@ -3196,7 +3198,7 @@ updateTime:: 11/17/2026, 10:48:03 AM
 	- [[github.com/sxyazi/dotfiles]] - Some of the dotfiles I can't do without.
 - ## [[2024-06-07 Friday]]
 	- [[github.com/dubzzz/fast-check]] - Property based testing framework for JavaScript (like QuickCheck) written in TypeScript
-	- [[github.com/firecrawl/firecrawl]] - Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥
+	- [[github.com/firecrawl/firecrawl]] - Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.
 	- [[github.com/hudy9x/namviek]] - The open-source project management tool for tiny teams
 	- [[github.com/imputnet/cobalt]] - best way to save what you love
 	- [[github.com/nalgeon/redka]] - Redis re-implemented with SQL
@@ -3875,7 +3877,7 @@ updateTime:: 11/17/2026, 10:48:03 AM
 	- [[github.com/m3db/m3]] - M3 monorepo - Distributed TSDB, Aggregator and Query Engine, Prometheus Sidecar, Graphite Compatible, Metrics Platform
 	- [[github.com/Mintplex-Labs/anything-llm]] - Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience
 	- [[github.com/mkluge/logseq-openproject]] - Logseq Plugin to have OpenProject tasks inside logseq
-	- [[github.com/openinterpreter/openinterpreter]] - A coding agent for open models like Kimi K3 and GLM 5.3
+	- [[github.com/openinterpreter/openinterpreter]] - A coding agent for open models like Kimi K3.1 and GLM 5.3
 	- [[github.com/opf/openproject]] - OpenProject is the leading open source project management software for product, project and portfolio management. A powerful Jira alternative with agile planning, issue tracking, roadmaps, Gantt charts, time tracking, collaboration features, and more. Available on premises or in the cloud. ⭐ Star us on GitHub
 	- [[github.com/outline/outline]] - The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.
 	- [[github.com/tweepy/tweepy]] - Twitter for Python!
@@ -4027,7 +4029,7 @@ updateTime:: 11/17/2026, 10:48:03 AM
 	- [[github.com/jesseduffield/lazygit]] - simple terminal UI for git commands
 	- [[github.com/Loyalsoldier/surge-rules]] - 🦄 🎃 👻 Surge 规则集(DOMAIN-SET 和 RULE-SET)，适用于 Surge for iOS 和 Surge for Mac 客户端。
 	- [[github.com/nagadomi/nunif]] - Misc; latest version of waifu2x;  2D video to stereo 3D video conversion
-	- [[github.com/netdata/netdata]] - The fastest path to AI-powered full stack observability, even for lean teams.
+	- [[github.com/netdata/netdata]] - Full-stack observability · Metrics · Logs · Traces · Flows · Topology · Infrastructure · APM · NPM · DBM · RUM · Synthetics · Cloud · AI · OpenTelemetry · SNMP · NetFlow/IPFIX/sFlow · IPMI · Redfish · 800+ integrations
 	- [[github.com/pj4533/PokerNowGrabber]] - Save hand histories while you play PokerNow.club
 	- [[github.com/Significant-Gravitas/AutoGPT]] - AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 - ## [[2023-11-13 Monday]]
@@ -4426,7 +4428,7 @@ updateTime:: 11/17/2026, 10:48:03 AM
 	- [[github.com/baptisteArno/typebot.io]] - 💬 Typebot is a powerful chatbot builder that you can self-host.
 	- [[github.com/cpvalente/ontime]] - Free, open-source time keeping for live events
 	- [[github.com/erxes/erxes]] - Experience Operating System (XOS) that unifies marketing, sales, operations, and support — run your core business seamlessly while replacing HubSpot, Zendesk, Linear, Wix and more.
-	- [[github.com/formbricks/formbricks]] - Open Source Qualtrics Alternative
+	- [[github.com/formbricks/formbricks]] - The Open Source Qualtrics Alternative
 	- [[github.com/forwardemail/email-templates]] - Create, preview (browser/iOS Simulator), and send custom email templates for Node.js.  Made for @forwardemail, @ladjs, @cabinjs, @spamscanner, and @breejs.
 	- [[github.com/GyulyVGC/sniffnet]] - Comfortably monitor your network traffic 🕵️‍♂️
 	- [[github.com/linuxfoundation/crowd.dev]] - LFX Community Data Platform (CDP)
@@ -5794,7 +5796,7 @@ updateTime:: 11/17/2026, 10:48:03 AM
 - ## [[2017-10-08 Sunday]]
 	- [[github.com/jhy/jsoup]] - jsoup: the Java HTML parser, built for HTML editing, cleaning, scraping, and XSS safety.
 - ## [[2017-10-03 Tuesday]]
-	- [[github.com/ipfs/kubo]] - IPFS implementation in Go: a daemon that stores and serves content-addressed data, with a CLI, HTTP Gateway, and RPC API
+	- [[github.com/ipfs/kubo]] - [ BEWARE: NO MAINTAINER ] IPFS implementation in Go: a daemon that stores and serves content-addressed data, with a CLI, HTTP Gateway, and RPC API
 - ## [[2017-09-29 Friday]]
 	- [[github.com/ruby-china/How-To-Ask-Questions-The-Smart-Way]] - 本文原文由知名Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案。
 - ## [[2017-09-26 Tuesday]]
