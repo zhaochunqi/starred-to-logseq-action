@@ -2,10 +2,13 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/18/2026, 10:03:55 AM
+updateTime:: 11/19/2026, 9:40:22 AM
 
 - ## [[2026-11-18 Wednesday]]
 	- [[github.com/EEliberto/SurgeRelay-macOS]] - 在 Mac 上管理、转换、编辑或分发 Surge 模块，通过固定订阅地址让 iPhone、iPad、Apple TV 和 Mac 等多款设备保持同步。
+	- [[github.com/hzeller/timg]] - A terminal image and video viewer.
+	- [[github.com/pingdotgg/t3code]] - The best way to control Claude Code, Codex and more from any computer or phone
+	- [[github.com/Zleap-AI/SAG-Wiki]] - A lightweight knowledge base for people and agents, with ultra fast indexing and most precise retrieval.
 - ## [[2026-11-17 Tuesday]]
 	- [[github.com/arcboxlabs/arcbox]] - Run AI agents on real and isolated machines — own kernel, filesystem, and network — with <100ms boot. Local first, OCI compatible, pure Rust.
 	- [[github.com/groundwater/GhostVM]] - No Description Yet.
@@ -22,7 +25,7 @@ updateTime:: 11/18/2026, 10:03:55 AM
 	- [[github.com/Tencent/LoopForge]] - Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.
 	- [[github.com/yuhangch/panda-reader]] - A fast, local-first RSS reader you can make your own.
 - ## [[2026-11-14 Saturday]]
-	- [[github.com/zhaochunqi/dsh-magpie-route]] - DeepSeek Harness plugin: show the real upstream model behind a magpie routing group in the composer dock (/magpie-route command + magpie_route tool).
+	- [[github.com/zhaochunqi/dsh-magpie-route]] - DeepSeek Harness plugin that displays the real upstream provider/model selected by a Magpie routing group in the composer dock.
 - ## [[2026-11-13 Friday]]
 	- [[github.com/jackwener/OpenCLI]] - Make Any Website into CLI & Use your logged-in browser by AI agent.
 	- [[github.com/milind-soni/OpenMausBot]] - Open-source Grok Bot alternative with a virtual machine that bots can use
@@ -62,7 +65,7 @@ updateTime:: 11/18/2026, 10:03:55 AM
 	- [[github.com/ospfranco/sol]] - MacOS launcher & command palette
 	- [[github.com/vercel-labs/agent-desktop]] - Computer use CLI for AI agents
 - ## [[2026-10-30 Friday]]
-	- [[github.com/zeabur-oss/zeabur]] - Self-hosted PaaS on your own Kubernetes.
+	- [[github.com/zeabur-oss/zeabur]] - Deploy apps on your own server from Git, Docker Compose or an app template. Runs on Kubernetes.
 - ## [[2026-10-29 Thursday]]
 	- [[github.com/alvinunreal/oh-my-opencode-slim]] - Lean, fine tuned Opencode multi agent suite · Mix any models · Auto delegate tasks
 	- [[github.com/devswha/ovis]] - Ovis (formerly herdr web UI): free, open-source browser and phone client for herdr. Chat and live terminal for Claude Code, Codex and every agent pane, remote PCs over SSH, web push alerts
@@ -80,7 +83,7 @@ updateTime:: 11/18/2026, 10:03:55 AM
 - ## [[2026-10-23 Friday]]
 	- [[github.com/subhashhhhhh/Tether]] - Modern, native macOS companion for Android built on the KDE Connect protocol
 - ## [[2026-10-22 Thursday]]
-	- [[github.com/narumiruna/pi-extensions]] - A monorepo of Pi Coding Agent extensions
+	- [[github.com/narumiruna/pi-extensions]] - A monorepo of Pi Coding Agent extensions (AI Slops)
 	- [[github.com/PDFMathTranslate/PDFMathReader]] - Read scientific documents in your language, in realtime, on any platform. 在任何平台上用您的语言实时翻译和阅读科学文献。
 	- [[github.com/pgsty/silo]] - S3-Compatible Object Storage. A MinIO fork maintained by PGSTY
 	- [[github.com/zhaochunqi/kiwivm-exporter]] - BandwagonHost KiwiVM API Prometheus exporter - bandwidth quota + CPU/mem/load/disk out-of-band, no in-VPS agent
@@ -232,7 +235,7 @@ updateTime:: 11/18/2026, 10:03:55 AM
 	- [[github.com/kserve/kserve]] - Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes
 - ## [[2026-08-26 Wednesday]]
 	- [[github.com/awaseem/foqos]] - Foqos allows you to lock apps behind the tap of a NFC tag or scan of a QR code. Free and open source alternative to Brick, Opal, ScreenZen, Unpluq, Scrolly, Blok and more!
-	- [[github.com/getkern/kern]] - kern: fast, rootless container runtime and sandbox with no daemon. Runs untrusted code and AI agent tool calls under kernel-enforced isolation.
+	- [[github.com/getkern/kern]] - a fast, rootless container runtime and sandbox, no daemon
 	- [[github.com/typecho/typecho]] - A PHP Blogging Platform. Simple and Powerful.
 - ## [[2026-08-25 Tuesday]]
 	- [[github.com/fayazara/Screendrop]] - A beautiful screenshot + screen recording + Loom alternative - all native, self hostable and free.
@@ -478,7 +481,7 @@ updateTime:: 11/18/2026, 10:03:55 AM
 	- [[github.com/jocmp/capyreader]] - A smallish Android RSS reader
 	- [[github.com/tashfeenahmed/freellmapi]] - 10.1 billion tokens per month. 87 free LLM providers. 1,313 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.
 - ## [[2026-06-26 Friday]]
-	- [[github.com/Jamailar/Beav]] - 小红书 AI 运营 工具，多账号矩阵，智能选题推荐系统，小红书 商家 AI 视频 图文 一键生成 批量创作，自媒体AI工作台
+	- [[github.com/Jamailar/Beav]] - 小红书 AI 运营工作台｜小红书采集、评论区下载、素材库、选题、AI写作、小红书全域解决方案，开箱即用，一键安装，小红书AI工作台，自媒体素材库，AI写作+图片自动编排，小红书版OpenClaw、自媒体资产底座+AI工作台，支持小红书图文+小红书评论区下载、小红书AI创作工具、自媒体版WorkBuddy、抖音、小红书爬虫数据采集
 	- [[github.com/remotion-dev/remotion]] - 🎥      Make videos programmatically with React
 - ## [[2026-06-25 Thursday]]
 	- [[github.com/gitwatch/gitwatch]] - Watch a file or folder and automatically commit changes to a git repo easily.
@@ -974,7 +977,7 @@ updateTime:: 11/18/2026, 10:03:55 AM
 	- [[github.com/Adpro-Team/GKD_THS_List]] - GKD第三方订阅收录名单
 	- [[github.com/HisMax/RedInk]] - Red Ink - A one-stop Xiaohongshu image-and-text generator based on the 🍌Nano Banana Pro🍌, "One Sentence, One Image: Generate Xiaohongshu Text and Images."
 - ## [[2026-02-12 Thursday]]
-	- [[github.com/coderabbitai/git-worktree-runner]] - Bash-based Git worktree manager with editor and AI tool integration. Automates per-branch worktree creation, configuration copying, dependency installation, and workspace setup for efficient parallel development.
+	- [[github.com/coderabbitai/git-worktree-runner]] - Bash-based Git worktree manager with editor and AI tool integration. Automates per-branch worktree creation, configuration copying, dependency installation, and workspace setup for efficient parallel development. #Archived
 	- [[github.com/Dr-TSNG/ZygiskNext]] - Standalone implementation of Zygisk
 	- [[github.com/iamr0s/Dhizuku]] - A tool that can share DeviceOwner permissions to other application.
 	- [[github.com/JingMatrix/NeoZygisk]] - Zygote injection with ptrace
@@ -1038,7 +1041,7 @@ updateTime:: 11/18/2026, 10:03:55 AM
 	- [[github.com/cloudflare/moltworker]] - Run OpenClaw, (formerly Moltbot, formerly Clawdbot) on Cloudflare Workers
 	- [[github.com/go-vikunja/vikunja]] - The task manager you actually own.
 	- [[github.com/microsoft/agent-lightning]] - The absolute trainer to light up AI agents.
-	- [[github.com/nanocoai/nanoclaw]] - A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK
+	- [[github.com/nanocoai/nanoclaw]] - Your own always-on AI assistant: self-hosted, open source, lightweight. Each agent runs in its own container on your machine, on the harness you choose (Claude Code, Codex, Cursor, OpenCode). Talk to it from Slack, WhatsApp, Telegram, Discord and more.
 	- [[github.com/OpenByteInc/QuantDinger]] - The most complete open-source, self-hosted Agentic Trading OS—AI research, Python strategies, factor discovery, backtesting, optimization, paper/live multi-asset execution, risk controls, monitoring, MCP, and multi-tenant SaaS in one auditable stack.
 	- [[github.com/owu/wsl-dashboard]] - A GUI manager for WSL featuring a modern UI — a lightweight, low‑memory, high‑performance dashboard to manage WSL instances.  Install, list, start, stop, unregister, and configure your WSL distros​ from one place.
 	- [[github.com/RunMaestro/Maestro]] - Agent Orchestration Command Center
@@ -5406,7 +5409,7 @@ updateTime:: 11/18/2026, 10:03:55 AM
 - ## [[2020-07-05 Sunday]]
 	- [[github.com/cloudposse/terraform-aws-codebuild]] - Terraform Module to easily leverage AWS CodeBuild for Continuous Integration
 - ## [[2020-06-29 Monday]]
-	- [[github.com/eclipse-theia/theia]] - Eclipse Theia is a cloud & desktop IDE framework implemented in TypeScript.
+	- [[github.com/eclipse-theia/theia]] - Eclipse Theia is an open-source platform for building custom IDEs and tools for browser and desktop. It includes Theia AI, the vendor-neutral AI harness platform, and powers the AI-native Theia IDE.
 - ## [[2020-06-07 Sunday]]
 	- [[github.com/go-shiori/shiori]] - Simple bookmark manager built with Go
 - ## [[2020-06-01 Monday]]
