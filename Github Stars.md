@@ -2,7 +2,7 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/19/2026, 9:40:22 AM
+updateTime:: 11/20/2026, 9:39:25 AM
 
 - ## [[2026-11-18 Wednesday]]
 	- [[github.com/EEliberto/SurgeRelay-macOS]] - 在 Mac 上管理、转换、编辑或分发 Surge 模块，通过固定订阅地址让 iPhone、iPad、Apple TV 和 Mac 等多款设备保持同步。
@@ -951,7 +951,7 @@ updateTime:: 11/19/2026, 9:40:22 AM
 	- [[github.com/Ilshidur/action-discord]] - 🚀 GitHub Action that sends a Discord message.
 	- [[github.com/netbirdio/netbird]] - NetBird securely connects people, machines and AI agents across any network with one identity-based Zero Trust platform. Powered by peer-to-peer WireGuard®
 	- [[github.com/restic/restic]] - Fast, secure, efficient backup program
-	- [[github.com/tabler/tabler]] - Free and open source admin dashboard UI kit built on Bootstrap: 100+ pages, 6,000+ icons, dark mode, RTL.
+	- [[github.com/tabler/tabler]] - Free and open source admin dashboard UI kit built on Bootstrap: 100+ pages, 6,500+ icons, dark mode, RTL.
 	- [[github.com/tt-rss/tt-rss]] - A free, flexible, open-source, web-based news feed (RSS/Atom/other) reader and aggregator.
 - ## [[2026-02-21 Saturday]]
 	- [[github.com/Done-0/value-realization]] - Analyze whether end users will discover clear value in product ideas.
@@ -1462,7 +1462,7 @@ updateTime:: 11/19/2026, 9:40:22 AM
 	- [[github.com/yamadashy/repomix]] - 📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.
 - ## [[2025-11-14 Friday]]
 	- [[github.com/elevenlabs/ui]] - ElevenLabs UI is a component library and custom registry built on top of shadcn/ui to help you build multimodal agents faster.
-	- [[github.com/yincongcyincong/MuseBot]] - supports Telegram, Discord, Slack, Lark（飞书），钉钉, 企业微信, QQ, 微信, compatible with various LLMs including OpenAI, Gemini, DeepSeek, Doubao, and OpenRouter. It offers intelligent conversation, image generation, video creation, and more. Works seamlessly in both private chats and group settings.
+	- [[github.com/yincongcyincong/MuseBot]] - Agent for Telegram, Discord, Slack, Lark（飞书），dingding（钉钉）, 企业微信, QQ, 微信（wechat）
 - ## [[2025-11-12 Wednesday]]
 	- [[github.com/delta-io/delta-sharing]] - An open protocol for secure data sharing
 - ## [[2025-11-11 Tuesday]]
@@ -2378,7 +2378,7 @@ updateTime:: 11/19/2026, 9:40:22 AM
 - ## [[2025-01-25 Saturday]]
 	- [[github.com/91270/MeiamSubtitles]] - Emby Server / Jellyfin Server 端字幕插件 ，使用  迅雷影音、 射手网 接口精准匹配视频字幕
 	- [[github.com/aerugo/simplegantt]] - Gantt charts with only Javascript, CSS, HTML and YAML
-	- [[github.com/arktypeio/arktype]] - TypeScript's 1:1 validator, optimized from editor to runtime
+	- [[github.com/arktypeio/arktype]] - TypeScript's smallest, fastest validator. One prompt away.
 	- [[github.com/bubkoo/html-to-image]] - ✂️ Generates an image from a DOM node using HTML5 canvas and SVG.
 	- [[github.com/cashapp/redwood]] - Multiplatform reactive UI for Android, iOS, and web using Kotlin and Jetpack Compose
 	- [[github.com/lightpanda-io/browser]] - Lightpanda: the headless browser designed for AI and automation
@@ -2445,7 +2445,7 @@ updateTime:: 11/19/2026, 9:40:22 AM
 	- [[github.com/sampotts/plyr]] - Deprecated in favour of Video.js 10; security updates only. Simple HTML5, YouTube and Vimeo player.
 - ## [[2025-01-05 Sunday]]
 	- [[github.com/CapSoftware/Cap]] - Open source Loom alternative. Beautiful, shareable screen recordings.
-	- [[github.com/decaporg/decap-cms]] - A Git-based CMS for Static Site Generators
+	- [[github.com/decaporg/decap-cms]] - A Git-based CMS for static site generators (formerly Netlify CMS)
 	- [[github.com/iann0036/iamlive]] - Generate an IAM policy from AWS, Azure, or Google Cloud (GCP) calls using client-side monitoring (CSM) or embedded proxy
 	- [[github.com/sveltia/sveltia-cms]] - Leading Git-based headless CMS. Successor to Netlify/Decap CMS. Modern UX, first-class i18n support, mobile support + numerous improvements. Framework-agnostic, open source & free.
 - ## [[2025-01-04 Saturday]]
@@ -2517,7 +2517,7 @@ updateTime:: 11/19/2026, 9:40:22 AM
 	- [[github.com/swiftlang/swift-package-manager]] - The Package Manager for the Swift Programming Language
 - ## [[2024-12-21 Saturday]]
 	- [[github.com/alyssaxuu/screenity]] - The free and privacy-friendly screen recorder with no limits 🎥
-	- [[github.com/cookieY/Yearning]] - 🐳 A most popular sql audit platform for mysql
+	- [[github.com/cookieY/Yearning]] - 🤖 AI Agentic SQL Review & Database Change Governance Platform for MySQL, PostgreSQL, TiDB, OceanBase & PolarDB
 	- [[github.com/kubernetes-sigs/prow]] - Prow is a Kubernetes based CI/CD system developed to serve the Kubernetes community. This repository contains Prow source code and Hugo sources for Prow documentation site.
 	- [[github.com/shobrook/wut]] - A terminal assistant for the hopelessly confused
 - ## [[2024-12-20 Friday]]
@@ -2931,7 +2931,7 @@ updateTime:: 11/19/2026, 9:40:22 AM
 - ## [[2024-08-19 Monday]]
 	- [[github.com/cloudflare/cloudflare-go]] - The official Go library for the Cloudflare API
 - ## [[2024-08-13 Tuesday]]
-	- [[github.com/electric-sql/electric-pglite]] - Embeddable Postgres with real-time, reactive bindings.
+	- [[github.com/electric-sql/pglite]] - Embeddable Postgres with real-time, reactive bindings.
 	- [[github.com/felixonmars/dnsmasq-china-list]] - Chinese-specific configuration to improve your favorite DNS server. Best partner for chnroutes.
 	- [[github.com/open-gitops/documents]] - 📑 Lasting documents from the OpenGitOps project which are versioned and released together (including the GitOps Principles and Glossary)
 	- [[github.com/r0ysue/AndroidSecurityStudy]] - 安卓应用安全学习
@@ -4032,7 +4032,7 @@ updateTime:: 11/19/2026, 9:40:22 AM
 	- [[github.com/jesseduffield/lazygit]] - simple terminal UI for git commands
 	- [[github.com/Loyalsoldier/surge-rules]] - 🦄 🎃 👻 Surge 规则集(DOMAIN-SET 和 RULE-SET)，适用于 Surge for iOS 和 Surge for Mac 客户端。
 	- [[github.com/nagadomi/nunif]] - Misc; latest version of waifu2x;  2D video to stereo 3D video conversion
-	- [[github.com/netdata/netdata]] - Full-stack observability · Metrics · Logs · Traces · Flows · Topology · Infrastructure · APM · NPM · DBM · RUM · Synthetics · Cloud · AI · OpenTelemetry · SNMP · NetFlow/IPFIX/sFlow · IPMI · Redfish · 800+ integrations
+	- [[github.com/netdata/netdata]] - Full-stack observability · Metrics · Logs · Traces · Flows · Topology · Infrastructure · APM · NPM · DBM · RUM · Synthetics · Cloud · AI SRE · OpenTelemetry · SNMP · NetFlow/IPFIX/sFlow · IPMI · Redfish · 2000+ integrations
 	- [[github.com/pj4533/PokerNowGrabber]] - Save hand histories while you play PokerNow.club
 	- [[github.com/Significant-Gravitas/AutoGPT]] - AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 - ## [[2023-11-13 Monday]]
@@ -4813,7 +4813,7 @@ updateTime:: 11/19/2026, 9:40:22 AM
 	- [[github.com/stuartleeks/wsl-notify-send]] - WSL replacement for notify-send
 	- [[github.com/zudochkin/awesome-newsletters]] - A list of amazing Newsletters
 - ## [[2023-01-08 Sunday]]
-	- [[github.com/dandavison/delta]] - A syntax-highlighting pager for git, diff, grep, rg --json, and blame output
+	- [[github.com/dandavison/delta]] - A syntax-highlighting interface for git, diff, blame, and grep/ripgrep
 - ## [[2023-01-06 Friday]]
 	- [[github.com/rockerBOO/awesome-neovim]] - Collections of awesome neovim plugins.
 	- [[github.com/wezterm/wezterm]] - A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust
@@ -5799,7 +5799,7 @@ updateTime:: 11/19/2026, 9:40:22 AM
 - ## [[2017-10-08 Sunday]]
 	- [[github.com/jhy/jsoup]] - jsoup: the Java HTML parser, built for HTML editing, cleaning, scraping, and XSS safety.
 - ## [[2017-10-03 Tuesday]]
-	- [[github.com/ipfs/kubo]] - [ BEWARE: NO MAINTAINER ] IPFS implementation in Go: a daemon that stores and serves content-addressed data, with a CLI, HTTP Gateway, and RPC API
+	- [[github.com/ipfs/kubo]] - IPFS implementation in Go: a daemon that stores and serves content-addressed data, with a CLI, HTTP Gateway, and RPC API
 - ## [[2017-09-29 Friday]]
 	- [[github.com/ruby-china/How-To-Ask-Questions-The-Smart-Way]] - 本文原文由知名Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案。
 - ## [[2017-09-26 Tuesday]]
