@@ -28,31 +28,31 @@ importers:
         version: 2.30.1
     devDependencies:
       '@types/node':
-        specifier: ^24.13.4
+        specifier: 24.13.4
         version: 24.13.4
       '@typescript-eslint/eslint-plugin':
-        specifier: ^8.70.0
+        specifier: 8.70.0
         version: 8.70.0(@typescript-eslint/parser@8.70.0(eslint@9.18.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@9.18.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
       '@typescript-eslint/parser':
-        specifier: ^8.70.0
+        specifier: 8.70.0
         version: 8.70.0(eslint@9.18.0(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
       '@vercel/ncc':
-        specifier: ^0.45.0
+        specifier: 0.45.0
         version: 0.45.0
       '@vitest/coverage-v8':
-        specifier: ^5.0.5
+        specifier: 5.0.5
         version: 5.0.5(vitest@5.0.5)
       '@vitest/ui':
-        specifier: ^5.0.5
+        specifier: 5.0.5
         version: 5.0.5(vitest@5.0.5)
       jsdom:
-        specifier: ^30.0.1
+        specifier: 30.0.1
         version: 30.0.1
       typescript:
-        specifier: ^6.0.3
+        specifier: 6.0.3
         version: 6.0.3
       vitest:
-        specifier: ^5.0.5
+        specifier: 5.0.5
         version: 5.0.5(@types/node@24.13.4)(@vitest/coverage-v8@5.0.5)(@vitest/ui@5.0.5)(jsdom@30.0.1)(vite@7.3.1(@types/node@24.13.4))
 
 packages:
