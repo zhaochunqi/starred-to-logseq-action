@@ -2,8 +2,12 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/20/2026, 9:39:25 AM
+updateTime:: 11/21/2026, 9:05:22 AM
 
+- ## [[2026-11-21 Saturday]]
+	- [[github.com/anomalyco/browse]] - Let your AI agents use your real browser: an MCP server and a Chromium extension
+- ## [[2026-11-20 Friday]]
+	- [[github.com/xiaolutech/logseq-graph]] - Parsing and indexing layer for file-based Logseq graphs: Rust engine, CLI, and loopback API server
 - ## [[2026-11-18 Wednesday]]
 	- [[github.com/EEliberto/SurgeRelay-macOS]] - 在 Mac 上管理、转换、编辑或分发 Surge 模块，通过固定订阅地址让 iPhone、iPad、Apple TV 和 Mac 等多款设备保持同步。
 	- [[github.com/hzeller/timg]] - A terminal image and video viewer.
@@ -297,7 +301,7 @@ updateTime:: 11/20/2026, 9:39:25 AM
 	- [[github.com/missuo/snell-panel]] - Snell proxy node manager & subscription generator on Cloudflare Workers — Hono + D1 backend with a HeroUI panel
 	- [[github.com/qier222/proxy-provider-converter]] - 一个可以将 Clash 订阅转换成 Proxy Provider 和 External Group(Surge) 的工具
 	- [[github.com/qufei1993/skills-hub]] - A cross-platform desktop app to manage Agent Skills in one place and sync them to multiple AI coding tools’ global skills directories — “Install once, sync everywhere”.
-	- [[github.com/stablyai/orca]] - Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.
+	- [[github.com/stablyai/orca]] - Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.
 	- [[github.com/vorojar/md-preview]] - Native, local-first Markdown preview and quick editor. Multi-document tabs, session restore, macOS Finder workflow, offline Mermaid/KaTeX. Rust + system WebView, no Electron.
 	- [[github.com/WeiWenda/effect-note]] - 大纲笔记软件
 - ## [[2026-08-06 Thursday]]
@@ -452,7 +456,7 @@ updateTime:: 11/20/2026, 9:39:25 AM
 	- [[github.com/beercss/beercss]] - Build material design interfaces in record time... without stress for devs... 🍺💛
 	- [[github.com/Blue-B/WhisperSubTranslate]] - A free, local desktop app to extract subtitles (SRT) from video and translate them into any language — unlimited use, no signup, no cloud.
 	- [[github.com/flyfish-dev/file-viewer]] - Preview 275+ file formats in the browser: Office, PDF, OFD, CAD, 3D, archives. Pure frontend, no server conversion. Vue / React / Svelte / Web Components.
-	- [[github.com/jiji262/douyin-downloader]] - A practical Douyin downloader for both single-item and profile batch downloads, with progress display, retries, SQLite deduplication, and browser fallback support. 抖音批量下载工具，去水印，支持视频、图集、合集、音乐(原声)。
+	- [[github.com/jiji262/douyin-downloader]] - A practical Douyin downloader for both single-item and profile batch downloads, with progress display, retries, SQLite deduplication, and browser fallback support. 抖音批量下载工具，支持视频、图集、合集、音乐(原声)。
 	- [[github.com/MaxKmet/idea-validation-agents]] - AI agents that act as your personal venture analyst - from startup idea brainstorming to full validation and go-to-market strategy. Built for developers who'd rather validate in 10 minutes than regret in six months. Powered by Claude Code, OpenAI Codex, and Cursor.
 	- [[github.com/rtk-ai/rtk]] - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
 	- [[github.com/VoltAgent/awesome-claude-code-subagents]] - A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases
@@ -1156,7 +1160,7 @@ updateTime:: 11/20/2026, 9:39:25 AM
 	- [[github.com/hhftechnology/Dock-Dploy]] - A  web-based tool for building, managing, and converting Docker Compose files, configuration files, and schedulers.
 	- [[github.com/javedh-dev/tracktor]] - Vehicle Tracking Management System
 	- [[github.com/nicotsx/zerobyte]] - Backup automation for self-hosters. Built on top of restic
-	- [[github.com/obsidianmd/obsidian-skills]] - Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.
+	- [[github.com/obsidianmd/obsidian-skills]] - Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.
 	- [[github.com/rossmacarthur/sheldon]] - :bowtie: Fast, configurable, shell plugin manager
 - ## [[2026-01-12 Monday]]
 	- [[github.com/bizz84/flutter-tips-and-tricks]] - All my Flutter Tips & Tricks on X (Twitter) and LinkedIn.
@@ -2140,7 +2144,7 @@ updateTime:: 11/20/2026, 9:39:25 AM
 	- [[github.com/duplicati/duplicati]] - Store securely encrypted backups in the cloud!
 	- [[github.com/grafbase/grafbase]] - [Acquired by The Guild] The Grafbase GraphQL Federation Gateway
 - ## [[2025-04-05 Saturday]]
-	- [[github.com/goharbor/harbor]] - An open source trusted cloud native registry project that stores, signs, and scans content.
+	- [[github.com/goharbor/harbor]] - Harbor is a CNCF graduated open-source container registry to manage container images and other OCI artifacts securely with policies, role-based access control, vulnerability scans and signing.
 	- [[github.com/oras-project/oras]] - OCI registry client - managing content like artifacts, images, packages
 - ## [[2025-04-04 Friday]]
 	- [[github.com/aslafy-z/helm-git]] - Helm Plugin - Install Helm Charts straight from Git repositories
@@ -2281,7 +2285,7 @@ updateTime:: 11/20/2026, 9:39:25 AM
 - ## [[2025-02-19 Wednesday]]
 	- [[github.com/gp0119/Taby]] - A simple new tab extension
 	- [[github.com/open-thoughts/open-thoughts]] - Fully open data curation for reasoning models
-	- [[github.com/super-productivity/super-productivity]] - Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, GitLab, GitHub and Open Project.
+	- [[github.com/super-productivity/super-productivity]] - A to-do list, time tracker and daily planner for focused personal work. Private, offline-first and open source.
 - ## [[2025-02-18 Tuesday]]
 	- [[github.com/ChatGPTNextWeb/NextChat]] - ✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more. Available on Web, iOS, macOS, Android, Linux, Windows.
 	- [[github.com/GoogleChrome/chrome-types]] - Code to parse Chrome's internal extension type definitions—published on NPM as chrome-types
@@ -3201,7 +3205,7 @@ updateTime:: 11/20/2026, 9:39:25 AM
 	- [[github.com/sxyazi/dotfiles]] - Some of the dotfiles I can't do without.
 - ## [[2024-06-07 Friday]]
 	- [[github.com/dubzzz/fast-check]] - Property based testing framework for JavaScript (like QuickCheck) written in TypeScript
-	- [[github.com/firecrawl/firecrawl]] - Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.
+	- [[github.com/firecrawl/firecrawl]] - Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.
 	- [[github.com/hudy9x/namviek]] - The open-source project management tool for tiny teams
 	- [[github.com/imputnet/cobalt]] - best way to save what you love
 	- [[github.com/nalgeon/redka]] - Redis re-implemented with SQL
@@ -3320,7 +3324,7 @@ updateTime:: 11/20/2026, 9:39:25 AM
 - ## [[2024-05-01 Wednesday]]
 	- [[github.com/ActivityLauncher/ActivityLauncher]] - Activity launcher creates shortcuts for any installed app and hidden activities to launch them with ease
 	- [[github.com/LinkSheet/LinkSheet]] - Link handling for modern Android
-	- [[github.com/Neamar/KISS]] - Lightning fast, open-source, < 250kb Android launcher
+	- [[github.com/Neamar/KISS]] - Lightning fast, open-source, < 1Mb Android launcher
 	- [[github.com/NeoApplications/Neo-Store]] - An F-Droid client with modern UI and an arsenal of extra features.
 	- [[github.com/offa/android-foss]] - A list of Free and Open Source Software (FOSS) for Android – saving Freedom and Privacy.
 	- [[github.com/zacharee/MastodonRedirect]] - Deep linking proxy for Mastodon and Lemmy on Android, allowing you to launch your selected client automatically.
@@ -3640,7 +3644,7 @@ updateTime:: 11/20/2026, 9:39:25 AM
 	- [[github.com/jason5ng32/MyIP]] - The best IP Toolbox. Check your IP address & geolocation, test IP for WebRTC and DNS IP leaks, run an IP quality check, browser fingerprint check, website availability check, network speed test, global latency test, MTR test, Whois search, and more.
 	- [[github.com/morsoli/llm-books]] - 利用LLM构建应用实践笔记
 - ## [[2024-02-01 Thursday]]
-	- [[github.com/docker-mailserver/docker-mailserver]] - Production-ready fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) running inside a container.
+	- [[github.com/docker-mailserver/docker-mailserver]] - Production-ready fullstack but simple mail server running inside a container.
 	- [[github.com/grpc/grpc]] - C++ based gRPC (C++, Python, Ruby, Objective-C, PHP, C＃)
 	- [[github.com/Maasea/sgmodule]] - surge module
 	- [[github.com/quarkusio/quarkus]] - Quarkus: Supersonic Subatomic Java.
