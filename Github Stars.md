@@ -2,8 +2,10 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/21/2026, 9:05:22 AM
+updateTime:: 11/22/2026, 8:05:22 AM
 
+- ## [[2026-11-22 Sunday]]
+	- [[github.com/addyosmani/agent-skills]] - Production-grade engineering skills for AI coding agents.
 - ## [[2026-11-21 Saturday]]
 	- [[github.com/anomalyco/browse]] - Let your AI agents use your real browser: an MCP server and a Chromium extension
 - ## [[2026-11-20 Friday]]
@@ -654,7 +656,6 @@ updateTime:: 11/21/2026, 9:05:22 AM
 	- [[github.com/AndySkaura/crosssubtitle-ai]] - 给A片加字幕的本地应用
 	- [[github.com/snakers4/silero-vad]] - Silero VAD: pre-trained enterprise-grade Voice Activity Detector
 - ## [[2026-05-05 Tuesday]]
-	- [[github.com/addyosmani/agent-skills]] - Production-grade engineering skills for AI coding agents.
 	- [[github.com/distr-sh/distr]] - The Open Source control plane for self-hosted, BYOC, and on-prem deployments. Everything you need to distribute applications to self-hosted customers out of the box. Supporting Docker Compose, Docker Swarm and Helm based applications.
 - ## [[2026-05-03 Sunday]]
 	- [[github.com/Fokkyp/SoftwareCopyright-Skill]] - 中国软件著作权申请材料 生成器 Skills，本 Skills 通过阅读本地项目，自动生成全套 .docx 软著申请材料，全开源，无须再付费购买任何软著申请服务
@@ -1075,7 +1076,7 @@ updateTime:: 11/21/2026, 9:05:22 AM
 	- [[github.com/gitleaks/gitleaks]] - Find secrets with Gitleaks 🔑
 	- [[github.com/keleus/BewlyCat]] - BewlyCat——基于BewlyBewly开发的Bilibili拓展
 	- [[github.com/Quenary/tugtainer]] - An application for automated Docker container updates with a web UI
-	- [[github.com/sansan0/TrendRadar]] - ⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。
+	- [[github.com/sansan0/TrendRadar]] - ⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, web search, MCP & smart alerts.🎯 告别信息过载，你的 AI     舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅 + 定时联网搜索，支持关键词与 AI 智能筛选。AI 翻译 + AI 分析简报直推手机，支持接入 MCP     架构，赋能 AI 自然语言对话分析、实时检索、情感洞察与趋势预测。支持 Docker，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/Bark/Slack     等渠道智能推送。
 	- [[github.com/wusimpl/AntigravityQuotaWatcher]] - Google Antigravity AI模型配额监控插件 (Antigravity AI Model Quota Watching)
 	- [[github.com/xiaolutech/s3-static]] - A high-performance Go application that provides enterprise-grade static file serving with complete S3 API compatibility
 - ## [[2026-01-25 Sunday]]
@@ -1787,7 +1788,7 @@ updateTime:: 11/21/2026, 9:05:22 AM
 	- [[github.com/beancount/beanquery]] - A customizable lightweight SQL query tool that works on tabular data, including Beancount.
 	- [[github.com/cachix/cachix]] - Command line client for Nix binary cache hosting:
 	- [[github.com/coleam00/Archon]] - The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.
-	- [[github.com/emcie-co/parlant]] - Parlant is an open platform for building customer-facing chat agents with AI. Describe how the agent should behave, and your coding agent implements it for you.
+	- [[github.com/emcie-co/parlant]] - Parlant lets you build and operate reliable CX and support agents from your own AI coding agents.
 	- [[github.com/fastrepl/anarlog]] - Open source Granola AI Alternative
 	- [[github.com/firecracker-microvm/firecracker]] - Secure and fast microVMs for serverless computing.
 	- [[github.com/lanlinju/Animius]] - 一个简洁的播放动漫的App，支持弹幕，多数据源等，使用Jetpack Compose进行开发
@@ -4080,7 +4081,7 @@ updateTime:: 11/21/2026, 9:05:22 AM
 	- [[github.com/catppuccin/bat]] - 🦇️ Soothing pastel theme for Bat
 	- [[github.com/go-gost/gost]] - GO Simple Tunnel - a simple tunnel written in golang
 	- [[github.com/madmalik/mononoki]] - a programming typeface
-	- [[github.com/MatsuriDayo/NekoBoxForAndroid]] - NekoBox for Android / sing-box / universal proxy toolchain for Android
+	- [[github.com/MatsuriDayo/NekoBoxForAndroid]] - NekoBox for Android / sing-box / universal proxy toolchain for Android #Archived
 	- [[github.com/prometheus/prometheus]] - The Prometheus monitoring system and time series database.
 	- [[github.com/rudderlabs/rudder-server]] - Privacy and Security focused Segment-alternative, in Golang and React
 - ## [[2023-11-07 Tuesday]]
@@ -6007,7 +6008,7 @@ updateTime:: 11/21/2026, 9:05:22 AM
 - ## [[2017-01-20 Friday]]
 	- [[github.com/es-shims/es6-shim]] - ECMAScript 6 compatibility shims for legacy JS engines
 - ## [[2017-01-08 Sunday]]
-	- [[github.com/webdevops/Dockerfile]] - :package: Dockerfiles from WebDevOps for PHP, Apache and Nginx
+	- [[github.com/webdevops/Dockerfile]] - :package: Dockerfiles from WebDevOps for PHP with Apache, Nginx or as fpm
 - ## [[2016-12-30 Friday]]
 	- [[github.com/zdhxiong/mdui]] - Material Design 3(Material You) UI components using Web Components.
 - ## [[2016-12-29 Thursday]]
