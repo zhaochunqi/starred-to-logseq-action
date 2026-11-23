@@ -2,10 +2,11 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/22/2026, 8:05:22 AM
+updateTime:: 11/23/2026, 8:38:10 AM
 
 - ## [[2026-11-22 Sunday]]
 	- [[github.com/addyosmani/agent-skills]] - Production-grade engineering skills for AI coding agents.
+	- [[github.com/cursor/plugins]] - Cursor plugin specification and official plugins
 - ## [[2026-11-21 Saturday]]
 	- [[github.com/anomalyco/browse]] - Let your AI agents use your real browser: an MCP server and a Chromium extension
 - ## [[2026-11-20 Friday]]
@@ -157,7 +158,7 @@ updateTime:: 11/22/2026, 8:05:22 AM
 	- [[github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise]] - Your Cheat Sheet For AI Engineering Interviews at Top AI Companies - Questions and Answers.
 	- [[github.com/tobi/disktree]] - A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.
 - ## [[2026-09-25 Friday]]
-	- [[github.com/abue-ammar/tinycast]] - A native macOS launcher for everyday productivity. Lightweight and open source.
+	- [[github.com/abue-ammar/tinycast]] - A native macOS launcher built for productivity. Fast, lightweight, and open source.
 	- [[github.com/dexidp/dex]] - OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
 - ## [[2026-09-24 Thursday]]
 	- [[github.com/BCUninstaller/Bulk-Crap-Uninstaller]] - Remove large amounts of unwanted applications quickly.
@@ -176,7 +177,7 @@ updateTime:: 11/22/2026, 8:05:22 AM
 - ## [[2026-09-18 Friday]]
 	- [[github.com/Agents365-ai/drawio-skill]] - Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports.
 	- [[github.com/cloudflare/vinext]] - Vite plugin that reimplements the Next.js API surface — deploy anywhere
-	- [[github.com/deusyu/harness-engineering]] - Harness Engineering 学习指南 — 从概念理解到独立实践的深度学习档案
+	- [[github.com/deusyu/harness-engineering]] - Harness Engineering（驭缰工程）中文学习档案：概念笔记、一手翻译与实践记录 · Chinese study archive
 	- [[github.com/Ender-Wang/Swifka]] - A native macOS Kafka monitor. Read-only by design.
 	- [[github.com/ItsVeyra/glitter-idea-repo]] - An Obsidian plugin for quickly recording, browsing, and organizing ideas as text, links, images, and videos.
 	- [[github.com/kubernetes/cloud-provider-aws]] - Cloud provider for AWS
@@ -982,7 +983,6 @@ updateTime:: 11/22/2026, 8:05:22 AM
 	- [[github.com/Adpro-Team/GKD_THS_List]] - GKD第三方订阅收录名单
 	- [[github.com/HisMax/RedInk]] - Red Ink - A one-stop Xiaohongshu image-and-text generator based on the 🍌Nano Banana Pro🍌, "One Sentence, One Image: Generate Xiaohongshu Text and Images."
 - ## [[2026-02-12 Thursday]]
-	- [[github.com/coderabbitai/git-worktree-runner]] - Bash-based Git worktree manager with editor and AI tool integration. Automates per-branch worktree creation, configuration copying, dependency installation, and workspace setup for efficient parallel development. #Archived
 	- [[github.com/Dr-TSNG/ZygiskNext]] - Standalone implementation of Zygisk
 	- [[github.com/iamr0s/Dhizuku]] - A tool that can share DeviceOwner permissions to other application.
 	- [[github.com/JingMatrix/NeoZygisk]] - Zygote injection with ptrace
@@ -3410,7 +3410,6 @@ updateTime:: 11/22/2026, 8:05:22 AM
 	- [[github.com/anacrolix/torrent]] - Full-featured BitTorrent client package and utilities
 	- [[github.com/bradtraversy/50projects50days]] - 50+ mini web projects using HTML, CSS & JS
 	- [[github.com/HerbertHe/iptv-sources]] - Autoupdate iptv sources
-	- [[github.com/leptonai/imgpilot]] - Turn the draft into amazing artwork with the power of Real-Time Latent Consistency Model #Archived
 	- [[github.com/leptonai/leptonai]] - A Pythonic framework to simplify AI service building
 	- [[github.com/mistricky/codesnap.nvim]] - 📸 Snapshot plugin with rich features that can make pretty code snapshots for Neovim
 	- [[github.com/neondatabase/neon]] - Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.
@@ -4081,7 +4080,6 @@ updateTime:: 11/22/2026, 8:05:22 AM
 	- [[github.com/catppuccin/bat]] - 🦇️ Soothing pastel theme for Bat
 	- [[github.com/go-gost/gost]] - GO Simple Tunnel - a simple tunnel written in golang
 	- [[github.com/madmalik/mononoki]] - a programming typeface
-	- [[github.com/MatsuriDayo/NekoBoxForAndroid]] - NekoBox for Android / sing-box / universal proxy toolchain for Android #Archived
 	- [[github.com/prometheus/prometheus]] - The Prometheus monitoring system and time series database.
 	- [[github.com/rudderlabs/rudder-server]] - Privacy and Security focused Segment-alternative, in Golang and React
 - ## [[2023-11-07 Tuesday]]
@@ -4259,7 +4257,6 @@ updateTime:: 11/22/2026, 8:05:22 AM
 	- [[github.com/kedacore/keda]] - KEDA is a Kubernetes-based Event Driven Autoscaling component. It provides event driven scale for any container running in Kubernetes
 	- [[github.com/kube-vip/kube-vip]] - Kubernetes Control Plane Virtual IP and Load-Balancer
 	- [[github.com/kubenetworks/kubevpn]] - KubeVPN offers a Cloud Native Dev Environment that connects to kubernetes cluster network.
-	- [[github.com/mtlynch/picoshare]] - MOVED: https://codefloe.com/mtlynch/picoshare #Archived
 	- [[github.com/openebs/openebs]] - A popular & widely deployed Open Source Container Native Storage platform for Stateful Persistent Applications on Kubernetes.
 	- [[github.com/TGSAN/CMWTAT_Digital_Edition]] - CloudMoe Windows 10/11 Activation Toolkit get digital license, the best open source Win 10/11 activator in GitHub. GitHub 上最棒的开源 Win10/Win11 数字权利（数字许可证）激活工具！
 	- [[github.com/thanos-io/thanos]] - Highly available Prometheus setup with long term storage capabilities. A CNCF Incubating project.
@@ -4321,7 +4318,7 @@ updateTime:: 11/22/2026, 8:05:22 AM
 	- [[github.com/libredirect/browser_extension]] - A browser extension that redirects popular sites to alternative privacy friendly frontends
 	- [[github.com/lucaong/minisearch]] - Tiny and powerful JavaScript full-text search engine for browser and Node
 	- [[github.com/qishibo/AnotherRedisDesktopManager]] - 🚀🚀🚀A faster, better and more stable Redis desktop manager [GUI client], compatible with Linux, Windows, Mac.
-	- [[github.com/ZingerLittleBee/ServerBee]] - Lightweight VPS monitoring with agent + server + web dashboard. Rust + React monorepo.
+	- [[github.com/ZingerLittleBee/ServerBee]] - Self-hosted VPS monitoring: live load, carrier routes, IP unlock, server costs, custom dashboards and a native iOS app. One server binary, SQLite built in.
 - ## [[2023-09-26 Tuesday]]
 	- [[github.com/aws-actions/configure-aws-credentials]] - Configure AWS credential environment variables for use in other GitHub Actions.
 	- [[github.com/blakeblackshear/frigate]] - NVR with realtime local object detection for IP cameras
@@ -4494,7 +4491,6 @@ updateTime:: 11/22/2026, 8:05:22 AM
 	- [[github.com/metalbear-co/mirrord]] - Run any process, on your machine or in an AI agent's environment, as if it were a pod in your Kubernetes cluster: real env vars, DNS, network, traffic.
 	- [[github.com/z-huang/InnerTune]] - A Material 3 YouTube Music client for Android
 - ## [[2023-08-29 Tuesday]]
-	- [[github.com/charmbracelet/soft-serve]] - The mighty, self-hostable Git server for the command line🍦 #Archived
 	- [[github.com/pinojs/pino]] - 🌲 super fast, all natural json logger
 	- [[github.com/ReVanced/revanced-manager]] - 💊 Application to use ReVanced on Android
 	- [[github.com/withfig/autocomplete]] - IDE-style autocomplete for your existing terminal & shell
