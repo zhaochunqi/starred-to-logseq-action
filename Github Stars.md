@@ -2,7 +2,7 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/23/2026, 8:38:10 AM
+updateTime:: 11/24/2026, 12:36:57 PM
 
 - ## [[2026-11-22 Sunday]]
 	- [[github.com/addyosmani/agent-skills]] - Production-grade engineering skills for AI coding agents.
@@ -280,7 +280,7 @@ updateTime:: 11/23/2026, 8:38:10 AM
 	- [[github.com/2dust/v2rayN]] - A GUI client for Windows, Linux and macOS, support Xray and sing-box and others
 	- [[github.com/adysec/tracker]] - BT tracker 服务器列表，提供全网最全的 tracker 列表，每日聚合并测试存活服务器，trackers_all.txt 为全量列表（2902 行），trackers_best.txt 为可用列表（1137 行）
 - ## [[2026-08-12 Wednesday]]
-	- [[github.com/cathrynlavery/diagram-design]] - Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.
+	- [[github.com/cathrynlavery/diagram-design]] - Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.
 - ## [[2026-08-11 Tuesday]]
 	- [[github.com/Panniantong/Agent-Reach]] - Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
 	- [[github.com/toeverything/blocksuite]] - 🧩 Content editing tech stack for the web - BlockSuite is a toolkit for building editors and collaborative applications.
@@ -427,7 +427,7 @@ updateTime:: 11/23/2026, 8:38:10 AM
 	- [[github.com/xishang0128/sparkle]] - :electron: Another Mihomo GUI. (🛠building...)
 - ## [[2026-07-15 Wednesday]]
 	- [[github.com/AkimioJR/AutoFilm]] - 一个为Emby、Jellyfin提供生成strm、动漫追番、绘制媒体库海报的小工具
-	- [[github.com/atuinsh/atuin-ai-server]] - Self-hosted server for Atuin AI, backed by any OpenAI-compatible endpoint
+	- [[github.com/atuinsh/atuin-ai]] - Self-hosted server for Atuin AI, backed by any OpenAI-compatible endpoint
 	- [[github.com/bramble-sh/bramble]] - Local-first password manager with direct device-to-device sync
 	- [[github.com/leandrocp/lumis]] - One highlighter, 8 runtimes. Powered by Tree-sitter and Neovim themes.
 	- [[github.com/mactools-app/MacTools]] - A free and open-source collection of native macOS menu bar tools.
@@ -690,7 +690,7 @@ updateTime:: 11/23/2026, 8:38:10 AM
 	- [[github.com/toon-format/toon-rust]] - 🦀 Community-driven Rust implementation of TOON
 	- [[github.com/tw93/Kami]] - 👩‍🚒 Good content deserves good paper. Layout rules and templates that let AI agents export PDF, PNG and editable PowerPoint.
 	- [[github.com/VoltAgent/awesome-codex-subagents]] - A collection of 130+ specialized Codex subagents covering a wide range of development use cases.
-	- [[github.com/w3dev33/beads-task-issue-tracker]] - This project's successor is PaiR (v0.52.0) - download at https://pair.w3dev.fr
+	- [[github.com/w3dev33/beads-task-issue-tracker]] - This project's successor is PaiR (v0.55.0) — download at https://pair.w3dev.fr
 - ## [[2026-04-25 Saturday]]
 	- [[github.com/adr/madr]] - Markdown Architectural Decision Records
 	- [[github.com/eljulians/skillfile]] - One-stop shop for AI skills and agents. Search 110K+ community skills, install and track them declaratively, and deploy across all major AI coding tools (Claude Code, Codex, Cursor, Antigravity and more)
@@ -2033,7 +2033,7 @@ updateTime:: 11/23/2026, 8:38:10 AM
 	- [[github.com/redlib-org/redlib]] - Private front-end for Reddit
 	- [[github.com/sindresorhus/modern-normalize]] - 🐒 Normalize browsers' default style
 - ## [[2025-05-08 Thursday]]
-	- [[github.com/MODSetter/SurfSense]] - Air-gapped, privacy-focused, open-source NotebookLM alternative. AI agent that researches, transforms, and edits your documents. Join our Discord: https://discord.gg/ejRNvftDp9
+	- [[github.com/MODSetter/SurfSense]] - Air-gapped, private AI for confidential documents. Open-source NotebookLM alternative that runs on your computer. Join our Discord: https://discord.gg/ejRNvftDp9
 - ## [[2025-05-06 Tuesday]]
 	- [[github.com/chakra-ui/ark]] - Unstyled, accessible UI components for your design System. Works in React, Vue, Solid, and Svelte.
 	- [[github.com/chakra-ui/park-ui]] - Beautifully designed components built with Ark UI and Panda CSS that work with a variety of JS frameworks.
@@ -2304,11 +2304,11 @@ updateTime:: 11/23/2026, 8:38:10 AM
 	- [[github.com/huggingface/agents-course]] - This repository contains the Hugging Face Agents Course.
 	- [[github.com/tonquer/JMComic-qt]] - 禁漫天堂，18comic，使用qt实现的PC客户端，支持Windows，Linux，MacOS
 - ## [[2025-02-12 Wednesday]]
+	- [[github.com/bilibili/GPT-SoVITS]] - 1 min voice data can also be used to train a good TTS model! (few shot voice cloning)
 	- [[github.com/EndlessCheng/codeforces-go]] - 算法竞赛模板库 by 灵茶山艾府 💭💡🎈
 	- [[github.com/fishaudio/fish-speech]] - SOTA Open Source TTS
 	- [[github.com/PlasmoHQ/plasmo]] - 🧩 The Browser Extension Framework
 	- [[github.com/QwenAudio/CosyVoice]] - Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability.
-	- [[github.com/RVC-Boss/GPT-SoVITS]] - 1 min voice data can also be used to train a good TTS model! (few shot voice cloning)
 	- [[github.com/SWivid/F5-TTS]] - Official code for "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching"
 	- [[github.com/xyhp915/logseq-fenced-code-plus]] - A Logseq plugin for missing types of fenced code 🚀
 - ## [[2025-02-10 Monday]]
@@ -4589,7 +4589,7 @@ updateTime:: 11/23/2026, 8:38:10 AM
 	- [[github.com/imrickysu/logseq-plugin-on-this-day]] - A logseq plugin to show all history journals on this day
 	- [[github.com/leandromoreira/cdn-up-and-running]] - CDN Up and Running - Building a CDN from Scratch to Learn about CDN, Nginx, Lua, Prometheus, Grafana, Load balancing, and Containers.
 	- [[github.com/ory/kratos]] - Headless cloud-native authentication and identity management written in Go. Scales to a billion+ users. Replace Homegrown, Auth0, Okta, Firebase with better UX and DX. Passkeys, Social Sign In, OIDC, Magic Link, Multi-Factor Auth, SMS, SAML, TOTP, and more. Runs everywhere, runs best on Ory Network.
-	- [[github.com/qier222/YesPlayMusic]] - 高颜值的第三方网易云播放器，支持 Windows / macOS / Linux :electron:
+	- [[github.com/qier222/YesPlayMusic]] - A better-looking desktop music player for local files, media servers, and plugins. For macOS, Windows and Linux.
 	- [[github.com/runatlantis/atlantis]] - Terraform Pull Request Automation
 	- [[github.com/terramate-io/vscode-terramate]] - Terramate VSCode Extension
 - ## [[2023-08-13 Sunday]]
@@ -5650,7 +5650,7 @@ updateTime:: 11/23/2026, 8:38:10 AM
 - ## [[2018-09-18 Tuesday]]
 	- [[github.com/semlinker/awesome-typescript]] - A collection of awesome TypeScript resources for client-side and server-side development
 - ## [[2018-09-13 Thursday]]
-	- [[github.com/byoungd/up]] - 韩先凯的人生进阶指南 AI时代 中英双语终身学习指南：AI、学习 、创业、财富、爱情与人生
+	- [[github.com/byoungd/up]] - 人生进阶指南 韩先凯的人生进阶指南 AI时代中英双语终身学习指南：学习 、创业、财富、爱情、人生与AI
 	- [[github.com/sharkdp/bat]] - A cat(1) clone with wings.
 - ## [[2018-09-12 Wednesday]]
 	- [[github.com/firebase/firebase-android-sdk]] - Firebase Android SDK
