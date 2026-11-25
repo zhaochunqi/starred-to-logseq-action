@@ -2,7 +2,7 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/24/2026, 12:36:57 PM
+updateTime:: 11/25/2026, 11:21:39 AM
 
 - ## [[2026-11-22 Sunday]]
 	- [[github.com/addyosmani/agent-skills]] - Production-grade engineering skills for AI coding agents.
@@ -880,7 +880,7 @@ updateTime:: 11/24/2026, 12:36:57 PM
 	- [[github.com/prometheus-operator/kube-prometheus]] - Use Prometheus to monitor Kubernetes and applications running on Kubernetes
 	- [[github.com/samber/awesome-prometheus-alerts]] - 🚨 Collection of Prometheus alerting rules
 - ## [[2026-03-10 Tuesday]]
-	- [[github.com/googleworkspace/cli]] - Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.
+	- [[github.com/googleworkspace/cli]] - Community CLI for Google Workspace APIs.
 	- [[github.com/karpathy/nanochat]] - The best ChatGPT that $100 can buy.
 	- [[github.com/msitarzewski/agency-agents]] - A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
 	- [[github.com/TrustTunnel/TrustTunnel]] - Modern, fast and obfuscated VPN protocol
@@ -1238,7 +1238,7 @@ updateTime:: 11/24/2026, 12:36:57 PM
 - ## [[2026-01-02 Friday]]
 	- [[github.com/freelensapp/freelens]] - Free IDE for Kubernetes
 	- [[github.com/grafana/mimir]] - Grafana Mimir provides horizontally scalable, highly available, multi-tenant, long-term storage for Prometheus.
-	- [[github.com/gravitl/netmaker]] - Netmaker makes networks with WireGuard. Netmaker automates fast, secure, and distributed virtual networks.
+	- [[github.com/gravitl/netmaker]] - Netmaker is a WireGuard-powered Zero Trust networking platform for building fast, secure, and scalable virtual networks across clouds, devices, and infrastructure.
 	- [[github.com/hanshuaikang/NBping]] - 🏎  Nping mean NB Ping, A Ping Tool in Rust with Real-Time Data and Visualizations
 	- [[github.com/hcavarsan/pipedash]] - One dashboard for CI/CD pipelines across multiple providers
 	- [[github.com/jarvis2f/telegram-files]] - A self-hosted Telegram file downloader for continuous, stable, and unattended downloads.
@@ -1533,6 +1533,7 @@ updateTime:: 11/24/2026, 12:36:57 PM
 - ## [[2025-10-19 Sunday]]
 	- [[github.com/Docile-Alligator/Infinity-For-Reddit]] - A Reddit client for Android
 	- [[github.com/QuantumNous/new-api]] - Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.
+	- [[github.com/SH20RAJ/picser]] - 🚀 Picser - Free GitHub Image Hosting with jsDelivr CDN
 	- [[github.com/Sylinko/Everywhere]] - On-screen aware AI assistant for your desktop. Uses current app context, multiple LLMs, and MCP tools to help you act across apps.
 - ## [[2025-10-18 Saturday]]
 	- [[github.com/imputnet/helium]] - Private, fast, and honest web browser
@@ -1573,7 +1574,7 @@ updateTime:: 11/24/2026, 12:36:57 PM
 	- [[github.com/filipecalegario/awesome-vibe-coding]] - A curated list of vibe coding references, collaborating with AI to write code.
 	- [[github.com/kid1412621/SummaryExpressive]] - A modern, BYOK and FOSS android app to summarize videos(YouTube, BiliBili), articles, images and documents with AI/LLM
 	- [[github.com/networkupstools/nut]] - The Network UPS Tools repository. UPS management protocol Informational RFC 9271 published by IETF at https://www.rfc-editor.org/info/rfc9271 Please star NUT on GitHub, this helps with sponsorships!
-	- [[github.com/riccardoperra/codeimage]] - A tool to beautify your code screenshots. Built with SolidJS and Fastify.
+	- [[github.com/riccardoperra/codeimage]] - A tool to beautify your code screenshots. Built with SolidJS 2 and Fastify.
 - ## [[2025-10-07 Tuesday]]
 	- [[github.com/bbfamily/abu]] - 阿布量化交易系统(股票，期权，期货，比特币，机器学习) 基于python的开源量化交易，量化投资架构
 	- [[github.com/EnzeD/vibe-coding]] - No Description Yet.
@@ -1834,7 +1835,7 @@ updateTime:: 11/24/2026, 12:36:57 PM
 	- [[github.com/coveooss/json-schema-for-humans]] - Quickly generate HTML documentation from a JSON schema
 - ## [[2025-07-28 Monday]]
 	- [[github.com/hsliuping/TradingAgents-CN]] - 基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版
-	- [[github.com/TauricResearch/TradingAgents]] - TradingAgents: Multi-Agents LLM Financial Trading Framework
+	- [[github.com/TauricResearch/TradingAgents]] - TradingAgents: Towards Agentic Finance Research
 - ## [[2025-07-27 Sunday]]
 	- [[github.com/anandnet/Harmony-Music]] - A cross platform App for streaming Music
 	- [[github.com/coze-dev/coze-studio]] - An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. Coze your way to AI Agent creation.
@@ -2056,7 +2057,7 @@ updateTime:: 11/24/2026, 12:36:57 PM
 - ## [[2025-04-30 Wednesday]]
 	- [[github.com/krillinai/OpenCreator]] - Formerly KrillinAI, VideoTranslation and Dubbing Tool for 120+ Languages. Open-source AI workspace for creators, powered by Codex. Video downloader, video translation, create videos, images, audios, and edits with Agents in one place. For your Social Media like YouTube, TikTok, Instagram, etc.
 - ## [[2025-04-29 Tuesday]]
-	- [[github.com/CodeWebChat/CWC]] - Markdown prompts for chatbots, APIs, and CLIs with seamless integration
+	- [[github.com/CodeWebChat/CWC]] - Blazing fast AI coding
 	- [[github.com/taskforcesh/bullmq]] - BullMQ - Message Queue and Batch processing for NodeJS, Python, .NET, Elixir, Rust and PHP based on Redis or PostgreSQL
 	- [[github.com/upstash/context7]] - Context7 Platform -- Up-to-date docs for AI agents
 - ## [[2025-04-28 Monday]]
@@ -2150,7 +2151,7 @@ updateTime:: 11/24/2026, 12:36:57 PM
 - ## [[2025-04-04 Friday]]
 	- [[github.com/aslafy-z/helm-git]] - Helm Plugin - Install Helm Charts straight from Git repositories
 	- [[github.com/sodadata/soda-core]] - Data Contracts engine for the modern data stack. https://www.soda.io
-	- [[github.com/xerrors/Yuxi]] - 可私有部署的多租户知识智能体平台：统一 RAG、知识图谱、多智能体、MCP/Skills、沙盒与权限管理。Yuxi = Cloud Agents + Knowledge RAG, Self-hosted knowledge agent platform for RAG, knowledge graphs and multi-agent workflows.
+	- [[github.com/xerrors/Yuxi]] - 可私有部署的多租户企业智能体基座：统一 RAG、知识图谱、多智能体、MCP/Skills、沙盒与权限管理。Yuxi = Cloud Agents + Knowledge RAG, Self-hosted knowledge agent platform for RAG, knowledge graphs and multi-agent workflows.
 - ## [[2025-04-03 Thursday]]
 	- [[github.com/chainloop-dev/chainloop]] - Agentic SDLC infrastructure. Define guardrails. Collect signals. Enforce continuously. Signed records of what your AI coding agents and CI/CD pipelines did, checked against policies as code, with the loop closed in CI/CD. AI sessions, SBOMs, VEX, SARIF and SLSA provenance, built on Sigstore and in-toto. Apache 2.0.
 	- [[github.com/OpenAgentPlatform/Dive]] - Dive is an open-source MCP Host Desktop Application that seamlessly integrates with any LLMs supporting function calling capabilities. ✨
@@ -2843,10 +2844,10 @@ updateTime:: 11/24/2026, 12:36:57 PM
 	- [[github.com/Z4nzu/hackingtool]] - ALL IN ONE Hacking Tool For Hackers
 - ## [[2024-09-09 Monday]]
 	- [[github.com/aio-libs/yarl]] - Yet another URL library
-	- [[github.com/antfu-collective/changelogithub]] - Generate changelog for GitHub
 	- [[github.com/chainguard-dev/apko]] - Build OCI images from APK packages directly without Dockerfile
 	- [[github.com/chainguard-dev/melange]] - build APKs from source code
 	- [[github.com/loophp/nix-shell]] - Nix shells for PHP development
+	- [[github.com/made-in-common/changelogithub]] - Generate changelog for GitHub
 	- [[github.com/MarSeventh/CloudFlare-ImgBed]] - 🏖️ A serverless, open-source file hosting solution built on Cloudflare. Supports image hosting, secure file storage, and personal cloud drive capabilities.
 	- [[github.com/pipe-cd/pipecd]] - The One CD for All {applications, platforms, operations}
 	- [[github.com/sqlpage/SQLPage]] - Fast SQL-only data application builder. Automatically build a UI on top of SQL queries.
@@ -3075,7 +3076,7 @@ updateTime:: 11/24/2026, 12:36:57 PM
 	- [[github.com/yorukot/superfile]] - Pretty fancy and modern terminal file manager
 - ## [[2024-06-28 Friday]]
 	- [[github.com/antfu/vscode-file-nesting-config]] - Config of File Nesting for VS Code
-	- [[github.com/cuixueshe/earthworm]] - Learning English through the method of constructing sentences with conjunctions
+	- [[github.com/cuixueshe/earthworm]] - Open-source origin of Julebu (julebu.ai / julebu.co) — learn English like a game by typing whole sentences, dictation, and active recall.
 	- [[github.com/FxEmbed/FxEmbed]] - Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others
 	- [[github.com/gitui-org/gitui]] - Blazing 💥 fast terminal-ui for git written in rust 🦀
 	- [[github.com/opencontainers/runtime-spec]] - OCI Runtime Specification
@@ -5066,7 +5067,7 @@ updateTime:: 11/24/2026, 12:36:57 PM
 	- [[github.com/docmirror/dev-sidecar]] - 开发者边车，github打不开，github加速，git clone加速，git release下载加速，stackoverflow加速
 	- [[github.com/SonarSource/sonarqube]] - Continuous Inspection
 	- [[github.com/XIU2/UserScript]] - 🐵 自用的一些乱七八糟 油猴脚本~
-	- [[github.com/zincsearch/zincsearch]] - ZincSearch . A lightweight alternative to elasticsearch that requires minimal resources, written in Go.
+	- [[github.com/zincsearch/zincsearch]] - ZincSearch . A lightweight alternative to elasticsearch that requires minimal resources, written in Go. #Archived
 - ## [[2021-12-23 Thursday]]
 	- [[github.com/2d-inc/HistoryOfEverything]] - Flutter Launch Timeline Demo
 	- [[github.com/freqtrade/freqtrade]] - Free, open source crypto trading bot
