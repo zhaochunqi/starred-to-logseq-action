@@ -2,8 +2,10 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/25/2026, 11:21:39 AM
+updateTime:: 11/26/2026, 10:39:11 AM
 
+- ## [[2026-11-25 Wednesday]]
+	- [[github.com/getpaseo/paseo]] - Orchestrate multiple coding agents from desktop and mobile
 - ## [[2026-11-22 Sunday]]
 	- [[github.com/addyosmani/agent-skills]] - Production-grade engineering skills for AI coding agents.
 	- [[github.com/cursor/plugins]] - Cursor plugin specification and official plugins
@@ -236,7 +238,7 @@ updateTime:: 11/25/2026, 11:21:39 AM
 	- [[github.com/zosmaai/pi-llm-wiki]] - Self-maintaining, Obsidian-compatible knowledge base for pi — turn raw sources into an interlinked wiki that compounds. Native Open Knowledge Format (OKF) v0.2.
 - ## [[2026-08-28 Friday]]
 	- [[github.com/HEJustinSun/my-girlfriend-jingtian-latex]] - No Description Yet.
-	- [[github.com/tt-a1i/archify]] - Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.
+	- [[github.com/tt-a1i/archify]] - Turn any idea, plan, or codebase into an interactive diagram or one-page answer: 10 diagram types, Architecture Diagnosis, Story video and PR walkthroughs. An Agent Skill for Claude Code, Codex, Cursor and more.
 	- [[github.com/tt-a1i/simplify-codebase]] - Prove and remove accidental codebase complexity without breaking behavior.
 - ## [[2026-08-27 Thursday]]
 	- [[github.com/kserve/kserve]] - Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes
@@ -400,7 +402,6 @@ updateTime:: 11/25/2026, 11:21:39 AM
 	- [[github.com/cmj2002/warp-docker]] - Run Cloudflare WARP in Docker.
 	- [[github.com/DEEIX-AI/DEEIX-Chat]] - An enterprise AI workspace for model routing, multimodal chat, files, tools, billing, identity, and operations.
 	- [[github.com/Europa2061/pi-auto-approval]] - An automatic approval extension for Pi, inspired by Claude Code auto mode and Codex Auto-review style approval workflows.
-	- [[github.com/getpaseo/paseo]] - Orchestrate multiple coding agents from desktop and mobile
 	- [[github.com/ldez/traefik-certs-cleaner]] - A simple helper to clean the Traefik `acme.json` file by removing and revoking certificates.
 	- [[github.com/maillab/cloud-mail]] - An all-in-one email service platform powered by Cloudflare  | 基于 Cloudflare 的一站式邮箱服务平台  | Cloudflare Email 邮箱 Mail
 	- [[github.com/ShashwatSricodes/PDFSlice]] - Client Side PDF editor Toolkit
@@ -1005,9 +1006,9 @@ updateTime:: 11/25/2026, 11:21:39 AM
 - ## [[2026-02-10 Tuesday]]
 	- [[github.com/Nutlope/aicommits]] - A CLI that writes your git commit messages for you with AI
 - ## [[2026-02-09 Monday]]
-	- [[github.com/f/textream]] - Textream is a free macOS teleprompter app for streamers, interviewers, and presenters. It highlights your script in real-time as you speak, displayed in a beautiful Dynamic Island overlay. With extensible features.
+	- [[github.com/f/textream]] - Textream is a free macOS and iOS teleprompter app for streamers, interviewers, and presenters. It highlights your script in real-time as you speak, displayed in a beautiful Dynamic Island overlay. With extensible features.
 - ## [[2026-02-07 Saturday]]
-	- [[github.com/Brewforge/homebrew-chinese]] - 🀄️咱自己人的软件🏮咱自己人的仓库🧧
+	- [[github.com/Brewforge/homebrew-chinese]] - 一个致力于为中国用户提供 Homebrew 支持的中文库
 	- [[github.com/EasyTier/EasyTier]] - A simple, decentralized mesh VPN with WireGuard support.
 	- [[github.com/gurucomputing/headscale-ui]] - A web frontend for the headscale Tailscale-compatible coordination server
 - ## [[2026-02-06 Friday]]
@@ -1871,7 +1872,7 @@ updateTime:: 11/25/2026, 11:21:39 AM
 	- [[github.com/AutomaApp/automa]] - A browser extension for automating your browser by connecting blocks
 	- [[github.com/bknd-io/bknd]] - Lightweight Firebase/Supabase alternative built to run anywhere — incl. Next.js, React Router, Astro, Cloudflare, Bun, Node, AWS Lambda & more.
 	- [[github.com/BloopAI/vibe-kanban]] - Get 10X more out of Claude Code, Codex or any coding agent
-	- [[github.com/browseros-ai/BrowserOS]] - 🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet, Dia.
+	- [[github.com/browseros-ai/BrowserOS]] - 🌐 The browser built for your agents!
 	- [[github.com/cactus-compute/engine]] - 2bit quants, kernels and runtime for consumer devices.
 	- [[github.com/JefferyHcool/BiliNote]] - AI 视频笔记生成工具 让 AI 为你的视频做笔记
 	- [[github.com/meilisearch/meilisearch]] - A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.
@@ -2708,7 +2709,7 @@ updateTime:: 11/25/2026, 11:21:39 AM
 	- [[github.com/ProtonMail/android-mail]] - Proton Mail Android app
 - ## [[2024-10-10 Thursday]]
 	- [[github.com/cdklabs/cdk-nag]] - Check CDK applications for best practices using a combination of available rule packs
-	- [[github.com/felangel/bloc]] - A predictable state management library that helps implement the BLoC design pattern
+	- [[github.com/felangel/bloc]] - A predictable state management library for Dart
 	- [[github.com/microsoft/SEAL]] - Microsoft SEAL is an easy-to-use and powerful homomorphic encryption library.
 	- [[github.com/pixie-io/pixie]] - Instant Kubernetes-Native Application Observability
 	- [[github.com/tuneinsight/lattigo]] - A library for lattice-based multiparty homomorphic encryption in Go
@@ -5597,7 +5598,7 @@ updateTime:: 11/25/2026, 11:21:39 AM
 - ## [[2019-02-23 Saturday]]
 	- [[github.com/X-Wei/flutter_catalog]] - An app showcasing Flutter components, with side-by-side source code view.
 - ## [[2019-02-16 Saturday]]
-	- [[github.com/mxcl/AppUpdater]] - Automatically update open source macOS apps from GitHub releases. Full support for attestations.
+	- [[github.com/mxcl/AppUpdater]] - Swift package to automatically update open source macOS apps from GitHub releases. Full support for attestations.
 - ## [[2019-02-04 Monday]]
 	- [[github.com/carbon-app/carbon]] - :black_heart: Create and share beautiful images of your source code
 	- [[github.com/MisterBooo/LeetCodeAnimation]] - Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路,完整单步/回看/变速/语音讲解在 algomooc.com）
