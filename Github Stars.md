@@ -2,7 +2,7 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/26/2026, 10:39:11 AM
+updateTime:: 11/27/2026, 10:39:20 AM
 
 - ## [[2026-11-25 Wednesday]]
 	- [[github.com/getpaseo/paseo]] - Orchestrate multiple coding agents from desktop and mobile
@@ -146,7 +146,7 @@ updateTime:: 11/26/2026, 10:39:11 AM
 - ## [[2026-09-30 Wednesday]]
 	- [[github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace]] - WSL workspace support for DeepSeek Harness——无缝的 WSL 工作区使用体验，无需在 WSL 之中再安装一个dsh，安装该插件后在 GUI 里直接添加 WSL 工作区即可。WSL workspace support for DeepSeek Harness — Enjoy a seamless WSL workspace experience without needing to install dsh inside WSL. Once this plugin is installed, you can directly add a WSL workspace right from the GUI.
 	- [[github.com/lobehub/lobe-icons]] - 🥨 Lobe Icons - Brings AI/LLM brand logos to your React & React Native apps — static SVG/PNG/WebP, no dependencies.
-	- [[github.com/yetone/magpie]] - Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.
+	- [[github.com/yetone/magpie]] - Pool every plan you pay for — Claude, ChatGPT, Copilot, GLM Coding Plan, Kimi Code and more — and use them in any agent: Claude Code, Codex, Claude Desktop… When one runs out, the next takes over.
 - ## [[2026-09-29 Tuesday]]
 	- [[github.com/alchaincyf/darwin-skill]] - 达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 | Autoresearch-inspired autonomous skill optimization for Claude Code. Evaluate, improve, test, keep or revert.
 	- [[github.com/github/spec-kit]] - 💫 Toolkit to help you get started with SDD or any other process!
@@ -756,7 +756,7 @@ updateTime:: 11/26/2026, 10:39:11 AM
 	- [[github.com/tobi/qmd]] - mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local
 - ## [[2026-04-09 Thursday]]
 	- [[github.com/itzg/docker-minecraft-server]] - Docker image that provides a Minecraft Server for Java Edition that automatically installs/upgrades versions, modloaders, modpacks and more at startup
-	- [[github.com/multica-ai/multica]] - Make humans and AI agents work as one team — open-source and self-hostable.
+	- [[github.com/multica-ai/multica]] - Shared task board where people and AI coding agents work as teammates. Source-available, self-hostable.
 	- [[github.com/thaw-app/Thaw]] - The open source menu bar manager
 - ## [[2026-04-08 Wednesday]]
 	- [[github.com/career-ops-hq/career-ops]] - Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.
@@ -2931,7 +2931,7 @@ updateTime:: 11/26/2026, 10:39:11 AM
 	- [[github.com/ldez/traefik-certs-dumper]] - Dump ACME data from Traefik to certificates
 - ## [[2024-08-21 Wednesday]]
 	- [[github.com/std-microblock/chromatic]] - Universal modifier for Chromium/V8 | 广谱注入 Chromium/V8 的通用修改器
-	- [[github.com/tiredofit/docker-traefik-cloudflare-companion]] - Automatically Create CNAME records for containers served by Traefik
+	- [[github.com/tiredofit/docker-traefik-cloudflare-companion]] - Automatically Create CNAME records for containers served by Traefik #Archived
 	- [[github.com/wasi-master/13ft]] - My own custom 12ft.io replacement
 - ## [[2024-08-20 Tuesday]]
 	- [[github.com/janbjorge/pgqueuer]] - PostgreSQL-backed background job and task queue for Python.
@@ -4423,7 +4423,7 @@ updateTime:: 11/26/2026, 10:39:11 AM
 - ## [[2023-09-07 Thursday]]
 	- [[github.com/dragonflydb/dragonfly]] - A modern replacement for Redis and Memcached
 	- [[github.com/e2b-dev/awesome-ai-agents]] - A list of AI autonomous agents
-	- [[github.com/GopeedLab/gopeed]] - A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter.
+	- [[github.com/GopeedLab/gopeed]] - A fast, modern download manager for HTTP, BitTorrent, Magnet, HlS(m3u8), FTP and ed2k. Cross-platform, built with Golang and Flutter.
 	- [[github.com/iam-veeramalla/terraform-zero-to-hero]] - Master Terraform in 7 days using this Zero to Hero course.
 	- [[github.com/nix-community/awesome-nix]] - 😎 A curated list of the best resources in the Nix community [maintainer=@cyntheticfox]
 	- [[github.com/Razeeman/Android-SimpleTimeTracker]] - Simple app that tracks time.
@@ -5517,7 +5517,7 @@ updateTime:: 11/26/2026, 10:39:11 AM
 	- [[github.com/janeczku/calibre-web]] - :books: Web app for browsing, reading and downloading eBooks stored in a Calibre database
 - ## [[2019-08-14 Wednesday]]
 	- [[github.com/leafac/kill-the-newsletter]] - Convert email newsletters into Atom feeds
-	- [[github.com/mvdctop/Movie_Data_Capture]] - The AI local media metadata crawler
+	- [[github.com/mvdctop/Movie_Data_Capture]] - MDC - The AI local media metadata crawler
 - ## [[2019-08-01 Thursday]]
 	- [[github.com/tektoncd/pipeline]] - A cloud-native Pipeline resource.
 - ## [[2019-07-29 Monday]]
