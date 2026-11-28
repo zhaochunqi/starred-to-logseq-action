@@ -2,8 +2,14 @@ icon:: ⭐
 tags:: 自动更新
 public:: false
 description:: 本页面是每日由 [[GitHub Action]] 自动构建生成的。
-updateTime:: 11/27/2026, 10:39:20 AM
+updateTime:: 11/28/2026, 10:29:42 AM
 
+- ## [[2026-11-28 Saturday]]
+	- [[github.com/fengyiqicoder/awesome-fable-5.2]] - Games, 3D worlds and web pages built with Claude Fable 5.2 that you can actually open — 256 live works (every link checked) + 157 video demos, each with a GIF preview and creator credit. Updated daily.
+	- [[github.com/phone-harness/phone-harness]] - let your agent control your phone
+	- [[github.com/thtbee/nectarlink]] - Your Android phone and your PC, working as one. Windows and Linux. Local-first, end-to-end encrypted, no account.
+- ## [[2026-11-27 Friday]]
+	- [[github.com/poco-ai/Agentero]] - Unified research workspace for humans & agents — PDF Q&A with citations, Vault, writing. 为人与 Agent 协作的科研工作台；补齐 Zotero 时代的人机上下文断点。
 - ## [[2026-11-25 Wednesday]]
 	- [[github.com/getpaseo/paseo]] - Orchestrate multiple coding agents from desktop and mobile
 - ## [[2026-11-22 Sunday]]
@@ -694,7 +700,7 @@ updateTime:: 11/27/2026, 10:39:20 AM
 	- [[github.com/w3dev33/beads-task-issue-tracker]] - This project's successor is PaiR (v0.55.0) — download at https://pair.w3dev.fr
 - ## [[2026-04-25 Saturday]]
 	- [[github.com/adr/madr]] - Markdown Architectural Decision Records
-	- [[github.com/eljulians/skillfile]] - One-stop shop for AI skills and agents. Search 110K+ community skills, install and track them declaratively, and deploy across all major AI coding tools (Claude Code, Codex, Cursor, Antigravity and more)
+	- [[github.com/eljulians/skillfile]] - Manage AI skills and agents like dependencies, with built-in search across 100K+ community skills. Lock versions, keep your edits on update, install to Claude Code, Codex, Cursor and more.
 	- [[github.com/EveryInc/compound-engineering-plugin]] - Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more
 	- [[github.com/google/skills]] - Agent Skills for Google products and technologies
 	- [[github.com/mahonzhan/awesome-coding-plan]] - 各厂家 Coding Plan 实际价值对比
@@ -935,7 +941,7 @@ updateTime:: 11/27/2026, 10:39:20 AM
 	- [[github.com/manaflow-ai/cmux]] - Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.
 	- [[github.com/metaspartan/mactop]] - mactop - Apple Silicon Monitor Top
 	- [[github.com/pocket-id/pocket-id]] - The most user-friendly OpenID Connect Certified™ and OAuth 2.0 provider that lets users sign in to your applications with passkeys.
-	- [[github.com/renovatebot/github-action]] - No Description Yet.
+	- [[github.com/renovatebot/github-action]] - GitHub Action to run Renovate self-hosted
 	- [[github.com/zerobrewhq/zerobrew]] - An up to 10x faster Homebrew client
 - ## [[2026-02-24 Tuesday]]
 	- [[github.com/amir20/dtop]] - Terminal dashboard for Docker monitoring across multiple hosts with Dozzle integration.
@@ -2062,7 +2068,7 @@ updateTime:: 11/27/2026, 10:39:20 AM
 	- [[github.com/taskforcesh/bullmq]] - BullMQ - Message Queue and Batch processing for NodeJS, Python, .NET, Elixir, Rust and PHP based on Redis or PostgreSQL
 	- [[github.com/upstash/context7]] - Context7 Platform -- Up-to-date docs for AI agents
 - ## [[2025-04-28 Monday]]
-	- [[github.com/asukaminato0721/telegram-summary-bot]] - Summarize group chat with AI, LLM && query group chat, FREE to deploy your own, support img, link meta info, reply to, auto fold result, 支持中文检索.
+	- [[github.com/asukaminato0721/telegram-summary-bot]] - Summarize group chat with AI, LLM && query group chat, FREE to deploy your own, support img, link meta info, reply to, auto fold result, jev block ads, 支持中文检索.
 	- [[github.com/guocaoyi/create-chrome-ext]] - 🍺 Scaffolding your Chrome extension! Boilerplates: react \ vue \ svelte \ solid \ preact \ alpine \ lit \ stencil \ inferno \ vanilla
 	- [[github.com/MiniMax-AI/MiniMax-MCP]] - Official MiniMax Model Context Protocol (MCP) server that enables interaction with powerful Text to Speech, image generation and video generation APIs.
 	- [[github.com/nektos/act]] - Run your GitHub Actions locally 🚀
@@ -2373,7 +2379,7 @@ updateTime:: 11/27/2026, 10:39:20 AM
 	- [[github.com/neodb-social/neodb]] - 🧩 a self-hosted server tracking what you read/watch/listen/play, powering a global distributed community federating via ActivityPub and ATProto.
 	- [[github.com/Piecelet/neodb-app]] - Piecelet for NeoDB App - Track and share your books, movies, music, games, performances, a pure SwiftUI client.
 	- [[github.com/WEIFENG2333/VideoCaptioner]] - 🎬 卡卡字幕助手 | VideoCaptioner - 基于 LLM 的智能字幕助手 - 视频字幕生成、断句、校正、字幕翻译全流程处理！- A powered tool for easy and efficient video subtitling.
-	- [[github.com/welldone-software/why-did-you-render]] - why-did-you-render by Welldone Software monkey patches React to notify you about potentially avoidable re-renders. (Works with React Native as well.)
+	- [[github.com/welldone-software/why-did-you-render]] - why-did-you-render by Welldone Software monkey patches React to notify you about potentially avoidable re-renders. (Works with React Native as well.) #Archived
 	- [[github.com/zhangchenchen/self-consistent-coder]] - 如何成为一名自洽的程序员
 - ## [[2025-01-28 Tuesday]]
 	- [[github.com/alibaba/kubeskoop]] - Network monitoring & diagnosis suite for Kubernetes
@@ -2695,8 +2701,8 @@ updateTime:: 11/27/2026, 10:39:20 AM
 	- [[github.com/stackblitz/bolt.new]] - Prompt, run, edit, and deploy full-stack web applications. -- bolt.new -- Help Center: https://support.bolt.new/ -- Community Support: https://discord.com/invite/stackblitz
 	- [[github.com/xcatliu/typescript-tutorial]] - TypeScript 入门教程
 - ## [[2024-10-13 Sunday]]
-	- [[github.com/chen08209/FlClash]] - A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.
 	- [[github.com/sissbruecker/linkding]] - Self-hosted bookmark manager that is designed be to be minimal, fast, and easy to set up using Docker.
+	- [[github.com/Vialibrex/FlClash]] - A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.
 - ## [[2024-10-12 Saturday]]
 	- [[github.com/cloudposse/terraform-aws-ecs-codepipeline]] - Terraform Module for CI/CD with AWS Code Pipeline and Code Build for ECS https://cloudposse.com/
 	- [[github.com/nix-community/nix-direnv]] - A fast, persistent use_nix/use_flake implementation for direnv [maintainer=@Mic92 / @bbenne10]
@@ -4913,7 +4919,7 @@ updateTime:: 11/27/2026, 10:39:20 AM
 - ## [[2022-06-16 Thursday]]
 	- [[github.com/beekeeper-studio/beekeeper-studio]] - Modern and easy to use database GUI & SQL client for MySQL, Postgres, SQLite, SQL Server, ClickHouse, and more. Linux, MacOS, and Windows.
 - ## [[2022-06-15 Wednesday]]
-	- [[github.com/blackmatrix7/ios_rule_script]] - 分流规则、重写写规则及脚本。
+	- [[github.com/blackmatrix7/ios_rule_script]] - 分流规则、重写写规则及脚本。 #Archived
 - ## [[2022-06-13 Monday]]
 	- [[github.com/ArtiomTr/jest-coverage-report-action]] - Track your code coverage in every pull request.
 	- [[github.com/daeh/zotero-markdb-connect]] - Zotero plugin that links your Markdown database to Zotero. Jump directly from Zotero Items to connected Markdown files. Automatically tags Zotero Items so you can easily see which papers you've made notes for.
